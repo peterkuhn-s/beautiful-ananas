@@ -1,0 +1,13 @@
+
+\subsection{Wiederholbarkeit der Messung}
+Um die wiederholbarkeit der Messzelle zu messen wurde eine Kiste mit einer Lage Hablschalen gemessen. Die Messung der acht Halbschalen benötigt rund 6 min. wenn der roboterarm die Halbschale nach der Messung direkt in die Kiste zurück legen würde, könnte die Zeit reduziert werden.
+
+die Messwerte wurden mit dem Programm UAExpert abgerufen und dann in ein Exel kopiert. leider ist bei diesem Kopieren ein teil des JSON abgeschnitten worden. d.h. das die Seriennummer Halbschalen nicht aufgezeichnet wurde. Da der Roboter immer die gleiche Reihenfolge misst, konnten die Messdaten doch den Halbschalen zugeordnet werden.
+
+Im nächsten Schritt wurden die Höhe auf den Durchschnitt der jeweiligen Halbschale normalisiret. So kann der Fehler der Messung in direkt abgelesen werden. Es ist zu bemerken, dass sich die Messwerte einer Pinken Halbschale stetig verringert. die Halbschale ist 1 Woche alt, und in der Messreihe sind zwei weiter Pinke halbschalen die nicht das Verhalten zeigen. Es hat auch eine Halbschale, bei der die Messung grösser wird mit der Zeit.
+
+Es ist zu beachten, dass obwohl die steigung signifikant ist, es sich noch immer um Zufall handeln kann, besonders wenn viele Messungen gemacht werden, denn statistisch sigifikant erlaubt 0.05 oder 0.01 falsch positive ergebnisse.
+
+\subsection{Verlauf der Schwindung}
+grafic aus Kunststoff buch.
+Der Verlauf der SChwindung ist qulatitatif bekannt. 

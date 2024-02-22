@@ -1,0 +1,480 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation \\ Produktentwicklung}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage\ / \pageref{LastPage}}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Semesterarbeit HS 2023} % title in the center
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\begin{titlepage}
+
+%import something from scribus
+\end{titlepage}
+
+\pagestyle{empty}
+
+
+%\clearpage
+%\pagenumbering{Roman}
+%\setcounter{page}{1}
+
+\newpage
+
+\textbf{\Large Abstract }
+
+
+
+\begin{figure}[H]
+  \includegraphics[width=2.5cm]{1.png}
+\end{figure}
+
+\begin{flushleft}
+  \textbf{Student:} Ralph Gronowski \\
+\end{flushleft}
+
+\titleformat{\section}[block]{\normalfont\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{\dimexpr\baselineskip-4pt}{\dimexpr\baselineskip-4pt}
+
+\pagenumbering{arabic} 
+\section{Einleitung}
+
+\section{Ausgangslage}
+
+\section{Ergebnisse}
+
+\begin{flushleft}
+  \textbf{Referent:} Prof. Dr. Albert Loichinger \\
+  \textbf{Themenbereich:} Produktentwicklung
+\end{flushleft}
+
+
+
+\newpage
+
+\newpage
+
+\textbf{\Large Vokabular und Abkürzungen }
+\\
+\\
+engl. ACL / dt. VKB / lat.  Anterior Cruciate Ligament: Vorderes Kreuzband
+\\
+\\
+engl. MCL / lat.  medial collateral ligament: mittleres Seitenband
+\\
+\\
+Tibia: Schienbein
+\\
+\\
+lateral: seitlich
+\\
+\\
+Anterior oder ventral: nach vorne
+\\
+\\
+Posterior oder dorsal : hinten
+\\
+\\
+superior: obere oder oben
+\\
+\\
+inferior: unterer oder unten
+\\
+\\
+FFF engl. fused filament fabrication : in additives Fertigungsverfahren
+
+\newpage
+
+
+
+
+
+% Inhaltsverzeichnis
+\tableofcontents
+%\pagenumbering{Roman}
+
+\newpage
+\pagestyle{fancy}
+
+% Einleitung
+
+\clearpage
+%\pagenumbering{arabic}
+
+\setcounter{page}{1}
+
+\section{Einleitung}
+\cite{Suva2021}
+\newpage
+
+
+% Stand der Technik
+\section{Stand der Technik}
+Notizen zu den iwk arbeiten:
+
+-ich soll L24 aus Lw bestimmen, Lw ist aber schon bekannt, dass heist ich bestimme L24 aus L_(2min) oderso.
+-L_L ist nicht meine aufgabe, da die lagerung zu unkontroliert ist
+- ich werde die theorie der vorlesung sml nutzten, wo linear regression die einfachste form the ml ist.
+- ich werde verstehbare/einfache modelle nutzten um keine fehler zu fitten
+- der fehler \epsilon kann gemessen werden, mit der wiederholung der messung einens konstanten Teils
+-kleiner fehler nich hauptziel, sonder apprximatly right is better then certanly worng, no overfitting
+- kn nachbar ist eine klassifikation, nicht regression
+- ich möchte keine t -verteilung, das heisst mindesten 30 messungen
+\section{Bildverarbeitung}
+ein schwarzweiss bild kommt rein.
+[das bild wird verkleinert auf die relevanten bereiche]
+edge detection
+mit dem contrast kann die messung geeicht werden
+die edge pixel als datenpunkte interpretieren und eine Elipse mit error r**2 fitten
+daten in datenbank ablegen
+
+Die zu messenden Qualtätsmerkmale sind folgende
+Seitenansicht Kamera:
+-Höhe
+-flachheit der Kontaktstelle
+-[Breite](wird von aufsicht kamera gemessen)
+-Höhe bei -45 und 45 Grad
+-[prozentuale abweichung von einem kreis R**2]
+
+Aufsicht Kamera
+-Durchmesser 4 mal (45 grad versatz) die diagonale berechnen, wenn die normalen das Zentrum bestimmt haben
+-abweichung der Mitte von Kontaktstelle zu zentralem Loch (Bertag)
+
+
+\subsection{Sportphysiologie}
+\subsubsection{Unfallgeschichte und Diagnose}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Unfall_1.png}
+\caption{Der klassische Vorwärtsdrehsturz auf Skiern, bei dem der Unterschenkel nach aussen gedreht wird. \cite{Natri1999}.}
+\label{Unfall_1}
+\end{center}
+\end{figure}
+
+\newpage
+
+
+
+
+\subsubsection{Abschätzung der Kräfte}
+
+
+\newpage
+
+\subsubsection{Sicherheit bestehender Skibindungen }
+
+\subsubsection{Sicherheit des Skischuhs im Zusammenspiel mit der Skibindung}
+
+
+
+\newpage
+
+
+\subsubsection{Skibindung nach physiologisch Gesichtspunkten}
+
+\newpage
+
+\subsubsection{Schlussfolgerung zum Kapitel Physiologe}
+
+
+\newpage
+
+\subsection{Normen}
+\subsubsection{Skibindungsauslösung}
+
+
+\newpage
+
+\subsubsection{Z-Wert}
+
+\subsubsection{Bestimmung der zulässigen Momente }
+
+
+\newpage
+
+\subsubsection{Schlussfolgerung zum Kapitel Normen}
+\newpage
+
+\subsection{Patentrecherche}
+
+\subsubsection{Patentsuche}
+
+
+\newpage
+\subsubsection{Patentübersicht}
+
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+
+% Koordinatensystem
+\draw[thick,->] (0,0) -- (13,0) node[right] {Aufwand};
+\draw[thick,->] (0,0) -- (0,15) node[above] {Ertrag};
+
+% Bilder
+\node[anchor=south west] at (0,1) {\includegraphics[width=3cm,height=3cm]{k3Bindung.png}};
+\node[anchor=south west] at (3,0.5) {\includegraphics[width=4cm,height=4cm]{dBindung.png}};
+\node[anchor=south west] at (7,0.5) {\includegraphics[width=4cm,height=4cm]{d2Bindung.png}};
+\node[anchor=south west] at (11,1) {\includegraphics[width=3.5cm,height=3.5cm]{mBindung.png}};
+\node[anchor=south west] at (0,4.5) {\includegraphics[width=3cm,height=4.5cm]{k1Bindung.png}};
+\node[anchor=south west] at (3.5,5) {\includegraphics[width=4cm,height=4cm]{hBindung.png}};
+\node[anchor=south west] at (7,5) {\includegraphics[width=3.5cm,height=3.5cm]{k6Bindung.png}};
+\node[anchor=south west] at (11,5) {\includegraphics[width=4cm,height=3.5cm]{e2Bindung.png}};
+\node[anchor=south west] at (0,10) {\includegraphics[width=4cm,height=4.5cm]{vBindung.png}};
+\node[anchor=south west] at (3,10) {\includegraphics[width=4cm,height=4cm]{rBindung.png}};
+\node[anchor=south west] at (7,10) {\includegraphics[width=4cm,height=4cm]{d3Bindung.png}};
+\node[anchor=south west] at (12,10) {\includegraphics[width=3cm,height=3cm]{e3Bindung.png}};
+
+% Bildunterschriften
+\node[below] at (2,1) {US3909029A };
+\node[below] at (5.5,1) {US2013334795A1};
+\node[below] at (9,1) {EP3095492A1};
+\node[below] at (13,1) {US11596855B2};
+\node[below] at (2,5) {US4850608A};
+\node[below] at (5.5,5) {EP2786789B1};
+\node[below] at (9,5) {US3902729A};
+\node[below] at (13,5) {EP2059311A2};
+\node[below] at (2,10) {EP3858447A1};
+\node[below] at (5.5,10) {US2014217704A1};
+\node[below] at (9,10) {EP2898931A1};
+\node[below] at (13,10) {US2007080518A1};
+
+
+
+\end{tikzpicture}
+\caption{Patente von 1970 bis 2023 nach Aufwand und Ertrag geordnet. Je weiter rechts, desto grösser der Aufwand. Je weiter oben, desto höher der Ertrag. Alle Patente sind mit der entsprechenden Patentnummer versehen.}
+\label{Patentübersicht}
+\end{figure}
+
+\newpage
+
+\begin{justify}
+Es ist zu sehen, dass vor der Einführung der Normen im Jahr 1975 sehr unterschiedliche Konzepte aufkamen, die auch viel mit Kugelgelenken arbeiteten. Es gab auch andere Ansätze für mehrachsige Auslösemechanismen und Ansätze für einen zentralen Auslösemechanismus. Seit der Einführung der Norm haben sich vor allem die heutigen Zweiwege-Skibindungen durchgesetzt. Erst zwischen 2010 und 2023 werden neuere Konzepte mit gleitenden Elementen und zusätzlicher vertikaler Auslösung zum Patent angemeldet. Gelegentlich wurden auch elektromechanische Konzepte eingereicht. Für diese elektromechanischen Auslösemechanismen gibt es eine Vielzahl an Konzepten. Von elektromagnetischen Auslösern bis hin zu pyrotechnischen Auslösern. Es gibt auch Konzepte, die nach dem Beugewinkel des Beiens oder der Muskelkontraktion eingestellt werden. 
+\end{justify}
+
+\subsubsection{Vielversprechende Patente}
+
+
+
+\newpage
+
+
+
+
+
+\subsubsection{Schlussfolgerung zum Kapitel Patentrecherche}
+
+\newpage
+
+\subsection{Reverse Engineering}
+
+
+\newpage
+\subsubsection{Schlussfolgerung zu Reverse-Engineering}
+
+\subsection{Schlussfolgerung zum Kapitel Stand der Technik}
+
+% Stand der Technik
+\section{Aufgabenstellung}
+
+\newpage
+
+% Konzeptentwicklung
+\section{Konzeptentwicklung}
+
+\subsection{Idealitäts-Analyse}
+
+
+\begin{figure}[H]
+\centering
+
+\begin{tikzpicture}[xscale=4, yscale=9]
+\draw[->] (-1.5,0) -- (1.2,0) node[below] {Entwicklungsaufwand};
+\draw[->] (-1.5,0) -- (-1.5,1.5) node[left] {Idealität};
+\draw[thick,black,domain=-1.2:1.2,smooth,variable=\x] plot ({\x},{1/(1+exp(-4*\x))});
+\node[draw,fill=white,align=left] at (0,0.6) (optimum) {Skibindung mit zwei Auslösemomenten und \\ einer zusätzlichen vertikalen Auslösung: \\ My, Mz und Z};
+\node[draw,fill=white,align=left] at (-1.2,0.2) (anfang) {Skibindung mit zwei Auslösemomenten:\\ My und Mz \\ Problem: Eine Verletzung des Kreuzbandes \\ kann nicht verhindert werden.};
+\node[draw,fill=white,align=left] at (1.2,1) (ende) {Skibindung mit 5 \\ Auslösefreiheitsgraden und \\ einer situationsgerechten \\ Auslösemomentsteuerung};
+
+\node[draw,fill=white,align=left] at (0,1.5) (A) {Restriktionen: \\- starre Normen und Vorschriften \\- Hoher technischer Aufwand \\- Sensoren und Elektronik \\ (empfindlich auf Kälte und Schnee) \\- Das Risiko einer VKB-Fraktur \\ (der Allgemeinheit unbekannt) \\- Vergleichsweise hohe Kosten };
+\draw[->] (A) -- node[left] {} (optimum);
+
+
+\end{tikzpicture}
+
+ \caption{Die Grafik zeigt den aktuellen Idealitätsgrad von Skibindungen. Die vertikale Achse zeigt den Grad der Idealität und die horizontale Achse den Entwicklungsaufwand. Links unten ist der aktuelle Entwicklungsgrad, in der Mitte das realistische Ziel bzw. das Optimum und rechts oben wird die ideale Skibindung in Stichworten erläutert. In der Mitte sind noch die Restriktionen aufgeführt, die die Entwicklung und Idealität behindern.}
+\label{Ideal}
+\end{figure} 
+ \newpage
+
+
+
+ 
+
+ 
+
+\subsection{Funktionsanalyse}
+
+\newpage
+
+
+
+\subsection{Widersprüche}
+\subsubsection{Physikalischer Widerspruch}
+
+\subsubsection{Technischer Widerspruch}
+\newpage
+
+\subsubsection{Lösungen der Widersprüche}
+\begin{quote}
+„IGP 19. Prinzip der periodischen Wirkung:
+Von der kontinuierlichen Wirkung ist zur periodischen (Impulswirkung) überzugehen.
+Wenn die Wirkung bereits periodisch erfolgt, ist die Periodizität zu verändern.
+Die Pausen zwischen den Impulsen sind für eine andere Wirkung auszunutzen“ \cite{TRIZOnlinen.d.}.
+\end{quote}
+
+\newpage
+
+\subsection{Funktionsstruktur}
+\newpage
+
+\subsection{Konzept Ideen}
+
+\subsubsection{Funktion}
+
+\subsubsection{Schlussfolgerung Ideen}
+
+Die Ideen mögen einfach klingen, aber wenn es darum geht, die einzelnen Konzepte zu entwickeln, zeigt sich, wie komplex dise sind.  Vor allem die Integration dieser Ideen in ein funktionelles Skibindungsmodell. Insgesamt erscheinen jedoch einige Ideen realisierbar und vielversprechend. Von besonderem Interesse ist die Idee der Mehrgelenkscharniere.
+
+
+
+\newpage
+
+
+\subsection{Konzeptentscheidung}
+
+
+\newpage
+
+\section{Funktionsmodell}
+
+
+\subsection{Funktionsmodell Skibindung mit Hebelmechanismus}
+
+\newpage
+
+
+\subsubsection{Schlussfolgerung zu Skibindung mit Hebelmechanismus}
+
+
+
+\newpage
+
+\subsection{Funktionsmodell Skibindung mit Kurvenführung}
+
+\subsubsection{Schlussfolgerung zu Skibindung mit Kurvenführung}
+
+\newpage
+
+
+\section{Funktionsnachweis}
+
+
+\newpage
+
+% Fazit
+\section{Fazit}
+
+
+\label{LastPage}
+
+\newpage
+
+\pagestyle{empty}
+
+% Literaturverzeichnis
+\bibliography{mybibliography}
+
+
+\listoffigures
+
+\listoftables % Tabellenverzeichnis erstellen
+
+\vspace{1cm}
+
+ \textbf{\Large Erklärung zur Urheberschaft }
+ 
+ 	\vspace{1cm}
+		
+\noindent Ich erkläre hiermit, dass ich diese Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Alle Quellen und Hilfsmittel, die ich für die Erstellung dieser Arbeit verwendet habe, sind im Literaturverzeichnis vollständig aufgeführt.
+
+\vspace{1cm}
+
+\noindent Ort, Datum: \underline{\hspace{6cm}}
+
+\vspace{1cm}
+
+\noindent Unterschrift: \underline{\hspace{6cm}}
+
+	\vspace{1cm}
+
+\textbf{\Large Anhang}
+
+
+\begin{justify}
+
+Alle Daten, die während der Arbeit an diesem Funktionsmodell erstellt wurden, befinden sich auf einer CD. Diese wird mit der Arbeit abgegeben.
+
+\end{justify}
+
+\end{document}

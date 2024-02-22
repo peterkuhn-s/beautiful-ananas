@@ -1,0 +1,420 @@
+
+\subsection{Kleiner DoE}
+Die Einstellparameter des kleinen DoEs ergeben sich aus \cite{EinKleinDoe}.
+
+\begin{table}[h]
+\centering
+\caption{Versuchsplan des ersten DoEs}
+\begin{tabular}{|c|c|c|c|}
+\hline
+zylindertemperatur & nachdruckhöhe & vorlauftemperierung & volumenstrom \\
+\hline
+220 & 350 & 33 & 25  \\
+220 & 350 & 41 & 18  \\
+220 & 315 & 33 & 31  \\
+220 & 315 & 24 & 18  \\
+220 & 385 & 41 & 31  \\
+220 & 385 & 33 & 31  \\
+231 & 315 & 24 & 25  \\
+231 & 315 & 33 & 31  \\
+231 & 350 & 41 & 18  \\
+231 & 350 & 24 & 31  \\
+231 & 385 & 24 & 18  \\
+231 & 385 & 41 & 31  \\
+209 & 315 & 24 & 31  \\
+209 & 315 & 41 & 25  \\
+209 & 350 & 41 & 25  \\
+209 & 350 & 24 & 31  \\
+209 & 385 & 33 & 18  \\
+209 & 385 & 24 & 31  \\
+\hline
+\end{tabular}
+\label{WerteKleinDoe}
+\end{table}
+
+Wie in \cite{ProblemKleinDoe} erwähnt, waren nicht alle Versuchsdurchläufe erfolgreich. Es wurde versucht, das Problem zu beheben, indem der Umschaltpunkt angepasst wurde. Dieser neue Einstellparameter war jedoch nicht vorgesehen.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 10-54-36.png}
+  \caption{Die Ergebnisse der Höhe bei QM1}
+  \label{fig:ErgKleinDoe}
+\end{wrapfigure}
+
+Es sind die einzelnen Cluster der Versuchsdurchläufe zu erkennen. Pro Durchlauf wurden 16 Halbschalen vermessen. Der Zentralpunkt ist sowohl am Anfang als auch am Ende zu sehen.
+
+Bei den extremeren Höhen ist die Varianz höher als bei den durchschnittlicheren. Daraus schließe ich, dass der Spritzgussprozess an den Grenzen des Möglichen lief und keine stabilen Teile mehr produzieren konnte.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-01-41.png}
+  \caption{Die Ergebnisse des Außendurchmessers bei QM1}
+  \label{fig:AlleWerteKleinerDoEAusen}
+\end{wrapfigure}
+
+Die Clusterbildung der einzelnen Versuchsdurchläufe ist deutlich weniger ausgeprägt. Daraus schließe ich, dass das ML besser die Höhe der Cluster lernen kann als den Außendurchmesser.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-10-11.png}
+  \caption{Die Ergebnisse des Innendurchmessers bei QM1}
+  \label{fig:AlleWerteKleinerDoEInnen}
+\end{wrapfigure}
+
+Die Clusterbildung ist weniger ausgeprägt als bei der Höhe. Es fallen die sehr tiefen und verstreuten Werte in der Mitte auf.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-19-14.png}
+  \caption{Die Ergebnisse der Konzentrizität bei QM1}
+  \label{fig:AlleWerteKleinerDoEKon}
+\end{wrapfigure}
+
+Es ist keine Clusterbildung zu erkennen. Das heißt, die Einstellparameter haben keinen Einfluss auf die Konzentrizität der Halbschalen.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-22-09.png}
+  \caption{Die Ergebnisse des Rundheits bei QM1}
+  \label{fig:AlleWerteKleinerDoERund}
+\end{wrapfigure}
+
+Die Clusterbildung ist weniger ausgeprägt als bei der Höhe. Es fallen die hohen und verstreuten Werte in der Mitte auf. Das heißt, die Einstellparameter haben nur in Extremfällen einen Einfluss auf die Rundheit der Halbschalen.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-48-17.png}
+  \caption{Die Ergebnisse des Gewichts}
+  \label{fig:AlleWerteKleinerDoEGew}
+\end{wrapfigure}
+
+Die Clusterbildung ist nur wenig ausgeprägt; es handelt sich eher um eine binäre Verteilung. Die Werte über 12 und bei 10 haben eine so hohe Abweichung, dass es sich hier um Tippfehler handeln muss.
+
+
+\subsection{Alternativen zur Höhe}
+Die Messzelle gibt eine Reihe von Qualitätsmerkmalen aus. Eine vollständige Liste mit Erläuterungen ist in \cite{MesszelleQM} zu finden. In den meisten ML-Modellen wurde nur die Höhe berücksichtigt, da sie die höchste Präzision und Clusterbildung aufweist. Der Code, der in dieser Semesterarbeit entwickelt wurde, kann einfach angepasst werden, um die ML auf alternative Qualitätsmerkmale zu erweitern. Ein alternatives SQL-Statement sieht folgendermaßen aus: 
+
+\begin{verbatim}
+SELECT DISTINCT ON (datamatrix) datamatrix, rundheit, part_id 
+FROM measurement_data_3 
+WHERE datamatrix BETWEEN 1698029563 AND 1699115963  
+ORDER BY datamatrix;
+\end{verbatim}
+
+Hier wird das Qualitätsmerkmal Rundheit aufgerufen.
+
+\subsection{grösserer DoE}
+ \begin{table}[htbp]
+  \centering
+  \caption{Versuchsplan für den grösseren DoE}
+  \label{tab:mytable}
+  \begin{tabular}{cccc}
+    \hline
+    \textbf{Zylindertemperatur} & \textbf{Nachdruckhöhe} & \textbf{Vorlauftemperierung} & \textbf{Volumenstrom} \\
+    \hline
+    209 & 262 & 24 & 31 \\
+    209 & 262 & 41 & 25 \\
+    209 & 350 & 41 & 25 \\
+    209 & 350 & 24 & 31 \\
+    209 & 437 & 33 & 18 \\
+    209 & 437 & 24 & 31 \\
+    220 & 350 & 33 & 25 \\
+    220 & 262 & 33 & 31 \\
+    220 & 437 & 33 & 31 \\
+    220 & 350 & 41 & 18 \\
+    220 & 437 & 41 & 31 \\
+    220 & 262 & 24 & 18 \\
+    231 & 262 & 24 & 25 \\
+    231 & 350 & 24 & 31 \\
+    231 & 437 & 24 & 18 \\
+    231 & 262 & 33 & 31 \\
+    231 & 350 & 41 & 18 \\
+    231 & 437 & 41 & 31 \\
+    209 & 262 & 24 & 31 \\
+    209 & 350 & 24 & 31 \\
+    209 & 437 & 24 & 31 \\
+    209 & 437 & 33 & 18 \\
+    209 & 262 & 41 & 25 \\
+    209 & 350 & 41 & 25 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\subsection{Materialtest}
+
+Für den Materialtest wurden zwei verschiedene Materialien verwendet: Schwar und Lupolen 1800 P.
+
+"Lupolen 1800 H" ist ein Polyethylen-Harz mit niedriger Dichte, das in einer Vielzahl von Verarbeitungsmethoden wie Spritzguss, Blasformen und Filmextrusion eingesetzt wird. Es zeichnet sich durch sehr gute Weichheit und Zähigkeit aus und bietet eine gute dimensionsstabile Eigenschaft. Wie Lupolen 1800 P wird auch Lupolen 1800 H in Form von Pellets geliefert und ist nicht additiviert. Typische Anwendungen für dieses Material umfassen Verschlusskappen, Deckel, Schaumstoffe und Champagnerkorken.
+
+
+"Weiss" ist ein Masterbatch, das für die Einfärbung von Kunststoffen verwendet wird. Es handelt sich um ein Pigmentkonzentrat, das dem Kunststoff während des Spritzgussprozesses zugesetzt wird. Diese Art von Masterbatch wird typischerweise verwendet, um weissen Farbeffekte in Kunststoffprodukten zu erzeugen. Der genaue Zusammensetzung und die spezifischen Eigenschaften können je nach Hersteller variieren.
+
+
+"Schwarz" ist ein Masterbatch, das für die Einfärbung von Kunststoffen verwendet wird. Es handelt sich um ein Pigmentkonzentrat, das dem Kunststoff während des Spritzgussprozesses zugesetzt wird. Diese Art von Masterbatch wird typischerweise verwendet, um schwarze Farbeffekte in Kunststoffprodukten zu erzeugen. Der genaue Zusammensetzung und die spezifischen Eigenschaften können je nach Hersteller variieren.
+
+Lupolen 1800 P
+"Lupolen 1800 P" ist ein Polyethylen-Harz mit niedriger Dichte, das für verschiedene Verarbeitungsmethoden wie Spritzguss verwendet wird. Es zeichnet sich durch eine hohe Fließfähigkeit aus und bietet gute Weichheit, Zähigkeit und dimensionsstabile Eigenschaften. Lupolen 1800 P wird in Form von Pellets geliefert und ist nicht additiviert, was bedeutet, dass keine speziellen Zusatzstoffe enthalten sind. Dieses Material wird in Anwendungen wie Compoundierung, Spielzeugherstellung, Verschlusskappen, Teilen für den Maschinenbau sowie Sport- und Freizeitausrüstung eingesetzt.
+
+\begin{table}[h]
+  \centering
+  \caption{DoE}
+  \begin{tabular}{cccccc}
+    \hline
+    iddoe & zylindertemperatur & nachdruckhohe & vorlauftemperierung & volumenstrom \\
+    \hline
+    Schwarz & & & & \\
+    110 & 220 & 350 & 33 & 25 \\
+    114 & 220 & 437 & 41 & 31 \\
+    115 & 220 & 262 & 24 & 18 \\
+    128 & 220 & 350 & 33 & 25 \\
+    \hline
+    Lupolen 1800 P & & & & \\
+    110 & 220 & 350 & 33 & 25 \\
+    114 & 220 & 437 & 41 & 31 \\
+    115 & 220 & 262 & 24 & 18 \\
+    128 & 220 & 350 & 33 & 25 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{images/kitten.jpg}
+  \caption{Die }
+  \label{fig:AlleWerteKleinerDoE}
+\end{wrapfigure}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6013.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6015.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_5993.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_5996.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_5997.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6000.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6001.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6002.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6003.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6005.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6006.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6010.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6011.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6012.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6013.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6014.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6015.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6017.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6018.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6020.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6025.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6026.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/_MG_6032.JPG}
+  \caption{}
+  \label{fig:}
+\end{wrapfigure}
+
+
+
+\subsubsection{Wage von Hand eingetippt}
+in der Grafik \cite{fig:WageVonHand} ist klar zu sehen, dass die abweichungen sehr signifikant sind. In der Grafik ist sind 4 Halbschalen sehr Wiederholbar. der normalisierte wert ist konstant 1, die vier Halbschalen sind nur schwer von einader unterschieden werden.
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}%r and l for right and left
+  \centering
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 12-42-33.png}
+  \caption{Verlauf der schwindung \cite{SchwindungLit}}
+  \label{fig:WageVonHand}
+\end{wrapfigure}
+
+
+Wenn die Rohdaten der anderen 4 Halbschalen betrachtet werden, ist erkennbar, dass die Zahlen gleich sind, aber voll mit flüchtigkeitsfehler sind. Jede Halbschale wurde 6 mal gewogen, aber 1698998350 wird nur fünf mal aufgelistet, dass heisst es ist schon ein Flüchtigkeitsfehler in der Datamatrix
+
+
+\begin{table}[h]
+  \centering
+  \caption{Your Table Caption}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{IDwagevonhand} & \textbf{DatamatrixVonHand} & \textbf{TimestampHand} & \textbf{gewichtVonHand} \\
+    \hline
+    156 & 1698998212 & 1699018366 & 11.011 \\
+    163 & 1698998212 & 1699018455 & 11.011 \\
+    173 & 1698998212 & 1699018579 & 11.011 \\
+    140 & 1698998212 & 1699018021 & 11.011 \\
+    150 & 1698998212 & 1699018290 & 11.11 \\
+    132 & 1698998212 & 1699017064 & 11.105 \\
+    154 & 1698998240 & 1699018341 & 11.095 \\
+    161 & 1698998240 & 1699018434 & 11.095 \\
+    133 & 1698998240 & 1699017076 & 11.095 \\
+    143 & 1698998240 & 1699018055 & 11.095 \\
+    172 & 1698998240 & 1699018567 & 11.095 \\
+    146 & 1698998240 & 1699018244 & 11.095 \\
+    147 & 1698998266 & 1699018256 & 11.009 \\
+    131 & 1698998266 & 1699017053 & 11.009 \\
+    159 & 1698998266 & 1699018409 & 11.009 \\
+    168 & 1698998266 & 1699018512 & 11.009 \\
+    138 & 1698998266 & 1699018000 & 11.095 \\
+    170 & 1698998266 & 1699018545 & 11.095 \\
+    174 & 1698998294 & 1699018591 & 11.105 \\
+    137 & 1698998294 & 1699017988 & 11.105 \\
+    153 & 1698998294 & 1699018328 & 11.105 \\
+    130 & 1698998294 & 1699017043 & 11.011 \\
+    149 & 1698998294 & 1699018278 & 11.105 \\
+    167 & 1698998294 & 1699018503 & 11.011 \\
+    134 & 1698998322 & 1699017087 & 11.115 \\
+    144 & 1698998322 & 1699018065 & 11.115 \\
+    151 & 1698998322 & 1699018302 & 11.115 \\
+    155 & 1698998322 & 1699018355 & 11.115 \\
+    162 & 1698998322 & 1699018445 & 11.115 \\
+    171 & 1698998322 & 1699018556 & 11.115 \\
+    175 & 1698998350 & 1699018603 & 11.013 \\
+    139 & 1698998350 & 1699018011 & 11.013 \\
+    152 & 1698998350 & 1699018314 & 11.135 \\
+    160 & 1698998350 & 1699018421 & 11.013 \\
+    129 & 1698998350 & 1699017033 & 11.013 \\
+    135 & 1698998377 & 1699017101 & 11.013 \\
+    142 & 1698998377 & 1699018043 & 11.013 \\
+    164 & 1698998377 & 1699018466 & 11.013 \\
+    148 & 1698998377 & 1699018267 & 11.013 \\
+    169 & 1698998377 & 1699018533 & 11.013 \\
+    158 & 1698998377 & 1699018398 & 11.013 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+Um weniger fehler zu machen, wurde das HMI geändert, so dass mehr achtsamkeit erforderlich ist.

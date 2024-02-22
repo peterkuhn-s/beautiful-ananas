@@ -1,0 +1,53 @@
+Die Validierung der generierten Modelle kann auf unterschiedliche Art gemacht werden. Hier stelle ich 4 Methoden vor, die das Modell schrittweise härter bewerten.
+
+\subsection{Cross Validation der Modelle}
+Cross-Validation ist eine Technik im maschinellen Lernen, die dazu dient, die Leistung eines Modells auf Trainingsdaten zu bewerten. Dabei wird der vorhandene Datensatz in mehrere Teile, sogenannte Folds, aufgeteilt. Das Modell wird dann iterativ auf verschiedenen Teilmengen der Daten trainiert und auf den verbleibenden Daten getestet. Dies ermöglicht es, die Leistung des Modells auf verschiedenen Trainings- und Testdaten zu bewerten und mögliche Überanpassungen oder Unteranpassungen zu identifizieren.
+
+Der Prozess der 10-fachen Kreuzvalidierung beinhaltet das Aufteilen der Daten in 10 Folds, wobei das Modell 10 Mal trainiert und getestet wird, wobei jedes Fold einmal als Testdatensatz verwendet wird. Die Ergebnisse werden dann gemittelt, um eine zuverlässige Bewertung der Modellleistung zu erhalten. Dies ist besonders wichtig, um sicherzustellen, dass das Modell konsistent und robust auf unterschiedlichen Teilmengen der Daten arbeitet.
+
+Durch die Anwendung von Cross-Validation auf Trainingsdaten wird die Zuverlässigkeit der Modellbewertung verbessert, da sie nicht auf eine einzige Trainings-Test-Aufteilung beschränkt ist. Dies trägt dazu bei, realistischere Leistungseinschätzungen zu erhalten und die Generalisierungsfähigkeiten des Modells besser zu verstehen.
+
+Die 10 fold CV wurde benutzt um den Hyperparameter der Lassomodelle zu bestimmen. Die Werte für alle Modelle können in den Scripts nachgeschaut werden. Hier mache ich ein Beispiel für das Modell des Innendurchmessers. Das Modell hat einen MSE von 0.00048.
+
+\subsection{Test Daten Validierung der Modelle}
+Die Validierung auf zufällig ausgewählten und separierten Testdaten ist ein entscheidender Schritt im Trainingsprozess von maschinellen Lernalgorithmen. Dabei werden die vorhandenen Daten in zwei Teile aufgeteilt: einen Trainingsdatensatz, auf dem das Modell trainiert wird, und einen separierten Testdatensatz, der unabhängig vom Training ist. Diese Methode gewährleistet, dass das Modell auf Daten getestet wird, die es zuvor nicht gesehen hat, was die Überprüfung seiner Generalisierungsfähigkeiten ermöglicht.
+
+Die zufällige Auswahl und Separierung der Testdaten ist besonders wichtig, um sicherzustellen, dass das Modell nicht auf spezifische Muster oder Eigenschaften der Trainingsdaten überangepasst wird. Durch diese Vorgehensweise wird vermieden, dass das Modell auf bestimmte Datenstrukturen spezialisiert wird und nicht in der Lage ist, auf neue, nicht trainierte Daten korrekt zu reagieren. Dieser Validierungsansatz hilft, eine realistische Einschätzung der Modellleistung zu erhalten und die Vorhersagegenauigkeit auf unbekannten Daten zu verbessern.
+
+Die Evaluierung auf separierten Testdaten ermöglicht es auch, verschiedene Leistungsmasse wie Genauigkeit, Präzision und Rückruf zu berechnen. Dadurch erhält man ein umfassendes Bild davon, wie gut das Modell in der Lage ist, echte, nicht gesehene Daten zu verarbeiten. Dieser Ansatz ist grundlegend für den gesamten Maschinenlernprozess und trägt zur Entwicklung zuverlässiger Modelle bei.
+
+Bei den Modellen wurden jeweils $30 \%$ Testdaten ausgewählt. Der MSE ist 0.00057, in der gleichen Grössenordnung wie bei der CV.
+
+\subsection{Test Versuche Validierung der Modelle}
+Das Modell wurde in \ref{fig:TestVer} an Daten getestet, die Wochen davor generiert wurden. Die Einstellparameter der alten Daten sind anders als die der Trainingsdaten.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 10-26-36.png}
+  \caption{in diesem Diagramm ist die Vorhersage des QM2 Innendurchmesser, auf Daten von anderen Versuchsreihen}
+  \label{fig:TestVer}
+\end{figure}
+
+Der MSE ist 0.00113. Er ist doppelt so hoch wie auf den Trainingsdaten. Der Wert ist noch immer in der Grössenordnung der Streung in einem Cluster.
+
+\subsection{Material Übertragbarkeit Validierung der Modelle}
+\label{MatVal}
+Das Modell wurde an Daten getestet, wo ein anderes Material verarbeitet wurde. Die Präzision des Modells ist gut. Die Genauigkeit des Modells ist nicht gut.
+
+Für Lupolen 1800 H mit schwarzem Masterbatch ist der MSE bei 0.01374 \ref{fig:Test1800S}.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 11-08-56.png}
+  \caption{in diesem Diagramm ist die Vorhersage des QM2 Innendurchmesser, auf Daten von des Materials Lupolen 1800 H mit einem schwarzen Masterbatch}
+  \label{fig:Test1800S}
+\end{figure}
+
+Für Lupolen 1800 P mit dem Standard weissen Masterbatch ist der MSE bei 0.00089 \ref{fig:Test1800P}. Dieser MSE ist extrem tief und entspricht nicht der visuellen Auswertung.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 11-21-08.png}
+  \caption{in diesem Diagramm ist die Vorhersage des QM2 Innendurchmesser, auf Daten von des Materials Lupolen 1800 P}
+  \label{fig:Test1800P}
+\end{figure}

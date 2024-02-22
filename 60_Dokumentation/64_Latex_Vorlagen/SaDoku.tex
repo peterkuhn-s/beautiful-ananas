@@ -1,0 +1,157 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Semesterarbeit HS 2023} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\begin{titlepage}
+  \end{titlepage}
+% Import the PDF
+\includepdf{Titelseite.pdf}
+%import something from scribus
+
+
+\pagestyle{empty}
+\section*{Abstract}
+\input{abstract.tex}
+\subsection*{Beschreibung der Abkürzungen}
+\input{AbkurzText.tex}
+% Inhaltsverzeichnis
+\tableofcontents
+%\pagenumbering{Roman}
+\newpage
+\pagestyle{fancy}
+
+\setcounter{page}{1}
+\section{Einleitung}
+\input{Einleitung.tex}
+
+\section{Grundlagen}
+\input{GrundlagenSpritzgiessen.tex}
+\newpage
+\input{GrundlagenML.tex}
+\newpage
+\input{StandDerTechnik.tex}
+\newpage
+\input{IIoTamIWk.tex}
+\newpage
+\section{Beschreibung der Messzelle von Kistler}
+\input{Messzelle.tex}
+\newpage
+\section{Planung der Messung}
+\input{DoE.tex}
+\newpage
+\section{Durchführung der Messung}
+\input{Messung.tex}
+\input{Messung2.tex}
+\input{Messung3.tex}
+
+\newpage
+\section{Maschinelles Lernen auf dem Generierten Daten}
+\input{ML.tex}
+\newpage
+\section{Validierung des Maschinelles Lernen}
+\input{ValidierungML.tex}
+\newpage
+
+\section{Interpretation des Maschinellen Lernen}
+\input{Interpretation.tex}
+
+\newpage
+\section{Ausblick}
+\input{Ausblick.tex}
+
+\newpage
+% Literaturverzeichnis
+%\bibliography{mybibliography}
+\section{Literaturverzeichnis}
+\input{Literaturverzeichnis.tex}
+
+\newpage
+\section{Erklärung zur Urheberschaft}
+\input{Unterschrift.tex}
+
+\newpage
+\listoffigures
+
+
+\listoftables % Tabellenverzeichnis erstellen
+\newpage
+\section{Anhang}
+Der digitale Anhang enthällt alle Scripts und weiteres, sortiert in die Ordnerstruktur.
+%\label{LastPage}
+%\subsection{Beschreibung von Scripts}
+%\input{BeschreibungvonScripts.tex}
+%\newpage
+\subsection{Beschreibung der Abkürzungen}
+\input{AbkurzBattenfeld.tex}
+\newpage
+\input{AbkurzKistler.tex}
+\subsection{Fertigungszeichnung}
+\label{Fertigungszeichnung}
+\includepdf{peterkuhn_d1-20231120_p-Stab-rund-Drehteil.pdf}
+\newpage
+\input{KanbanBoard.tex}
+
+\subsection{Lebenslauf}
+\includepdf{lebenslauf-2.pdf}
+
+
+\end{document}

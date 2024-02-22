@@ -1,0 +1,32 @@
+\subsection{Funktionsweise der Messzelle}
+
+Die Messzelle ist ein Funktionsmuster, das von Kistler in Zusammenarbeit mit dem IWK gebaut wurde. Das Ziel der Messzelle ist es, eine Online-Messung durchführen zu können.
+
+Die Halbschalen werden von der Battenfeld produziert und über verschiedene Handlingsysteme in eine Kiste der Messzelle gebracht. Zum Zeitpunkt meiner Semesterarbeit waren einige der Handlingsysteme nicht einsatzbereit, das heisst, ich musste das Handling von Hand durchführen.
+
+Wenn die Kiste mit den Halbschalen in der Messzelle geladen ist, nimmt ein Roboterarm eine Halbschale nach der anderen und präsentiert sie den drei verschiedenen Kameras. Die erste Kamera schaut mithilfe eines Spiegels die Halbschale von der Seite an. Die zweite Kamera betrachtet die Halbschale von oben. Die dritte Kamera wird zur Zeit nur genutzt, um die Seriennummer auf der Halbschale zu lesen. Die gemessenen Qualitätsmerkmale werden in \ref{AbKist} grafisch dargestellt.
+
+\subsection{Aktuelle Probleme mit der Messzelle}
+
+Der Vakuumgreifer kann oft die Halbschale nicht fest genug halten, um sie aus der Kiste mit Abstandhaltern zu heben (siehe Abbildung \ref{fig:MessGreif}).
+
+Ein weiteres Problem besteht darin, dass beim Zurücklegen der Halbschalen in die Kiste der Vakuumgreifer sofort ausgeschaltet wird, wenn der Roboterarm einen Widerstand detektiert. Dies führt dazu, dass einige Halbschalen losgelassen werden, obwohl die Halbschale noch nicht am Boden der Kiste angekommen ist (siehe Abbildungen \ref{fig:ProbRob} und \ref{fig:ProbRobPer}).
+
+Die Probleme des Greifers sind eng mit der Kiste verbunden. Die laser-gesinterten Nylon-Abstandhalter haben eine raue Oberfläche, insbesondere wenn die Halbschalen 24 Stunden in den Abstandhaltern gelagert wurden, was zu einer hohen Haftreibung führt, die vom Greifer überwunden werden muss.
+
+Die Halbschalen haben sich zwischen den Abstandhaltern verklemmt, insbesondere bei mehrschichtigen Kisten. Dieses Problem wurde umgangen, indem nur einschichtige Kisten getestet wurden (siehe Abbildungen \ref{fig:ProbGut} und \ref{fig:ProbProb}).
+
+Die Messzelle hat einen OPC-UA-Server, der die Messergebnisse im JSON-Format veröffentlicht. Um eine Subscription dieses Servers zu machen, muss die Uhrzeit des Publishers und Subscribers gleich sein. Nach der Zeitumstellung im September hat sich mein Computer automatisch auf die Winterzeit umgestellt. Der Server der Messzelle hat das nicht getan. Das bedeutet, bevor die Verbindung mit dem Messzellen-Server eingestellt werden kann, muss manuell die Uhrzeit des Subscribers auf Sommerzeit gestellt werden. Einige Internetseiten, zum Beispiel Microsoft, akzeptieren Logins nicht, wenn die Uhrzeit des Computers manuell verstellt wurde (siehe Abbildung \ref{fig:GesamtMessZell}).
+
+Am Anfang wurde getestet, ob die Laserbeschriftung der Seriennummer von der Messzelle gelesen werden kann. Es gibt Farben, bei denen der Kontrast nicht ausreicht, um die Datenmatrix, in der die Seriennummer codiert ist, zuverlässig zu lesen. Ein Beispiel ist die Farbe Himbeere. Die Mitarbeiter von Kistler meinen, dass das Problem gelöst werden kann, aber nicht sofort. Für die weiteren Tests habe ich dann Schwarz und Weiß gewählt, um einen besseren Kontrast der Laserbeschriftung zu haben.
+
+Die Geschwindigkeit, mit der die Messzelle die Halbschalen messen kann, beträgt rund 40 \% von der Geschwindigkeit, mit der die Battenfeld die Halbschale herstellen kann. In dem durchgeführten großen Design of Experiment (DoE) \ref{GrosserDoE} wurde jeweils eine Gruppe von 8 Halbschalen vermessen, und die zweite Gruppe wurde genutzt, um die Einstellparameter zu ändern und einzupendeln, d.h., die Halbschalen wurden nicht gemessen.
+
+\newpage
+\subsection{Ideen zur Problembehebung der Messzelle}
+
+Der Greifer des Roboterarms könnte neu konstruiert werden. Der jetzige Greifer ist jedoch bereits ein ausgereiftes Modell. Von daher habe ich mich auf Verbesserungen der Abstandhalter in der Kiste konzentriert.
+
+Um die Reibung der Abstandhalter zu reduzieren, habe ich eine andere 3D-Drucktechnik getestet. FDM-Drucker haben in der XY-Ebene keine Stufen, das heißt, wenn der Abstandhalter so gedruckt werden kann, dass die XY-Richtung der Länge nach verläuft, ist die Oberfläche für die Halbschalen glatt. Um die Abstandhalter so zu drucken, habe ich sie halbiert und nach dem Druck verklebt. Eine weitere Variante mit FDM ist der neu entwickelte 5-Achsen-Drucker am IWK. Die beiden Varianten wurden nicht weiterverfolgt, da die Produktionszeit für 500 Stück hoch ist.
+
+Wenn die Abstandshalter nicht 3D-gedruckt werden, sondern aus einem Rundstab gedreht werden, erhält der Abstandhalter eine glatte Oberfläche. Ich habe zuerst von Hand vier Funktionsmuster gedreht und getestet. Nach dem erfolgreichen Testen habe ich eine Fertigungszeichnung \ref{Fertigungszeichnung} erstellt. Herr Lübigg, ein gelernter Konstrukteur, meinte, dass Normteile verfügbar sind, die eine vergleichbare Funktion wie die Abstandhalter haben. Als Material der Abstandhalter wurde Aluminium 6061 gewählt. Es ist aber auch POM denkbar, da es gute Reibeigenschaften hat. Das Erset

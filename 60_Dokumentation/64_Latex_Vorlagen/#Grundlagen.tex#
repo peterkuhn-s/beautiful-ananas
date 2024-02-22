@@ -1,0 +1,8 @@
+\subsection{Grundlagen Spritzgießen}
+\input{GrundlagenSpritzgiessen.tex}
+
+\subsection{Grundlagen ML}
+\input{GrundlagenML.tex}
+
+\subsection{Stand der Technik}
+\input{StandDerTechnik.tex}

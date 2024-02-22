@@ -1,0 +1,60 @@
+
+\begin{table}[h]
+  \centering
+  \caption{Abkürzungen und ihre Bedeutungen}
+  \begin{tabular}{|c|p{10cm}|}
+    \hline
+    \textbf{Abkürzung} & \textbf{Bedeutung} \\
+    \hline
+    id\_prozess & Ein Counter der in der Battenfeld gesetzt werden kann \\
+    zyklus & ein Counter der in der Battelfeld gesetzt werden kann \\
+    datum & das datum der battenfeld \\
+    startzeit & Der Zeitpunkt an dem die Battenfeld mit dem aufdosieren des matierals anfängt \\
+    auftragsnummer & eine Nummer die vergeben werden kann, bei meinen Versuchen nicht gesetzt \\
+    projektnummer & eine Nummer die vergeben werden kann, bei meinen Versuchen nicht gesetzt \\
+    projektbezeichnung & Projektbezeichnung \\
+    versuchsbezeichnung & eine String die vergeben werden kann, bei meinen Versuchen nicht gesetzt \\
+    maschinenbediener & eine Name der vergeben werden kann, bei meinen Versuchen nicht gesetzt\\
+    material & das benutzte material, bei meine Veruschen nicht hier erfasst \\
+    werkzeug & eine STring die vergeben werden kann, bei meinen Versuchen nicht gesetzt \\
+    fliesszahl & Fließzahl (wie kann die Battenfeld die Flieszahl des Matierals messen?)(oder ist das ein eintipp wert)\\
+    einspritzarbeit & die Arbeit die von der hubhydraulik der battenfeld verrichtet wird \\
+    max\_einspritzdruck & Zielwert Maximaler Einspritzdruck, bei weggesteureter einspritzphase \\
+    umschaltdruck & Umschaltdruck \\
+    umschaltweg & Umschaltweg ?\\
+    umschaltpunkt & Umschaltpunkt, ist das nicht wie der umschhaltdruck \\
+    nachdruckarbeit & die Arbeit, die von der Hubeinheit der Battenfeld in der Nachdruckphase geleistet wird \\
+    integral\_nachdruck & Integral des Nachdrucks, ein Wert der theoretisch ist \\
+    avg\_nachdruck & Durchschnittlicher Nachdruck, gemessen über die gesamte Abkühlzeit \\
+    massepolster & Massepolster, die Masse an schmelze die zwischen  der schneck und der Düse ist\\
+    einspritzzeit & die zeit, die die Hubanlage braucht um bei der weggesteuerten Einspritzphase, bis der Umschaltpunkt erricht ist \\
+    dosierzeit & die zeit, die von der schneck benötigt wird um das matieral auf zu dosieren \\
+    dosierweg & der weg den die schneck nach hinten gedrückt wird, beim aufdosieren des Materials\\
+    kuhlzeit & Einstellwert, der getestet wird bis das Teil ohne Schaden aus der Kavität entnommen werden kann\\
+    zykluszeit & die zeit, die für einen vollstandigen spritzgusszyklus benötigt wird\\
+    mittlere\_drehzahl & Mittlere Drehzahl der Schnecke?\\
+    staudruck & der druck um das Schmelzmaterial durch die Düse zu drücken und es in die Form einzuspritzen \\
+    avg\_einspritzgeschwindigkeit & Durchschnittliche Einspritzgeschwindigkeit \\
+    max\_einspritzgeschwindigkeit & Maximale Einspritzgeschwindigkeit \\
+    max\_wid & werkzeug innen druck sensor  \\
+    umschaltdruck\_wid & Umschaltdruck der des Sensors, wie ist der mit dem anderen Umschaltdruck verwant?\\
+    fliesszahl\_wid & wie kann die Fließzahl gemessen werden? \\
+    integral\_wid & Integral des werkzeug innendrucks\\
+    temperatur\_duse & Temperatur gemessen der Düse \\
+    temperatur\_zylinder\_zone\_1 & einstelltemperatur der heizelemente in der  Zylinderzone 1 \\
+    temperatur\_zylinder\_zone\_2 & einstelltemperatur der heizelemente in der  Zylinderzone 2 \\
+    temperatur\_flansch & gemessene Temperatur des Flanschs \\
+    temperatur\_werkzeugheizung\_zone\_1 & Heisskanal Einstellwerte, nicht vorhanden im unihokayballwerkzeug \\
+    temperatur\_werkzeugheizung\_zone\_2 & Heisskanal Einstellwerte, nicht vorhanden im unihokayballwerkzeug \\
+    temperatur\_werkzeugheizung\_zone\_3 & Heisskanal Einstellwerte, nicht vorhanden im unihokayballwerkzeug \\
+    temperatur\_werkzeugheizung\_zone\_4 & Heisskanal Einstellwerte, nicht vorhanden im unihokayballwerkzeug \\
+    umgebungstemperatur & gemessener Wert in der nähe der battenfeld Umgebungstemperatur \\
+    luftfeuchtigkeit & gemessener Wert in der nähe der battenfeld Luftfeuchtigkeit \\
+    leistungsaufnahme\_gesamt & der Battenfeld Gesamtleistungsaufnahme \\
+    gewicht & des bauteils, an diesem ZeitPunkt nicht integriet in die .dat der battenfeld \\
+    seriennummer & Seriennummer der Halbschale, ein Zeitstempel\\
+    \hline
+  \end{tabular}
+\end{table}
+
+

@@ -1,0 +1,24 @@
+\subsection*{Problemstellung und Vorgehen}
+Die vorliegende Arbeit ist Teil des SmartFactory @ OST-Projekts und fokussiert auf die Integration der Messzelle von Kistler in die Unihockeyball- Fertigungsanlage. Ziel ist die Entwicklung und der Vergleich verschiedener Maschinenlernmodelle zur Qualitätssicherung, ohne die direkte Messung von Qualitätsmerkmalen.
+
+Aktuelle Messungen sind zeitaufwendig, da sich die Qualitätsmerkmale von Spritzgussteilen erst nach etwa einem Tag messen lassen. Die entwickelten Modelle prognostizieren die Qualitätsmerkmale direkt aus den Prozessparametern, ohne auf die Messergebnisse der Schwindung warten zu müssen.
+
+Die Trainingsdaten für die Maschinelernmodelle wurden durch einen erweiterten Taguchi-Versuchsplan generiert, und zur effizienten Verwaltung dieser Daten wurde eine Datenbank implementiert. Die Skripte sind dabei objektorientiert gestaltet, um schnelles Training und Validierung der Modelle zu ermöglichen.
+
+\subsection*{Ergebnisse}
+Die Messzelle wurde erfolgreich im Testmodus für die Vermessung von rund 1000 Halbschalen eingesetzt. Insbesonders das lineare Lasso Regressionsmodell hat sich als geeignet für diese Aufgabe erwiesen. Mit diesem Modell kann beispielsweise die Höhe der Halbschale mit einem durchschnittlichen Fehler von 0.1 mm vorhergesagt werden.
+
+
+\begin{figure}[!h]
+  
+\includegraphics[width=0.4\textwidth]{images/Screenshot from 2023-12-11 13-47-50.png}
+\caption{Das Qualitätsmerkmal Höhe wird vorhergesagt und überprüft}
+\label{fig:AbsFig}
+\end{figure}
+
+
+
+\subsection*{Fazit}
+Empfohlen wird die Nutzung einer Datenbank in Kombination mit der Lasso Regression, um die von der Messzelle erfassten Qualitätsmerkmale zu messen.
+
+\newpage

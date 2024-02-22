@@ -1,0 +1,99 @@
+
+
+\subsection{Durchführung des Kleiner DoE}
+\label{kleinerDoe}
+Die Einstellparameter des kleinen DoEs ergeben sich aus \ref{tab:ein_klein_doe}.
+
+\begin{table}[h]
+ 
+\caption{Versuchsplan des ersten DoEs}
+\begin{tabular}{|c|c|c|c|}
+\hline
+zylindertemperatur & nachdruckhöhe & vorlauftemperierung & volumenstrom \\
+\hline
+
+    220.0&400.0&37 & 25  \\
+    220.0&600.0&55 & 37  \\
+    220.0&200.0&18 & 12  \\
+    242.0&400.0&55 & 12  \\
+    242.0&600.0&18 & 25  \\
+    242.0&200.0&37 & 37  \\
+    198.0&400.0&18 & 37  \\
+    198.0&600.0&37 & 12  \\
+    198.0&200.0&55 & 25  \\
+    220.0&400.0&37 & 25  \\
+\hline
+\end{tabular}
+\label{WerteKleinDoe}
+\end{table}
+
+Wie in \ref{ProblemKleinDoe} erwähnt, waren nicht alle Versuchsdurchläufe erfolgreich. Es wurde versucht, das Problem zu beheben, indem der Umschaltpunkt angepasst wurde. Dieser neue Einstellparameter war jedoch nicht vorgesehen.
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-09 10-54-36.png}
+  \caption{Die Ergebnisse der Höhe bei QM1}
+  \label{fig:ErgKleinDoe}
+\end{figure}
+
+In \ref{fig:AlleWerteKleinerDoEAusen} sind die einzelnen Cluster der Versuchsdurchläufe zu erkennen. Pro Durchlauf wurden 16 Halbschalen vermessen. Der Zentralpunkt ist sowohl am Anfang als auch am Ende zu sehen.
+
+Bei den extremeren Höhen ist die Varianz höher als bei den durchschnittlicheren. Daraus schliesse ich, dass der Spritzgussprozess an den Grenzen des Möglichen lief und keine stabilen Teile mehr produzieren konnte.
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-09 11-01-41.png}
+  \caption{Die Ergebnisse des Aussendurchmessers bei QM1. Die Clusterbildung der einzelnen Versuchsdurchläufe ist deutlich weniger ausgeprägt. Daraus schliesse ich, dass das ML besser die Höhe der Cluster lernen kann als den Aussendurchmesser.
+}
+  \label{fig:AlleWerteKleinerDoEAusen}
+\end{figure}
+
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-09 11-10-11.png}
+  \caption{Die Ergebnisse des Innendurchmessers bei QM1. Die Clusterbildung ist weniger ausgeprägt als bei der Höhe. Es fallen die sehr tiefen und verstreuten Werte in der Mitte auf.}
+  \label{fig:AlleWerteKleinerDoEInnen}
+\end{figure}
+
+
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-09 11-19-14.png}
+  \caption{Die Ergebnisse der Konzentrizität bei QM1. Es ist keine Clusterbildung zu erkennen. Das heisst, die Einstellparameter haben keinen Einfluss auf die Konzentrizität der Halbschalen.}
+  \label{fig:AlleWerteKleinerDoEKon}
+\end{figure}
+
+
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-09 11-22-09.png}
+  \caption{Die Ergebnisse des Rundheit bei QM1. Die Clusterbildung ist weniger ausgeprägt als bei der Höhe. Es fallen die hohen und verstreuten Werte in der Mitte auf. Das heisst, die Einstellparameter haben nur in Extremfällen einen Einfluss auf die Rundheit der Halbschalen.}
+  \label{fig:AlleWerteKleinerDoERund}
+\end{figure}
+
+
+
+\begin{figure}
+   
+  \includegraphics[width=0.48\textwidth]{images/Screenshot from 2023-12-09 11-48-17.png}
+  \caption{Die Ergebnisse des Gewichts. Die Clusterbildung ist nur wenig ausgeprägt; es handelt sich eher um eine binäre Verteilung. Die Werte über 12 und bei 10 haben eine so hohe Abweichung, dass es sich hier um Tippfehler handeln muss.
+}
+  \label{fig:AlleWerteKleinerDoEGew}
+\end{figure}
+
+
+
+\subsection{Alternativen Qualitätsmerkmale zur Höhe}
+Die Messzelle gibt eine Reihe von Qualitätsmerkmalen aus. Eine vollständige Liste mit Erläuterungen ist in \ref{MesszelleQM} zu finden. In den meisten ML-Modellen wurde nur die Höhe berücksichtigt, da sie die höchste Präzision und Clusterbildung aufweist. Der Code, der in dieser Semesterarbeit entwickelt wurde, kann einfach angepasst werden, um die ML auf alternative Qualitätsmerkmale zu erweitern. Ein alternatives SQL-Statement sieht folgendermassen aus: 
+
+\begin{verbatim}
+SELECT DISTINCT ON (datamatrix) datamatrix, rundheit 
+FROM measurement_data_3 
+WHERE datamatrix BETWEEN 1698029563 AND 1699115963  
+ORDER BY datamatrix;
+\end{verbatim}
+
+Hier wird das Qualitätsmerkmal Rundheit aufgerufen.

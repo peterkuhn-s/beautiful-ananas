@@ -1,0 +1,31 @@
+\begin{table}[h]
+\centering
+\caption{Beschreibung der Parameter}
+\begin{tabular}{|c|p{7cm}|c|}
+\hline
+\textbf{Parameter} & \textbf{Beschreibung} & \textbf{CAD-Zahlenwert der Werkzeugkavität} \
+\hline
+id & Eindeutige Identifikationsnummer in der DB&  \
+part_id & Identifikationsnummer der Messung von Kistler vergeben & - \
+höhe & Höhe des Teils & Wert in mm \
+temperatursensor & Sensor zur Messung der Temperatur & gem \
+innendurchmesser & Durchmesser des inneren Teils & Wert in mm \
+durchmesser_aussen & Durchmesser des äußeren Teils & Wert in mm \
+konzentrizität & Grad der Konzentrizität zwischen innerem und äußerem Durchmesser & Wert in Grad \
+rundheit & Grad der Rundheit des Teils & Wert in Grad \
+aussen_0_degree & Messung am äußeren Teil bei 0 Grad & Wert in Einheiten \
+aussen_120_degree & Messung am äußeren Teil bei 120 Grad & Wert in Einheiten \
+aussen_240_degree & Messung am äußeren Teil bei 240 Grad & Wert in Einheiten \
+channel_r & Roter Farbkanal-Wert & Wert in Einheiten \
+channel_g & Grüner Farbkanal-Wert & Wert in Einheiten \
+channel_b & Blauer Farbkanal-Wert & Wert in Einheiten \
+channel_h & Farbkanal-Wert für Farbton & Wert in Einheiten \
+channel_s & Farbkanal-Wert für Sättigung & Wert in Einheiten \
+channel_v & Farbkanal-Wert für Helligkeit & Wert in Einheiten \
+datamatrix_size & Größe der Datamatrix auf dem Teil & Wert in Einheiten \
+datamatrix & Datamatrix-Code auf dem Teil & - \
+datamatrix_wert_a & Wert oder Information, die durch Datamatrix_Code repräsentiert wird (A) & - \
+datamatrix_wert_b & Wert oder Information, die durch Datamatrix_Code repräsentiert wird (B) & - \
+\hline
+\end{tabular}
+\end{table}

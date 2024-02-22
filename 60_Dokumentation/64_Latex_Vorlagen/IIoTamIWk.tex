@@ -1,0 +1,18 @@
+\subsection{Fluss der Daten einer Halbschale}
+
+Viele der neueren Maschinen sind mit digitalen Steuerungen oder vollständigen Computern ausgerüstet. Somit ist es möglich, dass alle gesteuerten Parameter auch aufgezeichnet und gespeichert werden. Das ist einer der Treiber der Industrie 4.0. Am IWK werden beispielsweise bei der Battenfeld einige der Prozessparameter aufgezeichnet. Die Werte werden dann an einen Server (Raspberry Pi \ref{fig:RasBlat}) weitergeschickt. Dieser Server schreibt dann die Werte auf einen Datenspeicher-Server des IWKs.
+
+Die Messzelle von Kistler hat ebenfalls einen Server, der mit dem OPC-UA-Protokoll den aktuellen Messwert der Messzelle veröffentlicht. Dieser Veröffentlichung kann ein Computer zuhören und die Messwerte abspeichern. Die Messzelle Selbst sollte keine Kopie der Messwerte speichern, um die nötige Speicherkapazität an diesem Endpunkt gering zu halten.
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth]{images/_MG_5993.JPG}
+  \caption{Raspberry Pi der mit der Battenfeld kommuniziert}
+  \label{fig:RasBlat}
+\end{figure}
+
+\subsection{Vorteile einer Datenbank}
+
+In der Arbeit sollen Daten aus unterschiedlichen Quellen zusammengeführt werden. Die Daten für die Einstellparameter werden von einem Skript generiert. Die Gewichtsdaten werden interaktiv von Hand eingegeben. Die Messzelle liefert einen einzigen String mit Megabytes an Daten. Die Daten der Battenfeld werden als hunderte einzelne Textdateien exportiert.
+
+Um einen zentralen Ort zu haben, wo all diese unterschiedlichen Informationstypen einheitlich abgerufen werden können, habe ich mich entschieden, eine Postgres-Datenbank zu nutzen. Mit der Datenbank kann dann über Python oder direkt in SQL kommuniziert werden.

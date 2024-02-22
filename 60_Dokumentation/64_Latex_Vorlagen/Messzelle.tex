@@ -1,0 +1,169 @@
+\subsection{Funktionsweise der Messzelle}
+
+Die Messzelle - zu sehen in \ref{fig:GesamtMessZell} - ist ein Funktionsmuster, das von Kistler in Zusammenarbeit mit dem IWK gebaut wurde. Das Ziel der Messzelle ist es, eine Online-Messung durchführen zu können.
+
+\begin{figure}
+   
+  %rotate 90
+  \includegraphics[width=0.58\textwidth, angle=90]{images/_MG_6015.JPG}
+  \caption{Die Messzelle von vorne betrachte}
+  \label{fig:GesamtMessZell}
+\end{figure}
+
+Die Halbschalen werden von der Battenfeld produziert und über verschiedene Handlingsysteme in eine Kiste der Messzelle gebracht. Zum Zeitpunkt meiner Semesterarbeit waren einige der Handlingsysteme nicht einsatzbereit, das heisst, ich musste das Handling von Hand durchführen.
+
+Wenn die Kiste mit den Halbschalen in der Messzelle geladen ist, nimmt ein Roboterarm eine Halbschale nach der anderen und präsentiert sie den drei verschiedenen Kameras. Die erste Kamera \ref{fig:Kam1wide} schaut mithilfe eines Spiegels \ref{fig:Kam1} die Halbschale von der Seite an. Die zweite Kamera betrachtet die Halbschale von oben. Die dritte Kamera wird zur Zeit nur genutzt, um die Seriennummer auf der Halbschale zu lesen. Die gemessenen Qualitätsmerkmale werden in \ref{AbKist} grafisch dargestellt.
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth,  angle=90]{images/_MG_5996.JPG}
+  \caption{Kamera 1 der Messzelle}
+  \label{fig:Kam1wide}
+\end{figure}
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth]{images/_MG_5997.JPG}
+  \caption{Kamera 1 mit Spiegel, Halbschale und Beleuchtung}
+  \label{fig:Kam1}
+\end{figure}
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth]{images/_MG_6006.JPG}
+  \caption{Trumpf Laser der benutzt wird, um die Datamartix auf die Halbschalen zu lasern}
+  \label{fig:Laser}
+\end{figure}
+
+
+
+
+\subsection{Aktuelle Probleme mit der Messzelle}
+Der Vakuumgreifer kann oft die Halbschale nicht genug fest halten, um sie aus der Kiste mit Abstandhaltern zu heben.
+
+Ein weiteres Problem besteht darin, dass beim Zurücklegen der Halbschalen in die Kiste der Vakuumgreifer sofort ausgeschaltet wird, wenn der Roboterarm einen Widerstand detektiert. Dies führt dazu, dass einige Halbschalen losgelassen werden, obwohl die Halbschale noch nicht am Boden der Kiste angekommen ist (siehe Abbildungen \ref{fig:ProbRob} und \ref{fig:ProbRobPer}).
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/_MG_6013.JPG}
+  \caption{Kiste nachdem die Messung durchgeführt wurde. Fünf Halbschalen sind nicht korrekt zurückgelegt worden.}
+  \label{fig:ProbRob}
+\end{figure}
+
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/_MG_6014.JPG}
+  \caption{In der Perspektive ist besser zu erkennen welche Halbschalen nicht richtig abgelegt worden sind.}
+  \label{fig:ProbRobPer}
+\end{figure}
+
+Die Probleme des Greifers sind eng mit der Kiste verbunden. Die laser-gesinterten Nylon-Abstandhalter haben eine raue Oberfläche. Das ist insbesondere ein Problem, wenn die Halbschalen 24 Stunden in den Abstandhaltern gelagert wurden, was zu einer hohen Haftreibung führt, die vom Greifer überwunden werden muss.
+
+
+Die Halbschalen haben sich zwischen den Abstandhaltern verklemmt, insbesondere bei mehrschichtigen Kisten. Dieses Problem wurde umgangen, indem nur einschichtige Kisten gemessen wurden (siehe Abbildungen \ref{fig:ProbGut} und \ref{fig:ProbProb}).
+
+\label{ProblemeVersuch}
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/_MG_6011.JPG}
+  \caption{So sollte die Halbschale in den Abstandhaltern halten.}
+  \label{fig:ProbGut}
+\end{figure}
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/_MG_6012.JPG}
+  \caption{die Halbschale ist rechts an dem Abstandhalter verklemmt. Der Vakuumgreifer wird die Halbschale nicht anheben können.}
+  \label{fig:ProbProb}
+\end{figure}
+
+
+Die Messzelle hat einen OPC-UA-Server, der die Messergebnisse im JSON-Format veröffentlicht. Um eine Subscription dieses Servers zu machen, muss die Uhrzeit des Publishers und Subscribers gleich sein. Nach der Zeitumstellung im September hat sich mein Computer, der Subscriber, automatisch auf die Winterzeit umgestellt. Der Server der Messzelle hat das nicht getan. Das bedeutet, bevor die Verbindung mit dem Messzellen-Server hergestellt werden kann, muss manuell die Uhrzeit des Subscribers auf Sommerzeit gestellt werden. Einige Internetseiten, zum Beispiel Microsoft, akzeptieren Logins nicht, wenn die Uhrzeit des Computers manuell verstellt wurde.
+
+
+Am Anfang wurde getestet, ob die Laserbeschriftung der Seriennummer von der Messzelle gelesen werden kann. Es gibt Farben, bei denen der Kontrast nicht ausreicht, um die Datenmatrix, in der die Seriennummer codiert ist, zuverlässig zu lesen. Ein Beispiel ist die Farbe Himbeere. Die Mitarbeiter von Kistler meinen, dass das Problem gelöst werden kann, aber nicht sofort. Für die weiteren Tests habe ich dann Schwarz und Weiss gewählt, um einen besseren Kontrast der Laserbeschriftung zu haben.
+
+Die Geschwindigkeit, mit der die Messzelle die Halbschalen messen kann, beträgt rund 40 \% von der Geschwindigkeit, mit der die Battenfeld die Halbschale herstellen kann. In dem durchgeführten grossen DoE \ref{GrosserDoE} wurde jeweils eine Gruppe von 8 Halbschalen vermessen, und die zweite Gruppe wurde genutzt, um die Einstellparameter zu ändern und einzupendeln, das heisst, diese Halbschalen wurden nicht gemessen.
+
+\newpage
+\subsection{Ideen zur Problembehebung der Messzelle}
+Der Greifer \ref{fig:VakGrei} des Roboterarms könnte neu konstruiert werden. Der jetzige Greifer ist jedoch bereits ein ausgereiftes Modell. Von daher habe ich mich auf Verbesserungen der Abstandhalter in der Kiste konzentriert.
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth, angle=90]{images/_MG_6001.JPG}
+  \caption{Vakuumgreifer}
+  \label{fig:VakGrei}
+\end{figure}
+
+Um die Reibung der Abstandhalter zu reduzieren, habe ich eine andere 3D-Drucktechnik getestet. FDM-Drucker haben in der XY-Ebene keine Stufen, das heisst, wenn der Abstandhalter so gedruckt werden kann, dass die XY-Richtung der Länge nach verläuft, ist die Oberfläche für die Halbschalen glatt. Um die Abstandhalter so zu drucken, habe ich sie halbiert und nach dem Druck verklebt. Eine weitere Variante mit FDM ist der neu entwickelte 5-Achsen-Drucker am IWK. Die beiden Varianten wurden nicht weiterverfolgt, da die Produktionszeit für 500 Stück hoch ist.
+
+Wenn die Abstandshalter nicht 3D-gedruckt werden, sondern aus einem Rundstab gedreht werden, erhält der Abstandhalter die glatte Oberfläche des Rundstabs. Ich habe zuerst von Hand vier Funktionsmuster gedreht und getestet. Nach dem erfolgreichen Testen habe ich eine Fertigungszeichnung \ref{Fertigungszeichnung} erstellt. Herr Lübigg, ein gelernter Konstrukteur, meinte, dass Normteile verfügbar sind, die eine vergleichbare Funktion wie die Abstandhalter haben. Als Material der Abstandhalter wurde Aluminium 6061 gewählt. Es ist aber auch POM denkbar, da es gute Reibeigenschaften hat. Das Ersetzen der Abstandhalter wurde nicht weiterverfolgt, da das Problem \ref{ProblemeVersuch} der nicht korrekt abgelegten Halbschalen kein schwerwiegender Fehler war, da ich in jeder Kiste jeweils nur 8 Halbschalen und nicht die möglichen 40 Halbschalen gelagert hatte.
+
+Um das Verklemmen der Halbschalen zwischen den Abstandhaltern zu verhindern, wurde eine Einlegeplatte zunächst aus Holz, dann aus PMMA, laser-geschnitten. So haben die Halbschalen keine Möglichkeit mehr, in den leeren Raum gedrückt zu werden (siehe Abbildung \ref{fig:ProbLsg}).
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/_MG_6010.JPG}
+  \caption{Einlegeplatte aus schwarzem PMMA}
+  \label{fig:ProbLsg}
+\end{figure}
+
+
+Ich habe auch ein Funktionsmuster für Abstandhalter mit einer passiven Trenneinheit getestet. Die Halbschale drückt seitlich auf den 'Arm'. Der Arm wird so aktiviert, und die nächste Halbschale liegt auf dem Arm auf. Die Idee ist nicht weiter verfolgt worden, als zum ersten Funktionsmuster, da diese Abstandhalter aus vielen beweglichen Teilen bestehen und mehr Entwicklungsiterationen benötigen, als ich Zeit habe (siehe Abbildung \ref{fig:ProbLsg}).
+
+\begin{figure}
+   
+  \includegraphics[width=0.28\textwidth]{images/aktiveHalter.png}
+  \caption{Aktiver Abstandhalter. Im ersten Bild ist der weisse Kunststoffhalter in der Ruheposition. Durch die Halbschale im zweiten Bild wird der Kunststoffhalter aktiviert. Die Halbschale liegt auf dem Boden auf. Im dritten Bild liegt die zweite Halbschale nur auf dem Kunststoffhalter. Somit kann die zweite Halbschale nicht an der Ersten haften. Dieser Halter könnte für die zweite, dritte, vierte Halbschale dupliziert werden.}
+  \label{fig:ProbLsg}
+\end{figure}
+
+
+Wenn in der Messzelle nicht nur eine Kiste mit Halbschalen gelagert ist, sondern jeweils eine mit noch zu Messenden und eine zweite Kiste mit schon Gemessenen, dann muss die Messzelle keine Zwischenlagerung \ref{fig:ZwischL} der schon gemessenen Halbschale mehr durchführen. Somit könnte der Weg des Roboterarms optimiert werden, was direkt zu einer Zeitersparnis des Messvorgangs führt.
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth]{images/_MG_6000.JPG}
+  \caption{Zwischenlager der Halbschalen in der Messzelle}
+  \label{fig:ZwischL}
+\end{figure}
+
+\newpage
+
+\subsection{Problem der Zeitvarianz bei einer Online-Messung}
+\label{qmTransformation}
+
+Mit dem QM-15 min soll ein QM-24h vorhergesagt werden.
+
+Wenn jetzt ein zweiter, zum Beispiel kleinerer Messwert bei einer zweiten Halbschale gemessen wird, wird daraus geschlossen, dass das QM-24h ebenfalls kleiner ist als das der ersten Halbschale.
+
+Eine alternative Erklärung ist, dass das QM-24 der beiden Halbschalen das gleiche ist, aber das QM-15 min nicht bei den beiden Halbschalen genau nach 15 * 60 Sekunden gemessen wurde, sondern dass das zweite QM-15 min eher QM-16 min ist.
+
+Das heisst, alle QM-15 min müssen zusätzlich noch eine genaue Zeitangabe haben. Mithilfe der Zeitangabe können dann die Rohmesswerte auf einen einheitlichen fiktionalen Messzeitpunkt transformiert werden.
+
+Der fiktive Messzeitpunkt soll so sein, dass die Hälfte der Messungen nach vorne verschoben werden muss und die zweite Hälfte nach hinten.
+
+Eine Kiste mit 40 Halbschalen hat produktionsbedingt in sich ein Alter von 2 min bis 20 min. Somit sollte der fiktive Messzeitpunkt bei 10 min sein.
+
+Um die Transformation machen zu können, muss ein gutes Verständnis der Verlaufskurve im Bereich von 1 min bis 20 min vorhanden sein. Die Grössenordnung, in der diese Transformation gemacht werden muss, ist nicht bekannt. Von daher wird ein Experiment durchgeführt, um genau das zu messen.
+
+Das Problem ist nicht relevant für die ML-Modelle, weil die Modelle nicht QM1 benutzen, um QM2 vorherzusagen. In den Modellen in der Dokumentation werden nur Prozessparameter benutzt.
+
+
+\subsection{Kurze Anleitung zur Messzelle}
+In \ref{fig:MessCont} sind die Bildschirme der Messzelle abgebildet.
+\begin{enumerate}
+    \item Hauptschalter der Messzelle einschalten.
+    \item UR Control Panel einschalten.
+    \item Raspberry einstecken, Script auf dem Desktop im Terminal ausführen.
+    \item Siemens IC sollte automatisch hochfahren, sonst darauf drücken. Die neueste Version von Kister auf dem Desktop auswählen.
+    \item Auf Beckhoff Bildschirm anmelden, das Passwort ist zur Zeit 1234.
+    \item Den Zuhörer-Computer am besten mit einem Ethernet-Kabel in das geschützte Netzwerk einstecken. Dann das Script auf dem Computer starten. Nach dem Beenden der Messung den gesamten Inhalt des Terminals mit Copy-Paste in eine .txt-Datei speichern. Dann die passenden Scripts ausführen und weiterarbeiten.
+\end{enumerate}
+
+\begin{figure}%r and l for right and left
+   
+  \includegraphics[width=0.48\textwidth, angle =90]{images/_MG_6017.JPG}
+  \caption{Zu sehen sind die vier verschiedenen Kontroll Bildschirme der Messzelle}
+  \label{fig:MessCont}
+\end{figure}

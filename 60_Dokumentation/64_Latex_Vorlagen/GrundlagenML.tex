@@ -1,0 +1,63 @@
+\subsection{Einführung zu SML}
+Das Statistische Maschinen Lernen (SML) weist enge Verbindungen zur klassischen Statistik auf. Im Allgemeinen sind die Datensätze relativ klein, etwa um die 10.000 Einträge.
+
+\subsection{Modelltyp Unterschiede Regression und Klassifikation}
+SML-Modelle können zwei verschiedene Output-Arten haben. Zum einen ist der Output des ML eine Klassifikation. Zum Beispiel: Ist ein Teil ähnlicher zu diesem oder jenem anderen Teil. Die binäre Antwort kann mit Erweiterungen der Modelle erweitert werden.
+
+Bei einem Regressions Modell ist die Antwort nicht binär, sondern ein Zahlenwert. Zum Beispiel: eine Investition in Marketing wird zu so vielen verkauften Produkten führen.
+
+\subsection{Modelltyp Unterschiede Inference und  Prediction}
+Im Bereich der Regressions-SML lassen sich zwei Ziele unterscheiden. Bei einem SML für Inference steht das Verständnis der Grundlagen und Zusammenhänge des Datensatzes im Vordergrund. Ein Beispiel hierfür könnte sein, herauszufinden, welche Einstellparameter optimiert werden müssen, um ein bestmögliches Ergebnis zu erzielen. Solche Modelle, die oft lineare Regressionen und wenige Freiheitsparameter verwenden, ermöglichen es den Menschen, die Entscheidungen des Modells nachzuvollziehen.
+
+Bei einem SML für Prediction liegt der Fokus darauf, genaue Vorhersagen zu treffen. Diese Modelle verfügen über mehr Freiheitsparameter, und die Interpretation steht nicht im Zentrum des Interesses.
+
+\subsection{Auswahl des Modelltyps für die Arbeit}
+Das Ziel der Arbeit besteht darin, die Qualitätsmerkmale von Halbschalen 24 Stunden im Voraus präzise vorhersagen zu können. Da das Ergebnis ein numerischer Wert sein soll, wird ein Regressions-SML-Modell gewählt. Die binäre Eigenschaft der Halbschalen, ob die Qualitätsmerkmale innerhalb einer Toleranz liegen, gestaltet sich aufgrund grosser Toleranzen als schwierig. \cite{MAGew}
+
+
+Das gewählte Modell soll für  Prediction eingesetzt werden. Das Modell wird darauf hin bewertet, wie genau seine Vorhersagen auf Testdaten sind.
+
+Da die Spritzgussmaschine und weitere Sensoren viele verschiedene Parameter aufzeichnen, habe ich mich für eine Lasso Regression mit Interaktionen und nicht linearen Eigenschaften entschieden.
+
+\subsection{Beschreibung des Lasso Regression Modells}
+Die Lasso-Regression, auch bekannt als "L1-Regularisierung", ist eine Methode der linearen Regression, die zur Feature-Auswahl und zur Verhinderung von Overfitting verwendet wird. Der Hauptunterschied zur herkömmlichen linearen Regression besteht darin, dass die Lasso-Regression einen zusätzlichen Term zur Kostenfunktion hinzufügt, der die absolute Summe der Koeffizienten (Gewichte) der einzelnen Merkmale bestraft.
+
+Die Kostenfunktion, die minimiert werden soll, für die Lasso-Regression lautet:
+
+$$ J(\theta) = \sum_{i=1}^{n}( \lVert \mathbf{y_i} - \beta_0 - \sum_{j=1}^{p} \beta_j x_{ij} )^2 \right\rVert  + \lambda \sum_{j=1}^{p} |\beta_j| = \text{RSS} + \lambda \sum_{j=1}^{p} |\beta_j| $$
+
+
+%$$J(\theta) = (1/(2m)) * \left( \sum_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)})^2 + \lambda \sum_{j=1}^{n}|\theta_j| \right)$$
+
+
+Hier sind:
+
+$J(\theta)$ ist die Kostenfunktion.\\
+$n$ ist die Anzahl der Trainingsdatensätze.\\
+$\beta$ ist der wahre Wert des Datenpunkts.\\
+$y_i$ ist die tatsächliche Ausgabe für den i-ten Trainingsdatensatz.\\
+$x_{ij}$ ist ein Merkmal des Datenpunkts i, in der Dimension j.\\
+$p$ ist die Anzahl der Merkmale.\\
+$\lambda$ ist der Regularisierungsparameter (auch als $\alpha$ bekannt).\\
+
+Der entscheidende Unterschied liegt in dem Regularisierungsterm $\lambda \sum_{j=1}^p \left| \beta_j \right|$
+, der die absolute Summe der Koeffizienten betrachtet. Dieser Term führt dazu, dass einige der Koeffizienten genau null werden können. Infolgedessen werden bestimmte Merkmale aus der Modellgleichung eliminiert, was zu einer automatischen Feature-Auswahl führt.
+
+Die Wahl des Regularisierungsparameters $\lambda$ beeinflusst den Grad der Strafe für grosse Koeffizienten. Ein höheres $\lambda$ führt zu einer stärkeren Schrumpfung der Koeffizienten und damit zu mehr Feature-Auswahl.
+
+Die Lasso-Regression ist besonders nützlich, wenn es viele Features gibt und einige davon wenig Einfluss auf die Zielvariable haben. Ein Beispiel dafür sollte die Umgebungstemperatur sein.
+
+\subsection{Beschreibung des Random Forest Modells}
+Zur Vergleichsanalyse verschiedener ML-Modelle wurde ein Random Forest getestet. Der Random Forest ist ein Ensemble-Lernalgorithmus, der auf Entscheidungsbäumen basiert. Ein Entscheidungsbaum ist ein hierarchischer Baumstruktur-Algorithmus, der auf einer Menge von Trainingsdaten trainiert wird und zur Klassifikation oder Regression verwendet wird. Ein Random Forest kombiniert mehrere solcher Entscheidungsbäume und bildet dadurch ein Ensemble.
+
+Die Besonderheit des Random Forest liegt darin, dass bei der Konstruktion jedes Entscheidungsbaums eine zufällige Untermenge der verfügbaren Merkmale ausgewählt wird, um jeden Knoten im Baum zu spalten. Ein Entscheidungsbaum hat einen Wurzelknoten (Root Node), der das Attribut für den besten Split der Daten auswählt und die gesamte Datenmenge repräsentiert. Innere Knoten wählen Attribute und Schwellenwerte aus, um die Daten in Teilgruppen zu unterteilen. Kanten repräsentieren die Verbindungen zwischen den Knoten, während Blätter die Endknoten des Baums sind und das Ergebnis oder die Vorhersage darstellen.
+
+Die Konstruktion eines Entscheidungsbaums erfolgt durch rekursive Partitionierung der Daten basierend auf ausgewählten Attributen und Schwellenwerten. Das Ziel ist, die Daten in den Blättern so homogen wie möglich zu gestalten, um genaue Vorhersagen zu ermöglichen.
+
+
+\subsection{Beschreibung des Principal Component Analysis Modells}
+Principal Component Analysis (PCA) ist eine weit verbreitete Technik zur Dimensionsreduktion im Maschinenlernen und in der Statistik. Ihr Hauptziel besteht darin, hochdimensionale Daten in eine niedrigdimensionale Darstellung zu transformieren, dabei jedoch so viel wie möglich von der ursprünglichen Variabilität beizubehalten. Dies wird erreicht, indem die Hauptkomponenten identifiziert werden, die die lineare Kombinationen der ursprünglichen Merkmale darstellen und die meisten signifikanten Variationen in den Daten erfassen.
+
+Der PCA-Algorithmus berechnet zuerst die Kovarianzmatrix der Eingabemerkmale, die die Beziehungen und Varianzen zwischen verschiedenen Merkmalen repräsentiert. Im nächsten Schritt werden die Eigenvektoren und Eigenwerte dieser Kovarianzmatrix gefunden. Eigenvektoren repräsentieren die Richtungen maximaler Varianz, während Eigenwerte die Grössenordnung der Varianz in diesen Richtungen angeben. Die Hauptkomponenten sind die Eigenvektoren mit den höchsten entsprechenden Eigenwerten.
+
+Der letzte Schritt besteht in der Transformation der Originaldaten in ein neues Koordinatensystem, das durch die Hauptkomponenten definiert ist. Durch die Auswahl eines Teils dieser Komponenten entsteht eine niedrigdimensionale Darstellung der Daten. Diese Reduktion der Dimensionalität ist besonders wertvoll bei einer grossen Anzahl von Merkmalen, da sie den Fluch der Dimensionalität mildert, Modelle vereinfacht und oft die Recheneffizienz verbessert. PCA findet Anwendungen in verschiedenen Bereichen, einschliesslich Bildverarbeitung, Merkmalsextraktion und Rauschreduktion in Datensätzen.

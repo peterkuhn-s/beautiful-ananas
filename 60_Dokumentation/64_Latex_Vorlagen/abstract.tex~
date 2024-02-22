@@ -1,0 +1,11 @@
+\subsection{Problemstellung und Vorgehen}
+Die Arbeit ist teil der SmartFactory @ OST. Die Fertigungsanlage der Unihockaybälle wurde genutzt. Die Inberiebnahme des Funktionsmustern Messzelle von Kistler war integration in das System der SmartFactroy@Ost.
+In der Semesterarbeit wurden verschiedene Maschiene Learing Modelle trainiert und verglichen. Das ziel ist eine qualitätssicherung, ohne dass die Qualitätsmerkmale direkt gemessen werden. Die aktuelle messung der Qualitäsmerkmale ist so aufwendig, weil sich die Qulatiäsmerkmale von Spritzgussteilen erst nach rund einem Tag messbar sind. Die Modelle sagen die Qualitäsmerkmale direkt aus den Prozessparametern vorher, ohne, dass die Schwindung abgewartet werden muss. Für das trainieren der Modelle wird eine optische Messzelle benutzt.
+
+Um die so generierte daten zu verwalten wurde eine Datenbank aufgebaut. Die Scripts können so objektorientier geschierschiebn werden um schnell Modelle zu trainieren und validieren.
+
+\subsection{Ergebnis}
+Die Messzelle konnte in einem Testmodus zur ausmessung von rund 1000 Halbschalen 
+ Eine lineare Lasso Regresion ist das geeignetse Modell für diese aufgabe.
+\subsection{Fazit}
+Die generierung von daten und modellen kann vollautomatisch mit einer

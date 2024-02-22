@@ -1,0 +1,181 @@
+\subsection{Feature Engeneeing der Prozessparameter}
+Die Sensoren der Battenfeld speichern in hoher Frequenz alle Werte. Aus diesen Kurven werden die Features berechnet. Eine genauere Beschreibung kann in \cite{VorlesungSML} nachgelesen werden. Das Feature Engenering wurde mit der Software iba Analyser vom IWK gemacht. Die Implementierung des ML wurde mit der Python sklearn Library gemacht.
+
+\subsection{Verschiedene Auswahl von Input und Output des ML}
+Die Messungen habe vier unterschiedliche Arten von Parametern, die sich beeinflussen. Es fängt an mit den Einstellparameter EP. Diese führen zu den gemessenen Prozessparameter PP. Nach der Herstellung kann das Qualitätsmerkmal 1 QM1 gemessen werden. Nach langer Zeit z.B. 24 h kann dann QM2 gemessen werden. das Ziel des Innoswiss Antrages ist es mit einer sporadischen Training von PP und QM1, QM2 ein Modell zu erstellen was aus PP  QM2 vorhersagt.
+
+Für die einzelnen QMs (Höhe, Aussendurchmesser, Innendurchmesser, Rundheit, Gewicht usw.) wird jeweils ein seperates Modell trainiert.
+
+Die Scripts sind so geschrieben, dass man gut die Input und Output Parameter ändern kann, um ein Gefühl für die Modelle zu bekommen.
+
+\subsection{Durchführung der Lasso Regression}
+Mit einer 10-fold Cross Validierung wurde der Hyperparameter der Lasso Regression optimiert.
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 13-39-27.png}
+  \caption{Der MSE der Höhe hat ein Minimum bei einem alpha von rund  $7 / 4000 = 0.00175$}
+  \label{fig:CVAlpha}
+\end{figure}
+
+
+Es ist in \ref{fig:CVAlpha} gut zu sehen, wie die Test MSE ein Minimum bei 0.01 erreicht. Wenn $\alpha$ zu klein ist, overfittet das Modell; wenn $\alpha$ zu gross ist, wird nicht alle vorhandene Information aus den Daten genutzt.
+
+Bei einem $\alpha$ über 0.1 wird keine Information aus den Daten genutzt. Das Modell sagt immer, dass die Halbschale den Durchschnittswert hat.
+
+ 
+ \begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 14-50-21.png}
+  \caption{Der MSE des Aussendurchmessers hat ein Minimum bei einem alpha von rund  $66 / 4000 = 0.0165$}
+  \label{fig:CVAlpha}
+  \end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 09-24-30.png}
+  \caption{Modell der Höhe. Diese Grafik zeigt Testdaten und die Vorhersagen des Modells zum QM2 Höhe. Die Cluster werden vom Modell korrekt vorhergesagt.}
+  \label{fig:VH}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-19 10-23-44.png}
+  \caption{Einzelnes Cluster des Modells zur Vorhersage des Innendurchmessers}
+  \label{fig:ClustI}
+\end{figure}
+
+In Grafik \ref{fig:ClustI} ist ein einzelnes Cluster abgebildet. Es ist zu sehen, dass das Modell nicht jede einzelne Halbschale korrekt vorhersagt.
+
+Die Präzision der Messzelle liegt in der Grössenordnung von 0.003 mm. Die Abweichungen, die hier sichtbar sind, sind noch nicht in der Grössenordnung der Messzelle.
+
+Ich vermute, dass einige Halbschalen beim Umsortieren auf die Kisten gequetscht worden sind und daher die QMs verändert wurden. Wenn das ganze Handling von Robotern gemacht werden wird, nehme ich an, dass der irreduzierbare Fehler der Lasso Regression sinken wird.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 13-47-50.png}
+  \caption{Modell der Höhe. In diesem Diagramm ist die Vorhersage des QM2 Höhe. Das Modell hat einen Mean Squared Error auf test data von 0.0126.}
+  \label{fig:}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 09-50-46.png}
+  \caption{Modell des Innendurchmessers. In diesem Diagramm ist die Vorhersage des QM2 Innendurchmesser.}
+  \label{fig:VI}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 14-55-45.png}
+  \caption{In diesem Diagramm ist die Vorhersage des QM2 Aussendurchmesser.}
+  \label{fig:VA}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 09-43-15.png}
+  \caption{Modell der Rundheit. In diesem Diagramm ist die Vorhersage des QM2 Rundheit.}
+  \label{fig:VR}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 09-40-28.png}
+  \caption{Modell der Konzentrität. In diesem Diagramm ist die Vorhersage des QM2 Konzentrität.}
+  \label{fig:VK}
+\end{figure}
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-14 09-48-55.png}
+  \caption{Modell des Gewichts. In diesem Diagramm ist die Vorhersage des QM Gewicht.}
+  \label{fig:VG}
+\end{figure}
+
+
+
+\subsection{Inference mit der Lasso Regression}
+Die Lasso Regression ergibt ein gute Inference des Modells.
+
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 13-45-29.png}
+  \caption{Die Lassoparameter für das Modell des Gewichts}
+  \label{fig:PLG}
+\end{figure}
+
+In dem Diagramm ist jeder Parameter und seine Lasso Gewichtung dargestellt. Je grösser die Gewichtung, desto mehr Einfluss hat der Parameter auf das Modell.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-19 10-28-08.png}
+  \caption{Die Lassoparameter für das Modell des Innendurchmessers}
+  \label{fig:PLI}
+\end{figure}
+Die wichtigsten Parameter aus \ref{fig:PLI} um den Innendurchmesser vorher zu sagen sind Fliesszahl-WID, Umschaltpunkt, Temperatur-Zylinder, Umgebungstemperatur, Avg-Einspritzgeschwindigkeit.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-11 14-54-38.png}
+  \caption{Die Lassoparameter für das Modell des Aussendurchmessers}
+  \label{fig:PLA}
+\end{figure}
+Die wichtigsten Parameter aus \ref{fig:PLA} um den Aussendurchmesser vorher zu sagen sind Fliesszahl-WID, Avg-Einspritzgeschwindigkeit, Integral-Nachdruck, Luftfeuchtigkeit.
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-19 10-32-01.png}
+  \caption{Die Lassoparameter für das Modell des Gewichts}
+  \label{fig:}
+\end{figure}
+Die wichtigsten Parameter um das Gewicht vorher zu sagen ist der Avg-Nachdruck.
+
+Die beiden Modelle zur Rundheit und Konzentrität werden besser, je weniger Parameter das Modell nutzt. Das heisst, das Modell sagt einfach immer den Durchschnitt der Ergebnisse.
+
+\subsection{Durchführung der Lasso Regresion mit Interaktionen}
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-13 13-51-37.png}
+  \caption{Die Höhe, vorhergesagt mit Interaktionen und Lasso Regression}
+  \label{fig:LassoInter}
+\end{figure}
+
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-13 13-48-33.png}
+  \caption{Es ist nicht mehr möglich aus den Tausend Interaktionen die Namen abzulesen}
+  \label{fig:PLassoInter}
+\end{figure}
+
+Die wichtigsten Parameter sind UmgebungstemperaturXumschaltdruck, UmgebungstemperaturXluftfeuchtigkeit, Max-WidXMassepolster, Max-EinspritzgeschwindigkeitXeinspritzzeit, NachdruckarbeitXMax-Einspritzgeschwindigkeit.
+
+Die Berechnung dieses Modells braucht um einen Faktor 500 mehr Rechenzeit als die Lassoregression ohne Interaktionen.
+
+\subsection{Durchführung des Random Forest}
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-19 11-40-42.png}
+  \caption{Vorhersage der Höhe mit dem Random Forest Modell}
+  \label{fig:Rand}
+\end{figure}
+in der Grafik \ref{fig:Rand} ist die das Modell des Random Forest dargestellt. Das Modell erreicht ein MSE von 0.0057
+
+\subsection{Durchführung der PCA}
+\begin{figure} 
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-13 13-41-26.png}
+  \caption{Dieses Diagramm zeigt die Vorhersagen der PCA, die Daten sind nach der wahren Höhe sortiert}
+  \label{fig:PCAI}
+\end{figure}
+Das Modell \ref{fig:PCAI} für die PCA Analyse kann nicht mehr nach den Feature Datamatrix sortiert werden, da das Koordinatensystem transformiert wurde. Alternativ ist hier das Modell sortiert nach der wahren Höhe der Messung. Der Hyperparameter der PCA wurde ähnlich wie bei der Lasso Regression optimiert.
+

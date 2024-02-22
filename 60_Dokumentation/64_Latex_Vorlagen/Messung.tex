@@ -1,0 +1,111 @@
+
+\subsection{Präzision der Messzelle}
+
+Um die Präzision der Messzelle zu bestimmen, wurden 8 Halbschalen wiederholt gemessen. Dann wurde die Höhe jeder Halbschale durch den Durchschnitt dividiert, um die Abweichung der Ergebnisse sichtbar zu machen.
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-08 13-45-15.png}
+  \caption{Diagramm, das die Schwankungen der Höhe der Halbschale bei wiederholten Messungen darstellt}
+  \label{fig:Präzision}
+\end{figure}
+
+In \ref{fig:Präzision} ist klar zu erkennen, dass die rote Halbschale eine Höhe hat, die nicht konstant ist. Ich nehme an, dass die rote Halbschale beim Umsortieren in die Kiste seitlich gequetscht wurde und sich wieder entspannte. Der Grossteil der Halbschalen hat eine Abweichung von $\pm 1.0001$, umgerechnet auf eine Höhe von ca. $36$ mm, was etwa $\pm 3.6 \mu m$ entspricht. Das ist eine hohe Präzision für eine Halbschale.
+
+
+Die Messwerte wurden mit dem Programm UAExpert abgerufen und dann in ein Excel kopiert. Leider ist bei diesem Kopieren ein Teil des JSON abgeschnitten worden. Das heisst dass die Seriennummern der Halbschalen nicht aufgezeichnet wurden. Da der Roboter immer die gleiche Reihenfolge misst, konnten die Messdaten doch den Halbschalen zugeordnet werden.
+
+
+\newpage
+\subsection{Genauigkeit der Messzelle}
+
+Um die Genauigkeit der Messzelle zu verbessern, wurden 8 Halbschalen sowohl mit der Messzelle als auch mit einer optischen Mitutoyo QUICK VISION Active CMM gemessen. Dadurch kann die Messzelle auf die tatsächliche Höhe der Halbschalen kalibriert werden.
+
+\begin{table}[h]
+   
+  \caption{Rohdaten der Kalibration}
+  \begin{tabular}{cccc}
+    \hline
+    Seriennummer & Höhe Messzelle & Höhe Mitutoyo & Differenz in mm \\
+    \hline
+    1701062319 & 35.849205 & 35.8854 & -0.0361949999999993 \\
+    1701062465 & 35.86481 & 35.9307 & -0.065889999999996 \\
+    1701062437 & 35.884045 & 35.9409 & -0.0568549999999988 \\
+    1701062407 & 35.88869 & 35.9324 & -0.0437100000000044 \\
+    1701062377 & 35.94033 & 36.021 & -0.0806699999999978 \\
+    1701062289 & 35.947895 & 35.9902 & -0.0423049999999918 \\
+    1701062347 & 35.852383 & 35.961 & -0.108616999999995 \\
+    1701062259 & 35.8505859 & 35.9341 & -0.0835141000000021 \\
+    \hline
+    Durchschnitt & & & -0.065 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+In der Tabelle sind die ungerundeten Werte aufgeführt. Die Differenz zwischen der Messzelle und Mitutoyo ist jeweils negativ. Die Differenzen sind in der gleichen Grössenordnung. Daraus schliesse ich, dass diese Messung anwendbar ist.
+
+Das Lager, in dem die Halbschalen liegen, befindet sich in einem kalten Luftstrom. Das bedeutet, es besteht eine Temperaturdifferenz zwischen der Halbschale und der Luft in der Messzelle. Im Diagramm \ref{fig:TempDiff} ist gut zu beobachten, wie sich die kalten Halbschalen erwärmen. Alle 8 Halbschalen erwärmen sich gleichmässig, aber die dargestellte Temperatur wird bei der ersten Kamera gemessen. Das bedeutet, dass zwischen jeder Messung die Messzyklusdauer etwa 50 Sekunden beträgt \cite{TempLink}.
+
+\newpage
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-08 15-03-12.png}
+  \caption{Die gemessene Temperatur steigt, je länger die Halbschale in der Messzelle ist (bei Kamera 1).}
+  \label{fig:TempDiff}
+\end{figure}
+
+Eine geschätzte Temperaturdifferenz von 7 Grad Celsius führt bei einem thermischen Ausdehnungskoeffizienten $\alpha = 200 \times 10^{-6}1/K$ für Kunststoff zu einer Längenänderung von $\Delta l = 0.05 mm$.
+
+Das bedeutet, wenn eine Genauigkeit mit der Messzelle erforderlich ist, muss der Raum präzise Temperaturregelungen aufweisen. Für das maschinelle Lernen in dieser Semesterarbeit ist Genauigkeit weniger wichtig, da alle Werte vor der Datenverarbeitung auf einen Mittelwert von 0 mit einer Standardabweichung normalisiert werden. Präzision ist für das maschinelle Lernen wichtiger.
+
+%\newpage
+\subsection{Verlauf der Schwindung über die Zeit}
+
+In der Literatur ist die Schwindung wie folgt beschrieben. \ref{fig:VerlaufSchwindLit}
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-08 13-08-35.png}
+  \caption{Verlauf der Schwindung \cite{SchwindungLit}}
+  \label{fig:VerlaufSchwindLit}
+\end{figure}
+
+Um diese Kurve experimentell zu bestätigen, habe ich die Reihenfolge, wie die Halbschalen hergestellt und gemessen werden, so gewählt, dass in einer Kiste eine Zeitdifferenz zwischen den Halbschalen von 10 Minuten entsteht. Dies wurde erreicht, indem die zuletzt hergestellte Halbschale zuerst gemessen wurde.
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-21 15-25-28.png}
+  \caption{Verlauf der Schwindung im Kurzzeitverhalten. Der Stern ist die Kavität zum Zeitpunkt 2 in \ref{fig:VerlaufSchwindLit}}
+  \label{fig:VerlaufSchwindExp}
+\end{figure}
+
+In \ref{fig:VerlaufSchwindLit} wird eine glatte Funktion für die Messwerte dargestellt. Realistischerweise wäre es, wenn es eine nicht glatte Funktion ist, da die Kontaktabkühlung im Werkzeug schneller sein sollte als die Konvektions- und Emissionsabkühlung, nachdem die Halbschale entformt ist. Im Zeitpunkt 3 sollte ein Knick sein.
+
+Mit den Abmessungen der Werkzeugkavität kann ein minimales 'Alter', von 60 sek., der Halbschalen geschätzt werden. Das minimale Alter beginnt ab dem Einfrieren des Siegelpunkts und beinhaltet die Abkühlphase im Werkzeug, das Handling, Lasergravieren, Umsortieren auf Kisten, Transport zur Messzelle und Handling in der Messzelle.
+
+
+%\newpage
+
+Bei den weiteren Versuchen wurde die Reihenfolge in der Kiste so gewählt, dass ein möglichst homogenes Alter der Halbschalen besteht. Denn wenn das Alter von zwei Halbschalen unterschiedlich ist, ist auch die gemessene Höhe unterschiedlich, obwohl die Höhe nach 24 Stunden gleich sein kann.
+
+Wenn die Kisten wie geplant voll ausgelastet sind mit 40 Halbschalen, wird die Schwindung grösstenteils vorbei sein, bevor die erste Halbschale gemessen wird. \ref{qmTransformation}
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-12-08 16-09-50.png}
+  \caption{Verlauf der Schwindung im Langzeitverhalten, bis 24 h}
+  \label{fig:VerlaufSchwindExpLang}
+\end{figure}
+
+In \cite{fig:VerlaufSchwindExpLang} ist das Langzeitverhalten der Halbschalen abgebildet. Nach der ersten Messung ist die Schwindung zwar noch nicht komplett abgeschlossen, aber grösstenteils.
+
+Der Temperatursensor bei Kamera 1 ist ein Hinweis darauf, wie alt die Halbschale ist. Bei der Verlaufsmessung \ref{fig:TempVsHohe} hat der Temperatursensor eine Korrelation zur Höhe, solange die Temperatur über $27 \deg$ Celsius liegt.
+
+\begin{figure}
+   
+  \includegraphics[width=0.58\textwidth]{images/Screenshot from 2023-11-26 18-23-21.png}
+  \caption{Eine gute lineare Korrelation der Temperatur zur Höhe, wenn die Halbschalen noch warm sind. Das ist bei dem grossen DoE nicht der Fall.}
+  \label{fig:TempVsHohe}
+\end{figure}
+
+\newpage

@@ -1,0 +1,21 @@
+\subsection{Generierte Daten}
+Die generierten Daten haben sich als geeignet herausgestellt, um einige der Qualitätsmerkmale vorherzusagen.
+
+Die Daten wurden nur auf einem Material trainiert. Das bedeutet, dass das Modell wichtige Parameter wie zum Beispiel die Fliesszahl nur minimal schwanken sehen hat. Bei den Materialvalidierungen war die Fliesszahl jedoch anders, und das Modell wusste nicht, wie diese Änderung zu bewerten ist.
+
+Um Interaktionen zwischen den Parametern besser abzubilden, sind mehr Versuchsdurchläufe erforderlich. Die Verbesserung vom einfachen Lasso zum Lasso mit Interaktionen und Nichtlinearitäten war nur minimal.
+
+Um die Nichtlinearitäten besser abzubilden, sollte ein DoE mit mehr als 3 Stufen verwendet werden.
+
+Es sollten noch mehr Daten und Metadaten in das Modell einfliessen, wie zum Beispiel das Alter der Halbschale, die Reihenfolge in der Messzelle oder ein Temperaturverlauf während der Lagerung. Parameter wie das Quetschen der Halbschale sind sehr relevant für den Aussendurchmesser, aber es wird kaum möglich sein, diesen Parameter zu messen.
+
+\subsection{Modelltypen von Maschinellem Lernen}
+Das Lassomodell hat sich als ausreichend erwiesen, um einige Qualitätsmerkmale vorherzusagen. Das Lasso ohne Interaktionen lieferte vergleichbare Ergebnisse wie das Lasso mit Interaktionen. Aus Erfahrung des IWKs ist bekannt, dass Interaktionen wichtig sind. Der Vergleich der Modelle ist somit eine Aussage über das DoE der Trainingsdaten. Die Inference des Lassomedells ist gut mit der Erfahrung der Kunststofftechnologen abzugleichen. Die ausgewählten Parameter waren sinnvoll.
+
+Das Modell, mit dem das Qualitätsmerkmal Gewicht vorhergesagt wird, konnte bei \cite{MAGew} besser implementiert werden. Auch hier kann das Modell dem Trend der Daten folgen, aber die Werte sind nicht so gut. Es handelt sich wahrscheinlich um einen Bug in der Datenverarbeitung.
+
+Die Qualitätsmerkmale Rundheit und Konzentrizität konnten nur unzureichend vorhergesagt werden. Das bedeutet, es gibt im Fertigungsprozess noch Parameter, die nicht aufgezeichnet wurden, aber entscheidend für diese beiden Parameter sind. Ein Beispiel dafür ist das Handling der Halbschalen bevor sie vermessen werden.
+
+Das Random Forest Modell hat eine deutlich bessere Vorhersage der Höhe gemacht als das Lasso Modell. Leider ist es sehr schwierig zu verstehen, wie diese gute Vorhersage entstand. Dieser Modelltyp könnte weiter untersucht werden.
+
+Der konstante Fehler der Materialvalidierung \ref{MatVal} sollte mit einer einzigen Messung korrigiert werden können.

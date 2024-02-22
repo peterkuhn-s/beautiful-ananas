@@ -1,0 +1,272 @@
+\subsection{OPCPythonVersuchV4.py}
+
+Dieses Skript implementiert eine asynchrone OPC-UA-Kommunikation (Open Platform Communications Unified Architecture). Hier sind die verschiedenen Aspekte des Skripts:
+
+Ziel:
+Das Hauptziel dieses Skripts besteht darin, eine Verbindung zu einem OPC-UA-Server herzustellen, bestimmte Knoten (Nodes) zu überwachen und auf Änderungen dieser Knoten zu reagieren. In diesem Beispiel wird ein bestimmter Variablenknoten ("ns=2;s=Machines/MyMachine/Production/Statistics/InspectionStatistics/AllMeasurementResultsJson") ausgewählt, und es wird eine Ereignisabonnement erstellt, um auf Datenänderungen dieses Knotens zu reagieren.
+
+Output:
+Der Output des Skripts besteht aus Protokollmeldungen, die auf der Konsole ausgegeben werden. Die Meldungen umfassen Informationen über den Root-Knoten, Objektknoten und die Kinder des Root-Knotens. Darüber hinaus gibt es Ausgaben für neue Datenänderungsereignisse und neue allgemeine Ereignisse, die vom Server empfangen werden.
+
+Schwierigkeitsgrad:
+Die Schwierigkeit dieses Skripts liegt in der asynchronen Natur der OPC-UA-Kommunikation und der Verwendung von Bibliotheken wie asyncio und asyncua. Der Code verwendet asynchrone Methoden, um eine Verbindung zum Server herzustellen, Knoten zu lesen, zu schreiben, auf Ereignisse zu reagieren und eine dauerhafte Schleife aufrechtzuerhalten, um kontinuierlich auf Ereignisse zu warten. Das Verständnis von asynchroner Programmierung und OPC-UA-Konzepten ist erforderlich, um den Code effektiv zu verstehen und zu erweitern.
+
+\subsection{WerteManuellEingeben.py}
+
+Beschreibung des Skripts:
+
+Dieses Skript behandelt die Interaktion mit einer PostgreSQL-Datenbank über die psycopg2-Bibliothek und führt Datenbankoperationen durch. Hier sind die verschiedenen Aspekte des Skripts:
+
+Ziel:
+Das Hauptziel des Skripts besteht darin, Daten in eine PostgreSQL-Datenbank einzufügen. Es gibt zwei Funktionen (insertValues und insertValuesUndGewicht), die jeweils einen Datensatz in die Datenbanktabelle WageVonHand einfügen. Der Datensatz enthält eine Seriennummer (serialNum), einen Zeitstempel (timeStampHand), und im Fall von insertValuesUndGewicht auch ein Gewicht (gewichthand).
+
+Output:
+Das Skript gibt keine Ausgabe auf der Konsole aus, es interagiert jedoch mit der PostgreSQL-Datenbank und fügt Datensätze ein.
+
+Schwierigkeitsgrad:
+Die Schwierigkeit des Skripts liegt in der Datenbankinteraktion und der Verwendung von PostgreSQL mit Python. Es verwendet die psycopg2-Bibliothek, um eine Verbindung zur Datenbank herzustellen, einen Cursor zu erstellen und SQL-Statements auszuführen. Zusätzlich enthält das Skript eine Benutzereingabe-Schleife (while True), die auf Eingaben wartet und entsprechende Aktionen ausführt, um Daten in die Datenbank einzufügen. Benutzereingaben werden verarbeitet, und es gibt auch einige Fehlerbehandlungen, um sicherzustellen, dass das Skript robust gegenüber ungültigen Eingaben ist.
+
+\subsection{readContaminatedJson.py}
+
+Beschreibung des Skripts:
+
+Dieses Skript liest Daten aus einer CSV-Datei, führt eine Datenverarbeitung mit regulären Ausdrücken durch und fügt dann die extrahierten Daten in eine PostgreSQL-Datenbank ein. Hier sind die verschiedenen Aspekte des Skripts:
+
+1. CSV-Daten einlesen:
+Das Skript verwendet die pandas-Bibliothek, um Daten aus einer CSV-Datei (Raw20231103.csv) in einen DataFrame zu laden.
+
+2. Datenverarbeitung mit regulären Ausdrücken:
+Das Skript verwendet reguläre Ausdrücke, um bestimmte Muster in den CSV-Daten zu finden und die darin enthaltenen Informationen zu extrahieren. Es extrahiert Part-IDs, tatsächliche Messwerte und Datamatrix-B-Werte aus dem CSV-Text.
+
+3. Datenbankinteraktion:
+Es gibt eine Funktion namens insert-vendor, die eine Verbindung zu einer PostgreSQL-Datenbank herstellt und Daten in die Tabelle rawdatafromjsonv2 einfügt. In der aktuellen Konfiguration wird die Funktion jedoch auskommentiert (#insert-vendor(temp)), und es wird nur die Daten auf der Konsole ausgegeben.
+
+4. Datenvisualisierung mit Matplotlib:
+Das Skript erstellt eine einfache Streudiagrammvisualisierung der tatsächlichen Messwerte (actual-value-list). Die Daten werden auf der y-Achse gegen die Reihenfolge der Messung auf der x-Achse dargestellt. Das Diagramm wird mithilfe von Matplotlib erstellt.
+
+5. Datenbereinigung:
+Nach der Erstellung des Diagramms werden einige Elemente aus der actual-value-list entfernt, indem bestimmte Indizes mit del gelöscht werden.
+
+Schwierigkeitsgrad:
+Die Herausforderung des Skripts liegt in der Verarbeitung von Rohdaten aus einer CSV-Datei mit regulären Ausdrücken und der Interaktion mit einer PostgreSQL-Datenbank. Es erfordert auch grundlegende Kenntnisse in der Datenvisualisierung mit Matplotlib. Das Skript ist recht umfangreich und erfordert Verständnis für die Verwendung verschiedener Python-Bibliotheken sowie für Datenbankoperationen und Datenbereinigungstechniken.
+
+\subsection{loadWageVonHand.py}
+Beschreibung des Skripts:
+
+Dieses Skript liest Daten aus einer PostgreSQL-Datenbank mithilfe von psycopg2 und visualisiert die Daten mithilfe der Matplotlib-Bibliothek. Hier sind die verschiedenen Aspekte des Skripts:
+
+1. Daten aus PostgreSQL abrufen:
+Das Skript verwendet die psycopg2-Bibliothek, um eine Verbindung zu einer PostgreSQL-Datenbank herzustellen und Daten aus der Tabelle wagevonhand abzurufen. Die Daten werden in eine Liste von Listen (data-list) organisiert.
+
+2. Datenvisualisierung mit Matplotlib:
+Das Skript erstellt mehrere Scatter-Plots, um verschiedene Aspekte der Daten zu visualisieren.
+
+    Scatter Plot Serial Number Hand vs. Gewichthand: Visualisiert die Beziehung zwischen der Seriennummer und dem Gewicht.
+    Scatter Plot Serial id Wage vs. Gewichthand: Visualisiert die Beziehung zwischen der Serien-ID und dem Gewicht.
+    Scatter Plot Serial id Wage vs. Timestamp der Messung: Visualisiert die Beziehung zwischen der Serien-ID und dem Zeitstempel der Messung.
+    Scatter Plot Reihenfolge der Messung vs. Timestamp der Halbschale: Visualisiert die Beziehung zwischen der Reihenfolge der Messung und dem Zeitstempel der Halbschale.
+    Scatter Plot Serial id Wage vs. Timestamp der Halbschale (Wiederholung): Visualisiert die Beziehung zwischen der Serien-ID und dem Zeitstempel der Halbschale für einen bestimmten Bereich.
+    Scatter Plot Timestamp Messung vs. Timestamp der Halbschale: Visualisiert die Beziehung zwischen dem Zeitstempel der Messung und dem Zeitstempel der Halbschale.
+
+3. Berechnungen und Normalisierung:
+Das Skript führt auch einige Berechnungen durch, darunter das Filtern von Daten für bestimmte Serien-IDs, Berechnung von Durchschnittswerten und Normalisierung der Daten.
+
+Schwierigkeitsgrad:
+Das Skript erfordert Kenntnisse in der Verwendung von PostgreSQL-Datenbanken, Datenabruf mit psycopg2, und Datenvisualisierung mit Matplotlib. Es enthält auch fortgeschrittenere Visualisierungen wie Scatter-Plots für verschiedene Datensätze, Berechnungen von Durchschnittswerten und Normalisierung der Daten. Daher ist das Verständnis der zugrunde liegenden Datenstrukturen und der Matplotlib-Bibliothek erforderlich.
+
+\subsection{readBrocknJsonFromCVSWriteToDB.py}
+Beschreibung des Skripts:
+
+Dieses Skript verarbeitet Daten aus einer CSV-Datei und führt verschiedene Analysen und Visualisierungen durch. Hier sind die verschiedenen Aspekte des Skripts:
+
+1. Datenverarbeitung:
+Das Skript liest eine CSV-Datei (MesswiederholbarkeitRaw.csv) mithilfe von Pandas und speichert den Inhalt als DataFrame (df). Anschließend werden reguläre Ausdrücke verwendet, um bestimmte Informationen aus der CSV-Datei zu extrahieren.
+
+    Es wird nach der PartId gesucht und die entsprechenden Werte in einer Liste (part-id-list) gespeichert.
+    Es wird nach den ActualValue-Messungen gesucht, und die Werte werden in einer Liste (actual-value-list) gespeichert.
+    Es wird nach den Datamatrix-B-Werten gesucht, und die Werte werden in einer Liste (Datamatrix-B-list) gespeichert.
+
+2. Datenvisualisierung:
+Das Skript erstellt mehrere Scatter-Plots, um die Daten zu visualisieren.
+
+    Es gibt einen Scatter-Plot der ActualValue-Messungen gegen die Reihenfolge der Messung.
+    Es werden mehrere Scatter-Plots erstellt, um die Höhenwerte verschiedener Halbschalen gegen die Wiederholung der Messung zu visualisieren.
+    Es werden normalisierte Scatter-Plots für jede Halbschale erstellt, wobei die Höhenwerte durch den Durchschnitt geteilt werden, um die Daten zu normalisieren.
+
+3. Normalisierung der Daten:
+Die Höhenwerte jeder Halbschale werden durch den Durchschnitt der entsprechenden Halbschale normalisiert.
+
+4. Daten in PostgreSQL-Datenbank einfügen:
+Es gibt eine Funktion (insert-vendor), die Werte in eine PostgreSQL-Datenbanktabelle (rawdatafromjsonv2) einfügt. Diese Funktion wird jedoch derzeit auskommentiert und nicht aktiviert.
+
+Schwierigkeitsgrad:
+Das Skript erfordert Kenntnisse in der Verwendung von Pandas, regulären Ausdrücken, Datenvisualisierung mit Matplotlib und Grundkenntnisse in der Verwendung von PostgreSQL-Datenbanken. Es enthält fortgeschrittenere Visualisierungen wie Scatter-Plots für verschiedene Datensätze und die Normalisierung von Daten. Daher ist das Verständnis der zugrunde liegenden Datenstrukturen und der Matplotlib-Bibliothek erforderlich.
+
+\subsection{displayData.py}
+Beschreibung des Skripts:
+
+Dieses Skript ruft Daten aus einer PostgreSQL-Datenbank ab und erstellt anschließend zwei Scatter-Plots in Subplots mithilfe von Matplotlib. Hier sind die wichtigsten Schritte:
+
+1. Funktion callDB:
+Die Funktion callDB verbindet sich mit einer PostgreSQL-Datenbank, führt eine SELECT-Abfrage aus und gibt die abgerufenen Daten zurück. Die Abfrage lautet: "SELECT part-id, hohe, temperatursensor FROM measurement-data-3;". Die Funktion gibt eine Liste von Tupeln zurück, wobei jedes Tupel die Werte für part-id, hohe und temperatursensor enthält.
+
+2. Datenvisualisierung:
+Das Skript verwendet Matplotlib, um zwei Subplots in einem einzigen Diagramm zu erstellen. Die Subplots enthalten Scatter-Plots für die Höhenwerte (hohe) der Halbschalen und die Temperaturwerte (temper). Die x-Achse jedes Plots repräsentiert die Reihenfolge der Messung (part-id).
+
+    Der erste Scatter-Plot zeigt die Höhenwerte der Halbschalen.
+    Der zweite Scatter-Plot zeigt die Temperaturwerte.
+
+Die Subplots sind in einem 2x1-Raster angeordnet. Der Plot der Höhenwerte hat die y-Achse mit der Bezeichnung "Hohe in mm", während der Plot der Temperaturwerte die y-Achse mit der Bezeichnung "Temperatur" hat. Die x-Achse in beiden Plots repräsentiert die Reihenfolge der Messung.
+
+Das gesamte Diagramm wird mit plt.tight-layout() optimiert, um den Platz zwischen den Subplots zu verbessern.
+
+3. Plot-Anpassungen:
+
+    Die x-Achse des zweiten Plots wird um 90 Grad gedreht, um die Lesbarkeit der x-Achsentick-Marken zu verbessern.
+    Jeder Plot enthält eine Legende für die dargestellten Daten.
+
+4. Anmerkungen:
+
+    Es gibt einige auskommentierte Abschnitte im Skript, die auf vorherigen Abschnitten des Codes basieren (wie das Einfügen von Daten in die Datenbank oder die Verwendung von Taguchi-Tabellen). Diese können bei Bedarf aktiviert werden.
+
+Schwierigkeitsgrad:
+Dieses Skript erfordert fortgeschrittene Kenntnisse in der Verwendung von Matplotlib zur Erstellung von Subplots und in der Verbindung zu einer PostgreSQL-Datenbank. Verständnis der SELECT-Abfrage und Handhabung von Datenstrukturen in Python (insbesondere Tupel und Listen) sind ebenfalls notwendig.
+
+\subsection{insertData.py}
+Beschreibung des Skripts:
+
+Dieses Skript generiert Design of Experiments (DoE)-Daten gemäß der Taguchi-Methode und fügt sie in eine PostgreSQL-Datenbank ein. Hier sind die wichtigsten Teile des Skripts:
+
+1. DoE-Definition:
+Das Skript definiert die Anzahl der Faktoren (num-factors) und Level pro Faktor (num-levels). Es legt auch Ausgangswerte für verschiedene Parameter fest, z. B. Schmelztemperatur (schmelzTemp), Nachdruck (nachDruck), Werkzeugtemperatur (werkTemp) und Einspritzgeschwindigkeit (einspritzGesch). Zusätzlich wird ein Spielraum (Abweich) für jeden Parameter definiert, der verwendet wird, um Variationen in den Faktoren zu erzeugen. Die Taguchi-Tabelle wird erstellt und die Faktor-Level entsprechend angepasst.
+
+2. PostgreSQL-Datenbankeinfügung:
+Das Skript enthält eine Funktion namens insert-vendor, die eine neue Zeile in der Tabelle doeV5 in der PostgreSQL-Datenbank einfügt. Die Parameter für die Schmelztemperatur, Nachdruck, Werkzeugtemperatur, Volumenstrom und Zyklusnummer werden übergeben und in die Datenbank eingefügt.
+
+3. Schleife zum Einfügen von DoE-Daten:
+Die Schleife for i in range(taguchi-table.shape[0]-1): durchläuft die Zeilen der Taguchi-Tabelle (ausgenommen der letzten Zeile). In dieser Schleife wird für jedes Set von Faktor-Level-Kombinationen (taguchi-table[i]) eine bestimmte Anzahl von Wiederholungen (HalbschanenProDoE) durchlaufen. Die Werte werden zusammen mit der Zyklusnummer (j) an die Funktion insert-vendor übergeben, um sie in die Datenbank einzufügen.
+
+4. Anmerkungen:
+
+    Der Code verwendet die psycopg2-Bibliothek, um eine Verbindung zur PostgreSQL-Datenbank herzustellen.
+    Die Zyklusnummer (j) wird für jede Wiederholung innerhalb eines DoE-Sets verwendet, um die Datenbank mit eindeutigen Datensätzen zu füllen.
+
+5. Schwierigkeitsgrad:
+
+    Grundkenntnisse in der Verwendung von PostgreSQL und SQL-Abfragen sind erforderlich.
+    Verständnis der Taguchi-Methode und Design of Experiments (DoE) ist hilfreich.
+    Kenntnisse in der Verwendung von Schleifen und Listen in Python sind erforderlich.
+    Grundlegende Kenntnisse in der Verwendung von Funktionen und Modulen in Python sind erforderlich.
+
+    Hinweis: Die spezifischen Datenbankverbindungsinformationen und Tabellendetails (wie Feldtypen und Tabellenname) müssen in der config.py-Datei und im sql-Abschnitt des Skripts angepasst werden.
+
+\subsection{PurefieJsons.py}
+Beschreibung des Skripts:
+
+Dieses Skript liest JSON-Daten aus einer Datei (RawData20231110), extrahiert relevante Informationen und fügt sie in eine PostgreSQL-Datenbanktabelle (measurement-data-3) ein.
+
+Hauptteile des Skripts:
+
+    Funktion insert-values:
+        Diese Funktion fügt Werte in die Datenbank ein. Die SQL-Anweisung verwendet Parameterplatzhalter für die Werte, um SQL-Injektionen zu verhindern.
+        Bei einem Fehler während des Einfügens wird die Transaktion zurückgerollt.
+
+    Lesen der JSON-Daten aus der Datei:
+        Die JSON-Daten werden aus der Datei "RawData20231110" gelesen und in der Variable raw-data gespeichert.
+
+    Reguläre Ausdrücke zur Extraktion von JSON-Objekten:
+        Mit regulären Ausdrücken (re.findall) werden JSON-Objekte aus dem Text extrahiert. Der reguläre Ausdruck sucht nach Text, der mit [{"PartId" beginnt und mit }}]}} endet, und extrahiert alle dazwischen liegenden JSON-Objekte.
+
+    Mapping der JSON-Keys auf Datenbankspalten:
+        Ein Dictionary column-mapping wird definiert, um die Schlüssel aus den JSON-Daten auf die entsprechenden Spaltennamen in der Datenbank abzubilden.
+
+    Schleife zum Einfügen von Daten:
+        Das Skript durchläuft jedes gefundene JSON-Objekt.
+        Es erstellt ein Dictionary values-to-insert, um die Werte für jede PartId zu speichern.
+        Ein innerer Loop wird verwendet, um die Messungen für jede PartId zu durchlaufen und die Werte zu aktualisieren.
+        Die insert-values-Funktion wird aufgerufen, um die Daten in die Datenbank einzufügen.
+
+    Schließen der Verbindung:
+        Die Verbindung zur Datenbank wird am Ende des Skripts geschlossen.
+
+Anmerkungen und Potenzielle Verbesserungen:
+
+    Das Skript verwendet die config-Funktion aus einem externen Konfigurationsmodul. Stellen Sie sicher, dass die Konfigurationsdetails korrekt sind.
+    Die Spaltennamen in column-mapping sollten den tatsächlichen Spaltennamen in Ihrer Datenbank entsprechen.
+    Das Skript geht davon aus, dass jede PartId mehrere Messungen hat. Falls dies nicht der Fall ist, müssen Anpassungen vorgenommen werden.
+    Fügen Sie zusätzliche Fehlerbehandlungen hinzu, um auf spezifischere Fehler zu reagieren, wenn dies erforderlich ist.
+    Die genaue Struktur der JSON-Daten sollte den Anforderungen Ihrer Anwendung entsprechen. Überprüfen Sie dies sorgfältig, um sicherzustellen, dass alle erforderlichen Daten verfügbar sind.
+
+    Dieses Skript ist darauf ausgelegt, in einer Umgebung mit gültigen Daten und einer entsprechenden Datenbankstruktur zu arbeiten. Stellen Sie sicher, dass die Datenbanktabellen und -spalten vorhanden sind und dass die Verbindungsinformationen korrekt sind.
+
+
+    \subsubsection{joinDatamatrixAB.py}
+
+    Beschreibung des Skripts:
+
+Dieses Skript führt zwei Hauptaufgaben aus:
+
+    Abrufen von Daten aus der Datenbank:
+        Die Funktion callDB wird verwendet, um Daten aus der Datenbank abzurufen. Der SQL-Query wählt die Spalten part-id, datamatrix-wert-a und datamatrix-wert-b aus der Tabelle measurement-data-3. Die Funktion gibt die abgerufenen Daten in einer Liste von Tupeln zurück.
+
+    Verarbeiten und Aktualisieren von Datamatrix-Werten:
+        Die Daten, insbesondere datamatrix-wert-a und datamatrix-wert-b, werden weiterverarbeitet und zu einer neuen Datamatrix-Zahl kombiniert.
+        Die Datamatrix-Zahl wird in die Datenbanktabelle zurückgeschrieben.
+
+Details zum Skript:
+
+    callDB Funktion:
+        Stellt eine Verbindung zur Datenbank her.
+        Führt einen SQL-Query aus, um part-id, datamatrix-wert-a und datamatrix-wert-b abzurufen.
+        Schließt die Verbindung und gibt die abgerufenen Daten zurück.
+
+    insertDatamatrix Funktion:
+        Stellt eine Verbindung zur Datenbank her.
+        Aktualisiert die Datamatrix-Werte in der Datenbank für die gegebenen part-id.
+        Commit des Updates und Schließen der Verbindung.
+
+    if --name-- == '--main--':
+        Ruft die callDB Funktion auf, um Daten aus der Datenbank abzurufen.
+        Verarbeitet die abgerufenen Daten, insbesondere die Datamatrix-Werte.
+        Gibt die verarbeiteten Datamatrix-Werte aus.
+        Ruft die insertDatamatrix Funktion auf, um die neuen Datamatrix-Werte in die Datenbank zu schreiben.
+
+Anmerkungen und Verbesserungen:
+
+    Die callDB Funktion sollte für den Fall eines Verbindungsfehlers möglicherweise mit einer try-except Anweisung für eine bessere Fehlerbehandlung versehen werden.
+    Die insertDatamatrix Funktion verwendet eine Schleife, um durch part-id und datamatrix zu iterieren und die Werte zu aktualisieren. Dies kann effizienter gemacht werden, wenn die Datenbank-API einen Weg zum Massenupdate unterstützt.
+    Die Art der weiteren Verarbeitung oder Analyse der Daten kann an die spezifischen Anforderungen angepasst werden.
+    Sicherstellen, dass die Datenbankverbindungsinformationen in der config.py-Datei korrekt konfiguriert sind.
+
+    \subsection{displayDataKleinerDoEV4.py}
+
+    Ziel:
+Das Skript hat mehrere Ziele, darunter:
+
+    Datenbankabfrage: Abrufen von Daten aus einer PostgreSQL-Datenbank, insbesondere im Zusammenhang mit Messungen und Prozessparametern.
+    Datenvisualisierung: Generierung von Streudiagrammen (Scatterplots) für bestimmte Messwerte wie "Hohe der Halbschalen" und "Temperatur".
+    Datenanalyse: Anwendung von maschinellem Lernen, insbesondere Lasso Regression, zur Vorhersage von "HoheResult" basierend auf verschiedenen Parametern.
+
+Output:
+
+    Datenbankabfrage: Das Skript ruft Daten aus der Datenbank ab, darunter Seriennummern, Messdaten und Prozessparameter.
+    Datenvisualisierung: Streudiagramme, die die Beziehung zwischen verschiedenen Parametern und der Zielvariable "HoheResult" zeigen.
+    Datenanalyse: Lasso-Regressionsergebnisse, darunter Koeffizienten und verschiedene Bewertungsmetriken.
+
+Schwierigkeiten:
+
+    Datenintegration: Die Integration von Daten aus verschiedenen Quellen (Messdaten, Prozessparameter) kann komplex sein, und es ist wichtig sicherzustellen, dass die Daten korrekt verknüpft werden.
+    Datenbereinigung: Falls die Daten unvollständig oder fehlerhaft sind, kann die Datenbereinigung eine Herausforderung darstellen.
+    Feature Selection: Die Auswahl geeigneter Features für die Vorhersage kann schwierig sein, insbesondere wenn es viele potenzielle Variablen gibt.
+    Maschinelles Lernen: Die Wahl des richtigen Modells (in diesem Fall Lasso Regression) und die Optimierung der Hyperparameter erfordern möglicherweise mehrere Iterationen.
+
+Verbesserungsmöglichkeiten:
+
+    Kommentare und Dokumentation: Der Code könnte noch ausführlicher kommentiert werden, um anderen und dem Autor selbst das Verständnis zu erleichtern.
+    Modularität: Das Skript könnte in Funktionen oder Klassen aufgeteilt werden, um die Lesbarkeit und Wartbarkeit zu verbessern.
+    Tests: Die Implementierung von Tests könnte sicherstellen, dass jede Funktion wie erwartet funktioniert und konsistente Ergebnisse liefert.
+    Alternative Modelle: Es könnte interessant sein, alternative maschinelle Lernmodelle auszuprobieren und zu vergleichen, um die Vorhersagegenauigkeit zu verbessern.
+    Grafische Darstellung: Zusätzliche visuelle Elemente könnten hinzugefügt werden, um die Interpretation der Ergebnisse zu erleichtern.
+
+Anmerkung:
+Die Schwierigkeiten und Verbesserungsmöglichkeiten können je nach spezifischem Kontext und Anforderungen variieren.
