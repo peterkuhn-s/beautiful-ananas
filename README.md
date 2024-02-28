@@ -7,3 +7,8 @@ research
 literatur
 user story
 orga
+9 uhr stefan mi
+10:30 loichinger do
+10 corrina do
+type userstory
+lit
