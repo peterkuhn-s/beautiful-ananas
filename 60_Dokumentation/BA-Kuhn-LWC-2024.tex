@@ -1,0 +1,159 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Bachelorarbeit FS 2024} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\begin{titlepage}
+  \end{titlepage}
+% Import the PDF
+%toChange
+\includepdf{Titelseite.pdf}
+%import something from scribus
+
+
+\pagestyle{empty}
+\section*{Abstract}
+\input{abstract.tex}
+\subsection*{Beschreibung der Abkürzungen}
+\input{AbkurzText.tex}
+% Inhaltsverzeichnis
+\tableofcontents
+%\pagenumbering{Roman}
+\newpage
+\pagestyle{fancy}
+
+\setcounter{page}{1}
+\section{Einleitung}
+\input{Einleitung.tex}
+
+\subsection{Lawinen in der Schweiz}
+
+\subsection{Endziel des Arbeit}
+
+\subsection{User Story}
+
+\subsection{Anforderungen}
+
+\subsection{Planung der Arbeit}
+
+\section{Liquid Water Content}
+\subsection{Physicalische Prinzipien}
+
+\subsection{Kommerzielle Produkte}
+
+\subsection{Publizierte Methoden}
+
+\subsection{Methoden in der Vorstudie}
+
+\section{Vorstudie}
+
+\subsection{3M 5559 Water Indikator Tape}
+
+\subsection{Voltcarft}
+
+\subsection{Laser Refraktion, Reflezion}
+
+\section{Funktionsmuster}
+
+\subsection{Funktionsweise}
+
+\subsection{Testkriterien}
+
+\subsection{Montage des Funktionsmusters}
+
+\subsection{Ergebnisse der Versuche}
+
+\subsection{Vergleich der Ergebnisse mit Denometer}
+
+\subsection{Verbesserungsmöglichkeiten des Funktionsmusters}
+
+\newpage
+\section{Ausblick}
+\subsection{Presönliche Erfahrunng}
+
+\subsection{Fazit}
+
+\subsection{Ausblick}
+\input{Ausblick.tex}
+
+\newpage
+% Literaturverzeichnis
+%\bibliography{mybibliography}
+\section{Literaturverzeichnis}
+\input{Literaturverzeichnis.tex}
+
+\newpage
+\section{Erklärung zur Urheberschaft}
+\input{Unterschrift.tex}
+
+\newpage
+\listoffigures
+
+
+\listoftables % Tabellenverzeichnis erstellen
+\newpage
+\section{Digitaler Anhang}
+
+\subsection*{Lebenslauf}
+\includepdf{lebenslauf-2.pdf}
+
+
+\end{document}
