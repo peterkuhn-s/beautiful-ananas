@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.1)  5 MAR 2024 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.1)  6 MAR 2024 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,7 +581,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<Titelseite.pdf, id=4, 597.5067pt x 845.04588pt>
+<Titelseite.pdf, id=120, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
 Package pdftex.def Info: Titelseite.pdf  used on input line 68.
@@ -590,7 +590,7 @@ File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
 Package pdftex.def Info: Titelseite.pdf  used on input line 68.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
-<Titelseite.pdf, id=7, page=1, 597.5067pt x 845.04588pt>
+<Titelseite.pdf, id=123, page=1, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
 Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
@@ -628,7 +628,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3] (./Einleitung.tex)
 (./Lawinen.tex) (./EntstehungGleitlawine.tex) (./Endziel.tex) (./UserStory.tex)
 (./Anforderungen.tex) (./PlanungDerArbeit.tex
-<Bilder/OST_Logo.png, id=104, 858.20625pt x 293.59688pt>
+<Bilder/OST_Logo.png, id=193, 858.20625pt x 293.59688pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
@@ -648,10 +648,10 @@ been already used, duplicate ignored
                    \relax 
 l.5 b
      au den Funktionsmusters. hier wird ein vielversprechendes physikalische...
-[1 <./Bilder/Ost_Logo.png>])
+[1 <./Bilder/Ost_Logo.png>]) (./5559Tape.tex) (./Voltcraft.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 136.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -666,11 +666,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \newpage
-               [2] (./Ausblick.tex)
+l.2 
+     [2]) (./LaserRef.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 145.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 139.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -685,19 +685,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 \newpage
+l.139 \newpage
                [3]
-
-! LaTeX Error: File `Literaturverzeichnis.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 151.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 139.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -708,7 +700,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
 
-[4] (./Unterschrift.tex
+[4] (./Ausblick.tex)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 148.
+(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01541pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+
+[5]
+
+! LaTeX Error: File `Literaturverzeichnis.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 154.
+(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01541pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+
+[6] (./Unterschrift.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 1.
@@ -722,10 +750,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
 
-[5])
+[7])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 155.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 158.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -736,7 +764,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
 
-[6] (./BA-Kuhn-LWC-2024.lof)
+[8] (./BA-Kuhn-LWC-2024.lof)
 \tf@lof=\write5
 \openout5 = `BA-Kuhn-LWC-2024.lof'.
 
@@ -746,7 +774,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 160.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 163.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -757,30 +785,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
 
-[7]
-<Bilder/lebenslauf-2.pdf, id=136, 614.295pt x 794.97pt>
+[9]
+<Bilder/lebenslauf-2.pdf, id=232, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 164.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 167.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 164.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 167.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=139, page=1, 614.295pt x 794.97pt>
+<Bilder/lebenslauf-2.pdf, id=235, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 164
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 164
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 164.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 167.
 (pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
 
 
@@ -791,37 +819,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
 
-[8]
+[10]
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 164
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 164
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 164
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [9 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
-
-Package rerunfilecheck Warning: File `BA-Kuhn-LWC-2024.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `BA-Kuhn-LWC-2024.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  81866615B357AF45C6F6AAA208FE2040;4662.
+ [11 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
+Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
+(rerunfilecheck)             Checksum: 4FFAC42278B844CE1AA62EE1B638F8EB;4470.
  ) 
 Here is how much of TeX's memory you used:
- 14025 strings out of 478287
- 225770 string characters out of 5849289
- 554694 words of memory out of 5000000
- 31895 multiletter control sequences out of 15000+600000
+ 14071 strings out of 478287
+ 226411 string characters out of 5849289
+ 553716 words of memory out of 5000000
+ 31931 multiletter control sequences out of 15000+600000
  476623 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,17n,76p,1060b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -830,10 +852,10 @@ fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1200.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (12 pages, 1169568 bytes).
+Output written on BA-Kuhn-LWC-2024.pdf (14 pages, 373562 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

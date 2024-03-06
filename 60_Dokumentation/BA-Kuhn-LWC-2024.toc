@@ -10,22 +10,21 @@
 \contentsline {subsection}{\numberline {2.1}Physicalische Prinzipien}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Kommerzielle Produkte}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Publizierte Methoden}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Methoden in der Vorstudie}{2}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Vorstudie}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}3M 5559 Water Indikator Tape}{2}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Voltcarft}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Laser Refraktion, Reflezion}{2}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Funktionsmuster}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Funktionsweise}{2}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Testkriterien}{2}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Montage des Funktionsmusters}{2}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Ergebnisse der Versuche}{2}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Vergleich der Ergebnisse mit Denometer}{2}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Verbesserungsmöglichkeiten des Funktionsmusters}{2}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Ausblick}{3}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Presönliche Erfahrunng}{3}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fazit}{3}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ausblick}{3}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Literaturverzeichnis}{4}{section.6}%
-\contentsline {section}{\numberline {7}Erklärung zur Urheberschaft}{5}{section.7}%
-\contentsline {section}{\numberline {8}Digitaler Anhang}{8}{section.8}%
+\contentsline {subsection}{\numberline {3.2}Voltcraft}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Laser Refraktion, Reflezion}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Funktionsmuster}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Funktionsweise}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Testkriterien}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Montage des Funktionsmusters}{4}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Ergebnisse der Versuche}{4}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Vergleich der Ergebnisse mit Denometer}{4}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Verbesserungsmöglichkeiten des Funktionsmusters}{4}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Ausblick}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Presönliche Erfahrunng}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Fazit}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ausblick}{5}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Literaturverzeichnis}{6}{section.6}%
+\contentsline {section}{\numberline {7}Erklärung zur Urheberschaft}{7}{section.7}%
+\contentsline {section}{\numberline {8}Digitaler Anhang}{10}{section.8}%
