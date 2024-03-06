@@ -29,12 +29,6 @@ def calculate_total_minutes(commit_messages):
             daily_minutes[date] = daily_minutes.get(date, 0) + minutes
     return daily_minutes
 
-def calculate_total_minutes_old(commit_messages):
-    total_minutes = 0
-    for message in commit_messages:
-        total_minutes += extract_minutes(message)
-    return total_minutes
-
 def initialize_pd_data():
     # Create date range from '2024-02-19' to '2024-06-14'
     date_range = pd.date_range(start='2024-02-19', end='2024-06-14', freq='D')
@@ -60,18 +54,14 @@ if __name__ == '__main__':
         df.loc[date, 'Minutes'] = minutes
 
     # Convert total minutes to hours
-    total_hours = df['Minutes'].sum() / 60
-
-    total_minutes = calculate_total_minutes_old(commit_messages)
+    total_minutes = sum(daily_minutes.values())
     total_hours = total_minutes / 60
-    print(f'Total minutes spent on commits: {total_hours} hours')
+    print(f'Total minutes spent on commits: {total_hours:.2f} hours')
 
-    
-        # Display DataFrame and total minutes
+    # Display DataFrame and total minutes
     print("Daily minutes spent on commits:")
     print(df)
     print(f'Total minutes spent on commits: {df["Minutes"].sum()} minutes')
-
 
     # Plotting
     plt.figure(figsize=(10, 6))

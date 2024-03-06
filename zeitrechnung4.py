@@ -3,37 +3,36 @@ import re
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 def get_commit_messages():
-    command = ['git', 'log', '--pretty=%s']
+    command = ['git', 'log', '--pretty=%s %ct']
     result = subprocess.run(command, stdout=subprocess.PIPE, text=True)
     return result.stdout.splitlines()
 
-def extract_date(commit_message):
-    match = re.search(r'(\d{4}-\d{2}-\d{2})', commit_message)
-    if match:
-        return pd.to_datetime(match.group(1))
-    return None
 
-def extract_minutes(commit_message):
-    match = re.search(r'(\d+)', commit_message)
+
+
+def extract_date_and_minutes(commit_message):
+    match = re.search(r'(\d+) (.+?) (\d+)$', commit_message)
     if match:
-        return int(match.group(1))
-    return 0
+        minutes = int(match.group(1))
+        unix_timestamp = int(match.group(3))
+        date = pd.to_datetime(unix_timestamp, unit='s').strftime('%Y-%m-%d')
+        return date, minutes
+    return None, 0  # Return 0 minutes if no match found
+
+
 
 def calculate_total_minutes(commit_messages):
     daily_minutes = {}
     for message in commit_messages:
-        date = extract_date(message)
+        date, minutes = extract_date_and_minutes(message)
         if date:
-            minutes = extract_minutes(message)
             daily_minutes[date] = daily_minutes.get(date, 0) + minutes
     return daily_minutes
 
-def calculate_total_minutes_old(commit_messages):
-    total_minutes = 0
-    for message in commit_messages:
-        total_minutes += extract_minutes(message)
-    return total_minutes
+
+
 
 def initialize_pd_data():
     # Create date range from '2024-02-19' to '2024-06-14'
@@ -52,26 +51,28 @@ if __name__ == '__main__':
     df = initialize_pd_data()
 
     # Get commit messages and calculate daily minutes
+    print("Retrieving commit messages...")
     commit_messages = get_commit_messages()
+    print("Commit messages:")
+    #for message in commit_messages:
+        #print(message)
+    print("Calculating total minutes...")
     daily_minutes = calculate_total_minutes(commit_messages)
+    #print("Daily minutes:", daily_minutes)
 
     # Update DataFrame with daily minutes
     for date, minutes in daily_minutes.items():
         df.loc[date, 'Minutes'] = minutes
 
     # Convert total minutes to hours
-    total_hours = df['Minutes'].sum() / 60
-
-    total_minutes = calculate_total_minutes_old(commit_messages)
+    total_minutes = sum(daily_minutes.values())
     total_hours = total_minutes / 60
-    print(f'Total minutes spent on commits: {total_hours} hours')
+    print(f'Total minutes spent on commits: {total_hours:.2f} hours')
 
-    
-        # Display DataFrame and total minutes
+    # Display DataFrame and total minutes
     print("Daily minutes spent on commits:")
-    print(df)
-    print(f'Total minutes spent on commits: {df["Minutes"].sum()} minutes')
-
+    #print(df)
+    #print(f'Total minutes spent on commits: {df["Minutes"].sum()} minutes')
 
     # Plotting
     plt.figure(figsize=(10, 6))
