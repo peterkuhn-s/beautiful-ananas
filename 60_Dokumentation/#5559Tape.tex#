@@ -1,0 +1,19 @@
+herkunft: Aus dem Elektronik bereich. zum beispiel in handys. wenn das tape rot geworden ist, ist wasser eingedrungen und der Hersteller kann eine garatieleistung ablehnen.
+
+Funktionsweise: das papier basierte klebeband wird nass. die rote Farbe auf der Unterseite des Klebebands blutet durch das weisse obere Papier. die Roten Teile zeiget dann permanet wasser an.
+
+Auswahl von 5559: der Hersteller 3M hat mehrere Produkte zu Water Indikator. 5559 zeichnet sich durch die dünnere Dicke und somit durch die schneller Anzeigegeschwindigkeit aus.
+
+5559i ist auf einem transparenten substrat, was fraktisch für die optische auswertung wäre. Die Produkte sind in europa nur teilweise erhältlich. 3M verkauft nur Rollen mit 160 m. Zum testen wurde eine kleine rolle von einem Elektronikkomponenten Vertreiber gekauft.
+
+Bei der Recherche zu LWC wurde keine verwendung von Water indicator tapes bemerkt. somit neuartig.
+
+kostengünstig
+
+zeitspanne pro messung weniger als 60 sek.
+
+Dichte des Schnees muss seperat gemessen werden. 5559 zeigt nur das flüssige wasser in einer schicht an.
+
+Testaufbau: 5559 auf etwas rund 200 g schweres kleben. neue Oberfläche von schnee mit Messer abschneiden/freilegen. 5559 auf schnee legen und 10, 30 60, 120 sek warten. foto von klebeband machen. mit python rote vs. weise fläche berechnen. oder nur optisch beurteilen.
+
+Der Feldversuch bei 6 grad und der Kühlschrankversuch bei -10 grad waren beide erfolgreich. Es kann eine differenzierte aussage gemacht werden, wieviel das Tape nass geworden ist.
