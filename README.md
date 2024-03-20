@@ -47,3 +47,4 @@ schnee video
 mail
 cad
 paper
+kamera anordnung
