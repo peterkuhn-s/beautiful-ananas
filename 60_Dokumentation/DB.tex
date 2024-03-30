@@ -1,0 +1,47 @@
+Um aus den Bilddaten die in den Feldversuchen gemacht werden Information zu gewinnen, müssen die Daten stukturiert werden. Um das effizient zu speichenrn und machtige datenabfrage machen zu könne (zb pattern matching) wird ein datenbanksystem gebraucht.
+
+Die Daten werden im Feld in die Datenbank geschrieben, und dann zu einen späteren zeitpunkt analysiert.
+
+Im folgenden sind die schritte zur Datenbankauslegung dargestellt.
+
+\subsubsection{Anforderungs Analyse}
+Die Anforderungen leiten sich aus der Funktionsweise  des Messaufbaus ab.
+
+Die Datenbank in dieser Bacherlorarbeit wird klein sein, da die Feldversuche zeitintensiev sind. Die vermutung ist, dass maximal 1000 Messungen mit je 3 Taps und je 100 Kreisen.
+
+Mit der Datenbank haben vier Benutzter zu tun.
+Die zwei angenelntern Endbenutztre
+Die Kamera, die die Bilder der Taps macht und auswerten, muss die Auswertungen in die DB schreiben.
+
+der Versuchsdurchführen gibt zusätzliche Informationen über den Versuch an, die muss er in die DB schreiben.
+
+der Experte Endbenutzter.
+Der Analyst wird dann die Daten abfragen, und hoffentlich Information daraus gewinnen.
+
+der DB Administrator wird im Normalbetrieb nicht benötigt, aber soll auch bedacht werden.
+
+\subsubsection{Konzeptueller DB Entwurf}
+Mit dem UML (united Modeling lingueage) wird die Struktur der DB dargestellt. Diese Darstellung ist noch lösungsunabhänig.
+
+
+\subsubsection{Logischer DB Entwurf}
+Um die DB zu implemetieren wurde Postgres gewählt. Es ist eine open source system, dass neue features wie zum beispiel json date typen beinhaltet.
+
+
+\subsubsection{Physischer Entwurf}
+Die Datenbank wird mit dem Code \ref{} inizialisiert.
+
+die verschiedenen benutzter, mit den unterschiedlichen Funktionen werden so gemacht.
+
+Die tabels werden so umgesetzt.
+
+Für die Beispieldaten wurden daten aus der Vorstudie \ref{} für eine Messung benutzt.
+
+\subsubsection{Python abfragen mit der DB}
+raspberry der schreibt
+
+versuchsleiter der interaktiv schreibt
+
+analyst der auf desktop geschrieben bekommt.
+
+\subsubsection{Views für den Analysten}

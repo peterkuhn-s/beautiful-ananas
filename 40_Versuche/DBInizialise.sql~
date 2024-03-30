@@ -1,0 +1,44 @@
+CREATE DATABASE TapeMessungenBAKuhn;
+
+CREATE TABLE Messort (
+    id SERIAL PRIMARY KEY,
+    nameOrt VARCHAR(255) NOT NULL,
+    koordinateN FLOAT,
+    koordinateE FLOAT
+);
+
+CREATE TABLE messreihe (
+    id SERIAL PRIMARY KEY,
+    datum TIMESTAMP WITH TIME ZONE  NOT NULL,
+    schneeKategorie VARCHAR(255),
+    temperatur FLOAT,
+    niederschlag INT,
+    luftfeuchtigkeit FLOAT
+);
+
+CREATE TABLE Messung (
+    id SERIAL PRIMARY KEY,
+    lwcDenothMeter FLOAT,
+    dichte FLOAT,
+    tiefeUnterSchnee INT NOT NULL,
+    bildname VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Tape (
+    id SERIAL PRIMARY KEY,
+    rotVsWeiss FLOAT NOT NULL,
+    radiusMittelwert FLOAT NOT NULL,
+    radiusSD FLOAT NOT NULL,
+    xAxeMittelwert FLOAT NOT NULL,
+    xAxeSD FLOAT NOT NULL,
+    yAxesMittelwert FLOAT NOT NULL,
+    yAxeSD FLOAT NOT NULL,
+    rundheit FLOAT NOT NULL
+);
+
+CREATE TABLE Kreis (
+    id SERIAL PRIMARY KEY,
+    Radius FLOAT NOT NULL,
+    xKooridnate INT NOT NULL,
+    yKooridnate INT NOT NULL
+);
