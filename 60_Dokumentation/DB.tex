@@ -27,6 +27,12 @@ Mit dem UML (united Modeling lingueage) wird die Struktur der DB dargestellt. Di
 \subsubsection{Logischer DB Entwurf}
 Um die DB zu implemetieren wurde Postgres gewählt. Es ist eine open source system, dass neue features wie zum beispiel json date typen beinhaltet.
 
+\subsubsection{Views für den Analysten}
+das endziel ist eine Regression aus den Messung und Tape zu finden, um den 'LWC Denoth'  zu bestimmen. Für diese Aufgabe braucht es nur gewisse angaben aus der DB.
+
+Hier werden zwei views erstellt, der erste ist ein minimalistischer ansatzt mit dem direkt  weiter gearbeitet werden kann. der zweite view ist da um genauer zu verstehen was im ersten view dargestellt ist.
+
+da die views für den read only Analysten sind, muss keine updateble view benutzt werden.
 
 \subsubsection{Physischer Entwurf}
 Die Datenbank wird mit dem Code \ref{} inizialisiert.
@@ -37,11 +43,23 @@ Die tabels werden so umgesetzt.
 
 Für die Beispieldaten wurden daten aus der Vorstudie \ref{} für eine Messung benutzt.
 
-\subsubsection{Python abfragen mit der DB}
+Die DB wird am anfang viele NULL werte beinhalten, weil zum beispiel die wetter daten nicht von einer API gefüllt werden. das ist auch okay, die fehlenden werte werden mit 0  aufgefüllt.
+
+Die Transaktionen sind in dieser Anwendung unproblematisch, da der User die Isert machen (Raspberry, FeldForscher) zu einem früheren Zeitpunkt arbeiten als der Read user Analyst.
+
+falls die DB von meinem Laptop auf einen Server aufgelagert wird, werden die folgenden Tools www.owasp.org▪ http://sqlmap.org/ zum testen der Sicherheit benutzt.
+
+\subsubsection{Python interaktion mit der DB}
 raspberry der schreibt
 
-versuchsleiter der interaktiv schreibt
+versuchsleiter der interaktiv schreibt. oder auch nicht
 
 analyst der auf desktop geschrieben bekommt.
 
-\subsubsection{Views für den Analysten}
+
+-- Prevent default role PUBLIC from creating tables:
+REVOKE CREATE ON SCHEMA public FROM PUBLIC;
+
+CREATE ROLE readonlyuser WITH LOGIN ENCRYPTED PASSWORD 'readonlyuser' NOINHERIT;
+
+WITH GRANT OPTION
