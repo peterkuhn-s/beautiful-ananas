@@ -1,0 +1,20 @@
+CREATE DATABASE mydatabase;
+CREATE TABLE mytabel
+
+
+
+CREATE TABLE Projekt (
+ProjNr INTEGER NOT NULL PRIMARY KEY,
+Bezeichnung VARCHAR(20) NOT NULL UNIQUE,
+StartZeit DATE NULL,
+Dauer INTEGER NULL,
+Aufwand INTEGER NULL,
+ProjLeiter INTEGER NULL
+EintrittsDatum DATE DEFAULT CURRENT_DATE,
+Salaer FLOAT NOT NULL,
+);
+ALTER TABLE Projekt
+ADD CONSTRAINT fk_ProjAng
+FOREIGN KEY (ProjLeiter) REFERENCES Angestellter(PersNr)
+CHECK (Salaer between 1000 and 20000)
+;
