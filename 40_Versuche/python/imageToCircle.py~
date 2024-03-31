@@ -1,0 +1,39 @@
+
+import cv2
+import numpy as np
+
+# Load the image
+image = cv2.imread('your_image.jpg')
+
+# Convert the image to grayscale
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Threshold the image to obtain binary image
+ret, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+
+# Find contours
+contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+# Iterate through each contour
+for contour in contours:
+    # Calculate the center of gravity (centroid) and area of the contour
+    M = cv2.moments(contour)
+    if M["m00"] != 0:
+        cx = int(M["m10"] / M["m00"])
+        cy = int(M["m01"] / M["m00"])
+        area = cv2.contourArea(contour)
+        
+        # Calculate the radius of the circle using the area
+        radius = int(np.sqrt(area / np.pi))
+        
+        # Draw a circle with the same center of gravity and area
+        cv2.circle(image, (cx, cy), radius, (0, 255, 0), -1)
+
+# Display the result
+cv2.imshow('Result', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+if == 'main'
+

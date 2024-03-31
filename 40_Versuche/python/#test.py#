@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+import psycopg2
+from config import config
+
+
+def main():
+    try:
+
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        # Close cursor and connection
+        if cur is not None:
+            cur.close()
+        if conn is not None:
+            conn.close()
+
+# Entry point of the program
+if __name__ == "__main__":
+    main()
