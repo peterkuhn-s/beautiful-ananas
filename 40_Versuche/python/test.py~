@@ -1,0 +1,17 @@
+#!/usr/bin/python
+
+import psycopg2
+from config import config
+import cv2
+import numpy as np
+import pandas as pd
+from imageToCircle3 import do_image
+
+        # Retrieve the last inserted tape_id
+cur.execute("SELECT id FROM tape")
+last_tape_id = cur.fetchone()
+    if last_tape_id:
+        tape_id = last_tape_id[0] + 1
+    else:
+        tape_id = 1
+        
