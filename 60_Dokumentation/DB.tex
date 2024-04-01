@@ -1,65 +1,96 @@
-Um aus den Bilddaten die in den Feldversuchen gemacht werden Information zu gewinnen, müssen die Daten stukturiert werden. Um das effizient zu speichenrn und machtige datenabfrage machen zu könne (zb pattern matching) wird ein datenbanksystem gebraucht.
 
-Die Daten werden im Feld in die Datenbank geschrieben, und dann zu einen späteren zeitpunkt analysiert.
+Um aus den Bilddaten, die während Feldversuchen gesammelt werden, sinnvolle Erkenntnisse zu gewinnen, ist es entscheidend, die Daten effektiv zu strukturieren. Dies erleichtert die effiziente Speicherung und ermöglicht leistungsstarke Datenabfragefunktionen, wie z. B. das patter matching, die für eine umfassende Analyse wichtig sind. Hierfür ist der Einsatz eines Datenbanksystems sinnvol.
 
-Im folgenden sind die schritte zur Datenbankauslegung dargestellt.
+Die im Feld gesammelten Daten werden zunächst in der Datenbank gespeichert und zu einem späteren Zeitpunkt analysiert.
 
-\subsubsection{Anforderungs Analyse}
-Die Anforderungen leiten sich aus der Funktionsweise  des Messaufbaus ab.
+Im Folgenden werden die Schritte zur Auslegung der Datenbank dargestellt. Der Code ist in ref{sect:code}
 
-Die Datenbank in dieser Bacherlorarbeit wird klein sein, da die Feldversuche zeitintensiev sind. Die vermutung ist, dass maximal 1000 Messungen mit je 3 Taps und je 100 Kreisen.
+\subsubsection{Anforderungsanalyse}
 
-Mit der Datenbank haben vier Benutzter zu tun.
-Die zwei angenelntern Endbenutztre
-Die Kamera, die die Bilder der Taps macht und auswerten, muss die Auswertungen in die DB schreiben.
+Die Anforderungen ergeben sich aus der Funktionsweise des Messaufbaus.
 
-der Versuchsdurchführen gibt zusätzliche Informationen über den Versuch an, die muss er in die DB schreiben.
+Die Datenbank in dieser Bachelorarbeit wird relativ klein sein, da die Feldversuche zeitintensiv sind. Es wird vermutet, dass maximal 1000 Messungen mit jeweils 3 Taps und je 100 Kreisen durchgeführt werden.
 
-der Experte Endbenutzter.
-Der Analyst wird dann die Daten abfragen, und hoffentlich Information daraus gewinnen.
+Die Datenbank ist grösser angelegt, als sie für die Vorversuche in der Bachelorarbeit benötigt wird.
 
-der DB Administrator wird im Normalbetrieb nicht benötigt, aber soll auch bedacht werden.
+Es gibt vier Benutzer, die mit der Datenbank interagieren:
+
+\begin{enumerate}
+\item Die beiden angemeldeten Endbenutzer: Die Kamera, die die Bilder der Taps macht und auswertet, muss die Auswertungen in die Datenbank schreiben.
+  \item Der Versuchsdurchführende gibt zusätzliche Informationen über den Versuch an, die er ebenfalls in die Datenbank schreiben muss.
+    
+    \item Der Experte-Endbenutzer: Der Analyst wird die Daten abfragen und hoffentlich Informationen daraus gewinnen.
+    
+    \item Der Datenbankadministrator wird im Normalbetrieb nicht benötigt, sollte jedoch berücksichtigt werden.
+\end{enumerate}
+
+Die Anforderungen an die Datenbank und ihre Benutzer werden entsprechend den Anforderungen des Messaufbaus und den Bedürfnissen der Benutzer festgelegt.
+
+\ref{code:User}
 
 \subsubsection{Konzeptueller DB Entwurf}
-Mit dem UML (united Modeling lingueage) wird die Struktur der DB dargestellt. Diese Darstellung ist noch lösungsunabhänig.
+
+Mit der Unified Modeling Language (UML) wird die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/Screenshotfrom2024-04-0113-01-07.png}
+    \caption{UML-Diagramm des konzeptuellen DB-Entwurfs}
+    \label{fig:uml-db-entwurf}
+\end{figure}
+
 
 
 \subsubsection{Logischer DB Entwurf}
-Um die DB zu implemetieren wurde Postgres gewählt. Es ist eine open source system, dass neue features wie zum beispiel json date typen beinhaltet.
 
-\subsubsection{Views für den Analysten}
-das endziel ist eine Regression aus den Messung und Tape zu finden, um den 'LWC Denoth'  zu bestimmen. Für diese Aufgabe braucht es nur gewisse angaben aus der DB.
+Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free und Open-Source-System, das neue Features wie zum Beispiel JSON-Datentypen unterstützt.
 
-Hier werden zwei views erstellt, der erste ist ein minimalistischer ansatzt mit dem direkt  weiter gearbeitet werden kann. der zweite view ist da um genauer zu verstehen was im ersten view dargestellt ist.
+Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
-da die views für den read only Analysten sind, muss keine updateble view benutzt werden.
+\subsubsection{Ansichten für den Analysten}
+Das Endziel besteht darin, eine Regression aus den Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind nur bestimmte Angaben aus der Datenbank erforderlich.
+
+Hier werden zwei Ansichten erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Die zweite Ansicht dient dazu, genauer zu verstehen, was in der ersten Ansicht dargestellt ist.
+
+Da die Ansichten für den read only Analysten bestimmt sind, muss keine aktualisierbare Ansicht verwendet werden.
+
+\ref{code:ViewDB}
 
 \subsubsection{Physischer Entwurf}
-Die Datenbank wird mit dem Code \ref{} inizialisiert.
+Für die Beispieldaten wurden Daten aus der Vorstudie \ref{} für eine Messung verwendet.
 
-die verschiedenen benutzter, mit den unterschiedlichen Funktionen werden so gemacht.
+Die Datenbank wird anfangs viele NULL-Werte enthalten, da beispielsweise die Wetterdaten nicht von einer API gefüllt werden. Das ist auch in Ordnung, da die fehlenden Werte mit 0 aufgefüllt werden.
 
-Die tabels werden so umgesetzt.
+Die Transaktionen sind in dieser Anwendung unproblematisch, da der Benutzer, der die Inserts durchführt (Raspberry, Feldforscher), zu einem früheren Zeitpunkt arbeitet als der Analyst.
 
-Für die Beispieldaten wurden daten aus der Vorstudie \ref{} für eine Messung benutzt.
+Falls die Datenbank von meinem Laptop auf einen Server ausgelagert wird, werden die folgenden Tools zur Sicherheitsprüfung verwendet: \href{https://www.owasp.org}{www.owasp.org} und \href{http://sqlmap.org/}{http://sqlmap.org/}.
 
-Die DB wird am anfang viele NULL werte beinhalten, weil zum beispiel die wetter daten nicht von einer API gefüllt werden. das ist auch okay, die fehlenden werte werden mit 0  aufgefüllt.
+\subsubsection{Python-Interaktion mit der Datenbank}
 
-Die Transaktionen sind in dieser Anwendung unproblematisch, da der User die Isert machen (Raspberry, FeldForscher) zu einem früheren Zeitpunkt arbeiten als der Read user Analyst.
+Für die Interaktion mit der Datenbank werden verschiedene Python-Skripte verwendet, die je nach Benutzer unterschiedliche Aufgaben erfüllen.
 
-falls die DB von meinem Laptop auf einen Server aufgelagert wird, werden die folgenden Tools www.owasp.org▪ http://sqlmap.org/ zum testen der Sicherheit benutzt.
+Das folgende Python-Skript ist dazu da Bilder von Taps zu analysieren und die daraus gewonnenen Daten in die Datenbank einzufügen. \ref{code:RaspKam}
 
-\subsubsection{Python interaktion mit der DB}
-raspberry der schreibt
-
-versuchsleiter der interaktiv schreibt. oder auch nicht
-
-analyst der auf desktop geschrieben bekommt.
+Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zeit ruft das Skript die Bildanalyse auf. \ref{code:FeldUser}
 
 
--- Prevent default role PUBLIC from creating tables:
-REVOKE CREATE ON SCHEMA public FROM PUBLIC;
+\subsubsection{Nächste Schritte}
 
-CREATE ROLE readonlyuser WITH LOGIN ENCRYPTED PASSWORD 'readonlyuser' NOINHERIT;
+Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren Daten in der Datenbank zu nutzen und um die Funktionalität zu verbessern.
 
-WITH GRANT OPTION
+Aktuell läuft die Datenbank mit dem Benutzer "Postgres" auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklungs Bachelorarbeit besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
+
+\subsubsection{Code}
+\label{sect:code}
+
+\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die Benutzerinitialisierung}, label={code:User}]{UserInizialise.sql}
+
+\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die DBinitialisierung}, label={code:DBIni}]{DBInizialise.sql}
+
+\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die Views}, label={code:ViewDB}]{ViewsDB.sql}
+
+\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für Beispiel Daten}, label={code:ExamData}]{IsertSomeData.sql}
+
+\lstinputlisting[language=Python, basicstyle=\ttfamily\small, caption={Bilderkennung und verarbeitung}, label={code:RaspKam}]{imageToCircle3.py}
+
+\lstinputlisting[language=Python, basicstyle=\ttfamily\small, caption={Bilderkennung und verarbeitung}, label={code:FeldUser}]{splitUpImage.py}
