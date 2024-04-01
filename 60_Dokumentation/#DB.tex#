@@ -1,9 +1,9 @@
 
-Um aus den Bilddaten, die während Feldversuchen gesammelt werden, sinnvolle Erkenntnisse zu gewinnen, ist es entscheidend, die Daten effektiv zu strukturieren. Dies erleichtert die effiziente Speicherung und ermöglicht leistungsstarke Datenabfragefunktionen, wie z. B. das patter matching, die für eine umfassende Analyse wichtig sind. Hierfür ist der Einsatz eines Datenbanksystems sinnvol.
+Um aus den Bilddaten, die während Feldversuchen gesammelt werden, sinnvolle Erkenntnisse zu gewinnen, ist es entscheidend, die Daten effektiv zu strukturieren. Dies erleichtert die effiziente Speicherung und ermöglicht leistungsstarke Datenabfragefunktionen, wie z. B. das patter matching, die für eine umfassende Analyse wichtig sind. Hierfür ist der Einsatz eines Datenbanksystems sinnvoll.
 
 Die im Feld gesammelten Daten werden zunächst in der Datenbank gespeichert und zu einem späteren Zeitpunkt analysiert.
 
-Im Folgenden werden die Schritte zur Auslegung der Datenbank dargestellt. Der Code ist in ref{sect:code}
+Im Folgenden werden die Schritte zur Auslegung der Datenbank dargestellt. Der Code ist in Section \ref{sect:code}
 
 \subsubsection{Anforderungsanalyse}
 
@@ -13,13 +13,20 @@ Die Datenbank in dieser Bachelorarbeit wird relativ klein sein, da die Feldversu
 
 Die Datenbank ist grösser angelegt, als sie für die Vorversuche in der Bachelorarbeit benötigt wird.
 
-Es gibt vier Benutzer, die mit der Datenbank interagieren:
+Es gibt vier Benutzer die mit der Datenbank interagieren. In der Grafik \ref{fig:user-db-entwurf} ist die schematische Darstellung.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/Screenshotfrom2024-04-0115-26-08.png}
+    \caption{Benutzer der Datenbank}
+    \label{fig:user-db-entwurf}
+\end{figure}
 
 \begin{enumerate}
 \item Die Kamera, die die Bilder der Taps macht und auswertet, muss die Auswertungen in die Datenbank schreiben.
   \item Der Versuchsdurchführende gibt zusätzliche Informationen über den Versuch an, die er ebenfalls in die Datenbank schreiben muss.
     
-    \item  Der Analyst wird die Daten abfragen und hoffentlich Informationen daraus gewinnen.
+    \item Der Analyst wird die Daten abfragen und hoffentlich Informationen daraus gewinnen.
     
     \item Der Datenbankadministrator wird im Normalbetrieb nicht benötigt, sollte jedoch berücksichtigt werden.
 \end{enumerate}
@@ -78,12 +85,15 @@ Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zei
 
 Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren Daten in der Datenbank zu nutzen und um die Funktionalität zu verbessern.
 
-Aktuell läuft die Datenbank mit dem Benutzer "Postgres" auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklungs Bachelorarbeit besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
+Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklungs Bachelorarbeit besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
 
 \subsubsection{Code}
 \label{sect:code}
 
 \lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die Benutzerinitialisierung}, label={code:User}]{UserInizialise.sql}
+
+Die pseudozufällige Passworder sind nicht optimal, besser wäre $SELECT gen_random_uuid();$
+
 
 \lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die DBinitialisierung}, label={code:DBIni}]{DBInizialise.sql}
 
