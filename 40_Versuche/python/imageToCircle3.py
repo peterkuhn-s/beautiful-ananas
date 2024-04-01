@@ -6,17 +6,130 @@ import cv2
 import numpy as np
 import pandas as pd
 
-def do_image(image_name, tape_id):  # Accept tape_id as a parameter
-    print(tape_id)
-    tape_id -= 1
+def do_image(image_name, messung_id):  # Accept tape_id as a parameter
+    """
+    Process an image to detect circles, calculate statistics, and insert data into the database.
+
+    Args:
+        image_name (str): The filename of the image to process.
+        messung_id (int): The ID of the Messung associated with the circles in the image.
+
+    Returns:
+        float: The mean radius of the detected circles.
+    """
     df = process_image(image_name)
+    mean_radius = perform_statistics(df, messung_id)
+
+    tape_id = get_last_tape_id()
     for index, row in df.iterrows():
-        insert_data(row['Radius'], row['X-coordinate'], row['Y-coordinate'], tape_id)  # Pass tape_id to insert_data
+        insert_data_kreis(row['Radius'], row['X-coordinate'], row['Y-coordinate'], tape_id)  # Pass tape_id to insert_data
     #print(df)
-    return df
+    return mean_radius
+
+# Function to perform statistics on a DataFrame
+def perform_statistics(df, messung_id):
+    """
+    Calculate statistics on a DataFrame containing circle data and insert them into the database.
+
+    Args:
+        df (pandas.DataFrame): DataFrame containing circle data.
+        messung_id (int): The ID of the Messung associated with the circle data.
+
+    Returns:
+        float: The mean radius of the detected circles.
+    """
+
+    # Calculate mean and standard deviation
+    mean_radius = df['Radius'].mean()
+    mean_x_coordinate = df['X-coordinate'].mean()
+    mean_y_coordinate = df['Y-coordinate'].mean()
+    std_radius = df['Radius'].std()
+    std_x_coordinate = df['X-coordinate'].std()
+    std_y_coordinate = df['Y-coordinate'].std()
+
+    # Insert statistics into the database
+    insert_data_tape(mean_radius, mean_x_coordinate, mean_y_coordinate, std_radius, std_x_coordinate, std_y_coordinate, messung_id)
+
+    return mean_radius
+
+
+def insert_data_tape(mean_radius, mean_x_coordinate, mean_y_coordinate, std_radius, std_x_coordinate, std_y_coordinate, messung_id):
+    """
+    Insert statistics into the database.
+
+    Args:
+        mean_radius (float): Mean radius of detected circles.
+        mean_x_coordinate (float): Mean x-coordinate of detected circles.
+        mean_y_coordinate (float): Mean y-coordinate of detected circles.
+        std_radius (float): Standard deviation of radius of detected circles.
+        std_x_coordinate (float): Standard deviation of x-coordinate of detected circles.
+        std_y_coordinate (float): Standard deviation of y-coordinate of detected circles.
+        messung_id (int): The ID of the Messung associated with the statistics.
+
+    Returns:
+        None
+    """
+    sql = """INSERT INTO tape (radiusmittelwert, xaxemittelwert, yaxesmittelwert, radiussd, xaxesd, yaxesd, messung_id) 
+             VALUES (%s, %s, %s, %s, %s, %s);"""
+    conn = None
+    try:
+        # Read database configuration
+        params = config()
+        # Connect to the PostgreSQL database
+        conn = psycopg2.connect(**params)
+        # Create a new cursor
+        cur = conn.cursor()
+        # Execute the INSERT statement
+        cur.execute(sql, (mean_radius, mean_x_coordinate, mean_y_coordinate, std_radius, std_x_coordinate, std_y_coordinate, messung_id))
+        # Commit the changes to the database
+        conn.commit()
+        print("Statistics inserted into the database.")
+        # Close communication with the database
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+# Function to retrieve the last inserted tape_id
+def get_last_tape_id():
+    """
+    Retrieve the ID of the last inserted tape from the database.
+
+    Returns:
+        int: The ID of the last inserted tape.
+    """
+            # Read database configuration
+    params = config()
+        # Connect to the PostgreSQL database
+    conn = psycopg2.connect(**params)
+        # Create a new cursor
+    cur = conn.cursor()
+    
+    cur.execute("SELECT id FROM tape")
+    last_tape_id = cur.fetchone()
+    if last_tape_id:
+        return last_tape_id[0]
+    else:
+        return 1
+
 
 
 def show_image_progsess(df, image, contours, radii_list, x_coords_list, y_coords_list):
+    """
+    Display the processed image with circles and contours.
+
+    Args:
+        df (pandas.DataFrame): DataFrame containing circle data.
+        image (numpy.ndarray): Original image.
+        contours (list): List of contours detected in the image.
+        radii_list (list): List of radii of detected circles.
+        x_coords_list (list): List of x-coordinates of detected circles.
+        y_coords_list (list): List of y-coordinates of detected circles.
+
+    Returns:
+        None
+    """
     # Display DataFrame
     print(df)
 
@@ -41,8 +154,19 @@ def show_image_progsess(df, image, contours, radii_list, x_coords_list, y_coords
     cv2.destroyAllWindows()
 
 
-def insert_data(radius, x_coordinate, y_coordinate, tape_id):
-    """ Insert a new record into the database """
+def insert_data_kreis(radius, x_coordinate, y_coordinate, tape_id):
+    """
+    Insert circle data into the database.
+
+    Args:
+        radius (int): Radius of the circle.
+        x_coordinate (int): X-coordinate of the circle.
+        y_coordinate (int): Y-coordinate of the circle.
+        tape_id (int): The ID of the tape associated with the circle.
+
+    Returns:
+        None
+    """
     sql = """INSERT INTO kreis (radius, xkooridnate, ykooridnate, tape_id) VALUES (%s, %s, %s, %s);"""
     conn = None
     try:
@@ -70,6 +194,15 @@ def insert_data(radius, x_coordinate, y_coordinate, tape_id):
 
 
 def process_image(image_name):
+    """
+    Process an image to detect circles and return a DataFrame containing circle data.
+
+    Args:
+        image_name (str): The filename of the image to process.
+
+    Returns:
+        pandas.DataFrame: DataFrame containing circle data.
+    """
     # Load the image
     image = cv2.imread(image_name, cv2.IMREAD_GRAYSCALE)
 
