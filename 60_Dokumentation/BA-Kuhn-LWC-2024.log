@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.1)  6 MAR 2024 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  1 APR 2024 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,12 +386,37 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks27
 \@floatcapt=\box61
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count290
+\lst@gtempboxa=\box62
+\lst@token=\toks28
+\lst@length=\count291
+\lst@currlwidth=\dimen178
+\lst@column=\count292
+\lst@pos=\count293
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count294
+\lst@lineno=\count295
+\lst@maxwidth=\dimen181
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
+\lst@framebox=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count290
+\etb@tempcnta=\count298
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
@@ -401,15 +426,15 @@ Package: fcprefix 2012/09/28
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count291
+\fc@digit@counter=\count299
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
-\ex@=\dimen178
+\@emptytoks=\toks29
+\ex@=\dimen182
 )
-\c@padzeroesN=\count292
-\fc@tmpcatcode=\count293
+\c@padzeroesN=\count300
+\fc@tmpcatcode=\count301
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
 File: fc-ngerman.def 2012/06/18
@@ -423,69 +448,69 @@ File: fc-germanb.def 2013/08/17
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
 File: fc-ngermanb.def 2013/08/17
 ))
-\@DT@modctr=\count294
-\@ordinalctr=\count295
-\@orgargctr=\count296
-\@strctr=\count297
-\@tmpstrctr=\count298
-\@DT@loopN=\count299
-\@DT@X=\count300
+\@DT@modctr=\count302
+\@ordinalctr=\count303
+\@orgargctr=\count304
+\@strctr=\count305
+\@tmpstrctr=\count306
+\@DT@loopN=\count307
+\@DT@X=\count308
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count301
-\@month=\count302
-\@year=\count303
-\c@HOUR=\count304
-\c@HOURXII=\count305
-\c@MINUTE=\count306
-\c@TOHOUR=\count307
-\c@TOMINUTE=\count308
-\c@SECOND=\count309
-\currenthour=\count310
-\currentminute=\count311
-\currentsecond=\count312
+\@day=\count309
+\@month=\count310
+\@year=\count311
+\c@HOUR=\count312
+\c@HOURXII=\count313
+\c@MINUTE=\count314
+\c@TOHOUR=\count315
+\c@TOMINUTE=\count316
+\c@SECOND=\count317
+\currenthour=\count318
+\currentminute=\count319
+\currentsecond=\count320
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count313
-\dayofyear=\count314
-\dayofweek=\count315
+\@dtctr=\count321
+\dayofyear=\count322
+\dayofweek=\count323
 LaTeX Info: Redefining \today on input line 736.
 
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-ngerman.def
 File: dt-ngerman.def 2013/09/10
 LaTeX Info: Redefining \datengerman on input line 86.
 )
-\dt@a=\toks29
-\dt@b=\toks30
+\dt@a=\toks30
+\dt@b=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
-\l__pdf_internal_box=\box62
+\l__color_backend_stack_int=\count324
+\l__pdf_internal_box=\box64
 )
 (./BA-Kuhn-LWC-2024.aux)
 \openout1 = `BA-Kuhn-LWC-2024.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -523,17 +548,17 @@ LaTeX Font Info:    ... okay on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen179
-\scratchbox=\box63
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen180
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count325
+\scratchdimen=\dimen183
+\scratchbox=\box65
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen184
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -551,7 +576,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -562,11 +587,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./BA-Kuhn-LWC-2024.out) (./BA-Kuhn-LWC-2024.out)
 \@outlinefile=\write3
@@ -581,35 +606,36 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<Titelseite.pdf, id=120, 597.5067pt x 845.04588pt>
+\c@lstlisting=\count332
+<Titelseite.pdf, id=172, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
-Package pdftex.def Info: Titelseite.pdf  used on input line 68.
+Package pdftex.def Info: Titelseite.pdf  used on input line 69.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
-Package pdftex.def Info: Titelseite.pdf  used on input line 68.
+Package pdftex.def Info: Titelseite.pdf  used on input line 69.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
-<Titelseite.pdf, id=123, page=1, 597.5067pt x 845.04588pt>
+<Titelseite.pdf, id=175, page=1, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 68.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
  [1
 
@@ -628,19 +654,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3] (./Einleitung.tex)
 (./Lawinen.tex) (./EntstehungGleitlawine.tex) (./Endziel.tex) (./UserStory.tex)
 (./Anforderungen.tex) (./PlanungDerArbeit.tex
-<Bilder/OST_Logo.png, id=193, 858.20625pt x 293.59688pt>
+<Bilder/OST_Logo.png, id=258, 1144.275pt x 391.4625pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -652,69 +678,691 @@ l.5 b
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 
-     [2]) (./LaserRef.tex)
+     [2]
+! Undefined control sequence.
+l.21 Wiederstand zwischen Punkt A B 2.6 \ohm
+                                            
+? 
+! Undefined control sequence.
+l.23 wiederstand ziwschen Punkt A C 0.2 \ohm
+                                            
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...es Wasser leitend, da sich spontan  1*10 ^
+                                                   7 M  Hydroniumionen (H_3 ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 ...itfÃ¤gkeit bilden um einen Messwert im \mu
+                                                   S (Siemens = 1/\Ohm) Bere...
+
+? 
+! Undefined control sequence.
+l.39 ... einen Messwert im \mu S (Siemens = 1/\Ohm
+                                                  ) Bereich zu messen.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 
+     
+? 
+
+Overfull \hbox (6.09581pt too wide) in paragraph at lines 39--40
+\T1/cmr/m/n/12 Hy-dro-ni-u-mi-no-nen ge-nü-gend leit-fäg-keit bil-den um einen 
+Mess-wert im $\OML/cmm/m/it/12 ^^VS\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Siemens \O
+T1/cmr/m/n/12 =
+ []
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 43.
+
+)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 139.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 123.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \newpage
-               [3]
+l.123 \subsection
+                 {Laser Refraktion, Reflezion} [3] (./LaserRef.tex
+
+LaTeX Warning: Reference `LaserAufbau' on page 4 undefined on input line 38.
+
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 139.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 44.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[4]
+
+LaTeX Warning: Reference `LaserBase' on page 5 undefined on input line 54.
+
+
+LaTeX Warning: Reference `TinteVersuchsaufbau' on page 5 undefined on input lin
+e 66.
+
+
+LaTeX Warning: Reference `' on page 5 undefined on input line 73.
+
+) (./Vibration.tex
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 3.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[4] (./Ausblick.tex)
+[5]) (./Diffusion.tex) (./Bildverarbeitung.tex
+<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=280, 778.91pt x 1191.45125pt>
+File: Bilder/Screenshotfrom2024-04-0112-59-42.png Graphic file (type png)
+<use Bilder/Screenshotfrom2024-04-0112-59-42.png>
+Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0112-59-42.png  used on i
+nput line 5.
+(pdftex.def)             Requested size: 334.60422pt x 511.8232pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 148.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 10.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[5]
+[6]
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 10.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.10 \newpage
+              <./Bilder/Screenshotfrom2024-04-0112-59-42.png>]) (./DB.tex
+<Bilder/Screenshotfrom2024-04-0113-01-07.png, id=293, 1834.855pt x 1678.27pt>
+File: Bilder/Screenshotfrom2024-04-0113-01-07.png Graphic file (type png)
+<use Bilder/Screenshotfrom2024-04-0113-01-07.png>
+Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0113-01-07.png  used on i
+nput line 37.
+(pdftex.def)             Requested size: 334.60422pt x 306.04485pt.
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 47.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[8]
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 47.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.47 
+      <./Bilder/Screenshotfrom2024-04-0113-01-07.png>]
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 60.
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 81.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[10] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 86.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) (./UserInizialise.sql
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+
+Overfull \hbox (16.3444pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.74736pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (79.32964pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (98.2252pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./DBInizialise.sql
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 8.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[11]) (./ViewsDB.sql
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 3.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[12]
+Overfull \hbox (28.94145pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (287.1809pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.4193pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (444.64397pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][] 
+ []
+
+) (./IsertSomeData.sql
+Overfull \hbox (224.19566pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.4193pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(./imageToCircle3.py
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3.
+
+Overfull \hbox (57.05333pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (233.59593pt too wide) in paragraph at lines 11--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.52263pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (186.06523pt too wide) in paragraph at lines 15--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 21.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[13]
+Overfull \hbox (213.22563pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (240.38603pt too wide) in paragraph at lines 32--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.31273pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (124.95433pt too wide) in paragraph at lines 36--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (471.24944pt too wide) in paragraph at lines 51--53
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (478.03954pt too wide) in paragraph at lines 56--57
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 62.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[14]
+Overfull \hbox (77.42363pt too wide) in paragraph at lines 62--63
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (77.42363pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (104.58403pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (186.06523pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (186.06523pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (118.16423pt too wide) in paragraph at lines 67--69
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (389.76823pt too wide) in paragraph at lines 72--73
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (511.99004pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.31273pt too wide) in paragraph at lines 97--99
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[15]
+Overfull \hbox (172.48503pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.31273pt too wide) in paragraph at lines 123--124
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.31273pt too wide) in paragraph at lines 125--126
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (70.63353pt too wide) in paragraph at lines 127--128
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (70.63353pt too wide) in paragraph at lines 128--130
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.10283pt too wide) in paragraph at lines 140--141
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.00383pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.31273pt too wide) in paragraph at lines 147--149
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 149.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[16]
+Overfull \hbox (23.10283pt too wide) in paragraph at lines 149--150
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.21373pt too wide) in paragraph at lines 150--151
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (36.68303pt too wide) in paragraph at lines 157--158
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.26323pt too wide) in paragraph at lines 165--167
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (274.33653pt too wide) in paragraph at lines 170--171
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 191.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[17]
+Overfull \hbox (158.90483pt too wide) in paragraph at lines 198--200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.52263pt too wide) in paragraph at lines 201--203
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.47313pt too wide) in paragraph at lines 209--210
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (158.90483pt too wide) in paragraph at lines 213--215
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (97.79393pt too wide) in paragraph at lines 222--223
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.52263pt too wide) in paragraph at lines 229--230
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (118.16423pt too wide) in paragraph at lines 232--233
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 234.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[18]
+Overfull \hbox (226.80583pt too wide) in paragraph at lines 238--239
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (192.85533pt too wide) in paragraph at lines 242--244
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./splitUpImage.py
+Overfull \hbox (57.05333pt too wide) in paragraph at lines 16--18
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[19]
+Overfull \hbox (124.95433pt too wide) in paragraph at lines 32--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (369.39793pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 67.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[20]
+Overfull \hbox (9.52263pt too wide) in paragraph at lines 90--91
+[][][][][][][][][][][][][][][] 
+ []
+
+)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 96.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[21])
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 154.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[22] (./Ausblick.tex)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 163.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[23]
 
 ! LaTeX Error: File `Literaturverzeichnis.tex' not found.
 
@@ -725,46 +1373,46 @@ Enter file name:
 (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 154.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 169.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[6] (./Unterschrift.tex
+[24] (./Unterschrift.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 1.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[7])
+[25])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 158.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 173.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[8] (./BA-Kuhn-LWC-2024.lof)
+[26] (./BA-Kuhn-LWC-2024.lof)
 \tf@lof=\write5
 \openout5 = `BA-Kuhn-LWC-2024.lof'.
 
@@ -774,88 +1422,97 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 163.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 178.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[9]
-<Bilder/lebenslauf-2.pdf, id=232, 614.295pt x 794.97pt>
+[27]
+<Bilder/lebenslauf-2.pdf, id=869, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 167.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 182.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 167.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 182.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=235, page=1, 614.295pt x 794.97pt>
+<Bilder/lebenslauf-2.pdf, id=872, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 182
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 182
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 167.
-(pdftex.def)             Requested size: 142.26378pt x 48.66537pt.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 182.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01541pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01541pt}.
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-41.01541pt}.
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[10]
+[28]
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 182
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 182
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 167
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 182
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [11 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
+ [29 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
-(rerunfilecheck)             Checksum: 4FFAC42278B844CE1AA62EE1B638F8EB;4470.
+(rerunfilecheck)             Checksum: 3A092AD7BD93A8DAFAF9111AFC480E4E;6806.
  ) 
 Here is how much of TeX's memory you used:
- 14071 strings out of 478287
- 226411 string characters out of 5849289
- 553716 words of memory out of 5000000
- 31931 multiletter control sequences out of 15000+600000
- 476623 words of font info for 43 fonts, out of 8000000 for 9000
+ 16857 strings out of 478287
+ 264318 string characters out of 5849289
+ 814212 words of memory out of 5000000
+ 34152 multiletter control sequences out of 15000+600000
+ 479726 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,17n,76p,1060b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1200.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (14 pages, 373562 bytes).
+ 70i,17n,77p,1060b,2286s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfit1000.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfit1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on BA-Kuhn-LWC-2024.pdf (32 pages, 954860 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 973 compressed objects within 10 object streams
+ 550 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,33 @@
+\subsection{Extrahieren von Informationen aus Daten}
+
+
+
+\begin{enumerate}
+    \item \textbf{Datenbankdesign}: Der erste Schritt umfasst das Design des Datenbankschemas, um die gesammelten Daten effizient aufzunehmen. Dies beinhaltet die Definition der Tabellen, ihrer Beziehungen und die Auswahl der geeigneten Datentypen für die Speicherung.
+    
+    \item \textbf{Daten speichern}: Die strukturierten Daten werden dann in den Tabellen der Datenbank gespeichert. Jede Information wird den entsprechenden Feldern innerhalb der Tabellen zugeordnet, um eine Organisation und Zugänglichkeit sicherzustellen.
+    
+    \item \textbf{Abfragen und Analyse}: Sobald die Daten sicher in der Datenbank gespeichert sind, können sie abgefragt und analysiert werden, um wertvolle Erkenntnisse zu extrahieren. Durch fortgeschrittene Abfragetechniken wie das Musterabgleichen lassen sich Trends, Anomalien und Korrelationen innerhalb des Datensatzes identifizieren.
+    
+    \item \textbf{Iterative Verfeinerung}: Das Datenbankdesign und die Abfragetechniken werden iterativ basierend auf den Analyseergebnissen und den sich entwickelnden Forschungsanforderungen verfeinert. Dies gewährleistet, dass die Datenbank für eine effiziente Datenextraktion und -analyse optimiert bleibt.
+\end{enumerate}
+
+Durch die Umsetzung dieser Schritte können Forscher effektiv auf den Reichtum an Informationen zugreifen, die in den gesammelten Daten enthalten sind, was zu fundierten Entscheidungen und wertvollen wissenschaftlichen Erkenntnissen führt.
+
+
+
+
+\textbf{Raspberry (Schreiber):}
+
+
+\lstinputlisting[language=Python]{imageToCircle3.py}
+
+\textbf{Versuchsleiter (Interaktiv):}
+ Es ermöglicht ihm, verschiedene Aktionen durchzuführen, die mit der Datenbank in Zusammenhang stehen. Dies kann das Abrufen von Daten, das Durchführen von Analysen oder das Hinzufügen von Informationen sein. Das Skript ist jedoch so flexibel gestaltet, dass der Versuchsleiter es auch nicht zwingend verwenden muss.
+
+\lstinputlisting[language=Python]{splitUpImage.py}
+
+\textbf{Analyst (Desktop-Anwendung):}
+Für den Analysten, der auf einem Desktop-Computer arbeitet, wird eine separate Python-Anwendung entwickelt. Diese Anwendung ist speziell auf die Bedürfnisse des Analysten zugeschnitten und ermöglicht ihm, komplexe Analysen und Auswertungen direkt auf seinem Desktop durchzuführen, basierend auf den Daten, die in der Datenbank gespeichert sind.
+
+
