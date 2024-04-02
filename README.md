@@ -63,3 +63,4 @@ mess konzept
 db gespräch
 UML
 desity
+design reschre
