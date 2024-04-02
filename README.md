@@ -64,3 +64,4 @@ db gespräch
 UML
 desity
 design reschre
+planug
