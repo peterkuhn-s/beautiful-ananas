@@ -1,0 +1,15 @@
+FROM arm32v7/python:3.9-slim
+
+RUN apt-get update && apt-get install -y \
+    libatlas-base-dev \
+    libjasper-dev \
+    libqt5gui5 \
+    libqt5webkit5 \
+    libqt5test5 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install flask opencv-python
+
+COPY app.py /
+
+CMD ["python", "app.py"]
