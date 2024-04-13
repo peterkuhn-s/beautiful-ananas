@@ -1,0 +1,22 @@
+\subsection{Funktionsweise}
+
+\textbf{Beispiele in anderen Sektoren}
+
+
+\textbf{Literatur zu Reflexion}
+Reflexion von IR: In 20XX hat Herr XX die Reflexion von IR genutzt, um den LWC von Schnee zu bestimmen. Die Ergebnisse wurden im Journal XX veröffentlicht.
+
+\textbf{Benutzte Mittel für den Versuchsaufbau}
+Als Laserquelle wurde ein grüner Bosch Quingo Kreuzlaser genutzt. Um sowohl die Reflexion als auch die Refraktion gleichzeitig zu sehen, wurde die Schneeprobe auf einen Mikroskopier-Objektträger platziert. Die Ergebnisse des Lasers wurden jeweils auf weissem Druckpapier dargestellt. Die Refraktion wird auf dem Papier an der Unterseite der Holzplatte dargestellt. Mit dem Fairphone 3 wurde eine Videoaufnahme gemacht, wie sich die Ergebnisse des Lasers verändern. Mit einem Kosmetikspiegel wurde sowohl die Reflexion unten als auch die Refraktion oben gleichzeitig in einem Bild dargestellt. Um alle Teile in festen Relationen zu halten, wurde Stativmaterial genutzt.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/signal-2024-03-10-112013_006.jpeg}
+    \caption{Benutzer der Datenbank}
+    \label{fig:LaserAufbau}
+\end{figure}
+
+\textbf{Funktionsweise des Versuchsaufbaus}
+
+
+
