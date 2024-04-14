@@ -1,52 +1,54 @@
 CREATE DATABASE TapeMessungenBAKuhn;
 
-CREATE TABLE MessOrt (
+CREATE TABLE Place (
     id SERIAL PRIMARY KEY,
-    nameOrt VARCHAR(255) NOT NULL,
-    koordinateN FLOAT,
-    koordinateE FLOAT
+    Name VARCHAR(255) NOT NULL,
+    CoordinateN FLOAT,
+    CoordinateE FLOAT
 );
 
-CREATE TABLE MessReihe (
+CREATE TABLE MeasurmentSeries (
     id SERIAL PRIMARY KEY,
-    datum TIMESTAMP WITH TIME ZONE NOT NULL,
-    schneeKategorie VARCHAR(255),
-    temperatur FLOAT,
-    niederschlag INT,
-    luftfeuchtigkeit FLOAT,
+    date TIMESTAMP WITH TIME ZONE NOT NULL,
+    SnowType VARCHAR(255),
+    TemperaturAir FLOAT,
+    Rainfall INT,
+    Humidity FLOAT,
     -- Foreign Key reference to MessOrt
-    messOrt_id INT REFERENCES MessOrt(id)
+    Place_id INT REFERENCES Place(id)
 );
 
-CREATE TABLE Messung (
+CREATE TABLE Measumrment (
     id SERIAL PRIMARY KEY,
-    lwcDenothMeter FLOAT,
-    dichte FLOAT,
-    tiefeUnterSchnee INT NOT NULL,
-    bildname VARCHAR(255) NOT NULL,
+    LwcDenothMeter FLOAT,
+    Density FLOAT,
+    DepthBelowSurface INT NOT NULL,
+    PhotoName VARCHAR(255) NOT NULL,
+    AvgRedVsWhite FLOAT,
+    AvgRadius FLOAT,
     -- Foreign Key reference to MessReihe
-    messReihe_id INT REFERENCES MessReihe(id)
+    MeasurmentSeries_id INT REFERENCES MeasurmentSeries(id)
 );
 
 CREATE TABLE Tape (
     id SERIAL PRIMARY KEY,
-    rotVsWeiss FLOAT NOT NULL,
-    radiusMittelwert FLOAT NOT NULL,
-    radiusSD FLOAT NOT NULL,
-    xAxeMittelwert FLOAT NOT NULL,
-    xAxeSD FLOAT NOT NULL,
-    yAxesMittelwert FLOAT NOT NULL,
-    yAxeSD FLOAT NOT NULL,
-    rundheit FLOAT NOT NULL,
+    RedVsWhite FLOAT NOT NULL,
+    RadiusAvg FLOAT NOT NULL,
+    RadiusSD FLOAT NOT NULL,
+    XAxeAvg FLOAT NOT NULL,
+    XAxeSD FLOAT NOT NULL,
+    YAxesAvg FLOAT NOT NULL,
+    YAxeSD FLOAT NOT NULL,
+    Roundness FLOAT NOT NULL,
     -- Foreign Key reference to Messung
-    messung_id INT REFERENCES Messung(id)
+    Measurment_id INT REFERENCES Measurment(id)
 );
 
-CREATE TABLE Kreis (
+CREATE TABLE Circle (
     id SERIAL PRIMARY KEY,
     Radius FLOAT NOT NULL,
-    xKooridnate INT NOT NULL,
-    yKooridnate INT NOT NULL,
+    XCooridnate INT NOT NULL,
+    YCooridnate INT NOT NULL,
     -- Foreign Key reference to Tape
     tape_id INT REFERENCES Tape(id)
 );

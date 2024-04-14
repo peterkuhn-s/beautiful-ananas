@@ -39,11 +39,11 @@ Die Anforderungen an die Datenbank und ihre Benutzer werden entsprechend den Anf
 
 \subsubsection{Konzeptueller DB Entwurf}
 
-Mit der Unified Modeling Language (UML) wird die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
+Mit der Unified Modeling Language (UML) \ref{fig:uml-db-entwurf}  wird die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{Bilder/Screenshotfrom2024-04-0113-01-07.png}
+    \includegraphics[width=0.8\textwidth]{Bilder/Screenshotfrom2024-04-1418-05-35.png}
     \caption{UML-Diagramm des konzeptuellen DB-Entwurfs}
     \label{fig:uml-db-entwurf}
 \end{figure}
@@ -56,10 +56,10 @@ Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free u
 
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
-\subsubsection{Ansichten für den Analysten}
+\subsubsection{Views für den Analysten}
 Das Endziel besteht darin, eine Regression aus den Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind nur bestimmte Angaben aus der Datenbank erforderlich.
 
-Hier werden zwei Ansichten erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Die zweite Ansicht dient dazu, genauer zu verstehen, was in der ersten Ansicht dargestellt ist.
+Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
 
 Da die Ansichten für den read only Analysten bestimmt sind, muss keine aktualisierbare Ansicht verwendet werden.
 
