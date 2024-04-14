@@ -7,34 +7,34 @@ import numpy as np
 import pandas as pd
 from imageToCircle3 import do_image
 # Function to retrieve the last inserted tape_id
-def get_last_messung_id(cur):
+def get_last_Measurment_id(cur):
 
     """
-    Retrieve the last inserted messung_id from the database.
+    Retrieve the last inserted Measurment_id from the database.
 
     Args:
         cur (psycopg2.cursor): Cursor object for database interaction.
 
     Returns:
-        int: The last inserted messung_id incremented by 1.
+        int: The last inserted Measurment_id incremented by 1.
     """
-    cur.execute("SELECT id FROM messung")
-    last_messung_id = cur.fetchone()
-    if last_messung_id:
-        return last_messung_id[0] + 1
+    cur.execute("SELECT id FROM Measurment")
+    last_Measurment_id = cur.fetchone()
+    if last_Measurment_id:
+        return last_Measurment_id[0] + 1
     else:
         return 1
-def insert_data(messreihe_id):
+def insert_data(MeasurmentSeries_id):
     """
     Insert a new messung entry into the database.
 
     Args:
-        messreihe_id (int): The ID of the messreihe associated with the messung.
+        MeasurmentSeires_id (int): The ID of the MeasurmentSeries associated with the Measurment.
 
     Returns:
         None
     """
-    sql = """INSERT INTO messung (messreihe_id) 
+    sql = """INSERT INTO Measurment (MeasurmentSeries_id) 
              VALUES (%s);"""
     conn = None
     try:
@@ -45,7 +45,7 @@ def insert_data(messreihe_id):
         # Create a new cursor
         cur = conn.cursor()
         # Execute the INSERT statement
-        cur.execute(sql, (messreihe_id))
+        cur.execute(sql, (MeasurmentSeries_id))
         # Commit the changes to the database
         conn.commit()
         print("Messung inserted into the database.")
@@ -65,7 +65,7 @@ def main():
     Prompts the user for a messungReihe ID input, processes a list of image names, and performs database operations.
     """
     # Prompt user for messung_id input
-    messung_id = input("Enter MessungReihe ID: ")
+    messung_id = input("Enter MeasurmentSeries ID: ")
 
     # List of image names
     image_names = ['bild1.png', 'bild2.png', 'bild3.png']
@@ -80,8 +80,8 @@ def main():
         cur = conn.cursor()
     
         # Retrieve the last inserted tape_id
-        messung_id = get_last_messung_id(cur)
-        print("Next messung_id:", messung_id)
+        messung_id = get_last_Measurment_id(cur)
+        print("Next Measurment_id:", Measurment_id)
 
         avg_mean_radius = 0
         # Process each image

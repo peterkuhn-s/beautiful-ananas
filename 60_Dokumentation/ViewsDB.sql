@@ -1,15 +1,15 @@
 CREATE VIEW Minimal_Messung_Tape_View AS
-SELECT m.lwcDenothMeter, t.rotVsWeiss, t.radiusMittelwert
-FROM Messung m
-JOIN Tape t ON m.id = t.messung_id;
+SELECT m.LwcDenothMeter, t.RedVsWhite, t.AvgRadius
+FROM Measurment m
+JOIN Tape t ON m.id = t.Measurment_id;
 
 
 CREATE VIEW Full_Measurement_View AS
-SELECT mo.id AS messort_id, mo.nameOrt, mo.koordinateN, mo.koordinateE,
-       mr.id AS messreihe_id, mr.datum, mr.schneeKategorie, mr.temperatur, mr.niederschlag, mr.luftfeuchtigkeit,
+SELECT mo.id AS place_id, mo.Name, mo.CoordinateN, mo.CoordinateE,
+       mr.id AS MeasurmentSeries_id, mr.Date, mr.SnowType, mr.Temperatur, mr.Rainfall, mr.Humidity,
        m.id AS messung_id, m.lwcDenothMeter, m.dichte, m.tiefeUnterSchnee, m.bildname,
-       t.id AS tape_id, t.rotVsWeiss, t.radiusMittelwert, t.radiusSD, t.xAxeMittelwert, t.xAxeSD, t.yAxesMittelwert, t.yAxeSD, t.rundheit
-FROM MessOrt mo
-JOIN MessReihe mr ON mo.id = mr.messOrt_id
-JOIN Messung m ON mr.id = m.messReihe_id
-JOIN Tape t ON m.id = t.messung_id;
+       t.id AS tape_id, t.RedVsWhite, t.radiusAvg, t.RadiusSD, t.XAxeAvg, t.XAxeSD, t.yAxesMittelwert, t.YAxeSD, t.Roundness
+FROM Place mo
+JOIN MeasurmentSeries mr ON mo.id = mr.Place_id
+JOIN Measurment m ON mr.id = m.MeasurmentSeries_id
+JOIN Tape t ON m.id = t.Measurment_id;

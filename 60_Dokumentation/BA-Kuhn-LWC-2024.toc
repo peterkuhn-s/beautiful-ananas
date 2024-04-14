@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Anforderungsanalyse}{9}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Konzeptueller DB Entwurf}{10}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Logischer DB Entwurf}{10}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Ansichten für den Analysten}{10}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4}Views für den Analysten}{10}{subsubsection.4.3.4}%
 \contentsline {subsubsection}{\numberline {4.3.5}Physischer Entwurf}{12}{subsubsection.4.3.5}%
 \contentsline {subsubsection}{\numberline {4.3.6}Python-Interaktion mit der Datenbank}{12}{subsubsection.4.3.6}%
 \contentsline {subsubsection}{\numberline {4.3.7}Nächste Schritte}{12}{subsubsection.4.3.7}%

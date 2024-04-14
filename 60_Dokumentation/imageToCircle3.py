@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import pandas as pd
 
-def do_image(image_name, messung_id):  # Accept tape_id as a parameter
+def do_image(image_name, Measurment_id):  # Accept tape_id as a parameter
     """
     Process an image to detect circles, calculate statistics, and insert data into the database.
 
@@ -18,7 +18,7 @@ def do_image(image_name, messung_id):  # Accept tape_id as a parameter
         float: The mean radius of the detected circles.
     """
     df = process_image(image_name)
-    mean_radius = perform_statistics(df, messung_id)
+    mean_radius = perform_statistics(df, Measurment_id)
 
     tape_id = get_last_tape_id()
     for index, row in df.iterrows():
@@ -27,7 +27,7 @@ def do_image(image_name, messung_id):  # Accept tape_id as a parameter
     return mean_radius
 
 # Function to perform statistics on a DataFrame
-def perform_statistics(df, messung_id):
+def perform_statistics(df, Measurment_id):
     """
     Calculate statistics on a DataFrame containing circle data and insert them into the database.
 
@@ -69,7 +69,7 @@ def insert_data_tape(mean_radius, mean_x_coordinate, mean_y_coordinate, std_radi
     Returns:
         None
     """
-    sql = """INSERT INTO tape (radiusmittelwert, xaxemittelwert, yaxesmittelwert, radiussd, xaxesd, yaxesd, messung_id) 
+    sql = """INSERT INTO tape (radiusavg, xaxeavg, yaxesavg, radiussd, xaxesd, yaxesd, Measurment_id) 
              VALUES (%s, %s, %s, %s, %s, %s);"""
     conn = None
     try:
@@ -167,7 +167,7 @@ def insert_data_kreis(radius, x_coordinate, y_coordinate, tape_id):
     Returns:
         None
     """
-    sql = """INSERT INTO kreis (radius, xkooridnate, ykooridnate, tape_id) VALUES (%s, %s, %s, %s);"""
+    sql = """INSERT INTO Circle (radius, xcooridnate, ycooridnate, tape_id) VALUES (%s, %s, %s, %s);"""
     conn = None
     try:
         # Read database configuration
