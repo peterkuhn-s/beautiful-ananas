@@ -65,4 +65,5 @@ UML
 desity
 design reschre
 planug
-idee 
+idee
+resoarch
