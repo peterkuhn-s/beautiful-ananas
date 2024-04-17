@@ -1,0 +1,12 @@
+import pickle
+
+# Load data from the pickle file
+with open('categorization_cache.pkl', 'rb') as file:
+    data = pickle.load(file)
+
+# Modify the data
+data['Literatur lesen'] = 'A'
+
+# Save the modified data back to the pickle file
+with open('categorization_cache.pkl', 'wb') as file:
+    pickle.dump(data, file)
