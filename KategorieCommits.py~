@@ -1,0 +1,13 @@
+from gpt4all import GPT
+
+# Erstelle eine Instanz des GPT-4-Modells
+gpt = GPT(engine="em_german_mistral_v01.Q4_0.gguf")
+
+# Definiere den Eingabetext
+prompt = "Kategorisiere die Arbeit 'Messkonzept ausarbeiten' in die folgenden Kategorien: A für Recherche und Planung, B für Durchführung und Umsetzung, C für Dokumentation und D für Sonstiges."
+
+# Rufe die API auf, um die Kategorisierung zu erhalten
+response = gpt.submit_request(prompt)
+
+# Gib die Antwort aus
+print(response.choices[0].text)

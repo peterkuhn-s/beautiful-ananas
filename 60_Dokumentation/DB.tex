@@ -58,18 +58,18 @@ Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free u
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
 \subsubsection{Views für den Analysten}
-Das Endziel besteht darin, eine Regression aus den Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind nur bestimmte Angaben aus der Datenbank erforderlich.
+Das Endziel besteht darin, eine Regression aus den Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
 
 Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
 
-Da die Ansichten für den read only Analysten bestimmt sind, muss keine aktualisierbare Ansicht verwendet werden.
+Da die Ansichten für den read only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
 
 \ref{code:ViewDB}
 
 \subsubsection{Physischer Entwurf}
 Für die Beispieldaten wurden Daten aus der Vorstudie \ref{} für eine Messung verwendet.
 
-Die Datenbank wird anfangs viele NULL-Werte enthalten, da beispielsweise die Wetterdaten nicht von einer API gefüllt werden. Das ist auch in Ordnung, da die fehlenden Werte mit 0 aufgefüllt werden.
+Die Datenbank wird anfangs viele NULL-Werte enthalten, da beispielsweise die Wetterdaten nicht von einer API gefüllt werden.
 
 Die Transaktionen sind in dieser Anwendung unproblematisch, da der Benutzer, der die Inserts durchführt (Raspberry, Feldforscher), zu einem früheren Zeitpunkt arbeitet als der Analyst.
 

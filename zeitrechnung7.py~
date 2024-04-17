@@ -1,0 +1,110 @@
+import subprocess
+import re
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
+from gpt4all import GPT4All
+
+def get_commit_messages():
+    """Fetches commit messages and their timestamps using git log."""
+    command = ['git', 'log', '--pretty=%s %ct']
+    result = subprocess.run(command, stdout=subprocess.PIPE, text=True)
+    return result.stdout.splitlines()
+
+def extract_date_and_minutes(commit_message):
+    """Extracts date, minutes, and category from a commit message."""
+    match = re.search(r'(\d+) (.+?) (\d+) (\s)$', commit_message)
+    if match:
+        minutes = int(match.group(1))
+        unix_timestamp = int(match.group(3))
+        date = pd.to_datetime(unix_timestamp, unit='s').strftime('%Y-%m-%d')
+        comment = str(match.group(2))
+        category = categorise_message(comment)
+        return date, minutes, category
+    return None, 0, None
+
+def calculate_total_minutes(commit_messages, df):
+    """Calculates total minutes spent on each category."""
+    for message in commit_messages:
+        date, minutes, category = extract_date_and_minutes(message)
+        if date:
+            if category == 'A':
+                df.loc[date, 'Minutes_Recherche_Planung'] += minutes
+            elif category == 'B':
+                df.loc[date, 'Minutes_Durchfuehrung_Umsetzung'] += minutes
+            elif category == 'C':
+                df.loc[date, 'Minutes_Dokumentation'] += minutes
+            else:
+                df.loc[date, 'Minutes_Sonstiges'] += minutes
+    return df
+
+def categorise_message(comment):
+    """Categorizes a commit message into one of the predefined categories."""
+    model = GPT4All("em_german_mistral_v01.Q4_0.gguf")
+    prompt = f"Kategorisiere die Arbeit '{comment}' in die folgenden Kategorien: A für Recherche und Planung, B für Durchführung und Umsetzung, C für Dokumentation und D für Sonstiges."
+    response = model.generate(prompt, max_tokens=3)
+    category = parse_category_from_response(response)
+    return category
+
+def parse_category_from_response(response):
+    """Parses the category from the API response."""
+    if 'A' in response:
+        return 'A'
+    elif 'B' in response:
+        return 'B'
+    elif 'C' in response:
+        return 'C'
+    elif 'D' in response:
+        return 'D'
+    else:
+        return 'Unknown'
+
+def initialize_pd_data():
+    """Initializes the Pandas DataFrame with zeros and default values."""
+    date_range = pd.date_range(start='2024-02-19', end='2024-06-14', freq='D')
+    df = pd.DataFrame(data={'Date': date_range, 
+                            'Minutes_Recherche_Planung': 0, 
+                            'Minutes_Durchfuehrung_Umsetzung': 0, 
+                            'Minutes_Dokumentation': 0, 
+                            'Minutes_Sonstiges': 0, 
+                            'Total_Minutes': 0,  # New column for total minutes
+                            'Category': str}, 
+                      index=date_range)
+    return df
+
+if __name__ == '__main__':
+    df = initialize_pd_data()
+    commit_messages = get_commit_messages()
+    daily_minutes = calculate_total_minutes(commit_messages, df)
+
+    # Calculate total minutes by summing up all category columns
+    df['Total_Minutes'] = df[['Minutes_Recherche_Planung', 
+                              'Minutes_Durchfuehrung_Umsetzung', 
+                              'Minutes_Dokumentation', 
+                              'Minutes_Sonstiges']].sum(axis=1)
+
+    # Convert total minutes to hours
+    total_hours = df['Total_Minutes'].sum() / 60
+    print(f'Total hours spent on commits: {total_hours:.2f} hours')
+
+    # Plotting
+    plt.figure(figsize=(10, 6))
+    plt.yscale('log')
+    plt.gca().yaxis.set_major_formatter(ScalarFormatter())
+    plt.stackplot(df.index, 
+                  df['Minutes_Recherche_Planung'], 
+                  df['Minutes_Durchfuehrung_Umsetzung'], 
+                  df['Minutes_Dokumentation'], 
+                  df['Minutes_Sonstiges'], 
+                  labels=['Recherche und Planung', 
+                          'Durchführung und Umsetzung', 
+                          'Dokumentation', 
+                          'Sonstiges'],
+                  colors=['blue', 'green', 'orange', 'red'])  # Assign colors to each category
+    plt.legend(loc='upper left')
+    plt.title(f'Daily minutes spent on commits: Total = {total_hours:.2f} hours')
+    plt.xlabel('Date')
+    plt.ylabel('Minutes')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
