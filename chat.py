@@ -37,7 +37,7 @@ def categorise_message(comment):
     model = GPT4All("em_german_mistral_v01.Q4_0.gguf")
     prompt = f"Kategorisiere die Arbeit '{comment}' in die folgenden Kategorien: A für Recherche und Planung, B für Durchführung und Umsetzung, C für Dokumentation und D für Sonstiges."
     response = model.generate(prompt, max_tokens=3)
-    return response.choices[0].text.strip()
+    return response
 
 def initialize_pd_data():
     # Create date range from '2024-02-19' to '2024-06-14'
@@ -68,6 +68,41 @@ if __name__ == '__main__':
     # Plotting
     plt.figure(figsize=(10, 6))
     df.plot(kind='bar', stacked=True, ax=plt.gca(), color=['skyblue', 'salmon', 'lightgreen', 'orange'])
+    plt.title(f'Daily minutes spent on commits: Total = {total_hours:.2f} hours')
+    plt.xlabel('Date')
+    plt.ylabel('Minutes')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+    
+if __name__ == '__main__':
+    df = initialize_pd_data()
+    commit_messages = get_commit_messages()
+    daily_minutes = calculate_total_minutes(commit_messages, df)
+
+    # Calculate total minutes by summing up all category columns, hi
+    df['Total_Minutes'] = df[['Minutes_Recherche_Planung', 
+                              'Minutes_Durchfuehrung_Umsetzung', 
+                              'Minutes_Dokumentation', 
+                              'Minutes_Sonstiges']].sum(axis=1)
+
+    # Convert total minutes to hours
+    total_hours = df['Total_Minutes'].sum() / 60
+    print(f'Total hours spent on commits: {total_hours:.2f} hours')
+
+    # Plotting
+    plt.figure(figsize=(10, 6))
+    plt.stackplot(df.index, 
+                  df['Minutes_Recherche_Planung'], 
+                  df['Minutes_Durchfuehrung_Umsetzung'], 
+                  df['Minutes_Dokumentation'], 
+                  df['Minutes_Sonstiges'], 
+                  labels=['Recherche und Planung', 
+                          'Durchführung und Umsetzung', 
+                          'Dokumentation', 
+                          'Sonstiges'],
+                  colors=['blue', 'green', 'orange', 'red'])  # Assign colors to each category
+    plt.legend(loc='upper left')
     plt.title(f'Daily minutes spent on commits: Total = {total_hours:.2f} hours')
     plt.xlabel('Date')
     plt.ylabel('Minutes')
