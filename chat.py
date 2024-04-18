@@ -80,7 +80,7 @@ if __name__ == '__main__':
     commit_messages = get_commit_messages()
     daily_minutes = calculate_total_minutes(commit_messages, df)
 
-    # Calculate total minutes by summing up all category columns, bu.. 
+    # Calculate total minutes by summing up all category columns, bu
     df['Total_Minutes'] = df[['Minutes_Recherche_Planung', 
                               'Minutes_Durchfuehrung_Umsetzung', 
                               'Minutes_Dokumentation', 
