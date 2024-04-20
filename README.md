@@ -69,3 +69,4 @@ idee
 resoarch
 knos
 kno
+dex
