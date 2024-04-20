@@ -68,3 +68,4 @@ planug
 idee
 resoarch
 knos
+kno
