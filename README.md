@@ -67,3 +67,4 @@ design reschre
 planug
 idee
 resoarch
+knos
