@@ -71,3 +71,4 @@ knos
 kno
 dex
 cad
+kom
