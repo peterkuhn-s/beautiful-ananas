@@ -1,0 +1,11 @@
+Das Ziel ist es die Statistik Daten aus \ref{} zu benutzten um ein statischtisches maschien learn modell auf zu bauen. der Input sind dann parameter wie zum beistiel das RedVsWhite oder der RadiusAvg. der output ist der LWCTape. um das modell zu trainiern wird der LWCDenoth benutzt.
+
+dass heisst im besten fall kann das Tape die gleichen Werte wie das Denothmeter produzieren. aber mit dieser technik ist es nicht möglich eine qualitativ bessere über schnee und Gleitschneelawinen zu machen als das denothmeter.
+
+Um ein modell zu trainiern das den Denothmeter gut abbieldet, muss das modell mit möglichst vielen schneetypen und entsprechenden LWCDenoth trainiert werden.
+
+mein bauchgefühl sagt, dass für ein rubustes modell 100 LWCDenoth gut wären. Das gute an ML ist, dass die genauigkeit der modelle weitgehen linear mit der  anzahl traingsdaten steigt.
+
+\caption{grafik aus der Vorlesung Deep Learning, Hannes Badertsch}
+
+In den frühen phasen diesr BA wird nur das Konzept eingeführt und dan das eigene biologische neuronale Netztwerk im Hirn benutzt um die Bilder/Statisik mit den LWCDenoth zu korrelieren.
