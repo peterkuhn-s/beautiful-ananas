@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  17 APR 2024 08:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  23 APR 2024 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,7 +653,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [3] (./Einleitung.tex)
 (./Lawinen.tex) (./EntstehungGleitlawine.tex) (./Endziel.tex) (./UserStory.tex)
-(./Anforderungen.tex) (./PlanungDerArbeit.tex
+(./Anforderungen.tex
 <Bilder/OST_Logo.png, id=257, 1144.275pt x 391.4625pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
@@ -672,12 +672,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 b
-     au den Funktionsmusters. hier wird ein vielversprechendes physikalische...
-[1 <./Bilder/Ost_Logo.png>]) (./5559Tape.tex) (./Voltcraft.tex
+l.5 d
+     ie methode soll den messbereich des LWC von 1 \% bis 7 \% abdecken.
+[1 <./Bilder/Ost_Logo.png>]) (./PlanungDerArbeit.tex)
+
+! LaTeX Error: File `LWC.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `PhysPriz.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `KommPro.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./Vorstudie.tex) (./5559Tape.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 8.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -692,8 +717,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 
-     [2]
+l.8 
+     [2]) (./Voltcraft.tex
 ! Undefined control sequence.
 l.21 Wiederstand zwischen Punkt A B 2.6 \ohm
                                             
@@ -702,6 +727,25 @@ l.21 Wiederstand zwischen Punkt A B 2.6 \ohm
 l.23 wiederstand ziwschen Punkt A C 0.2 \ohm
                                             
 ? 
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 35.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 S
+      chnee ist wasser das vom Boden verdampft, sich dann in der Atmosspäre...
+[3]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -740,47 +784,15 @@ T1/cmr/m/n/12 =
  []
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 43.
+LaTeX Warning: Reference `' on page 4 undefined on input line 43.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 43.
+LaTeX Warning: Reference `' on page 4 undefined on input line 43.
 
-)
+) (./LaserRef.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 124.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \subsection
-                 {Laser Refraktion und Reflezion} [3] (./LaserRef.tex
-<Bilder/signal-2024-03-10-112013_006.jpeg, id=271, 2055.68pt x 1541.76pt>
-File: Bilder/signal-2024-03-10-112013_006.jpeg Graphic file (type jpg)
-<use Bilder/signal-2024-03-10-112013_006.jpeg>
-Package pdftex.def Info: Bilder/signal-2024-03-10-112013_006.jpeg  used on inpu
-t line 24.
-(pdftex.def)             Requested size: 334.60422pt x 250.94472pt.
-<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=272, 2132.96875pt x 1509.64pt>
-
-File: Bilder/Screenshotfrom2024-04-0413-27-28.png Graphic file (type png)
-<use Bilder/Screenshotfrom2024-04-0413-27-28.png>
-Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0413-27-28.png  used on i
-nput line 36.
-(pdftex.def)             Requested size: 334.60422pt x 236.80208pt.
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 39.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 16.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -792,12 +804,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [4]
+<Bilder/signal-2024-03-10-112013_006.jpeg, id=276, 2055.68pt x 1541.76pt>
+File: Bilder/signal-2024-03-10-112013_006.jpeg Graphic file (type jpg)
+<use Bilder/signal-2024-03-10-112013_006.jpeg>
+Package pdftex.def Info: Bilder/signal-2024-03-10-112013_006.jpeg  used on inpu
+t line 24.
+(pdftex.def)             Requested size: 334.60422pt x 250.94472pt.
+<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=277, 2132.96875pt x 1509.64pt>
+
+File: Bilder/Screenshotfrom2024-04-0413-27-28.png Graphic file (type png)
+<use Bilder/Screenshotfrom2024-04-0413-27-28.png>
+Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0413-27-28.png  used on i
+nput line 36.
+(pdftex.def)             Requested size: 334.60422pt x 236.80208pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 64.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 58.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -811,11 +837,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.64 
-      <./Bilder/signal-2024-03-10-112013_006.jpeg>]) (./Vibration.tex
+l.58 
+      <./Bilder/signal-2024-03-10-112013_006.jpeg>])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 9.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 131.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -830,10 +856,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.9 
-     <./Bilder/Screenshotfrom2024-04-0413-27-28.png>]) (./Diffusion.tex)
-(./Bildverarbeitung.tex
-<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=293, 778.91pt x 1191.45125pt>
+l.131 
+       <./Bilder/Screenshotfrom2024-04-0413-27-28.png>] (./Vibration.tex)
+(./Diffusion.tex)
+
+! LaTeX Error: File `FunkMuster.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./AgilHardDev.tex)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 144.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[7] (./Messablauf.tex
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 1.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 3.
+
+) (./Bildverarbeitung.tex
+<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=297, 778.91pt x 1191.45125pt>
 File: Bilder/Screenshotfrom2024-04-0112-59-42.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0112-59-42.png>
 Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0112-59-42.png  used on i
@@ -852,7 +908,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[7]
+[8]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 10.
@@ -866,13 +922,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.10 \newpage
               <./Bilder/Screenshotfrom2024-04-0112-59-42.png>]) (./DB.tex
-<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=306, 2595.6975pt x 1476.51625p
+<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=311, 2595.6975pt x 1476.51625p
 t>
 File: Bilder/Screenshotfrom2024-04-0115-26-08.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0115-26-08.png>
@@ -892,14 +948,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
-has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.29   \item D
               er Versuchsdurchführende gibt zusätzliche Informationen übe...
  <./Bilder/Screenshotfrom2024-04-0115-26-08.png>]
-<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=316, 1270.7475pt x 1731.46875p
+<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=322, 1270.7475pt x 1731.46875p
 t>
 File: Bilder/Screenshotfrom2024-04-1418-05-35.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-1418-05-35.png>
@@ -908,7 +964,7 @@ nput line 46.
 (pdftex.def)             Requested size: 334.60422pt x 455.90442pt.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 70.
+LaTeX Warning: Reference `' on page 11 undefined on input line 70.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
@@ -922,7 +978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[10]
+[11]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 73.
@@ -936,7 +992,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -972,7 +1028,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[12]
+[13]
 Overfull \hbox (3.74736pt too wide) in paragraph at lines 12--13
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1007,7 +1063,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[13]) (./ViewsDB.sql
+[14]) (./ViewsDB.sql
 Overfull \hbox (205.3001pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1037,7 +1093,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[14]
+[15]
 Overfull \hbox (136.01634pt too wide) in paragraph at lines 4--5
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1100,7 +1156,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[15]
+[16]
 Overfull \hbox (471.24944pt too wide) in paragraph at lines 51--53
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1157,7 +1213,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[16]
+[17]
 Overfull \hbox (511.99004pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1184,7 +1240,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[17]
+[18]
 Overfull \hbox (16.31273pt too wide) in paragraph at lines 123--124
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1251,7 +1307,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[18]
+[19]
 Overfull \hbox (281.12663pt too wide) in paragraph at lines 170--171
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
@@ -1279,7 +1335,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[19]
+[20]
 Overfull \hbox (43.47313pt too wide) in paragraph at lines 209--210
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1328,7 +1384,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[20] (./splitUpImage.py
+[21] (./splitUpImage.py
 Overfull \hbox (9.52263pt too wide) in paragraph at lines 13--15
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1360,7 +1416,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[21]
+[22]
 Overfull \hbox (369.39793pt too wide) in paragraph at lines 65--66
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][] 
@@ -1378,31 +1434,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[22]
+[23]
 Overfull \hbox (9.52263pt too wide) in paragraph at lines 90--91
 [][][][][][][][][][][][][][][] 
  []
 
 ))
+
+! LaTeX Error: File `TestKrit.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./WiedUmwelt.tex
+
+LaTeX Warning: Reference `' on page 24 undefined on input line 3.
+
+) (./ErgebVers.tex
+! Undefined control sequence.
+l.1 \textb
+          {erster feldversuch}
+? 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 156.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[23] (./Ausblick.tex)
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 165.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1413,16 +1471,149 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
-! LaTeX Error: File `Literaturverzeichnis.tex' not found.
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ... dann soll der LWC sehr tief sein. \caption
+                                                  {Wärmebildaufnahme der ge...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.7 ... dann soll der LWC sehr tief sein. \caption
+                                                  {Wärmebildaufnahme der ge...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.7 ... dann soll der LWC sehr tief sein. \caption
+                                                  {Wärmebildaufnahme der ge...
+
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \caption
+             {Messstandort in Davos, unter dem regenschrim ist das Tape gela...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.12 \caption
+             {Messstandort in Davos, unter dem regenschrim ist das Tape gela...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.12 \caption
+             {Messstandort in Davos, unter dem regenschrim ist das Tape gela...
+
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \caption
+             {Ein bild von 'normalem' schnee}
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.14 \caption
+             {Ein bild von 'normalem' schnee}
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.14 \caption
+             {Ein bild von 'normalem' schnee}
+? 
+! Undefined control sequence.
+l.19 \textb
+           {zweiter Feldversuch}
+? 
+) (./VergleichDeno.tex
+
+LaTeX Warning: Reference `' on page 25 undefined on input line 1.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \caption
+            {grafik aus der Vorlesung Deep Learning, Hannes Badertsch}
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.9 \caption
+            {grafik aus der Vorlesung Deep Learning, Hannes Badertsch}
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.9 \caption
+            {grafik aus der Vorlesung Deep Learning, Hannes Badertsch}
+? 
+
+LaTeX Warning: Reference `' on page 25 undefined on input line 13.
+
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 17.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[25]
+
+LaTeX Warning: Reference `' on page 26 undefined on input line 18.
+
+)
+
+! LaTeX Error: File `VerbessFunktMuss.tex' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./VollAutDurch.tex
+
+LaTeX Warning: Reference `' on page 26 undefined on input line 1.
+
+
+LaTeX Warning: Reference `' on page 26 undefined on input line 1.
+
+
+LaTeX Warning: Reference `' on page 26 undefined on input line 15.
+
+)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 171.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 172.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1433,7 +1624,61 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[25] (./Unterschrift.tex
+[26]
+
+! LaTeX Error: File `Ausb.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./PersErf.tex)
+
+! LaTeX Error: File `Fazit.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./Ausblick.tex) (./Danksagung.tex)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 188.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[27]
+
+! LaTeX Error: File `Literaturverzeichnis.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 194.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[28] (./Unterschrift.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 1.
@@ -1447,10 +1692,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[26])
+[29])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 175.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 198.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1461,7 +1706,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[27] (./BA-Kuhn-LWC-2024.lof)
+[30] (./BA-Kuhn-LWC-2024.lof)
 \tf@lof=\write5
 \openout5 = `BA-Kuhn-LWC-2024.lof'.
 
@@ -1471,7 +1716,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 180.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 203.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1482,30 +1727,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[28]
-<Bilder/lebenslauf-2.pdf, id=890, 614.295pt x 794.97pt>
+[31]
+<Bilder/lebenslauf-2.pdf, id=912, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 184.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 207.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 184.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 207.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=893, page=1, 614.295pt x 794.97pt>
+<Bilder/lebenslauf-2.pdf, id=915, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 184
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 207
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 184
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 207
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 184.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 207.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1516,53 +1761,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[29]
+[32]
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 184
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 207
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 184
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 207
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 184
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 207
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [30 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
+ [33 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
-(rerunfilecheck)             Checksum: 0DB33BC22818F6A0260F521F2EA4C0B7;6824.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `BA-Kuhn-LWC-2024.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BA-Kuhn-LWC-2024.out':
+(rerunfilecheck)             Before: 0DB33BC22818F6A0260F521F2EA4C0B7;6824
+(rerunfilecheck)             After:  DB25A3817D08879D7C55E3CC120EA657;7193.
  ) 
 Here is how much of TeX's memory you used:
- 16891 strings out of 478287
- 265453 string characters out of 5849289
- 810529 words of memory out of 5000000
- 34180 multiletter control sequences out of 15000+600000
+ 16991 strings out of 478287
+ 267549 string characters out of 5849289
+ 810536 words of memory out of 5000000
+ 34216 multiletter control sequences out of 15000+600000
  479726 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,17n,77p,1060b,2333s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfit1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fit1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-tt1095.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (33 pages, 42646489 bytes).
+pdfTeX warning (dest): name{subsubsection.4.3.8} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.7} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.6} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.5} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.4} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.2} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.3.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+bx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfit1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfi
+t1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt
+1095.pfb>
+Output written on BA-Kuhn-LWC-2024.pdf (36 pages, 42657137 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 990 compressed objects within 10 object streams
- 552 named destinations out of 1000 (max. 500000)
+ 1115 PDF objects out of 1200 (max. 8388607)
+ 1012 compressed objects within 11 object streams
+ 565 named destinations out of 1000 (max. 500000)
  407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
