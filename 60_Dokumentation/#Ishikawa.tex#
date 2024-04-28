@@ -1,0 +1,10 @@
+In dem Bild \ref{img:Varianz} wurde Schnee in einem 0.2 m^2 Fläche gemessen. Ziel war es die Varianz von vergleichbarem Schnee zu ermittelt.
+
+mit ishiwaw \ref{} wurde das Problem der hohen varianz genauer analysiert.
+
+die wichtigsten Probleme sind
+\begin{itemize}
+\item das Tap ist anisotrop, durch die Herstellung. das ist besonders auffällig an den Rändern. die Lösung wurde in \ref{fig:Bildverarbeitnugskonzpet} schon intuitiv benutzt. Der Rand (etwa 2 mm) soll nicht beachtet werden. der bildausschnitt wird in Zukunft so gewählt, dass der Rand nicht im Bild ist.
+  
+\end{itemize}
+
