@@ -1,0 +1,1035 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{snowathome}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.snowathome.com/product/sg6-xstream-snowmaker/
+      \endverb
+      \verb{url}
+      \verb https://www.snowathome.com/product/sg6-xstream-snowmaker/
+      \endverb
+    \endentry
+    \entry{instructables}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.instructables.com/Home-Snowmaker-Snowgun-internal-mix/
+      \endverb
+      \verb{url}
+      \verb https://www.instructables.com/Home-Snowmaker-Snowgun-internal-mix/
+      \endverb
+    \endentry
+    \entry{joule-thomson-wiki}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
+      \endverb
+    \endentry
+    \entry{miro}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://miro.com/app/board/uXjVNqJWvys=/?moveToWidget=3458764579769300787&cot=14
+      \endverb
+      \verb{url}
+      \verb https://miro.com/app/board/uXjVNqJWvys=/?moveToWidget=3458764579769300787&cot=14
+      \endverb
+    \endentry
+    \entry{popmech}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.popularmechanics.com/adventure/outdoors/a26016338/how-to-make-fake-snow/
+      \endverb
+      \verb{url}
+      \verb https://www.popularmechanics.com/adventure/outdoors/a26016338/how-to-make-fake-snow/
+      \endverb
+    \endentry
+    \entry{nasa-snowex-2020}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+      \verb{url}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+    \endentry
+    \entry{nasa-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
+      \endverb
+      \verb{url}
+      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
+      \endverb
+    \endentry
+    \entry{ubc-met-concepts}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.eoas.ubc.ca/courses/atsc113/snow/met_concepts/07-met_concepts/07b-newly-fallen-snow-density/
+      \endverb
+      \verb{url}
+      \verb https://www.eoas.ubc.ca/courses/atsc113/snow/met_concepts/07-met_concepts/07b-newly-fallen-snow-density/
+      \endverb
+    \endentry
+    \entry{jstage-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
+      \endverb
+    \endentry
+    \entry{sciencelearn-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sciencelearn.org.nz/resources/1391-snow-and-ice-density
+      \endverb
+      \verb{url}
+      \verb https://www.sciencelearn.org.nz/resources/1391-snow-and-ice-density
+      \endverb
+    \endentry
+    \entry{proquest-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2515698986?%20Theses&fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&parentSessionId=IvIK4xLnFrxKhXxv6CazyhndGZWGa0i7vbpgpqZE3MI%3D
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2515698986?%20Theses&fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&parentSessionId=IvIK4xLnFrxKhXxv6CazyhndGZWGa0i7vbpgpqZE3MI%3D
+      \endverb
+    \endentry
+    \entry{nasa-snowex-2020-2}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+      \verb{url}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+    \endentry
+    \entry{mt-density-meter}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
+      \endverb
+    \endentry
+    \entry{elibrary}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://elibrary.ru/item.asp?id=25161535
+      \endverb
+      \verb{url}
+      \verb https://elibrary.ru/item.asp?id=25161535
+      \endverb
+    \endentry
+    \entry{micro-dehumidifier}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.micro-dehumidifier.com/products/product-range-overview/
+      \endverb
+      \verb{url}
+      \verb https://www.micro-dehumidifier.com/products/product-range-overview/
+      \endverb
+    \endentry
+    \entry{kennedylabs-download}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
+      \endverb
+      \verb{url}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
+      \endverb
+    \endentry
+    \entry{a2photonicsensors}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
+      \endverb
+      \verb{url}
+      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
+      \endverb
+    \endentry
+    \entry{ilmsens-short-range-radar}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+      \verb{url}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+    \endentry
+    \entry{sensirion-sht4xa-sensors}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
+      \endverb
+    \endentry
+    \entry{ilmsens-impedance-spectroscopy}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ilmsens.com/impedance-spectroscopy/
+      \endverb
+      \verb{url}
+      \verb https://www.ilmsens.com/impedance-spectroscopy/
+      \endverb
+    \endentry
+    \entry{slf}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{note}{Citavi}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.slf.ch/en/
+      \endverb
+      \verb{url}
+      \verb https://www.slf.ch/en/
+      \endverb
+    \endentry
+    \entry{Abdelaal.2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=82b8e33ce18e1417b465c6540b8a9aa5}{%
+           family={Abdelaal},
+           familyi={A\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1777b7c8e82fb3e6bd5569c9bae88997}{%
+           family={Sarayloo},
+           familyi={S\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c13bcdc6e4ae35d92bec8d39cb8ea74}{%
+           family={Nims},
+           familyi={N\bibinitperiod},
+           given={Douglas\bibnamedelima K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=bf69e6ec2b9423e3e01742655db0722c}{%
+           family={Mohammadian},
+           familyi={M\bibinitperiod},
+           given={Behrouz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=12ba02699025c8a56251c3956efa200d}{%
+           family={Heil},
+           familyi={H\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d23c4a6e17dd788549772356e7f6329}{%
+           family={Sojoudi},
+           familyi={S\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{80504a3042cf984459a50d1c08e9d6e2}
+      \strng{fullhash}{7d8bb6875c4eeef6a1b36304960f897f}
+      \strng{bibnamehash}{80504a3042cf984459a50d1c08e9d6e2}
+      \strng{authorbibnamehash}{80504a3042cf984459a50d1c08e9d6e2}
+      \strng{authornamehash}{80504a3042cf984459a50d1c08e9d6e2}
+      \strng{authorfullhash}{7d8bb6875c4eeef6a1b36304960f897f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165232X}
+      \field{journaltitle}{Cold Regions Science and Technology}
+      \field{title}{A flexible surface-mountable sensor for ice detection and non-destructive measurement of liquid water content in snow}
+      \field{volume}{195}
+      \field{year}{2022}
+      \field{pages}{103469}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.1016/j.coldregions.2021.103469}
+      \endverb
+    \endentry
+    \entry{Adachi.2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=83e4caa3b593bb29ddfb5e4b5b312e91}{%
+           family={Adachi},
+           familyi={A\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b114ca1f48cd402db7a823ac7ec5fcb0}{%
+           family={Yamaguchi},
+           familyi={Y\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4e0a59197744cb4f28d7ae054da73af0}{%
+           family={Ozeki},
+           familyi={O\bibinitperiod},
+           given={Toshihiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a00cc286221a3574151ce1303fe3dfa8}{%
+           family={Kose},
+           familyi={K\bibinitperiod},
+           given={Katsumi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{466c70f2491ff9bffa32a49e75007871}
+      \strng{fullhash}{e5de72118c16f09e71dcf9977b360cf9}
+      \strng{bibnamehash}{466c70f2491ff9bffa32a49e75007871}
+      \strng{authorbibnamehash}{466c70f2491ff9bffa32a49e75007871}
+      \strng{authornamehash}{466c70f2491ff9bffa32a49e75007871}
+      \strng{authorfullhash}{e5de72118c16f09e71dcf9977b360cf9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Earth Science}
+      \field{title}{Application of a Magnetic Resonance Imaging Method for Nondestructive, Three-Dimensional, High-Resolution Measurement of the Water Content of Wet Snow Samples}
+      \field{volume}{8}
+      \field{year}{2020}
+      \verb{doi}
+      \verb \url{10.3389/feart.2020.00179}
+      \endverb
+    \endentry
+    \entry{AlamShibly.2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=396e135c447852a1514004d8122b134c}{%
+           family={{Alam Shibly}},
+           familyi={A\bibinitperiod},
+           given={Sayed\bibnamedelima Ul},
+           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=e28e0a6a21c66aad0adbff9d35050ead}{%
+           family={Ghatak},
+           familyi={G\bibinitperiod},
+           given={Chiranjib},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9da505f96b3e694c23f12ff6a75abf26}{%
+           family={{Sayem Karal}},
+           familyi={S\bibinitperiod},
+           given={Mohammad\bibnamedelima Abu},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=dafe59796d1ab7efcd7ffab2e4a37c78}{%
+           family={Moniruzzaman},
+           familyi={M\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7bc6e31aab7f9bf7137ef9b3ce8eb614}{%
+           family={Yamazaki},
+           familyi={Y\bibinitperiod},
+           given={Masahito},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{94d2b66b9176dba1d0610824cb273ed7}
+      \strng{fullhash}{e9e40a6a06a8a9043a34a76fb12f7f52}
+      \strng{bibnamehash}{94d2b66b9176dba1d0610824cb273ed7}
+      \strng{authorbibnamehash}{94d2b66b9176dba1d0610824cb273ed7}
+      \strng{authornamehash}{94d2b66b9176dba1d0610824cb273ed7}
+      \strng{authorfullhash}{e9e40a6a06a8a9043a34a76fb12f7f52}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophysical journal}
+      \field{number}{6}
+      \field{title}{Experimental Estimation of Membrane Tension Induced by Osmotic Pressure}
+      \field{volume}{112}
+      \field{year}{2017}
+      \field{pages}{1290}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.1016/j.bpj.2017.03.001}
+      \endverb
+    \endentry
+    \entry{Bonnell.2021}{article}{}
+      \name{author}{6}{}{%
+        {{hash=391ea11856ee8a3d02b8becaa35a9484}{%
+           family={Bonnell},
+           familyi={B\bibinitperiod},
+           given={Randall},
+           giveni={R\bibinitperiod}}}%
+        {{hash=499017dd4f9e41f20d26cb7a59d1ea3b}{%
+           family={McGrath},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6fd34a34b5a04126a94a44881357cb74}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b30550666a7e538976c9a6e91ae40346}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=003ca7f4d46f0f1f4de335ad7f6ea3eb}{%
+           family={Fassnacht},
+           familyi={F\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=57f96838abfcb379a78f52dd3b38ff36}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Hans-Peter},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bf7ef257e45d30fcbc73ba336ba8bc1}
+      \strng{fullhash}{105878b930f090fdbc315e25baae891e}
+      \strng{bibnamehash}{5bf7ef257e45d30fcbc73ba336ba8bc1}
+      \strng{authorbibnamehash}{5bf7ef257e45d30fcbc73ba336ba8bc1}
+      \strng{authornamehash}{5bf7ef257e45d30fcbc73ba336ba8bc1}
+      \strng{authorfullhash}{105878b930f090fdbc315e25baae891e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{21}
+      \field{title}{Spatiotemporal Variations in Liquid Water Content in a Seasonal Snowpack: Implications for Radar Remote Sensing}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{pages}{4223}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.3390/rs13214223}
+      \endverb
+    \endentry
+    \entry{Donahue.2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d23fa7a13d49335ce85940960009bf9d}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b3e177a7efc14d8f044bc18ce8c37d5e}{%
+           family={Skiles},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi McKenzie},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1e7387f0807441bf2f351b3d65786dd4}{%
+           family={Hammonds},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{72c48ab155d83237c4c826585fd1acb2}
+      \strng{fullhash}{72c48ab155d83237c4c826585fd1acb2}
+      \strng{bibnamehash}{72c48ab155d83237c4c826585fd1acb2}
+      \strng{authorbibnamehash}{72c48ab155d83237c4c826585fd1acb2}
+      \strng{authornamehash}{72c48ab155d83237c4c826585fd1acb2}
+      \strng{authorfullhash}{72c48ab155d83237c4c826585fd1acb2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Cryosphere}
+      \field{number}{1}
+      \field{title}{Mapping liquid water content in snow at the millimeter scale: an intercomparison of mixed-phase optical property models using hyperspectral imaging and in situ measurements}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{43\bibrangedash 59}
+      \range{pages}{17}
+      \verb{doi}
+      \verb \url{10.5194/tc-16-43-2022}
+      \endverb
+    \endentry
+    \entry{Fasani.2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6d646fc33b5575bd205863a09270bce6}{%
+           family={Fasani},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=059a3fc36f92564fced08da288a68c92}{%
+           family={Cernuschi},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=25439c6155ef9ee05b54ede196d5a633}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={L.P.M.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \strng{fullhash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \strng{bibnamehash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \strng{authorbibnamehash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \strng{authornamehash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \strng{authorfullhash}{5185f90eaefa8f19a5b7177ed4b8ba9a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165232X}
+      \field{journaltitle}{Cold Regions Science and Technology}
+      \field{title}{Calorimetric determination of wet snow liquid water content: The effect of test conditions on the calorimeter constant and its impact on the measurement uncertainty}
+      \field{volume}{214}
+      \field{year}{2023}
+      \field{pages}{103959}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.1016/j.coldregions.2023.103959}
+      \endverb
+    \endentry
+    \entry{Hao.2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9eadbbeba267fbbfd6dbb26c5d4f2b13}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Jiansheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=73fc168df26a0915191166ee463bf8a5}{%
+           family={Mind'je},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fc40f063cb69a9791bbb723ae8f0fb05}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d54d1546cb34e72497466fde93e8c73e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lanhai},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6978a89e7f8e0fa48d3701f150249d2d}
+      \strng{fullhash}{f3ad9b2cae4dada38657b2eef9e2b240}
+      \strng{bibnamehash}{6978a89e7f8e0fa48d3701f150249d2d}
+      \strng{authorbibnamehash}{6978a89e7f8e0fa48d3701f150249d2d}
+      \strng{authornamehash}{6978a89e7f8e0fa48d3701f150249d2d}
+      \strng{authorfullhash}{f3ad9b2cae4dada38657b2eef9e2b240}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0029-1277}
+      \field{journaltitle}{Hydrology Research}
+      \field{number}{4}
+      \field{title}{Performance of snow density measurement systems in snow stratigraphies}
+      \field{volume}{52}
+      \field{year}{2021}
+      \field{pages}{834\bibrangedash 846}
+      \range{pages}{13}
+      \verb{doi}
+      \verb \url{10.2166/nh.2021.133}
+      \endverb
+    \endentry
+    \entry{Kinar.2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=575b40e63d88d4d0115617066b14df54}{%
+           family={Kinar},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=dadcb2506f91909337a40ec5250a832c}{%
+           family={Pomeroy},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{241471799fe5ad4a72faec59589b0ee5}
+      \strng{fullhash}{241471799fe5ad4a72faec59589b0ee5}
+      \strng{bibnamehash}{241471799fe5ad4a72faec59589b0ee5}
+      \strng{authorbibnamehash}{241471799fe5ad4a72faec59589b0ee5}
+      \strng{authornamehash}{241471799fe5ad4a72faec59589b0ee5}
+      \strng{authorfullhash}{241471799fe5ad4a72faec59589b0ee5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0885-6087}
+      \field{journaltitle}{Hydrological Processes}
+      \field{number}{19}
+      \field{title}{Determining snow water equivalent by acoustic sounding}
+      \field{volume}{21}
+      \field{year}{2007}
+      \field{pages}{2623\bibrangedash 2640}
+      \range{pages}{18}
+      \verb{doi}
+      \verb \url{10.1002/hyp.6793}
+      \endverb
+    \endentry
+    \entry{Koch.2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b0b843296faa05fc4905642001a3a7e9}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0fc40f2c18c44d20354e8776692d341e}{%
+           family={Prasch},
+           familyi={P\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=421fd11c08ee3be56863410a336407de}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Lino},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bbe7c73e1cbc3aa3cdba1b964bd4fb71}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={Jürg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d76069d04a7292433e2b0472d1a9c9c0}{%
+           family={Mauser},
+           familyi={M\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{fullhash}{15ca5b04630b700837b31a46d693e625}
+      \strng{bibnamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authorbibnamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authornamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authorfullhash}{15ca5b04630b700837b31a46d693e625}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The amount of liquid water in snow characterizes the wetness of a snowpack. Its temporal evolution plays an important role for wet-snow avalanche prediction, as well as the onset of meltwater release and water availability estimations within a river basin. However, it is still a challenge and a not yet satisfyingly solved issue to measure the liquid water content (LWC) in snow with conventional in situ and remote sensing techniques. We propose a new approach based on the attenuation of microwave radiation in the L-band emitted by the satellites of the Global Positioning System (GPS). For this purpose, we performed a continuous low-cost GPS measurement experiment at the Weissfluhjoch test site in Switzerland, during the snow melt period in 2013. As a measure of signal strength, we analyzed the carrier-to-noise power density ratio (C/N0) and developed a procedure to normalize these data. The bulk volumetric LWC was determined based on assumptions for attenuation, reflection and refraction of radiation in wet snow. The onset of melt, as well as daily melt-freeze cycles were clearly detected. The temporal evolution of the LWC was closely related to the meteorological and snow-hydrological data. Due to its non-destructive setup, its cost-efficiency and global availability, this approach has the potential to be implemented in distributed sensor networks for avalanche prediction or basin-wide melt onset measurements.}
+      \field{journaltitle}{Sensors (Basel, Switzerland)}
+      \field{number}{11}
+      \field{title}{Measuring Snow Liquid Water Content with Low-Cost GPS Receivers}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{20975\bibrangedash 20999}
+      \range{pages}{25}
+      \verb{doi}
+      \verb \url{10.3390/s141120975}
+      \endverb
+    \endentry
+    \entry{Koch.2019}{article}{}
+      \name{author}{9}{}{%
+        {{hash=b0b843296faa05fc4905642001a3a7e9}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ec4651814a8315af8ff528e069cca6c}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d010f5795653ca205cef398681ea7828}{%
+           family={Appel},
+           familyi={A\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=421fd11c08ee3be56863410a336407de}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Lino},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6b14b4e6558a9e6848af3cafa3871c75}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Heike},
+           giveni={H\bibinitperiod}}}%
+        {{hash=faeaf57b614c8ffa9ea2c6fc74c7a59b}{%
+           family={Lamm},
+           familyi={L\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0fc40f2c18c44d20354e8776692d341e}{%
+           family={Prasch},
+           familyi={P\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bbe7c73e1cbc3aa3cdba1b964bd4fb71}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={Jürg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d76069d04a7292433e2b0472d1a9c9c0}{%
+           family={Mauser},
+           familyi={M\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{fullhash}{aebcf97429060eea53d07ea863507a10}
+      \strng{bibnamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authorbibnamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authornamehash}{508adbe2a47a325556732efd4f881c23}
+      \strng{authorfullhash}{aebcf97429060eea53d07ea863507a10}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0043-1397}
+      \field{journaltitle}{Water Resources Research}
+      \field{number}{5}
+      \field{title}{Retrieval of Snow Water Equivalent, Liquid Water Content, and Snow Height of Dry and Wet Snow by Combining GPS Signal Attenuation and Time Delay}
+      \field{volume}{55}
+      \field{year}{2019}
+      \field{pages}{4465\bibrangedash 4487}
+      \range{pages}{23}
+      \verb{doi}
+      \verb \url{10.1029/2018WR024431}
+      \endverb
+    \endentry
+    \entry{Lombardo.2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dc9991c0a8277f9898a8a411afa402b1}{%
+           family={Lombardo},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f2dde22ebd557aed56dc8be37510d122}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9fad75085be31f01416538f8cfd01a50}{%
+           family={Kaestner},
+           familyi={K\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1c691bd23f78d8312a38fef9ec489df4}{%
+           family={Fees},
+           familyi={F\bibinitperiod},
+           given={Amelie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=369edbc5369bd52ce386f6f0c63db112}{%
+           family={{van Herwijnen}},
+           familyi={v\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bbe7c73e1cbc3aa3cdba1b964bd4fb71}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={Jürg},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e7718bcdd6e138fc06dd221e25bcebf}
+      \strng{fullhash}{695fffbdd92c3df0c36078f38e41e4ca}
+      \strng{bibnamehash}{6e7718bcdd6e138fc06dd221e25bcebf}
+      \strng{authorbibnamehash}{6e7718bcdd6e138fc06dd221e25bcebf}
+      \strng{authornamehash}{6e7718bcdd6e138fc06dd221e25bcebf}
+      \strng{authorfullhash}{695fffbdd92c3df0c36078f38e41e4ca}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0260-3055}
+      \field{journaltitle}{Annals of Glaciology}
+      \field{title}{A method for imaging water transport in soil--snow systems with neutron radiography}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb \url{10.1017/aog.2023.65}
+      \endverb
+    \endentry
+    \entry{Mavrovic.2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6a9b380a232910bcbbf1851dc8ec431a}{%
+           family={Mavrovic},
+           familyi={M\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59761ee9bdc4acb09f59480a08aa2aec}{%
+           family={Madore},
+           familyi={M\bibinitperiod},
+           given={Jean-Benoit},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=d8454e418f0a468f0c220d04d63842cc}{%
+           family={Langlois},
+           familyi={L\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ee686244958eb23e8fe2a32c81740271}{%
+           family={Royer},
+           familyi={R\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=645c3c31df3312fe7ce5482f05cedb54}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6533158aca5338dba2da2ff4c461f66}
+      \strng{fullhash}{731a16f94263228ac2ccaaf918251ceb}
+      \strng{bibnamehash}{c6533158aca5338dba2da2ff4c461f66}
+      \strng{authorbibnamehash}{c6533158aca5338dba2da2ff4c461f66}
+      \strng{authornamehash}{c6533158aca5338dba2da2ff4c461f66}
+      \strng{authorfullhash}{731a16f94263228ac2ccaaf918251ceb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165232X}
+      \field{journaltitle}{Cold Regions Science and Technology}
+      \field{title}{Snow liquid water content measurement using an open-ended coaxial probe (OECP)}
+      \field{volume}{171}
+      \field{year}{2020}
+      \field{pages}{102958}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.1016/j.coldregions.2019.102958}
+      \endverb
+    \endentry
+    \entry{Nowogrodzki.2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bff778a34efd690ea42cd7da9223bf3e}{%
+           family={Nowogrodzki},
+           familyi={N\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bff778a34efd690ea42cd7da9223bf3e}
+      \strng{fullhash}{bff778a34efd690ea42cd7da9223bf3e}
+      \strng{bibnamehash}{bff778a34efd690ea42cd7da9223bf3e}
+      \strng{authorbibnamehash}{bff778a34efd690ea42cd7da9223bf3e}
+      \strng{authornamehash}{bff778a34efd690ea42cd7da9223bf3e}
+      \strng{authorfullhash}{bff778a34efd690ea42cd7da9223bf3e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7729}
+      \field{title}{The world's strongest MRI machines are pushing human imaging to new limits}
+      \field{volume}{563}
+      \field{year}{2018}
+      \field{pages}{24\bibrangedash 26}
+      \range{pages}{3}
+      \verb{doi}
+      \verb \url{10.1038/d41586-018-07182-7}
+      \endverb
+    \endentry
+    \entry{PerezDiaz.2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3cd6ea1ef31356dcb9e72d594d687d07}{%
+           family={{Pérez Díaz}},
+           familyi={P\bibinitperiod},
+           given={Carlos\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1f7bcdda3c7caebf4f3575e583caeef7}{%
+           family={Muñoz},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f89bd357f5e08033c4daa029addb153}{%
+           family={Lakhankar},
+           familyi={L\bibinitperiod},
+           given={Tarendra},
+           giveni={T\bibinitperiod}}}%
+        {{hash=be34ec1ce59b460a35781e13fd64adf6}{%
+           family={Khanbilvardi},
+           familyi={K\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d44accb015b3bdfcab3e3144e6dd3e3e}{%
+           family={Romanov},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{de40837a34c4062eedf91f76cdb5e469}
+      \strng{fullhash}{d05dc85475de94bae51539ef34bc1779}
+      \strng{bibnamehash}{de40837a34c4062eedf91f76cdb5e469}
+      \strng{authorbibnamehash}{de40837a34c4062eedf91f76cdb5e469}
+      \strng{authornamehash}{de40837a34c4062eedf91f76cdb5e469}
+      \strng{authorfullhash}{d05dc85475de94bae51539ef34bc1779}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The quantity of liquid water in the snowpack defines its wetness. The temporal evolution of snow wetness's plays a significant role in wet-snow avalanche prediction, meltwater release, and water availability estimations and assessments within a river basin. However, it remains a difficult task and a demanding issue to measure the snowpack's liquid water content (LWC) and its temporal evolution with conventional in situ techniques. We propose an approach based on the use of time-domain reflectometry (TDR) and CS650 soil water content reflectometers to measure the snowpack's LWC and temperature profiles. For this purpose, we created an easily-applicable, low-cost, automated, and continuous LWC profiling instrument using reflectometers at the Cooperative Remote Sensing Science and Technology Center-Snow Analysis and Field Experiment (CREST-SAFE) in Caribou, ME, USA, and tested it during the snow melt period (February-April) immediately after installation in 2014. Snow Thermal Model (SNTHERM) LWC simulations forced with CREST-SAFE meteorological data were used to evaluate the accuracy of the instrument. Results showed overall good agreement, but clearly indicated inaccuracy under wet snow conditions. For this reason, we present two (for dry and wet snow) statistical relationships between snow LWC and dielectric permittivity similar to Topp's equation for the LWC of mineral soils. These equations were validated using CREST-SAFE in situ data from winter 2015. Results displayed high agreement when compared to LWC estimates obtained using empirical formulas developed in previous studies, and minor improvement over wet snow LWC estimates. Additionally, the equations seemed to be able to capture the snowpack state (i.e., onset of melt, medium, and maximum saturation). Lastly, field test results show advantages, such as: automated, continuous measurements, the temperature profiling of the snowpack, and the possible categorization of its state. However, future work should focus on improving the instrument's capability to measure the snowpack's LWC profile by properly calibrating it with in situ LWC measurements. Acceptable validation agreement indicates that the developed snow LWC, temperature, and wetness profiler offers a promising new tool for snow hydrology research.}
+      \field{journaltitle}{Sensors (Basel, Switzerland)}
+      \field{number}{3}
+      \field{title}{Proof of Concept: Development of Snow Liquid Water Content Profiler Using CS650 Reflectometers at Caribou, ME, USA}
+      \field{volume}{17}
+      \field{year}{2017}
+      \verb{doi}
+      \verb \url{10.3390/s17030647}
+      \endverb
+    \endentry
+    \entry{Yamaguchi.2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b114ca1f48cd402db7a823ac7ec5fcb0}{%
+           family={Yamaguchi},
+           familyi={Y\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=83e4caa3b593bb29ddfb5e4b5b312e91}{%
+           family={Adachi},
+           familyi={A\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5f66cefe6649a4d867fa82be11b6500a}{%
+           family={Sunako},
+           familyi={S\bibinitperiod},
+           given={Sojiro},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e52caf99fa2389621c49eb47e71378a}
+      \strng{fullhash}{7e52caf99fa2389621c49eb47e71378a}
+      \strng{bibnamehash}{7e52caf99fa2389621c49eb47e71378a}
+      \strng{authorbibnamehash}{7e52caf99fa2389621c49eb47e71378a}
+      \strng{authornamehash}{7e52caf99fa2389621c49eb47e71378a}
+      \strng{authorfullhash}{7e52caf99fa2389621c49eb47e71378a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0260-3055}
+      \field{journaltitle}{Annals of Glaciology}
+      \field{title}{A novel method to visualize liquid distribution in snow: superimposition of MRI and X-ray CT images}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb \url{10.1017/aog.2023.77}
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
