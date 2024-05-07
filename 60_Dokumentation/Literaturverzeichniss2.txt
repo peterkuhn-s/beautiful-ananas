@@ -1,0 +1,266 @@
+﻿% This file was created with Citavi 6.15.2.0
+
+@article{.,
+}
+
+
+@article{.b,
+}
+
+
+@article{Abdelaal.2022,
+ author = {Abdelaal, Ahmed and Sarayloo, Mehdi and Nims, Douglas K. and Mohammadian, Behrouz and Heil, Jamie and Sojoudi, Hossein},
+ year = {2022},
+ title = {{A flexible surface-mountable sensor for ice detection and non-destructive measurement of liquid water content in snow}},
+ pages = {103469},
+ volume = {195},
+ issn = {0165232X},
+ journal = {{Cold Regions Science and Technology}},
+ doi = {\url{10.1016/j.coldregions.2021.103469}}
+}
+
+
+@article{Adachi.2020,
+ author = {Adachi, Satoru and Yamaguchi, Satoru and Ozeki, Toshihiro and Kose, Katsumi},
+ year = {2020},
+ title = {{Application of a Magnetic Resonance Imaging Method for Nondestructive, Three-Dimensional, High-Resolution Measurement of the Water Content of Wet Snow Samples}},
+ volume = {8},
+ journal = {{Frontiers in Earth Science}},
+ doi = {\url{10.3389/feart.2020.00179}}
+}
+
+
+@article{AlamShibly.2017,
+ author = {{Alam Shibly}, Sayed Ul and Ghatak, Chiranjib and {Sayem Karal}, Mohammad Abu and Moniruzzaman, Md and Yamazaki, Masahito},
+ year = {2017},
+ title = {{Experimental Estimation of Membrane Tension Induced by Osmotic Pressure}},
+ pages = {1290},
+ volume = {112},
+ number = {6},
+ journal = {{Biophysical journal}},
+ doi = {\url{10.1016/j.bpj.2017.03.001}}
+}
+
+
+@article{Bonnell.2021,
+ author = {Bonnell, Randall and McGrath, Daniel and Williams, Keith and Webb, Ryan and Fassnacht, Steven R. and Marshall, Hans-Peter},
+ year = {2021},
+ title = {{Spatiotemporal Variations in Liquid Water Content in a Seasonal Snowpack: Implications for Radar Remote Sensing}},
+ pages = {4223},
+ volume = {13},
+ number = {21},
+ journal = {{Remote Sensing}},
+ doi = {\url{10.3390/rs13214223}}
+}
+
+
+@article{Donahue.2022,
+ author = {Donahue, Christopher and Skiles, S. McKenzie and Hammonds, Kevin},
+ year = {2022},
+ title = {{Mapping liquid water content in snow at the millimeter scale: an intercomparison of mixed-phase optical property models using hyperspectral imaging and in situ measurements}},
+ pages = {43--59},
+ volume = {16},
+ number = {1},
+ journal = {{The Cryosphere}},
+ doi = {\url{10.5194/tc-16-43-2022}}
+}
+
+
+@article{.c,
+}
+
+
+@article{Fasani.2023,
+ author = {Fasani, D. and Cernuschi, F. and Colombo, L.P.M.},
+ year = {2023},
+ title = {{Calorimetric determination of wet snow liquid water content: The effect of test conditions on the calorimeter constant and its impact on the measurement uncertainty}},
+ pages = {103959},
+ volume = {214},
+ issn = {0165232X},
+ journal = {{Cold Regions Science and Technology}},
+ doi = {\url{10.1016/j.coldregions.2023.103959}}
+}
+
+
+@article{Kinar.2007,
+ author = {Kinar, N. J. and Pomeroy, J. W.},
+ year = {2007},
+ title = {{Determining snow water equivalent by acoustic sounding}},
+ pages = {2623--2640},
+ volume = {21},
+ number = {19},
+ issn = {0885-6087},
+ journal = {{Hydrological Processes}},
+ doi = {\url{10.1002/hyp.6793}}
+}
+
+
+@article{Koch.2019,
+ author = {Koch, Franziska and Henkel, Patrick and Appel, Florian and Schmid, Lino and Bach, Heike and Lamm, Markus and Prasch, Monika and Schweizer, J{\"u}rg and Mauser, Wolfram},
+ year = {2019},
+ title = {{Retrieval of Snow Water Equivalent, Liquid Water Content, and Snow Height of Dry and Wet Snow by Combining GPS Signal Attenuation and Time Delay}},
+ pages = {4465--4487},
+ volume = {55},
+ number = {5},
+ issn = {0043-1397},
+ journal = {{Water Resources Research}},
+ doi = {\url{10.1029/2018WR024431}}
+}
+
+
+@article{Koch.2014,
+ abstract = {The amount of liquid water in snow characterizes the wetness of a snowpack. Its temporal evolution plays an important role for wet-snow avalanche prediction, as well as the onset of meltwater release and water availability estimations within a river basin. However, it is still a challenge and a not yet satisfyingly solved issue to measure the liquid water content (LWC) in snow with conventional in situ and remote sensing techniques. We propose a new approach based on the attenuation of microwave radiation in the L-band emitted by the satellites of the Global Positioning System (GPS). For this purpose, we performed a continuous low-cost GPS measurement experiment at the Weissfluhjoch test site in Switzerland, during the snow melt period in 2013. As a measure of signal strength, we analyzed the carrier-to-noise power density ratio (C/N0) and developed a procedure to normalize these data. The bulk volumetric LWC was determined based on assumptions for attenuation, reflection and refraction of radiation in wet snow. The onset of melt, as well as daily melt-freeze cycles were clearly detected. The temporal evolution of the LWC was closely related to the meteorological and snow-hydrological data. Due to its non-destructive setup, its cost-efficiency and global availability, this approach has the potential to be implemented in distributed sensor networks for avalanche prediction or basin-wide melt onset measurements.},
+ author = {Koch, Franziska and Prasch, Monika and Schmid, Lino and Schweizer, J{\"u}rg and Mauser, Wolfram},
+ year = {2014},
+ title = {{Measuring Snow Liquid Water Content with Low-Cost GPS Receivers}},
+ pages = {20975--20999},
+ volume = {14},
+ number = {11},
+ journal = {{Sensors (Basel, Switzerland)}},
+ doi = {\url{10.3390/s141120975}}
+}
+
+
+@article{Lombardo.2023,
+ author = {Lombardo, Michael and Lehmann, Peter and Kaestner, Anders and Fees, Amelie and {van Herwijnen}, Alec and Schweizer, J{\"u}rg},
+ year = {2023},
+ title = {{A method for imaging water transport in soil--snow systems with neutron radiography}},
+ pages = {1--10},
+ issn = {0260-3055},
+ journal = {{Annals of Glaciology}},
+ doi = {\url{10.1017/aog.2023.65}}
+}
+
+
+@article{Mavrovic.2020,
+ author = {Mavrovic, Alex and Madore, Jean-Benoit and Langlois, Alexandre and Royer, Alain and Roy, Alexandre},
+ year = {2020},
+ title = {{Snow liquid water content measurement using an open-ended coaxial probe (OECP)}},
+ pages = {102958},
+ volume = {171},
+ issn = {0165232X},
+ journal = {{Cold Regions Science and Technology}},
+ doi = {\url{10.1016/j.coldregions.2019.102958}}
+}
+
+
+@article{Nowogrodzki.2018,
+ author = {Nowogrodzki, Anna},
+ year = {2018},
+ title = {{The world's strongest MRI machines are pushing human imaging to new limits}},
+ pages = {24--26},
+ volume = {563},
+ number = {7729},
+ journal = {{Nature}},
+ doi = {\url{10.1038/d41586-018-07182-7}}
+}
+
+
+@article{Hao.2021,
+ author = {Hao, Jiansheng and Mind'je, Richard and Feng, Ting and Li, Lanhai},
+ year = {2021},
+ title = {{Performance of snow density measurement systems in snow stratigraphies}},
+ pages = {834--846},
+ volume = {52},
+ number = {4},
+ issn = {0029-1277},
+ journal = {{Hydrology Research}},
+ doi = {\url{10.2166/nh.2021.133}}
+}
+
+
+@article{.d,
+}
+
+
+@article{.e,
+}
+
+
+@article{.f,
+}
+
+
+@article{.g,
+}
+
+
+@article{.h,
+}
+
+
+@article{.i,
+}
+
+
+@article{.j,
+}
+
+
+@article{.k,
+}
+
+
+@article{.l,
+}
+
+
+@article{.m,
+}
+
+
+@article{.n,
+}
+
+
+@article{.o,
+}
+
+
+@article{.p,
+}
+
+
+@article{.q,
+}
+
+
+@article{.r,
+}
+
+
+@article{.s,
+}
+
+
+@article{.t,
+}
+
+
+@article{.u,
+}
+
+
+@article{PerezDiaz.2017,
+ abstract = {The quantity of liquid water in the snowpack defines its wetness. The temporal evolution of snow wetness's plays a significant role in wet-snow avalanche prediction, meltwater release, and water availability estimations and assessments within a river basin. However, it remains a difficult task and a demanding issue to measure the snowpack's liquid water content (LWC) and its temporal evolution with conventional in situ techniques. We propose an approach based on the use of time-domain reflectometry (TDR) and CS650 soil water content reflectometers to measure the snowpack's LWC and temperature profiles. For this purpose, we created an easily-applicable, low-cost, automated, and continuous LWC profiling instrument using reflectometers at the Cooperative Remote Sensing Science and Technology Center-Snow Analysis and Field Experiment (CREST-SAFE) in Caribou, ME, USA, and tested it during the snow melt period (February-April) immediately after installation in 2014. Snow Thermal Model (SNTHERM) LWC simulations forced with CREST-SAFE meteorological data were used to evaluate the accuracy of the instrument. Results showed overall good agreement, but clearly indicated inaccuracy under wet snow conditions. For this reason, we present two (for dry and wet snow) statistical relationships between snow LWC and dielectric permittivity similar to Topp's equation for the LWC of mineral soils. These equations were validated using CREST-SAFE in situ data from winter 2015. Results displayed high agreement when compared to LWC estimates obtained using empirical formulas developed in previous studies, and minor improvement over wet snow LWC estimates. Additionally, the equations seemed to be able to capture the snowpack state (i.e., onset of melt, medium, and maximum saturation). Lastly, field test results show advantages, such as: automated, continuous measurements, the temperature profiling of the snowpack, and the possible categorization of its state. However, future work should focus on improving the instrument's capability to measure the snowpack's LWC profile by properly calibrating it with in situ LWC measurements. Acceptable validation agreement indicates that the developed snow LWC, temperature, and wetness profiler offers a promising new tool for snow hydrology research.},
+ author = {{P{\'e}rez D{\'i}az}, Carlos L. and Mu{\~n}oz, Jonathan and Lakhankar, Tarendra and Khanbilvardi, Reza and Romanov, Peter},
+ year = {2017},
+ title = {{Proof of Concept: Development of Snow Liquid Water Content Profiler Using CS650 Reflectometers at Caribou, ME, USA}},
+ volume = {17},
+ number = {3},
+ journal = {{Sensors (Basel, Switzerland)}},
+ doi = {\url{10.3390/s17030647}}
+}
+
+
+@article{Yamaguchi.2023,
+ author = {Yamaguchi, Satoru and Adachi, Satoru and Sunako, Sojiro},
+ year = {2023},
+ title = {{A novel method to visualize liquid distribution in snow: superimposition of MRI and X-ray CT images}},
+ pages = {1--11},
+ issn = {0260-3055},
+ journal = {{Annals of Glaciology}},
+ doi = {\url{10.1017/aog.2023.77}}
+}
+
+

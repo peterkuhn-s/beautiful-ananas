@@ -18,28 +18,29 @@
 \contentsline {subsection}{\numberline {3.5}Diffusion von Flüssigkeit}{7}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Funktionsmuster}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Agiles Hardware Devolopment}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Messablauf}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Bildverarbeitung}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Extrahieren von Informationen aus Bilddaten}{10}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Anforderungsanalyse}{10}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Konzeptueller DB Entwurf}{11}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}Logischer DB Entwurf}{11}{subsubsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.4}Views für den Analysten}{11}{subsubsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.5}Physischer Entwurf}{13}{subsubsection.4.4.5}%
-\contentsline {subsubsection}{\numberline {4.4.6}Python-Interaktion mit der Datenbank}{13}{subsubsection.4.4.6}%
-\contentsline {subsubsection}{\numberline {4.4.7}Nächste Schritte}{13}{subsubsection.4.4.7}%
-\contentsline {subsubsection}{\numberline {4.4.8}Code}{13}{subsubsection.4.4.8}%
-\contentsline {subsection}{\numberline {4.5}Testkriterien}{24}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.2}Eigenschaften der Varianten}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Messablauf}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Bildverarbeitung}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Extrahieren von Informationen aus Bilddaten}{10}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Anforderungsanalyse}{10}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Konzeptueller DB Entwurf}{11}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Logischer DB Entwurf}{11}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Views für den Analysten}{11}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.5}Physischer Entwurf}{13}{subsubsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {4.5.6}Python-Interaktion mit der Datenbank}{13}{subsubsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {4.5.7}Nächste Schritte}{13}{subsubsection.4.5.7}%
+\contentsline {subsubsection}{\numberline {4.5.8}Code}{13}{subsubsection.4.5.8}%
 \contentsline {subsection}{\numberline {4.6}Wiederstand gegen Umwelteinflüsse}{24}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Ergebnisse der Versuche}{25}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Vergleich der Ergebnisse mit Denothmeter}{25}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Verbesserungsmöglichkeiten des Funktionsmusters}{26}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Vollautomatische Durchführung der Messung}{26}{subsection.4.10}%
-\contentsline {section}{\numberline {5}Ausblick}{27}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Presönliche Erfahrunng}{27}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fazit}{27}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ausblick}{27}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Danksagung}{27}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Literaturverzeichnis}{28}{section.6}%
-\contentsline {section}{\numberline {7}Erklärung zur Urheberschaft}{29}{section.7}%
-\contentsline {section}{\numberline {8}Digitaler Anhang}{32}{section.8}%
+\contentsline {subsection}{\numberline {4.7}Mögliche Gründe der hohen Varianz}{25}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Ergebnisse der Versuche}{26}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Vergleich der Ergebnisse mit Denothmeter}{26}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Verbesserungsmöglichkeiten des Funktionsmusters}{27}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Vollautomatische Durchführung der Messung}{27}{subsection.4.11}%
+\contentsline {section}{\numberline {5}Ausblick}{29}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Presönliche Erfahrunng}{29}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Fazit}{29}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ausblick}{29}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Danksagung}{29}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Literaturverzeichnis}{30}{section.6}%
+\contentsline {section}{\numberline {7}Erklärung zur Urheberschaft}{31}{section.7}%
+\contentsline {section}{\numberline {8}Digitaler Anhang}{34}{section.8}%
