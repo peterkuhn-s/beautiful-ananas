@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  28 APR 2024 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  7 MAY 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,13 +411,254 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
-Package: datetime 2015/03/20 v2.60 Date Time Package
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count298
 )
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count299
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count300
+\c@listtotal=\count301
+\c@listcount=\count302
+\c@liststart=\count303
+\c@liststop=\count304
+\c@citecount=\count305
+\c@citetotal=\count306
+\c@multicitecount=\count307
+\c@multicitetotal=\count308
+\c@instcount=\count309
+\c@maxnames=\count310
+\c@minnames=\count311
+\c@maxitems=\count312
+\c@minitems=\count313
+\c@citecounter=\count314
+\c@maxcitecounter=\count315
+\c@savedcitecounter=\count316
+\c@uniquelist=\count317
+\c@uniquename=\count318
+\c@refsection=\count319
+\c@refsegment=\count320
+\c@maxextratitle=\count321
+\c@maxextratitleyear=\count322
+\c@maxextraname=\count323
+\c@maxextradate=\count324
+\c@maxextraalpha=\count325
+\c@abbrvpenalty=\count326
+\c@highnamepenalty=\count327
+\c@lownamepenalty=\count328
+\c@maxparens=\count329
+\c@parenlevel=\count330
+\blx@tempcnta=\count331
+\blx@tempcntb=\count332
+\blx@tempcntc=\count333
+\c@blx@maxsection=\count334
+\c@blx@maxsegment@0=\count335
+\blx@notetype=\count336
+\blx@parenlevel@text=\count337
+\blx@parenlevel@foot=\count338
+\c@blx@sectionciteorder@0=\count339
+\blx@entrysetcounter=\count340
+\blx@biblioinstance=\count341
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language88
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@origlanguage=\count409
+\c@savedoriglanguage=\count410
+\c@pageref=\count411
+\c@savedpageref=\count412
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count413
+\c@textcitetotal=\count414
+\c@textcitemaxnames=\count415
+\c@biburlbigbreakpenalty=\count416
+\c@biburlbreakpenalty=\count417
+\c@biburlnumpenalty=\count418
+\c@biburlucpenalty=\count419
+\c@biburllcpenalty=\count420
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count421
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count422
+\c@bbx:relatedtotal=\count423
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count424
+\l__pdf_internal_box=\box64
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-01-21 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
 
@@ -426,15 +667,15 @@ Package: fcprefix 2012/09/28
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count299
+\fc@digit@counter=\count425
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
 \ex@=\dimen182
 )
-\c@padzeroesN=\count300
-\fc@tmpcatcode=\count301
+\c@padzeroesN=\count426
+\fc@tmpcatcode=\count427
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
 File: fc-ngerman.def 2012/06/18
@@ -448,34 +689,34 @@ File: fc-germanb.def 2013/08/17
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
 File: fc-ngermanb.def 2013/08/17
 ))
-\@DT@modctr=\count302
-\@ordinalctr=\count303
-\@orgargctr=\count304
-\@strctr=\count305
-\@tmpstrctr=\count306
-\@DT@loopN=\count307
-\@DT@X=\count308
+\@DT@modctr=\count428
+\@ordinalctr=\count429
+\@orgargctr=\count430
+\@strctr=\count431
+\@tmpstrctr=\count432
+\@DT@loopN=\count433
+\@DT@X=\count434
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count309
-\@month=\count310
-\@year=\count311
-\c@HOUR=\count312
-\c@HOURXII=\count313
-\c@MINUTE=\count314
-\c@TOHOUR=\count315
-\c@TOMINUTE=\count316
-\c@SECOND=\count317
-\currenthour=\count318
-\currentminute=\count319
-\currentsecond=\count320
+\@day=\count435
+\@month=\count436
+\@year=\count437
+\c@HOUR=\count438
+\c@HOURXII=\count439
+\c@MINUTE=\count440
+\c@TOHOUR=\count441
+\c@TOMINUTE=\count442
+\c@SECOND=\count443
+\currenthour=\count444
+\currentminute=\count445
+\currentsecond=\count446
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count321
-\dayofyear=\count322
-\dayofweek=\count323
+\@dtctr=\count447
+\dayofyear=\count448
+\dayofweek=\count449
 LaTeX Info: Redefining \today on input line 736.
 
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-ngerman.def
@@ -485,32 +726,33 @@ LaTeX Info: Redefining \datengerman on input line 86.
 \dt@a=\toks30
 \dt@b=\toks31
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count324
-\l__pdf_internal_box=\box64
-)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count450
+\@quotereset=\count451
 (./BA-Kuhn-LWC-2024.aux)
 \openout1 = `BA-Kuhn-LWC-2024.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -548,16 +790,16 @@ LaTeX Font Info:    ... okay on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
+\scratchcounter=\count452
 \scratchdimen=\dimen183
 \scratchbox=\box65
-\nofMPsegments=\count326
-\nofMParguments=\count327
+\nofMPsegments=\count453
+\nofMParguments=\count454
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count328
+\MPscratchCnt=\count455
 \MPscratchDim=\dimen184
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
 \everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -576,7 +818,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -587,15 +829,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./BA-Kuhn-LWC-2024.out) (./BA-Kuhn-LWC-2024.out)
-\@outlinefile=\write3
-\openout3 = `BA-Kuhn-LWC-2024.out'.
+\@outlinefile=\write4
+\openout4 = `BA-Kuhn-LWC-2024.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
@@ -606,41 +848,69 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count332
+\c@lstlisting=\count459
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `BA-Kuhn-LWC-2024.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'BA-Kuhn-LWC-2024.bbl' not found.
+
+No file BA-Kuhn-LWC-2024.bbl.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
 <Titelseite.pdf, id=184, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
-Package pdftex.def Info: Titelseite.pdf  used on input line 69.
+Package pdftex.def Info: Titelseite.pdf  used on input line 71.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf>
-Package pdftex.def Info: Titelseite.pdf  used on input line 69.
+Package pdftex.def Info: Titelseite.pdf  used on input line 71.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 <Titelseite.pdf, id=187, page=1, 597.5067pt x 845.04588pt>
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 71.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 71.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 71.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 71.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: Titelseite.pdf Graphic file (type pdf)
 <use Titelseite.pdf, page 1>
-Package pdftex.def Info: Titelseite.pdf , page1 used on input line 69.
+Package pdftex.def Info: Titelseite.pdf , page1 used on input line 71.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
- [1
+[1
 
- <./Titelseite.pdf>] (./abstract.tex) (./AbkurzText.tex) (./BA-Kuhn-LWC-2024.to
-c
+ <./Titelseite.pdf>] (./abstract.tex) (./AbkurzText.tex)
+(./BA-Kuhn-LWC-2024.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -648,12 +918,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-\tf@toc=\write4
-\openout4 = `BA-Kuhn-LWC-2024.toc'.
+\tf@toc=\write5
+\openout5 = `BA-Kuhn-LWC-2024.toc'.
 
- [3] (./Einleitung.tex)
-(./Lawinen.tex) (./EntstehungGleitlawine.tex) (./Endziel.tex) (./UserStory.tex)
-(./Anforderungen.tex
+[3] (./Einleitung.tex) (./Lawinen.tex) (./EntstehungGleitlawine.tex)
+(./Endziel.tex) (./UserStory.tex) (./Anforderungen.tex
 <Bilder/OST_Logo.png, id=272, 1144.275pt x 391.4625pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
@@ -841,7 +1110,7 @@ l.58
       <./Bilder/signal-2024-03-10-112013_006.jpeg>])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 131.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 133.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -856,7 +1125,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 
+l.133 
        <./Bilder/Screenshotfrom2024-04-0413-27-28.png>] (./Vibration.tex)
 (./Diffusion.tex)
 
@@ -1680,7 +1949,7 @@ LaTeX Warning: Reference `' on page 28 undefined on input line 15.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 175.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 177.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1712,7 +1981,7 @@ Enter file name:
 (./Ausblick.tex) (./Danksagung.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 191.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 193.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1723,20 +1992,172 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[29]
+[29] (./Literaturverzeichniss.tex
 
-! LaTeX Error: File `Literaturverzeichnis.tex' not found.
+LaTeX Warning: Citation 'Abdelaal.2022' on page 30 undefined on input line 6.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+LaTeX Warning: Citation 'Adachi.2020' on page 30 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'AlamShibly.2017' on page 30 undefined on input line 8.
+
+
+
+LaTeX Warning: Citation 'Bonnell.2021' on page 30 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Donahue.2022' on page 30 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'Fasani.2023' on page 30 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Kinar.2007' on page 30 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Koch.2019' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Koch.2014' on page 30 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'Lombardo.2023' on page 30 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Mavrovic.2020' on page 30 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Nowogrodzki.2018' on page 30 undefined on input line 1
+7.
+
+
+LaTeX Warning: Citation 'Hao.2021' on page 30 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'PerezDiaz.2017' on page 30 undefined on input line 19.
+
+
+
+LaTeX Warning: Citation 'Yamaguchi.2023' on page 30 undefined on input line 20.
+
+
+
+LaTeX Warning: Citation 'snowathome' on page 30 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'instructables' on page 30 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'joule-thomson-wiki' on page 30 undefined on input line
+ 21.
+
+
+LaTeX Warning: Citation 'miro' on page 30 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'popmech' on page 30 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'nasa-snowex-2020' on page 30 undefined on input line 2
+1.
+
+
+LaTeX Warning: Citation 'nasa-snow-density' on page 30 undefined on input line 
+21.
+
+
+LaTeX Warning: Citation 'ubc-met-concepts' on page 30 undefined on input line 2
+1.
+
+
+LaTeX Warning: Citation 'jstage-snow-density' on page 30 undefined on input lin
+e 21.
+
+
+LaTeX Warning: Citation 'sciencelearn-snow-density' on page 30 undefined on inp
+ut line 21.
+
+
+LaTeX Warning: Citation 'proquest-snow-density' on page 30 undefined on input l
+ine 21.
+
+
+LaTeX Warning: Citation 'nasa-snowex-2020-2' on page 30 undefined on input line
+ 21.
+
+
+LaTeX Warning: Citation 'mt-density-meter' on page 30 undefined on input line 2
+1.
+
+
+LaTeX Warning: Citation 'elibrary' on page 30 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'micro-dehumidifier' on page 30 undefined on input line
+ 21.
+
+
+LaTeX Warning: Citation 'kennedylabs-download' on page 30 undefined on input li
+ne 21.
+
+
+LaTeX Warning: Citation 'a2photonicsensors' on page 30 undefined on input line 
+21.
+
+
+LaTeX Warning: Citation 'ilmsens-short-range-radar' on page 30 undefined on inp
+ut line 21.
+
+
+LaTeX Warning: Citation 'sensirion-sht4xa-sensors' on page 30 undefined on inpu
+t line 21.
+
+
+LaTeX Warning: Citation 'ilmsens-impedance-spectroscopy' on page 30 undefined o
+n input line 21.
+
+
+LaTeX Warning: Citation 'slf' on page 30 undefined on input line 21.
+
+
+Overfull \hbox (36.28793pt too wide) in paragraph at lines 6--22
+\T1/cmr/m/n/12 [[]] [[]] [[]] [[]] [[]]
+ []
+
+
+Overfull \hbox (64.64073pt too wide) in paragraph at lines 6--22
+\T1/cmr/m/n/12 [[]] [[]] [[]] [[]] [[]] [[]]
+ []
+
+
+Overfull \hbox (44.3609pt too wide) in paragraph at lines 6--22
+\T1/cmr/m/n/12 [[]] [[]] [[]] [[]] [[],
+ []
+
+
+Overfull \hbox (91.51903pt too wide) in paragraph at lines 6--22
+[]\T1/cmr/m/n/12 , [], [], [], [], [],
+ []
+
+
+Overfull \hbox (102.64453pt too wide) in paragraph at lines 6--22
+[]\T1/cmr/m/n/12 , [], [], [],
+ []
+
+
+Overfull \hbox (114.51495pt too wide) in paragraph at lines 6--22
+[]\T1/cmr/m/n/12 , [], [], [], [],
+ []
+
+)
+
+LaTeX Warning: Empty bibliography on input line 25.
+
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 197.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 199.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1762,7 +2183,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [31])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 201.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 203.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1774,16 +2195,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [32] (./BA-Kuhn-LWC-2024.lof)
-\tf@lof=\write5
-\openout5 = `BA-Kuhn-LWC-2024.lof'.
+\tf@lof=\write6
+\openout6 = `BA-Kuhn-LWC-2024.lof'.
 
  (./BA-Kuhn-LWC-2024.lot)
-\tf@lot=\write6
-\openout6 = `BA-Kuhn-LWC-2024.lot'.
+\tf@lot=\write7
+\openout7 = `BA-Kuhn-LWC-2024.lot'.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 206.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 208.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1795,29 +2216,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [33]
-<Bilder/lebenslauf-2.pdf, id=928, 614.295pt x 794.97pt>
+<Bilder/lebenslauf-2.pdf, id=929, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 210.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 210.
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=931, page=1, 614.295pt x 794.97pt>
+<Bilder/lebenslauf-2.pdf, id=932, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 210
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 212
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 210
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 212
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 210.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 212.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1831,17 +2252,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [34]
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 210
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 212
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 210
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 212
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 210
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 212
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [35 <./Bilder/lebenslauf-2.pdf>] (./BA-Kuhn-LWC-2024.aux)
@@ -1850,15 +2271,23 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
 (rerunfilecheck)             Checksum: 5AC7FD56C2B5732A66A3BF55E30CEC2A;7511.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                BA-Kuhn-LWC-2024
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'BA-Kuhn-LWC-2024.run.xml'.
+\openout1 = `BA-Kuhn-LWC-2024.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 16999 strings out of 478287
- 267623 string characters out of 5849289
- 810651 words of memory out of 5000000
- 34225 multiletter control sequences out of 15000+600000
+ 24105 strings out of 478287
+ 411052 string characters out of 5849289
+ 1194609 words of memory out of 5000000
+ 41272 multiletter control sequences out of 15000+600000
  480063 words of font info for 51 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,17n,77p,1060b,2333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1143 hyphenation exceptions out of 8191
+ 70i,17n,77p,1060b,2457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -1871,10 +2300,10 @@ sfit1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfit1095.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 ftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (38 pages, 42664347 bytes).
+Output written on BA-Kuhn-LWC-2024.pdf (38 pages, 42665810 bytes).
 PDF statistics:
- 1136 PDF objects out of 1200 (max. 8388607)
- 1030 compressed objects within 11 object streams
- 560 named destinations out of 1000 (max. 500000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 1031 compressed objects within 11 object streams
+ 561 named destinations out of 1000 (max. 500000)
  431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
