@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{adjustbox}
+\usepackage{pdfpages}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amsmath}
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn}
+\fancyfoot[C]{Motivationsschreiben für MSE}
+
+% Titelblatt
+\begin{document}
+
+
+\author{Peter Kuhn}
+\date{\today}
+\maketitle
+
+
+
+
+
+
+
+\end{document}

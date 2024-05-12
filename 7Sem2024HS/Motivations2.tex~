@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+\usepackage{listings}%code import
+\usepackage{amsmath}%mathe
+
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Motivationsschreiben für MSE} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+\title{Motivationsschreiben für MSE Data Science}
+\author{Peter Kuhn}
+\date{\today}
+\maketitle
+
+\section{Über mich}
+2018 habe ich das Mathematisch-Naturwissenschaftliche Gymnasium Rämibühl in Zürich mit der Matura abgeschlossen.
+ Danach Zivildienst im Tessin, auch um meine Sprachkenntnisse in Italienisch zu verbessern. 
+ Von 2019- 2021 habe ich an der ETH Mathematik studiert.
+
+ In der Pandemiezeit entschied ich mich für einen Wechsel in den Studiengang Maschinentechnik | Innovation an der Fachhochschule OST. Ich war sehr froh, das dazugehörige Praktikum in Reiden, einem KMU und Thömus, Hersteller von Fährrädern,  machen zu können. Für Thömus habe ich weitere Projekte wie ein analoges Messgerät entwickeln dürfen.
+ 
+2024 habe ich die Einzelfirma Kuhn Innovative Solutions gegründet, in der ich technische Lösungen -meist für Kunstprojekte- anbiete. 
+
+\section{Bisherige Projekte}
+
+Für meine Maturarbeit habe ich für die analoge Kamera meines Grossvaters ein Attachment entwickelt, mit dem die Bilder digital aufgenommen werden. Ziel war es, das Feeling einer analogen Kamera zu erhalten, ohne aufwändig Film zu verwenden, aber auch so dass die Kamera zurückgebaut werden kann. 
+
+
+Im grossen Ewick-Projekt habe ich als Teamleiter mit meiner Gruppe eine Verfahren entwickelt, um sprödes Trockeneispellets auf rund 40 m/s zu beschleunigen. Derzeit ist eine Patentanmeldung im Gange. 
+
+Für meine Semesterarbeit habe ich an der SmartFaktory@OST mit SML  Qualitätsmerkmale von Spritzgussteilen vorhersagt. Dazu habe ich die Prozessparameter der Maschiene in einer Datenbank  zusammengefuhrt und die generierten Daten ausgewertet.
+
+Für die Bachelorarbeit arbeite ich aktuell an einem Messverfahren, das mithilfe einer Kamera den Gehalt an flüssigem Wasser im Schnee ermittelt.
+
+Des Weiteren habe ich an privaten Projekt gearbeitet, zum Beispiel einem mechanischen Einkaufszettel und einem Huthalter. 
+
+Ich habe Freude daran, neue Programmieraufgaben bei alltäglichen und klassischen Maschinenbauaufgaben zu finden. 
+
+\section{Meine Ziele}
+
+Ich möchte meine erworbenen praktischen Grundlagen des Maschinentechnik | Innovations Bachelors mit einem theoretischen Ansatz aus der Data Science erweitern. 
+In Data Science sehe ich die Verbindung zwischen dem aktuellen Studium der Maschinentechnik und meiner Begeisterung für die Mathematik. 
+Ich arbeite gern transdisziplinär, und schätze die holistische Herangehensweise an Probleme, wie ich es in den Projektarbeiten erlebt habe. 
+Mein Ziel ist es, dazu beitragen zu können, den Maschinenbau wie er an der Ost praktiziert wird, weiter zu entwickeln damit Technik effizienter, menschlicher und umweltgerechter wird. 
+Derzeit gibt es einen Hype um AI. 
+Ich hingegen möchte die Grundlagen und Anwendungen sehen, verstehen und anwenden und von einem User der AI zu einem Developer von ML-Applikationen werden. 
+
+\end{document}

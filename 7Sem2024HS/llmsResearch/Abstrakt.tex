@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+\usepackage{listings}%code import
+\usepackage[style=numeric, backend=biber]{biblatex}%literaturverzeichniss
+
+\addbibresource{Literaturverzeichniss.bib}%"?
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{Bilder/OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Abstract MSE Aufnahmegespräch} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\title{BERT, GPT und LLAMA – Hauptunterschiede bekannter LLMs}
+\author{Peter Kuhn}
+\date{\today}
+
+\maketitle
+Aktuelle LLMs werden von  Unternehmen mit unterschiedlichen Werten und Zielen entwickelt z. B.  in Bezug auf Openness, Kontrollierbarkeit, political correctness,  oder das dahinterstehende Businessmodell.​
+
+ Technische Unterschiede im Natural Language Processing und unterschiedliche Trainingsdaten gilt es zu verstehen, um sich Vorstellung des Potential eines Systems machen zu können. ​
+
+Um die LLMs in Produkten nutzbar zu machen, gilt es zu überlegen, wann Generalisten oder Spezialisten sinnvoll sind, wie die Nutzung externer Programme möglich wird und welche Hardwareprodukte daraus entstehen sollen. ​
+
+Kompetenzen im mathematischen Denken und Maschienenbau bringe ich mit. Ich habe eine Leidenschaft  für Kunst, Fotografie und Science Fiction, arbeite gern im interdisziplinären Team und interessiere mich für Neurowissenschaften. Ich möchte kritisch und aktiv unsere Welt mitgestalten. 
+
+\end{document}

@@ -1,0 +1,108 @@
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Motivationsschreiben für MSE} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+\title{Motivationsschreiben für MSE}
+\author{Peter Kuhn}
+\date{\today}
+\maketitle
+
+\section{über mich}
+
+die Matur habe ich am mathemathischen-nauturwissenschaftleichen-Gymnisausm Rähmibül in zürich gemacht. Nach einem Zwischenjahr Zivildienst habe ich mit dem Mathematikstudium an der ETH angefangen. Nach einem Praktium bei Reiden und Thömus, konnte ich dann an der OST mit maschinentechnik | Innovation anfangen.
+
+Im Frühling habe die Einzelfirma Kuhn Innovaitv Solutions gegründet. Ich biete hautsächlich technische Dienstleisungen für Künstler an.
+
+
+\section{Alte Projekte von Mir}
+Für meine Maturarbeit habe ich ein Attachment entwickelnt mit dem eine analoge Kamera digitale Biler aufnehmen kann. Das ziel war es das Feeling einer analogen Kamera zu erhalten, ohne teuren Film benuzten zu müssen.
+Im grossen Ewick Projekt habe ich mit meiner Gruppe eine mechanische Beschleundigungstechnik entwickelt, um sprödes trockeneis auf rund 40 m/s zu beschleundigen. Zur zeit ist eine Patenanmeldung im gange.
+Für meine Semesterarbeit habe ich an der SmartFaktory@ost mit SML Qualitätsmerkmale von Spritzgussteilen vorhergesagt.
+Für meine Bachlor Arbeit habe ich ein Test gefunden der mit hilfe einer Kamera den gehalt des flussigen Wasser in Schnee messen kann.
+
+ein privates Projekt, mechanischer einkaufszettel, huthalter
+
+Ich habe freude in klassischen Mascheninetechnik aufgaben neue programeraufgaben zu fienedne.
+
+\section{meine Ziele}
+
+Ich möchte meine praktische Grundlage des Mascheninetechnkik bachlors mit einem theoretischern Ansatz aus dem Data Science Vertiefung erweitern.
+Verbindung des aktuellen studiums maschentechnik mit meinem alter Mathematik studium, um meine theoretische begeisterung zu stillen.
+ich strebe eine transdisziplinäres Arbeiten an. die holistisch herangehensweise an probleme bei der Bachlor arbeit schätzte ich sehr.
+ich will den maschienebau der mir beigebracht worden ist in die zukunft weiter bringen.
+
+\section{Zukunft des Maschienenbau}
+iot geräte aus dem maschienenbau produzieren viel daten, ich möchte aus dem Information gewinnen.
+fetigungsprezision am anfang nicht mehr ausreichend, offener loop. zukünftig geschlossernen loop mit QM über den prozess mit ML.
+zur zeit gibt es einen Hype um AI, ich hingegen möchte die grundlagen und anwendunges sehen, verstehen und anwenden. von einem User der ML zu einem developer der ML-Applikationne werden.
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Motivationsschreiben für MSE} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+\title{Motivationsschreiben für MSE}
+\author{Peter Kuhn}
+\date{\today}
+\maketitle
+
+\section{über mich}
+
+die Matur habe ich am mathemathischen-nauturwissenschaftleichen-Gymnisausm Rähmibül in zürich gemacht. Nach einem Zwischenjahr Zivildienst habe ich mit dem Mathematikstudium an der ETH angefangen. Nach einem Praktium bei Reiden und Thömus, konnte ich dann an der OST mit maschinentechnik | Innovation anfangen.
+
+Im Frühling habe die Einzelfirma Kuhn Innovaitv Solutions gegründet. Ich biete hautsächlich technische Dienstleisungen für Künstler an.
+
+
+\section{Alte Projekte von Mir}
+Für meine Maturarbeit habe ich ein Attachment entwickelnt mit dem eine analoge Kamera digitale Biler aufnehmen kann. Das ziel war es das Feeling einer analogen Kamera zu erhalten, ohne teuren Film benuzten zu müssen.
+Im grossen Ewick Projekt habe ich mit meiner Gruppe eine mechanische Beschleundigungstechnik entwickelt, um sprödes trockeneis auf rund 40 m/s zu beschleundigen. Zur zeit ist eine Patenanmeldung im gange.
+Für meine Semesterarbeit habe ich an der SmartFaktory@ost mit SML Qualitätsmerkmale von Spritzgussteilen vorhergesagt.
+Für meine Bachlor Arbeit habe ich ein Test gefunden der mit hilfe einer Kamera den gehalt des flussigen Wasser in Schnee messen kann.
+
+ein privates Projekt, mechanischer einkaufszettel, huthalter
+
+Ich habe freude in klassischen Mascheninetechnik aufgaben neue programeraufgaben zu fienedne.
+
+\section{meine Ziele}
+
+Ich möchte meine praktische Grundlage des Mascheninetechnkik bachlors mit einem theoretischern Ansatz aus dem Data Science Vertiefung erweitern.
+Verbindung des aktuellen studiums maschentechnik mit meinem alter Mathematik studium, um meine theoretische begeisterung zu stillen.
+ich strebe eine transdisziplinäres Arbeiten an. die holistisch herangehensweise an probleme bei der Bachlor arbeit schätzte ich sehr.
+ich will den maschienebau der mir beigebracht worden ist in die zukunft weiter bringen.
+
+\section{Zukunft des Maschienenbau}
+iot geräte aus dem maschienenbau produzieren viel daten, ich möchte aus dem Information gewinnen.
+fetigungsprezision am anfang nicht mehr ausreichend, offener loop. zukünftig geschlossernen loop mit QM über den prozess mit ML.
+zur zeit gibt es einen Hype um AI, ich hingegen möchte die grundlagen und anwendunges sehen, verstehen und anwenden. von einem User der ML zu einem developer der ML-Applikationne werden.

@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+\usepackage{listings}%code import
+\usepackage{amsmath}%mathe
+
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Motivationsschreiben für MSE} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+\title{Motivationsschreiben für MSE Data Science}
+\author{Peter Kuhn}
+\date{\today}
+\maketitle
+
+\section{Über mich}
+
+Die Matura habe ich am Mathematisch-Naturwissenschaftlichen Gymnasium Rämibühl in Zürich gemacht. Nach einem Zwischenjahr im Zivildienst habe ich mein Mathematikstudium an der ETH begonnen. Nach einem Praktium bei Reiden und Thömus, habe ich an der OST mit dem Studiengang Maschinentechnik | Innovation begonnen. Im Frühling habe ich die Einzelfirma Kuhn Innovative Solutions gegründet, in der ich hauptsächlich technische Dienstleistungen für Künstler anbiete.
+
+\section{Vergangene Projekte von Mir}
+
+Für meine Maturarbeit habe ich ein Attachment entwickelt, mit dem eine analoge Kamera digitale Bilder aufnehmen kann. Das Ziel war es, das Feeling einer analogen Kamera zu erhalten, ohne teuren Film verwenden zu müssen.
+
+Im grossen Ewick-Projekt habe ich mit meiner Gruppe eine mechanische Beschleunigungstechnik entwickelt, um sprödes Trockeneis auf rund 40 m/s zu beschleunigen. Derzeit ist eine Patenanmeldung im Gange.
+
+Für meine Semesterarbeit habe ich an der SmartFaktory@ost mit SML Qualitätsmerkmale von Spritzgussteilen vorhergesagt.
+
+Für meine Bachelorarbeit habe ich einen Test entwickelt, der mithilfe einer Kamera der Gehalt an flüssigem Wasser im Schnee messenn kann.
+
+Des Weiteren habe ich an einem privaten Projekt gearbeitet, einem mechanischen Einkaufszettel und einem Huthalter.
+
+Ich habe Freude an klassischen Maschinentechnikaufgaben und daran, neue Programmieraufgaben darin zu finden.
+
+\section{Meine Ziele}
+
+Ich möchte meine praktische Grundlage des Maschinentechnik-Bachelors mit einem theoretischen Ansatz aus der Data Science Vertiefung erweitern. In Data Science sehe ich die Verbindung des aktuellen Studiums Maschinentechnik mit meinem früheren Mathematikstudium. Ich hoffe meine theoretische Begeisterung damit zu stillen. Ich strebe transdisziplinäres Arbeiten an und schätze die holistische Herangehensweise an Probleme, so wie in den Projektarbeiten. Mein Ziel ist es, den Maschinenbau, der mir beigebracht wurde, in die Zukunft zu führen.
+
+\section{Zukunft des Maschinenbau}
+
+IoT-Geräte aus dem Maschinenbau produzieren viele Daten, aus denen ich Information gewinnen möchte.
+
+Die Fertigungspräzision am Anfang ist nicht mehr ausreichend, es besteht ein offener Loop. Zukünftig sehe ich einen geschlossenen Loop mit Qualitätsmanagement über den Prozess mit Machine Learning.
+
+Derzeit gibt es einen Hype um AI, ich hingegen möchte die Grundlagen und Anwendungen sehen, verstehen und anwenden. Von einem User der ML zu einem Developer der ML-Applikationen werden.
+
+\section{Warum OST}
+Die Projektbasierte arbeit an der OST ist und bleibt der Grund warum ich hier weiter studeren möchte. Ich hoffe, das im MSE weiter zu machen. 
+
+\end{document}
