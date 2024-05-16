@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.6}Wiederstand gegen Umwelteinflüsse}{24}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Mögliche Gründe der hohen Varianz}{25}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Ergebnisse der Versuche}{26}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Vergleich der Ergebnisse mit Denothmeter}{26}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.9}Vergleich der Ergebnisse mit Denothmeter}{27}{subsection.4.9}%
 \contentsline {subsection}{\numberline {4.10}Verbesserungsmöglichkeiten des Funktionsmusters}{27}{subsection.4.10}%
 \contentsline {subsection}{\numberline {4.11}Vollautomatische Durchführung der Messung}{27}{subsection.4.11}%
 \contentsline {section}{\numberline {5}Ausblick}{29}{section.5}%
