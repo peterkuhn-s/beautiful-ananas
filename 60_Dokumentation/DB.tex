@@ -92,20 +92,3 @@ Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Au
 
 Sobald die Feldversuche durchgeführt worden sind, wird sich die DB an die tatzächlie Nutztung noch anpassen.
 
-\subsubsection{Code}
-\label{sect:code}
-
-\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die Benutzerinitialisierung}, label={code:User}]{UserInizialise.sql}
-
-Die pseudozufällige Passworder sind nicht optimal, besser wäre $SELECT gen_random_uuid();$
-
-
-\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die DBinitialisierung}, label={code:DBIni}]{DBInizialise.sql}
-
-\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für die Views}, label={code:ViewDB}]{ViewsDB.sql}
-
-\lstinputlisting[language=SQL, basicstyle=\ttfamily\footnotesize, caption={SQL-Code für Beispiel Daten}, label={code:ExamData}]{IsertSomeData.sql}
-
-\lstinputlisting[language=Python, basicstyle=\ttfamily\small, caption={Bilderkennung und verarbeitung}, label={code:RaspKam}]{imageToCircle3.py}
-
-\lstinputlisting[language=Python, basicstyle=\ttfamily\small, caption={Bilderkennung und verarbeitung}, label={code:FeldUser}]{splitUpImage.py}
