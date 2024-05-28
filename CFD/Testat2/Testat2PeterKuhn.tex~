@@ -1,0 +1,123 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Evaluation von Phothogarmetrie fur CFD Simulation}
+\author{Peter Kuhn}
+\date{2024-0-}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Einleitung}\label{sec:Einleitung}
+Das Ziel ist eis eine simulation zu machen die auf einem 3 d gescanntent Objekts zu machen.
+
+Als objekt wurde die Kuh gewahlt, da in der theoretischen physik die annahme, einer sparischen Kuh normal ist. Ziel ist es den c_w Wert einer Kuh zu ermitteln.
+Der Widerstandsbeiwert \( c_d \) ist definiert als
+
+\begin{equation}
+c_d = \frac{2 F_d}{\rho u^2 A}
+\end{equation}
+
+wobei:
+\begin{itemize}
+    \item \( F_d \) die Widerstandskraft ist, die per Definition die Kraftkomponente in Richtung der Strömungsgeschwindigkeit ist; \cite{source9}
+    \item \( \rho \) die Massendichte des Fluids ist; \cite{source10}
+    \item \( u \) die Strömungsgeschwindigkeit des Objekts relativ zum Fluid ist;
+    \item \( A \) die Referenzfläche ist.
+\end{itemize}
+
+\section{Aufbau}
+
+\subsection{Geometrie}
+Um einen vergeilch einer geometrie zu machen, braucht es zwei geometrien. hierfur wurde zum einen eine frei verfugbare low poly Kuh, und zum anderen der scan des 3d drucks der low poly Kuh gemacht.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{geometry.png}
+    \caption{Geometrie der Simulation}
+    \label{fig:geometry}
+\end{figure}
+
+\subsection{3D scann}
+fur den 3d scan wurde ein Smartphone mit einem externen LED licht benutzt. die software ployscan, hat aus rund 130 Bilder dann eine Punktewolke mit einer color map fur die oberflache exportiert. das file wurde dann in bleder bereinigt und geflickt. mit dem stl konnte dann im spaceclaim in ansys die geometrie der Luftbox erstellt werden.
+
+Um den scan zu verbessern wurde das glanzende rote PLA mit matter acrly farbe angemahlt. Es wurden schwarze punkte aufgemahlt, um dem photogramietrie algoritmus mehr anhaltspunkte zu geben.
+
+\subsection{Material}
+es wird Luft bei 20 grad an einem schonen fruhlingstag fur die simulation gewahlt.
+
+\subsection{Randbedingungen}
+Die  \( c_d \) in der Literatur sind bei einer Raynoldsnummer zwischen  10^4 und 10^6 angegeben. das heisst die Luftgeschwindigkeit  \( u \) wird so gewahlt, dass die Raynoldsnummer passt.
+
+\subsection{Handrechnung}
+fur die handrechnung wird die Annahme aus \ref{sec:Einleitung} benutzt. Der c_w wert einer Sphare kann nachgeschlagen werden und ist
+$$c_w = 0.47$$
+\cite{wiki}
+
+
+\section{Vorstudien}
+
+Die expression die als monitor point benutzt wird ist
+$$ force_y@cow$$
+
+\subsection{Rechenintervalle}
+
+\subsection{grosse der simulierten Luft}
+um sicher zu stellen, dass simulation eine Kuh auf freiem feld abbieldet, muss sichergestellt werden, dass die wande der simulation einen vernachlassigbaren grossen Einfluss auf das ergebniss haben. dazu wird in drei schritten fur die drei Achsen die Luftbox variiert. 
+
+
+\subsection{Netzfeinheit}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{monitor_point1.png}
+    \caption{Monitor Punkt, Geschwindigkeit}
+    \label{fig:monitor1}
+\end{figure}
+
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{monitor_point2.png}
+    \caption{Monitor Punkt, Geschwindigkeit}
+    \label{fig:monitor2}
+\end{figure}
+
+\section{Ergebnisse}
+
+\subsection{Plausibilität}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{result_top.png}
+    \caption{Ergebnis Geschwindigkeit, Aufsicht}
+    \label{fig:result_top}
+\end{figure}
+
+\subsection{Realitätsnähe}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{result_side.png}
+    \caption{Ergebnis Geschwindigkeit, Seitenansicht}
+    \label{fig:result_side}
+\end{figure}
+
+\section{Fazit}
+
+\section{Literaturverzeichniss}
+\href{https://en.wikipedia.org/wiki/Drag_coefficient}
+
+
+\end{document}

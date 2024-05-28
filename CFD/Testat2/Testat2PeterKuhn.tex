@@ -1,0 +1,149 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Evaluation von Phothogarmetrie 3D Scan fur CFD Simulationen}
+\author{Peter Kuhn}
+\date{2024-05-26}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Einleitung}\label{sec:Einleitung}
+Das Ziel ist es zu bewerten wie geeignet ein photogarmetrie 3d scan fur eine cfd simulation ist.
+
+dazu wird eine simulation mit 3 d gescanntent Objekts und eine simurlation mit den orginaldimensionen des objekts gemacht.
+
+Als objekt wurde die Kuh gewahlt.  In beisielen der theoretischen physik ist die annahme, dass  ein Kuh sparisch ist typisch. In 2015 gab es das Meme, des luftwiederstands einer Kuh. Um diesen Witzten ehre zu targen , ist es das ziel den c_w Wert einer Kuh zu ermitteln.
+
+Der Widerstandsbeiwert \( c_d \) ist definiert als
+
+\begin{equation}
+c_d = \frac{2 F_d}{\rho u^2 A}
+\end{equation}
+
+wobei:
+\begin{itemize}
+    \item \( F_d \) die Widerstandskraft ist, die per Definition die Kraftkomponente in Richtung der Strömungsgeschwindigkeit ist; \cite{source9}
+    \item \( \rho \) die Massendichte des Fluids ist; \cite{source10}
+    \item \( u \) die Strömungsgeschwindigkeit des Objekts relativ zum Fluid ist;
+    \item \( A \) die Referenzfläche ist.
+\end{itemize}
+
+\section{Aufbau}
+
+\subsection{Geometrie}
+Um einen vergeilch einer geometrie zu machen, braucht es zwei geometrien. hierfur wurde zum einen eine frei verfugbare low poly Kuh, und zum anderen der scan des 3d drucks der low poly Kuh gemacht.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{geometry.png}
+    \caption{Geometrie der Simulation}
+    \label{fig:geometry}
+\end{figure}
+
+\subsection{3D scann work flow}
+Um die gescannte geometrie zu bekommen wurde verschieden Techniken ausprobiert. Hier ist der funktioniernede  ablauf beschrieben
+\begin{enumerate}
+\item STL 3D file im Internet finden \href{https://www.printables.com/de/model/175429-cow}{Kuh}
+\item mit prusa silcer das STL in GCode ubersetztne
+\item mit 3D drucker Ultimaker 2+ GCode in physisches Objekt
+\item 3D Druck weis und schwarz anmahlen, um reflexionen zu vermeiden und tracking points
+\item mit Smartphone und extermen LED, mit der Software ployscan 130 Bilder  auf externen Servern QBJ datai erstellen
+\item mit blender OBJ bearbeiten, Boden entfernen, als STL exportieren
+\item in ANSYS Spaceclaim mit der funktion shrikrap aus unzusammenhangenden STL teilen ein STL erstellen
+\item in nTop aus STL eine implizite geometrie erstellen
+\item in nTop aus impiziter geomertie eine Konstruktion ableiten als STEP
+\item in NX die Konstruktion der Luft um die Kuh erstellen und als STEP exportiern
+\item in ANSYS importieren und vernetzten  
+  \end{enumerate}
+Dieser Prozess ist so schwierigkeit weil es keine universell einsetzbaren 3d datai formate gibt. ich hoffe, dass sich hier in der zukunft etwas verbessert.
+
+\subsection{Material}
+es wird Luft bei 25 grad an einem schonen fruhlingstag fur die simulation gewahlt.
+
+\subsection{Randbedingungen}
+Die  \( c_d \) in der Literatur sind bei einer Raynoldsnummer zwischen  10^4 und 10^6 angegeben. das heisst die Luftgeschwindigkeit  \( u \) wird so gewahlt, dass die Raynoldsnummer passt.
+
+Fur die simulatino kann die symetrie der Kuh genutzt werden. Die Kuh ist als Wall no slip definiert, die wande als wall free slip, Inlet ist mit einer konstanten geschwindigkeit definiert, Outlet ist als 0 Pa druck definiert. 
+
+\subsection{Handrechnung}
+fur die handrechnung wird die Annahme aus \ref{sec:Einleitung} benutzt. Der c_w wert einer Sphare kann nachgeschlagen werden und ist
+$$c_w = 0.47$$
+\cite{wiki}
+
+
+\section{Vorstudien}
+
+Die expression die als monitor point benutzt wird ist
+$$ force_y@cow$$
+auch hier kann gesehen werden, dass es sich leider nicht um eine laminare stromung handelt. Um einen Wert zu bekommen der mit dem wert aus \ref{sec:handrechnung} verglicheen werden kann wird der durchschnitt in den letzten schwingungen ausgewertent.
+
+Um die referenzflache der kuh zu erhalten wird in NX ein schatten der kuh gemessen. hier wird aber nicht mehr berucksichtigt, dass eine kuh vorder und hinterbeine hat.
+
+\subsection{Rechenintervalle}
+Der RMS Error  ist nicht am konstant abnehmen, sondern zeigt die eigenschaften einer Kármánsche Wirbelstraße. meine vermutung ist, dass die dunnen beine der Kuh und der massige Korpre der Kuh nicht die vorgaben der Reynoldszahl und keine Wirbelablosung gleichzeitig aufweissen konnen. 
+
+\subsection{grosse der simulierten Luft}
+um sicher zu stellen, dass simulation eine Kuh auf freiem feld abbieldet, muss sichergestellt werden, dass die wande der simulation einen vernachlassigbaren grossen Einfluss auf das ergebniss haben. fur die evalutation des 3d scanns wurde eine grosse gewahlt, die dem bauchgefuhl nach ausreichend ist. die luft war fur beide simulationen genau gleich.
+
+in dem bild \ref{img:p} kann gesehen werden, dass die druckverteilung an den wanden homogen ist, dass heisst, sie haben tazachlich keinen Einfluss auf die Kuhn
+
+
+\subsection{Netzfeinheit}
+Die Netzfeinheit wird bei jedem neunen import export neu definiert. Um das modell sehr gut ab zu bielden ist eine Netzfeinheit von 0.2 mm notig. Um mit der limiterten Hardware des VDIs ein ergebniss erziehlen zu konnen, musste eine netzfeinheit von 2 mm gewahlt werden. Die sehr hohe auflosung des unsprunglichen 3d scanns stellt eine erhebliche herausforderung fur eine simulation dar.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{monitor_point1.png}
+    \caption{Monitor Punkt, Geschwindigkeit}
+    \label{fig:monitor1}
+\end{figure}
+
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{monitor_point2.png}
+    \caption{Monitor Punkt, Geschwindigkeit}
+    \label{fig:monitor2}
+\end{figure}
+
+\section{Ergebnisse}
+Es wird ein  \( c_d_{orginal} \) Wert von 0.XX und ein  \( c_d_{scan} \) von 0.xx simuliert. Die Werte sind in der gleichen grossenordnung wie die handrechnung  mit  \( c_d_{kugel} \)und das ist alles was den theoretischen physiker braucht.
+
+\subsection{Plausibilität}
+die vergleichbarkeit des Orginals mit dem scan ist schwierig, da sowohl das orginal als auch des scan durch mehre programme transformiert wurden. aber es zeigt auch wie gut ein \i{gratis} 3 D scanner sein kann, den man immer in der hosentasche hat.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{result_top.png}
+    \caption{Ergebnis Geschwindigkeit, Aufsicht}
+    \label{fig:result_top}
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{result_side.png}
+    \caption{Ergebnis Geschwindigkeit, Seitenansicht}
+    \label{fig:result_side}
+\end{figure}
+
+\section{Fazit}
+Es konnte in dieser selber gestellten Testatsaufgabe ein Workfolw entwickelt werden, um mit einem photogrametrie 3d scanner eine cfd simulation durchzufuhren. Die grosste herausforderung des workflows ist die inkomatibilitat der verschieden 3d datai typen.
+
+die simulation leidet an turbulenzen, so konnten keine sicheren werde fur den luftwierderstand einen kuh berchennet werden. die beiden Simulation und die handrechnung sind in der gleichen grossenordung, somit kann in der theoretischen physik ohne probleme die Annahme getroffen werden, dass eine Kuh eine Kugel ist.
+
+\section{Literaturverzeichniss}
+\href{https://en.wikipedia.org/wiki/Drag_coefficient}
+
+
+\end{document}

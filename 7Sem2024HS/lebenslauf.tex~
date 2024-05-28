@@ -1,0 +1,61 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Lebenslauf}
+\author{Peter Kuhn}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Personalien}
+\begin{tabular}{ll}
+Name: & Peter Kuhn \\
+Adresse: & Webergasse 16, 8640 Rapperswil \\
+Mobil: & 078 707 12 46 \\
+Festnetz: & 043 268 55 87 \\
+E-Mail: & \href{mailto:peterkuhn@peterkuhn.ch}{peterkuhn@peterkuhn.ch} \\
+\end{tabular}
+
+\section*{Bildung}
+\begin{itemize}
+
+    \item 2005 - 2011 Primarschule
+    \item 2011 - 2013 Langzeit Gymnasium Kantonsschule Zürcher Oberland
+    \item 2013 - 2017 Kurzzeit Gymnasium Math. Naturwiss. Gym. Rämibühl
+    \item 2017 - 2018 Zivildienst
+    \item 2018 - 2020 Mathematik Studium ETH Zürich
+    \item 2021 - jetzt Maschinenentechnik und Innovation Studium an der OST
+\end{itemize}
+
+\section*{Maturarbeit}
+\url{http://peterkuhn.ch/Maturarbeit20170120.pdf}
+
+\section*{Sprachen}
+\begin{itemize}
+    \item Deutsch (Muttersprache)
+    \item Englisch (sehr gut schriftlich und mündlich)
+    \item Italienisch (gut mündlich)
+\end{itemize}
+
+\section*{Programmiersprachen}
+C++, Java, Python, JavaScript, Bash, Matlab, HTML/CSS, MySQL, Excel
+
+\section*{Fähigkeiten}
+\begin{itemize}
+    \item Führerausweis Kat. B
+    \item Aktives Mitglied von Velove, einer von Studenten geleiteten Velo Werkstatt
+\end{itemize}
+
+\section*{Sport}
+\begin{itemize}
+    \item Mountainbike
+    \item Rennvelo
+
+\end{itemize}
+
+\end{document}
