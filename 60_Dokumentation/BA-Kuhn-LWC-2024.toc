@@ -4,41 +4,48 @@
 \contentsline {subsection}{\numberline {1.2}Entstehung der Gleitlawine}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Endziel des Arbeit}{1}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}User Story}{1}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Anforderungen}{2}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Planung der Arbeit}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.5}Planung der Arbeit}{2}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Liquid Water Content}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Physicalische Prinzipien}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Kommerzielle Produkte}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Publizierte Methoden}{6}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Vorstudie}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}3M 5559 Water Indikator Tape}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Water Indikator Tape}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Elektrischer wiederstand}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Laser Refraktion und Reflezion}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Vibration}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Diffusion von Flüssigkeit}{11}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Funktionsmuster}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Agiles Hardware Devolopment}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Eigenschaften der Varianten}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Messablauf}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Bildverarbeitung}{13}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Extrahieren von Informationen aus Bilddaten}{15}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Anforderungsanalyse}{15}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Konzeptueller DB Entwurf}{16}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}Logischer DB Entwurf}{16}{subsubsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.4}Views für den Analysten}{16}{subsubsection.4.5.4}%
-\contentsline {subsubsection}{\numberline {4.5.5}Physischer Entwurf}{18}{subsubsection.4.5.5}%
-\contentsline {subsubsection}{\numberline {4.5.6}Python-Interaktion mit der Datenbank}{18}{subsubsection.4.5.6}%
-\contentsline {subsubsection}{\numberline {4.5.7}Nächste Schritte}{18}{subsubsection.4.5.7}%
-\contentsline {subsection}{\numberline {4.6}Wiederstand gegen Umwelteinflüsse}{18}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Mögliche Gründe der hohen Varianz}{19}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Ergebnisse der Versuche}{20}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Verbesserungsmöglichkeiten des Funktionsmusters}{21}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Vollautomatische Durchführung der Messung}{21}{subsection.4.10}%
-\contentsline {section}{\numberline {5}Ausblick}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Presönliche Erfahrunng}{23}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fazit}{23}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ausblick}{23}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Danksagung}{23}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Literaturverzeichnis}{24}{section.6}%
-\contentsline {section}{\numberline {7}Erklärung zur Urheberschaft}{27}{section.7}%
-\contentsline {section}{\numberline {8}Digitaler Anhang}{30}{section.8}%
+\contentsline {subsection}{\numberline {3.3}Mögliche Lösung: Verlängerung der Graphitsonden}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Verbindung des Graphits mit der Stahlplatte}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Herausforderungen}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Test des Graphitpulvers und Aluminiumpulvers}{7}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Ergebnisse}{8}{subsubsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.7}Möglichkeit der direkten Verwendung von Graphit-Epoxy-Mischung}{8}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Arbeitsschutz und Schnee}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Feldversuch}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Laser Refraktion und Reflezion}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Vibration}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diffusion von Flüssigkeit}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Funktionsmuster}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Agiles Hardware Devolopment}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Eigenschaften der Varianten}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Messablauf}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Bildverarbeitung}{13}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Extrahieren von Informationen aus Bilddaten}{16}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Anforderungsanalyse}{16}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Konzeptueller DB Entwurf}{17}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Logischer DB Entwurf}{17}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Views für den Analysten}{17}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.5}Physischer Entwurf}{19}{subsubsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.6}Python-Interaktion mit der Datenbank}{19}{subsubsection.5.5.6}%
+\contentsline {subsubsection}{\numberline {5.5.7}Nächste Schritte}{19}{subsubsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.6}Wiederstand gegen Umwelteinflüsse}{19}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Mögliche Gründe der hohen Varianz}{20}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Ergebnisse der Versuche}{22}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Verbesserungsmöglichkeiten des Funktionsmusters}{22}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Vollautomatische Durchführung der Messung}{22}{subsection.5.10}%
+\contentsline {section}{\numberline {6}Ausblick}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Presönliche Erfahrunng}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Fazit}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ausblick}{24}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Danksagung}{25}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{26}{section.7}%
+\contentsline {section}{\numberline {8}Erklärung zur Urheberschaft}{30}{section.8}%
+\contentsline {section}{\numberline {9}Digitaler Anhang}{33}{section.9}%
