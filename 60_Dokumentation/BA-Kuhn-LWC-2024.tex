@@ -33,6 +33,7 @@
 \usepackage{listings}%code import
 \usepackage[style=numeric, backend=biber]{biblatex}%literaturverzeichniss
 \usepackage{acronym}%abkurzungen
+\usepackage{multicol}%mehrene spalten
 
 \addbibresource{Literaturverzeichniss.bib}%"?
 %\usepackage{lastpage}
@@ -98,13 +99,9 @@
 \subsection{Entstehung der Gleitschneelawine}
 \input{EntstehungGleitlawine.tex}
 
-\subsection{Endziel des Arbeit}
-\input{Endziel.tex}
 
 \subsection{User Story}
 \input{UserStory.tex}
-
-
 
 \subsection{Planung der Arbeit}
 \input{PlanungDerArbeit.tex}
@@ -191,7 +188,7 @@
 \section{Ausblick}
 \input{Ausblick.tex}
 
-\subsection{Danksagung}
+\subsection*{Danksagung}
 \input{Danksagung.tex}
 
 \newpage
@@ -211,6 +208,10 @@
 \listoftables % Tabellenverzeichnis erstellen
 \newpage
 \section*{Digitaler Anhang}
+
+
+\subsection{Endziel des Arbeit}
+\input{Endziel.tex}
 
 \subsection*{User Storys}
 \input{Userstoryvoll.tex}
