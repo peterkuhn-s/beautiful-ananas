@@ -1,0 +1,228 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+\usepackage{listings}%code import
+\usepackage[style=numeric, backend=biber]{biblatex}%literaturverzeichniss
+\usepackage{acronym}%abkurzungen
+
+\addbibresource{Literaturverzeichniss.bib}%"?
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{Bilder/OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Bachelorarbeit FS 2024} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\begin{titlepage}
+  \end{titlepage}
+% Import the PDF
+%toChange
+\includepdf{Titelseite.pdf}
+%import something from scribus
+
+
+\pagestyle{empty}
+\section*{Abstract}
+\input{abstract.tex}
+
+\newpage
+\subsection*{Beschreibung der Abkürzungen}
+\input{AbkurzText.tex}
+\newpage
+% Inhaltsverzeichnis
+\tableofcontents
+%\pagenumbering{Roman}
+\newpage
+\pagestyle{fancy}
+
+\setcounter{page}{1}
+\section{Einleitung}
+\input{Einleitung.tex}
+
+\subsection{Lawinen in der Schweiz}
+\input{Lawinen.tex}
+
+\subsection{Entstehung der Gleitschneelawine}
+\input{EntstehungGleitlawine.tex}
+
+
+\subsection{User Story}
+\input{UserStory.tex}
+
+\subsection{Planung der Arbeit}
+\input{PlanungDerArbeit.tex}
+
+\section{Liquid Water Content}
+\input{LWC.tex}
+
+\subsection{Physicalische Prinzipien}
+\input{PhysPriz.tex}
+
+\subsection{Kommerzielle Produkte}
+\input{KommPro.tex}
+
+\subsection{Publizierte Methoden}
+\label{sec:PubMeth}
+
+%\subsection{Methoden in der Vorstudie}
+
+\section{Vorstudie}
+\input{Vorstudie.tex}
+
+\subsection{Water Indikator Tape}
+\input{5559Tape.tex}
+
+\subsection{Elektrischer wiederstand}
+\input{Voltcraft.tex}
+
+\subsection{Laser Refraktion und Reflezion}
+\input{LaserRef.tex}
+
+\subsection{Vibration}
+\input{Vibration.tex}
+
+\subsection{Diffusion von Flüssigkeit}
+\label{sec:TinteVersuchsaufbau}
+\input{Diffusion.tex}
+
+\section{Funktionsmuster}
+\input{FunkMuster.tex}
+
+\subsection{Agiles Hardware Devolopment}
+\input{AgilHardDev.tex}
+
+\subsection{Eigenschaften der Varianten}
+\input{EigenFunktVar.tex}
+
+\subsection{Messablauf}
+\input{Messablauf.tex}
+
+\subsection{Bildverarbeitung}
+\input{Bildverarbeitung.tex}
+
+\subsection{Extrahieren von Informationen aus Bilddaten}
+\input{DB.tex}
+
+\subsection{Wiederstand gegen Umwelteinflüsse}
+\input{WiedUmwelt.tex}
+
+\subsection{Mögliche Gründe der hohen Varianz}
+\input{Ishikawa.tex}
+
+\subsection{Ergebnisse der Versuche}
+\input{ErgebVers.tex}
+
+%\subsection{Vergleich der Ergebnisse mit Denothmeter}
+%\input{VergleichDeno.tex}
+
+\subsection{Verbesserungsmöglichkeiten des Funktionsmusters}
+\input{VerbessFunktMuss.tex}
+
+\subsection{Vollautomatische Durchführung der Messung}
+\input{VollAutDurch.tex}
+
+\newpage
+\section{Fazit}
+\input{Ausb.tex}
+
+\subsection{Presönliche Erfahrunng}
+\input{PersErf.tex}
+
+\subsection{Fazit}
+\input{Fazit.tex}
+
+\section{Ausblick}
+\input{Ausblick.tex}
+
+\subsection{Danksagung}
+\input{Danksagung.tex}
+
+\newpage
+% Literaturverzeichnis
+%\bibliography{mybibliography}
+\section*{Literaturverzeichnis}
+\input{Literaturverzeichniss.tex}
+
+\newpage
+\section*{Erklärung zur Urheberschaft}
+\input{Unterschrift.tex}
+
+\newpage
+\listoffigures
+
+
+\listoftables % Tabellenverzeichnis erstellen
+\newpage
+\section*{Digitaler Anhang}
+
+
+\subsection{Endziel des Arbeit}
+\input{Endziel.tex}
+
+\subsection*{User Storys}
+\input{Userstoryvoll.tex}
+
+\subsection*{Anforderungen}
+\input{Anforderungen.tex}
+
+\subsection*{Lebenslauf}
+\includepdf{Bilder/lebenslauf-2.pdf}
+
+\subsection*{Code}
+\input{Code.tex}
+
+
+\end{document}
