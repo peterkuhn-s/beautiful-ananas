@@ -15,7 +15,7 @@ Die Datenbank in dieser Bachelorarbeit wird relativ klein sein, da die Feldversu
 
 Die Datenbank ist grösser angelegt, als sie für die Vorversuche in der Bachelorarbeit benötigt wird.
 
-Es gibt vier Benutzer die mit der Datenbank interagieren. In der Grafik \ref{fig:user-db-entwurf} ist die schematische Darstellung.
+Es gibt vier Benutzer, die mit der Datenbank interagieren. In der Grafik \ref{fig:user-db-entwurf} ist die schematische Darstellung.
 
 \begin{figure}
     \centering
@@ -53,16 +53,16 @@ Mit der Unified Modeling Language (UML) wird in  \ref{fig:uml-db-entwurf} die St
 \subsubsection{Logischer DB Entwurf}
 
 
-Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free und Open-Source-System, das neue Features wie zum Beispiel JSON-Datentypen unterstützt.
+Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free- und Open-Source-System, das neue Features wie zum Beispiel JSON-Datentypen unterstützt.
 
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
 \subsubsection{Views für den Analysten}
-Das Endziel besteht darin, eine Regression aus den Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
+Das Endziel besteht darin, eine Regression aus Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
 
 Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
 
-Da die Ansichten für den read only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
+Da die Ansichten für den Read Only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
 
 \ref{code:ViewDB}
 
@@ -79,7 +79,7 @@ Falls die Datenbank von meinem Laptop auf einen Server ausgelagert wird, werden 
 
 Für die Interaktion mit der Datenbank werden verschiedene Python-Skripte verwendet, die je nach Benutzer unterschiedliche Aufgaben erfüllen.
 
-Das folgende Python-Skript ist dazu da Bilder von Taps zu analysieren und die daraus gewonnenen Daten in die Datenbank einzufügen. \ref{code:RaspKam}
+Das folgende Python-Skript ist dazu da, Bilder von Taps zu analysieren und die daraus gewonnenen Daten in die Datenbank einzufügen. \ref{code:RaspKam}
 
 Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zeit ruft das Skript auch noch die Bildanalyse auf. \ref{code:FeldUser}
 
@@ -90,5 +90,5 @@ Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren
 
 Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklungs Bachelorarbeit besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
 
-Sobald die Feldversuche durchgeführt worden sind, wird sich die DB an die tatzächlie Nutztung noch anpassen.
+Sobald die Feldversuche durchgeführt worden sind, wird sich die DB an die tatsächliche Nutzung noch anpassen.
 

@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.aux.blg'
+[130] biber-darwin:340> INFO - === Mon Jun  3, 2024, 09:44:05
+[410] Utils.pm:410> ERROR - Cannot find 'BA-Kuhn-LWC-2024.aux.bcf'!
+[410] Biber.pm:136> INFO - ERRORS: 1

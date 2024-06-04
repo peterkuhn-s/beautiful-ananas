@@ -1,15 +1,15 @@
-[1] Config.pm:307> INFO - This is Biber 2.17
-[2] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.blg'
-[315] biber:340> INFO - === Tue May  7, 2024, 14:20:57
-[373] Biber.pm:418> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
-[661] Biber.pm:972> INFO - Found 36 citekeys in bib section 0
-[714] Biber.pm:4383> INFO - Processing section 0
-[766] Biber.pm:4574> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
-[774] bibtex.pm:1713> INFO - LaTeX decoding ...
-[904] bibtex.pm:1518> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
-[1606] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1606] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1607] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[1607] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[1716] bbl.pm:654> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
-[1776] bbl.pm:757> INFO - Output to BA-Kuhn-LWC-2024.bbl
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.blg'
+[120] biber-darwin:340> INFO - === Mon Jun  3, 2024, 09:44:42
+[152] Biber.pm:419> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
+[282] Biber.pm:979> INFO - Found 36 citekeys in bib section 0
+[309] Biber.pm:4419> INFO - Processing section 0
+[339] Biber.pm:4610> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
+[345] bibtex.pm:1713> INFO - LaTeX decoding ...
+[419] bibtex.pm:1519> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
+[734] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[734] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[734] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[735] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[794] bbl.pm:660> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
+[819] bbl.pm:763> INFO - Output to BA-Kuhn-LWC-2024.bbl
