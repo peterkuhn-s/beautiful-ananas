@@ -1,15 +1,16 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{7}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{8}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Bildverarbeitung Konzept}}{14}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Benutzer der Datenbank}}{15}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{17}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces 10 Messungen von vergleichbarem unverändrtem Schnee}}{19}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{19}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{22}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{23}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{23}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}, 3. Mit flüssigem Wasser übergossener Schnee.}}{24}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{25}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{26}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messen auf den Schnee zu erkennen.}}{27}{figure.14}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Links ist ein Tropfen zu sehen, der mehrere Minuten auf dem Tape verweilt. Rechts ist ein neuer Wassertropfen, daneben noch der gefittete Kreis.}}{5}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{7}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{8}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Bildverarbeitung Konzept}}{14}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Benutzer der Datenbank}}{15}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{17}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces 10 Messungen von vergleichbarem unverändrtem Schnee}}{19}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{19}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{22}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{23}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{23}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}, 3. Mit flüssigem Wasser übergossener Schnee.}}{24}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{25}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{26}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messen auf den Schnee zu erkennen.}}{27}{figure.15}%
