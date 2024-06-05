@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.blg'
-[120] biber-darwin:340> INFO - === Mon Jun  3, 2024, 09:44:42
-[152] Biber.pm:419> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
-[282] Biber.pm:979> INFO - Found 36 citekeys in bib section 0
-[309] Biber.pm:4419> INFO - Processing section 0
-[339] Biber.pm:4610> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
-[345] bibtex.pm:1713> INFO - LaTeX decoding ...
-[419] bibtex.pm:1519> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
-[734] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[734] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[734] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[735] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[794] bbl.pm:660> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
-[819] bbl.pm:763> INFO - Output to BA-Kuhn-LWC-2024.bbl
+[115] biber-darwin:340> INFO - === Wed Jun  5, 2024, 10:30:33
+[142] Biber.pm:419> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
+[230] Biber.pm:979> INFO - Found 40 citekeys in bib section 0
+[250] Biber.pm:4419> INFO - Processing section 0
+[262] Biber.pm:4610> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
+[268] bibtex.pm:1713> INFO - LaTeX decoding ...
+[305] bibtex.pm:1519> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
+[521] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[521] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[521] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[521] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[561] bbl.pm:660> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
+[582] bbl.pm:763> INFO - Output to BA-Kuhn-LWC-2024.bbl
+[582] Biber.pm:131> WARN - I didn't find a database entry for 'nasa-snowex-2020-2' (section 0)
+[582] Biber.pm:133> INFO - WARNINGS: 1

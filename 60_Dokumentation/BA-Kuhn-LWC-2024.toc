@@ -16,28 +16,16 @@
 \contentsline {section}{\numberline {4}Funktionsmusterentwicklung und Tests}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Agiles Hardware Development}{9}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Eigenschaften der Varianten}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Erste Iteration}{10}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Zweite Iteration}{10}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Dritte Iteration}{11}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Vierte Iteration}{11}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Fünfte Iteration}{11}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Messablauf}{11}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Bildverarbeitung}{12}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Extrahieren von Informationen aus Bilddaten}{14}{subsection.4.10}%
-\contentsline {subsubsection}{\numberline {4.10.1}Anforderungsanalyse}{14}{subsubsection.4.10.1}%
-\contentsline {subsubsection}{\numberline {4.10.2}Konzeptueller DB Entwurf}{15}{subsubsection.4.10.2}%
-\contentsline {subsubsection}{\numberline {4.10.3}Logischer DB Entwurf}{15}{subsubsection.4.10.3}%
-\contentsline {subsubsection}{\numberline {4.10.4}Views für den Analysten}{15}{subsubsection.4.10.4}%
-\contentsline {subsubsection}{\numberline {4.10.5}Physischer Entwurf}{15}{subsubsection.4.10.5}%
-\contentsline {subsubsection}{\numberline {4.10.6}Python-Interaktion mit der Datenbank}{17}{subsubsection.4.10.6}%
-\contentsline {subsubsection}{\numberline {4.10.7}Nächste Schritte}{17}{subsubsection.4.10.7}%
-\contentsline {subsection}{\numberline {4.11}Widerstand gegen Umwelteinflüsse}{17}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Mögliche Gründe der hohen Varianz}{18}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Ergebnisse der Versuche}{19}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Verbesserungsmöglichkeiten des Funktionsmusters}{20}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Vollautomatische Durchführung der Messung}{20}{subsection.4.15}%
-\contentsline {section}{\numberline {5}Fazit}{22}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Persönliche Erfahrung}{22}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fazit}{22}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Ausblick}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Endziel des Arbeit}{29}{subsection.6.1}%
+\contentsline {subsection}{\numberline {4.3}Messablauf}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Bildverarbeitung}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Extrahieren von Informationen aus Bilddaten}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Widerstand gegen Umwelteinflüsse}{18}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Mögliche Gründe der hohen Varianz}{18}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Ergebnisse der Versuche}{21}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Verbesserungsmöglichkeiten des Funktionsmusters}{27}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Vollautomatische Durchführung der Messung}{27}{subsection.4.10}%
+\contentsline {section}{\numberline {5}Fazit}{29}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Persönliche Erfahrung}{29}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Fazit}{29}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Ausblick}{29}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Endziel des Arbeit}{36}{subsection.6.1}%

@@ -7,7 +7,7 @@ Im Folgenden werden die Schritte zur Auslegung der Datenbank dargestellt. Der Co
 
 Die Methode wie die Datenbank hier ausgelegt wird, folgt der Vorlesung Datenbanksysteme 1. \cite{}
 
-\subsubsection{Anforderungsanalyse}
+\textbf{Anforderungsanalyse}
 
 Die Anforderungen ergeben sich aus der Funktionsweise des Messaufbaus.
 
@@ -37,7 +37,7 @@ Die Anforderungen an die Datenbank und ihre Benutzer werden entsprechend den Anf
 
 \ref{code:User}
 
-\subsubsection{Konzeptueller DB Entwurf}
+\textbf{Konzeptueller DB Entwurf}
 
 Mit der Unified Modeling Language (UML) wird in  \ref{fig:uml-db-entwurf} die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
 
@@ -50,14 +50,14 @@ Mit der Unified Modeling Language (UML) wird in  \ref{fig:uml-db-entwurf} die St
 
 
 
-\subsubsection{Logischer DB Entwurf}
+\textbf{Logischer DB Entwurf}
 
 
 Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free- und Open-Source-System, das neue Features wie zum Beispiel JSON-Datentypen unterstützt.
 
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
-\subsubsection{Views für den Analysten}
+\textbf{Views für den Analysten}
 Das Endziel besteht darin, eine Regression aus Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
 
 Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
@@ -66,7 +66,7 @@ Da die Ansichten für den Read Only Analysten bestimmt sind, muss keine aktualis
 
 \ref{code:ViewDB}
 
-\subsubsection{Physischer Entwurf}
+\textbf{Physischer Entwurf}
 Für die Beispieldaten wurden Daten aus der Vorstudie \ref{} für eine Messung verwendet.
 
 Die Datenbank wird anfangs viele NULL-Werte enthalten, da beispielsweise die Wetterdaten nicht von einer API gefüllt werden.
@@ -75,7 +75,7 @@ Die Transaktionen sind in dieser Anwendung unproblematisch, da der Benutzer, der
 
 Falls die Datenbank von meinem Laptop auf einen Server ausgelagert wird, werden die folgenden Tools zur Sicherheitsprüfung verwendet: \href{https://www.owasp.org}{www.owasp.org} und \href{http://sqlmap.org/}{http://sqlmap.org/}.
 
-\subsubsection{Python-Interaktion mit der Datenbank}
+\textbf{Python-Interaktion mit der Datenbank}
 
 Für die Interaktion mit der Datenbank werden verschiedene Python-Skripte verwendet, die je nach Benutzer unterschiedliche Aufgaben erfüllen.
 
@@ -84,7 +84,7 @@ Das folgende Python-Skript ist dazu da, Bilder von Taps zu analysieren und die d
 Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zeit ruft das Skript auch noch die Bildanalyse auf. \ref{code:FeldUser}
 
 
-\subsubsection{Nächste Schritte}
+\textbf{Nächste Schritte}
 
 Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren Daten in der Datenbank zu nutzen und um die Funktionalität zu verbessern.
 

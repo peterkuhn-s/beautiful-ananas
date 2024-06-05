@@ -19,6 +19,174 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{slf}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.slf.ch/en/
+      \endverb
+      \verb{url}
+      \verb https://www.slf.ch/en/
+      \endverb
+    \endentry
+    \entry{fork}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://toikkaoy.com/Snowfork.htm
+      \endverb
+      \verb{url}
+      \verb https://toikkaoy.com/Snowfork.htm
+      \endverb
+    \endentry
+    \entry{a2photonicsensors}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
+      \endverb
+      \verb{url}
+      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
+      \endverb
+    \endentry
+    \entry{nasa-snowex-2020}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+      \verb{url}
+      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
+      \endverb
+    \endentry
+    \entry{ilmsens-short-range-radar}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+      \verb{url}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+    \endentry
+    \entry{lamb}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Lamb-Welle
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Lamb-Welle
+      \endverb
+    \endentry
+    \entry{jstage-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
+      \endverb
+    \endentry
+    \entry{nasa-snow-density}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
+      \endverb
+      \verb{url}
+      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
+      \endverb
+    \endentry
+    \entry{mt-density-meter}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
+      \endverb
+    \endentry
+    \entry{kennedylabs-download}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
+      \endverb
+      \verb{url}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
+      \endverb
+    \endentry
+    \entry{joule-thomson-wiki}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
+      \endverb
+    \endentry
+    \entry{sensirion-sht4xa-sensors}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
+      \endverb
+    \endentry
     \entry{snowathome}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -47,34 +215,6 @@
       \verb https://www.instructables.com/Home-Snowmaker-Snowgun-internal-mix/
       \endverb
     \endentry
-    \entry{joule-thomson-wiki}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
-      \endverb
-    \endentry
-    \entry{miro}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://miro.com/app/board/uXjVNqJWvys=/?moveToWidget=3458764579769300787&cot=14
-      \endverb
-      \verb{url}
-      \verb https://miro.com/app/board/uXjVNqJWvys=/?moveToWidget=3458764579769300787&cot=14
-      \endverb
-    \endentry
     \entry{popmech}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -89,34 +229,6 @@
       \verb https://www.popularmechanics.com/adventure/outdoors/a26016338/how-to-make-fake-snow/
       \endverb
     \endentry
-    \entry{nasa-snowex-2020}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
-      \endverb
-      \verb{url}
-      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
-      \endverb
-    \endentry
-    \entry{nasa-snow-density}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
-      \endverb
-      \verb{url}
-      \verb https://snow.nasa.gov/sites/default/files/Zhang_080917_15_Snow%20Density%20Comparison.pdf
-      \endverb
-    \endentry
     \entry{ubc-met-concepts}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -129,20 +241,6 @@
       \endverb
       \verb{url}
       \verb https://www.eoas.ubc.ca/courses/atsc113/snow/met_concepts/07-met_concepts/07b-newly-fallen-snow-density/
-      \endverb
-    \endentry
-    \entry{jstage-snow-density}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
-      \endverb
-      \verb{url}
-      \verb https://www.jstage.jst.go.jp/article/seppyo1941/64/4/64_4_443/_pdf
       \endverb
     \endentry
     \entry{sciencelearn-snow-density}{online}{}
@@ -173,34 +271,6 @@
       \verb https://www.proquest.com/docview/2515698986?%20Theses&fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&parentSessionId=IvIK4xLnFrxKhXxv6CazyhndGZWGa0i7vbpgpqZE3MI%3D
       \endverb
     \endentry
-    \entry{nasa-snowex-2020-2}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
-      \endverb
-      \verb{url}
-      \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
-      \endverb
-    \endentry
-    \entry{mt-density-meter}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
-      \endverb
-      \verb{url}
-      \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
-      \endverb
-    \endentry
     \entry{elibrary}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -229,62 +299,6 @@
       \verb https://www.micro-dehumidifier.com/products/product-range-overview/
       \endverb
     \endentry
-    \entry{kennedylabs-download}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
-      \endverb
-      \verb{url}
-      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
-      \endverb
-    \endentry
-    \entry{a2photonicsensors}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
-      \endverb
-      \verb{url}
-      \verb https://a2photonicsensors.com/wise-sensor-liquid-water-content-snow/
-      \endverb
-    \endentry
-    \entry{ilmsens-short-range-radar}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ilmsens.com/short-range-radar/
-      \endverb
-      \verb{url}
-      \verb https://www.ilmsens.com/short-range-radar/
-      \endverb
-    \endentry
-    \entry{sensirion-sht4xa-sensors}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
-      \endverb
-      \verb{url}
-      \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
-      \endverb
-    \endentry
     \entry{ilmsens-impedance-spectroscopy}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -297,20 +311,6 @@
       \endverb
       \verb{url}
       \verb https://www.ilmsens.com/impedance-spectroscopy/
-      \endverb
-    \endentry
-    \entry{slf}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.slf.ch/en/
-      \endverb
-      \verb{url}
-      \verb https://www.slf.ch/en/
       \endverb
     \endentry
     \entry{Abdelaal.2022}{article}{}
@@ -455,6 +455,39 @@
       \range{pages}{1}
       \verb{doi}
       \verb \url{10.1016/j.bpj.2017.03.001}
+      \endverb
+    \endentry
+    \entry{Altman.2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d14fe4e989e5afbea3bb3cbbd895ce41}{%
+           family={Altman},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a27ea6bc0184bb71af0c31180b0664b8}{%
+           family={Krzywinski},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \strng{fullhash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \strng{bibnamehash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \strng{authorbibnamehash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \strng{authornamehash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \strng{authorfullhash}{fe09cbb908b3d81dd292d7a5d70417ee}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{12}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{Association, correlation and causation}
+      \field{year}{2015}
+      \field{pages}{899\bibrangedash 900}
+      \range{pages}{2}
+      \verb{doi}
+      \verb \url{doi.org/10.1038/nmeth.3587}
       \endverb
     \endentry
     \entry{Bonnell.2021}{article}{}
@@ -970,6 +1003,85 @@
       \verb \url{10.3390/s17030647}
       \endverb
     \endentry
+    \entry{Reichardt.2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e7a28b653c2700df0fafbc713db8dcbb}{%
+           family={Reichardt},
+           familyi={R\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0bff21f9c9d218c7b94aee34b997a39}{%
+           family={Knist},
+           familyi={K\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5f3ea6bcf6fb01b40fc2e6c23c98d5e6}{%
+           family={Kouremeti},
+           familyi={K\bibinitperiod},
+           given={Nicoleta},
+           giveni={N\bibinitperiod}}}%
+        {{hash=57c96b919b55e8041c3a354e0fe3c76c}{%
+           family={Kitchin},
+           familyi={K\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=96e6e590621d69e65f9a4d4885da9f6b}{%
+           family={Plakhotnik},
+           familyi={P\bibinitperiod},
+           given={Taras},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b3e3461fdb65b27c784df3ca9951aa}
+      \strng{fullhash}{611e6187ca4795763f2234b0bbd140e8}
+      \strng{bibnamehash}{a4b3e3461fdb65b27c784df3ca9951aa}
+      \strng{authorbibnamehash}{a4b3e3461fdb65b27c784df3ca9951aa}
+      \strng{authornamehash}{a4b3e3461fdb65b27c784df3ca9951aa}
+      \strng{authorfullhash}{611e6187ca4795763f2234b0bbd140e8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{39}
+      \field{journaltitle}{Journal of Atmospheric and Oceanic Technology}
+      \field{title}{Accurate Absolute Measurements of Liquid Water Content (LWC) and Ice Water Content (IWC) of Clouds and Precipitation with Spectrometric Water Raman Lidar}
+      \field{year}{2022}
+      \field{pages}{163\bibrangedash 180}
+      \range{pages}{18}
+      \verb{doi}
+      \verb \url{https://doi.org/10.1175/JTECH-D-21-0077.1}
+      \endverb
+    \endentry
+    \entry{miro}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ac2e90ab54c83be837aac1e318ecdaf6}{%
+           family={Schefold},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \strng{fullhash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \strng{bibnamehash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \strng{authorbibnamehash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \strng{authornamehash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \strng{authorfullhash}{ac2e90ab54c83be837aac1e318ecdaf6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Messungen von Schneeflocken: Die Fallgeschwindigkeit und eine Abschatzung weiterer Grossen}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/148042/
+      \endverb
+      \verb{url}
+      \verb https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/148042/
+      \endverb
+    \endentry
     \entry{Yamaguchi.2023}{article}{}
       \name{author}{3}{}{%
         {{hash=b114ca1f48cd402db7a823ac7ec5fcb0}{%
@@ -1009,6 +1121,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{nasa-snowex-2020-2}
 \endrefsection
 \endinput
 
