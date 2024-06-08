@@ -13,7 +13,7 @@ Die Anforderungen ergeben sich aus der Funktionsweise des Messaufbaus.
 
 Die Datenbank in dieser Bachelorarbeit wird relativ klein sein, da die Feldversuche zeitintensiv sind. Es wird vermutet, dass maximal 1000 Messungen mit jeweils 3 Taps und je 100 Kreisen durchgeführt werden.
 
-Die Datenbank ist grösser angelegt, als sie für die Vorversuche in der Bachelorarbeit benötigt wird.
+Die Datenbank ist skalierbarer angelegt, als sie für die Vorversuche in der Bachelorarbeit nötigt ist.
 
 Es gibt vier Benutzer, die mit der Datenbank interagieren. In der Grafik \ref{fig:user-db-entwurf} ist die schematische Darstellung.
 
@@ -53,18 +53,18 @@ Mit der Unified Modeling Language (UML) wird in  \ref{fig:uml-db-entwurf} die St
 \textbf{Logischer DB Entwurf}
 
 
-Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free- und Open-Source-System, das neue Features wie zum Beispiel JSON-Datentypen unterstützt.
+Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free- und Open-Source-System, das zeitgemäse Features wie zum Beispiel JSON-Datentypen unterstützt.
 
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
 \textbf{Views für den Analysten}
-Das Endziel besteht darin, eine Regression aus Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
+Das Endziel besteht darin, eine Mashine Learning Regression aus Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
 
 Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
 
-Da die Ansichten für den Read Only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
+Da die Ansichten \ref{code:ViewDB} für den Read Only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
 
-\ref{code:ViewDB}
+
 
 \textbf{Physischer Entwurf}
 Für die Beispieldaten wurden Daten aus der Vorstudie \ref{} für eine Messung verwendet.
@@ -90,5 +90,5 @@ Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren
 
 Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklungs Bachelorarbeit besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
 
-Sobald die Feldversuche durchgeführt worden sind, wird sich die DB an die tatsächliche Nutzung noch anpassen.
+Sobald die Feldversuche durchgeführt worden sind, wird sich die Daten Bank an die tatsächliche Nutzung noch anpassen.
 
