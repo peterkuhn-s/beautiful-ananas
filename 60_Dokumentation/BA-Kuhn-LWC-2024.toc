@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {3.4}Vibration}{11}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Diffusion von Flüssigkeit}{13}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Funktionsmusterentwicklung und Tests}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Agiles Hardware Development}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Agiles Hardware Development}{13}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Eigenschaften der Varianten}{14}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Messablauf}{16}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Funktionsweise der Bildverarbeitung}{17}{subsection.4.4}%
