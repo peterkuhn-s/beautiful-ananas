@@ -1,20 +1,6 @@
+Die Auswertung kann auf zwei Arten pasieren. Die einfache Variante, die bei den Vorversuchen genutzt wird, ist mit den eigenen Augen die Grösse und Verteilung des Rots auf dem Tape ab zu schätzten.
 
-
-
-Die Auswertung erfolgt durch visuelle und digitale Analyse.
-
-Die visuelle Beurteilung erfolgt durch die einfache Betrachtung der Verfärbung auf dem Tape. 
-Für eine präzisere Analyse errechnet die digitale Bildverarbeitung den Anteil der roten zur weißen Fläche und quantifiziert damit den Flüssigwassergehalt.
-
-Nachdem der Bildausschnitt gewählt wurde, wird das Bild in Grauwerte umgewandelt. mit der RGB Information kann Fehlerkorrektur gemacht werden.
-
-dann wird jeder blob durch einen Kreis mit der gleichen fläche und dem gleichen schwerpunkt ersetzt. auf diesen kreisen kann dann Statistik gemacht werden. die hoffnung ist dass so unterschiedliche geometrien des schnees abgebildet werden können. in \ref{} ist der Code der die übersetzung von schwarzweiß bildern zu die kreise in eine Datenbank speichern übernimmt.
-Die Auswahl des Bildausschnitts und Übersetzung in schwarz weiss ist semantisch in 3 dargestellt.
-
-
-
-Die Auswahl des Bildausschnitts und Übersetzung in schwarz weiss ist sematisch in \ref{fig:Bildverarbeitnugskonzpet} dargestellt.
-
+Um dieses Gefühl zu quantivizieren wurde eine Piplien zur digitalen Auswertung Entwickelt. In einem ersten Schritt, illustirent in \ref{fig:Bildverarbeitnugskonzpet}, wird das Tape in der Fotografie ausgewählt, dann in ein schwarz weiss Bild übersetzt. Der zweite Schritt kann in dem Bild die Farbflecken erkennen. Um aus dem Bild quantitative Zahlen zu bekommen, werden die Farbflecken einzeln erkannt und in die Datenback gespeichert. In der Datenbank können dann statistische Aussagen wie die Verteilung und der relative Flächenanteil gemacht werden.
 
 \begin{figure}
     \centering

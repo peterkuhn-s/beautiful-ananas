@@ -1,20 +1,22 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Links ist ein Tropfen zu sehen, der mehrere Minuten auf dem Tape verweilt. Rechts ist ein neuer Wassertropfen, daneben noch der gefittete Kreis.}}{5}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Hypothese wie das flüssige Wasser die optischen Eigenschaften der Eiskristalle beeinflusst}}{7}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{7}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{8}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Ablauf einer automatischen Messung}}{10}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Bildverarbeitung Konzept}}{15}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Benutzer der Datenbank}}{16}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{18}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces 10 Messungen von vergleichbarem unverändrtem Schnee}}{20}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{20}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{23}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{24}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{25}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{25}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}, 3. Mit flüssigem Wasser übergossener Schnee.}}{26}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{27}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{28}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messen auf den Schnee zu erkennen.}}{29}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Ablauf einer automatischen Messung}}{31}{figure.19}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Messung des Kontaktwinkels. Links ist ein Tropfen zu sehen, der mehrere Minuten auf dem Tape verweilt. Rechts ist ein neuer Wassertropfen, daneben noch der gefittete Kreis.}}{7}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Hypothese wie das flüssige Wasser die optischen Eigenschaften der Eiskristalle beeinflusst}}{8}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{9}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{10}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Morphologischer Kasten fur VibraNode}}{11}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Ablauf einer automatischen Messung}}{13}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fünfte Iteration}}{16}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Bildverarbeitung Konzept}}{18}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Benutzer der Datenbank}}{19}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{21}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces 10 Messungen von vergleichbarem unverändrtem Schnee}}{23}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Schnee der schmiltz, gemessen mit IR-EM Wellen von Herrn Donahue in \blx@tocontentsinit {0}\cite {Donahue.2022}}}{23}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{24}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{26}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{27}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{27}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}), 3. Mit flüssigem Wasser übergossener Schnee.}}{28}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{29}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{30}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messen auf den Schnee zu erkennen.}}{31}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Ablauf einer automatischen Messung}}{33}{figure.21}%
