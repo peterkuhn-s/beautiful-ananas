@@ -1,0 +1,249 @@
+\documentclass[a4paper,12pt]{article}
+
+% Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{lmodern}
+\usepackage{geometry}
+%\usepackage{setspace}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{booktabs}
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usepackage{caption}
+%\usepackage{listings}
+%\usepackage{ragged2e}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{shapes}
+%\usepackage{afterpage}
+%\usepackage{float}
+%\usepackage{titlesec}
+\usepackage{hyperref}%hyperref links
+
+\usepackage{fancyhdr}%footer
+\usepackage{graphicx}%images
+\usepackage{wrapfig}%images in text
+\usepackage{adjustbox}
+\usepackage{pdfpages}  % Include this line to use the pdfpages package
+\usepackage{longtable}%for table that spread over multiple pages
+\usepackage{float}%fix figure position
+\usepackage{listings}%code import
+\usepackage[style=numeric, backend=biber]{biblatex}%literaturverzeichniss
+\usepackage{acronym}%abkurzungen
+\usepackage{multicol}%mehrene spalte
+\usepackage{siunitx} % For SI units
+\usepackage{float} % image placement
+
+\addbibresource{Literaturverzeichniss.bib}%"?
+%\usepackage{lastpage}
+\usepackage[yyyymmdd]{datetime}%display the date better
+\renewcommand{\dateseparator}{-}
+
+%\bibliographystyle{unsrt}
+
+
+
+% Kopfzeile
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=5 cm]{Bilder/OST_Logo.png}}
+\fancyhead[R]{Maschinentechnik | Innovation}
+\geometry{headsep=1.6cm}%sonst fängt das logo zu weit unten
+
+% Fusszeile 
+\rfoot{Seite \thepage}
+%\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{Peter Kuhn} % author on the left
+\fancyfoot[C]{Bachelorarbeit FS 2024} % title in the c enter
+
+
+
+
+% Titelblatt
+\begin{document}
+
+
+\begin{titlepage}
+  \end{titlepage}
+% Import the PDF
+%toChange
+\includepdf{TitelseiteBetter.pdf}
+%import something from scribus
+
+
+\pagestyle{empty}
+\section*{Abstract}
+\input{abstract.tex}
+
+\newpage
+\subsection*{Liste der Abkürzungen}
+\input{AbkurzText.tex}
+\newpage
+% Inhaltsverzeichnis
+\tableofcontents
+%\pagenumbering{Roman}
+\newpage
+\pagestyle{fancy}
+
+\setcounter{page}{1}
+\section{Einleitung}
+\input{Einleitung.tex}
+
+\subsection{Aufgabenstellung}
+\input{Aufg.tex}
+
+\subsection{Methamorphose von Schnee}
+\input{Metha.tex}
+
+\subsection{Lawinen in der Schweiz}
+\input{Lawinen.tex}
+
+\subsection{Entstehung der Gleitschneelawine}
+\input{EntstehungGleitlawine.tex}
+
+%\subsection{Planung der Arbeit}
+%\input{PlanungDerArbeit.tex}
+
+\section{Physikalische Prinzipien und kommerzielle Produkte zur Messung des LWC}
+\input{LWC.tex}
+\newpage
+
+
+\subsection{Physikalische Prinzipien zur Messung des LWC}
+\input{PhysPriz.tex}
+
+\subsection{Kommerzielle Produkte}
+\input{KommPro.tex}
+
+\subsection{User Story}
+\input{UserStory.tex}
+%\subsection{Publizierte Methoden}
+%\label{sec:PubMeth}
+
+%\subsection{Methoden in der Vorstudie}
+
+\newpage
+\section{Vorstudie}
+\input{Vorstudie.tex}
+
+\subsection{Vibration}
+\input{Vibration.tex}
+
+\subsection{Elektrischer Wiederstand}
+\input{Voltcraft.tex}
+
+\subsection{Diffusion von Flüssigkeit}
+\label{sec:TinteVersuchsaufbau}
+\input{Diffusion.tex}
+
+\subsection{Laser Refraktion und Reflexion}
+\input{LaserRef.tex}
+
+\subsection{Water Indikator Tape}
+\label{sec:5559}
+\input{5559Tape.tex}
+
+\subsection{Widerstand gegen Umwelteinflüsse}
+\input{WiedUmwelt.tex}
+
+\subsection{Reflexion zur Vorstudie}
+\input{RefVor.tex}
+
+\subsection{Auswahl des physikalischen Prinzips}
+\input{AuswahlVor.tex}
+
+\section{Funktionsmusterentwicklung und Tests}
+\input{FunkMuster.tex}
+
+\subsection{Agiles Hardware Development}
+\input{AgilHardDev.tex}
+
+\subsection{Messablauf}
+\label{sec:Mess}
+\input{Messablauf.tex}
+
+\subsection{Eigenschaften der Varianten}
+\input{EigenFunkVar.tex}
+
+\subsection{Funktionsweise der Bildverarbeitung}
+\input{Bildverarbeitung.tex}
+
+\subsection{Extrahieren von Informationen aus Bilddaten}
+\label{sec:DB}
+\input{DB.tex}
+
+
+\newpage
+\subsection{Ergebnisse der Versuche}
+\input{ErgebVers.tex}
+
+\subsection{Mögliche Gründe der hohen Varianz}
+\input{Ishikawa.tex}
+%\subsection{Vergleich der Ergebnisse mit Denothmeter}
+%\input{VergleichDeno.tex}
+
+\subsection{Verbesserungsmöglichkeiten des Funktionsmusters}
+\input{VerbessFunktMuss.tex}
+\newpage
+\subsection{Vollautomatische Durchführung der Messung}
+\input{VollAutDurch.tex}
+
+\newpage
+\section{Fazit}
+%\input{Ausb.tex}
+
+\subsection{Persönliche Erfahrung}
+\input{PersErf.tex}
+
+\subsection{Fazit}
+\input{Fazit.tex}
+
+\section{Ausblick}
+\input{Ausblick.tex}
+\newpage
+\subsection*{Danksagung}
+\input{Danksagung.tex}
+
+\newpage
+% Literaturverzeichnis
+%\bibliography{mybibliography}
+
+
+\newpage
+\section*{Erklärung zur Urheberschaft}
+\input{Unterschrift.tex}
+
+\newpage
+\section*{Literaturverzeichnis}
+\input{Literaturverzeichniss.tex}
+
+\newpage
+\listoffigures
+
+
+%\listoftables % Tabellenverzeichnis erstellen
+\newpage
+\section*{Digitaler Anhang}
+
+
+%\subsection*{Endziel des Arbeit}
+%\input{Endziel.tex}
+
+%\subsection*{User Storys}
+%\input{Userstoryvoll.tex}
+
+%\subsection*{Anforderungen}
+%\input{Anforderungen.tex}
+
+\subsection*{Lebenslauf}
+\includepdf{Bilder/lebenslauf-2.pdf}
+
+\subsection*{Code}
+\input{Code.tex}
+
+
+\end{document}

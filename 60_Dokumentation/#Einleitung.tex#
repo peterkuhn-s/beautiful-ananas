@@ -1,0 +1,23 @@
+Gleitschneelawinen gefährden Menschenleben und sind bisher schwer vorhersagbar. Durch die Klimaerwärmung werden sie häufiger auftreten. Ein wichtiger Indikator für die Bildung dieser Lawinen ist der Anteil von flüssigem Wasser im Schnee.
+
+Ziel dieser Arbeit ist, einen Sensor zu entwickeln, der den Liquid Water Content (LWC) von Schnee misst, und damit die Lawinen- Vorhersage verbessert.
+
+Das flüssige Wasser im Schnee ist ein entscheidender Parameter um das Verhalten des Schnees an einem Lawinen gefährdeten Hang  vorherzusagen. 
+
+Die vorhandenen Messgeräte nutzen unterschiedliche Ansätze, haben aber Nachteile zum Beispiel, dass sie das Verhältnis von flüssigem Wasser zum vorhandenen Schnee nicht in einem Arbeitsschritt erfassen.
+
+Ich habe verschiedene theoretische Ansätze der Produktentwicklung im Verlauf der Bachelorarbeit genutzt.
+
+Um den Sensor herzustellen wurde entsprechend der agilen Hardware Entwicklung möglichst rasch Iterationen von Sensoren als Produkt hergestellt, getestet und angepasst.
+
+\iffalse
+
+
+Ziel dieser Arbeit ist, einen Sensor zu entwickeln, der flüssiges Wasser im Schnee misst.
+ziel dieser Arbeit ist die entwicklung eines innovativen sensors um die scheefeuchtigkeit zu messen.
+
+Die schneefeuchtigkeit ist ein entscheidenen Parameter um Gleitschneelawinen abzuschetzten. seit 40 jahren ist wird Thema beforscht. Es gibt verschiedenste Techniken um den Schaum aus Eis, Wasser und Luft zu messen. heutige Produkte konnen den LWC messen, haben aber verschiedene schwerwigeende nachteile.
+
+um dieses Produktentwicklung an zu gehen werden verschiedene techniken der Produktentwicklung eingesetzt. um ein sensor zu erreichen der einsatztfahig ist, wurde nach aglier hardware entwicklung moglichst schnell Itterationen von sensoren entwickelt.
+
+\fi
