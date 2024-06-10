@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  8 JUN 2024 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  10 JUN 2024 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,7 +1028,7 @@ lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `german'. on input line 67.
-<TitelseiteBetter.pdf, id=120, 597.5067pt x 845.04588pt>
+<TitelseiteBetter.pdf, id=128, 597.5067pt x 845.04588pt>
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf>
 Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 74.
@@ -1037,7 +1037,7 @@ File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf>
 Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 74.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
-<TitelseiteBetter.pdf, id=123, page=1, 597.5067pt x 845.04588pt>
+<TitelseiteBetter.pdf, id=131, page=1, 597.5067pt x 845.04588pt>
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
 Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
@@ -1222,12 +1222,16 @@ An-s‰t-ze, ha-ben aber Nach-
  []
 
 ) (./Lawinen.tex) (./EntstehungGleitlawine.tex
-<Bilder/OST_Logo.png, id=212, 1144.275pt x 391.4625pt>
+Overfull \hbox (22.88565pt too wide) in paragraph at lines 9--10
+[]\T1/cmr/m/n/12 Schmelzender Schnee, haupt-s‰ch-lich durch pri-ma-re und se-ku
+n-d‰re EM-Strahlung. 
+ []
+
+<Bilder/OST_Logo.png, id=222, 1144.275pt x 391.4625pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1240,14 +1244,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 \newpage
-             [1 <./Bilder/Ost_Logo.png>]
-Overfull \hbox (22.88565pt too wide) in paragraph at lines 9--10
-[]\T1/cmr/m/n/12 Schmelzender Schnee, haupt-s‰ch-lich durch pri-ma-re und se-ku
-n-d‰re EM-Strahlung. 
- []
-
-) (./PlanungDerArbeit.tex) (./LWC.tex)
+l.12 \end{itemize}
+                   [1 <./Bilder/Ost_Logo.png>]) (./PlanungDerArbeit.tex)
+(./LWC.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 107.
@@ -1266,15 +1265,16 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.107 \newpage
-               [2] (./UserStory.tex) (./PhysPriz.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\T1/cmr/bx/n/12 Absorption elek-tro-ma-gne-ti-
- []
+               [2] (./UserStory.tex
 
+LaTeX Warning: Reference `userstoryvoll' on page 3 undefined on input line 1.
+
+) (./PhysPriz.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 44.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1287,13 +1287,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \item V
-            ibrationsbohrer [3]
+l.5 \textbf
+           {Absorption elektromagnetischer Wellen} [3]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/cmr/bx/n/12 Absorption elek-tro-ma-gne-ti-
+ []
+
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 92.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 78.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1306,8 +1309,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \end{multicols}
-                     [4]) (./KommPro.tex)
+l.78 \item O
+            berfl√§chenspannung \cite{AlamShibly.2017} [4]) (./KommPro.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 122.
@@ -1322,7 +1325,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [5] (./Vorstudie.tex) (./5559Tape.tex
-<Bilder/IMG_6683.JPG, id=295, 2878.755pt x 1948.27875pt>
+<Bilder/IMG_6683.JPG, id=303, 2878.755pt x 1948.27875pt>
 File: Bilder/IMG_6683.JPG Graphic file (type jpg)
 <use Bilder/IMG_6683.JPG>
 Package pdftex.def Info: Bilder/IMG_6683.JPG  used on input line 9.
@@ -1368,12 +1371,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.132 \newpage
                <./Bilder/IMG_6683.JPG>] (./LaserRef.tex
-<Bilder/Reflaktion.jpeg, id=308, 434.5836pt x 277.5168pt>
+<Bilder/Reflaktion.jpeg, id=317, 434.5836pt x 277.5168pt>
 File: Bilder/Reflaktion.jpeg Graphic file (type jpg)
 <use Bilder/Reflaktion.jpeg>
 Package pdftex.def Info: Bilder/Reflaktion.jpeg  used on input line 8.
 (pdftex.def)             Requested size: 334.60422pt x 213.68011pt.
-<Bilder/signal-2024-03-10-112013_006.jpeg, id=310, 2055.68pt x 1541.76pt>
+<Bilder/signal-2024-03-10-112013_006.jpeg, id=319, 2055.68pt x 1541.76pt>
 File: Bilder/signal-2024-03-10-112013_006.jpeg Graphic file (type jpg)
 <use Bilder/signal-2024-03-10-112013_006.jpeg>
 Package pdftex.def Info: Bilder/signal-2024-03-10-112013_006.jpeg  used on inpu
@@ -1398,7 +1401,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.35 
       <./Bilder/Reflaktion.jpeg>]
-<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=318, 2132.96875pt x 1509.64pt>
+<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=326, 2132.96875pt x 1509.64pt>
 
 File: Bilder/Screenshotfrom2024-04-0413-27-28.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0413-27-28.png>
@@ -1443,7 +1446,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \__shipout_drop_firstpage_...
 l.135 
        <./Bilder/Screenshotfrom2024-04-0413-27-28.png>] (./Vibration.tex
-<Bilder/Unbenann2t.PNG, id=333, 1044.90375pt x 953.06062pt>
+<Bilder/Unbenann2t.PNG, id=341, 1044.90375pt x 953.06062pt>
 File: Bilder/Unbenann2t.PNG Graphic file (type png)
 <use Bilder/Unbenann2t.PNG>
 Package pdftex.def Info: Bilder/Unbenann2t.PNG  used on input line 11.
@@ -1481,15 +1484,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [12] (./Diffusion.tex
-<Bilder/freistellen.jpeg, id=346, 494.0859pt x 284.9847pt>
+<Bilder/freistellen.jpeg, id=354, 494.0859pt x 284.9847pt>
 File: Bilder/freistellen.jpeg Graphic file (type jpg)
 <use Bilder/freistellen.jpeg>
-Package pdftex.def Info: Bilder/freistellen.jpeg  used on input line 11.
+Package pdftex.def Info: Bilder/freistellen.jpeg  used on input line 8.
 (pdftex.def)             Requested size: 334.60422pt x 193.00429pt.
-) (./FunkMuster.tex) (./AgilHardDev.tex
+) (./RefVor.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 10.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 8.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1504,12 +1507,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.10 \item I
-            R-Lasercutter mit Sperrholz <./Bilder/freistellen.jpeg>])
-(./EigenFunkVar.tex
+l.8 I
+     n der Aufgabenstellung wurde erw√§hnt, dass der zu entwickelnde Sensor ...
+ <./Bilder/freistellen.jpeg>]) (./AuswahlVor.tex) (./FunkMuster.tex)
+(./AgilHardDev.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 25.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1520,25 +1524,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[14]
-Overfull \hbox (5.56075pt too wide) in paragraph at lines 32--33
-[]\T1/cmr/m/n/12 Die Licht-box kann zu-sam-men-ge-fal-tet wer-den, was einen pl
-atz-spa-ren-den Trans-
- []
-
-<Bilder/Photo_of_a_kitten.jpg, id=363, 3661.68pt x 2746.26pt>
-File: Bilder/Photo_of_a_kitten.jpg Graphic file (type jpg)
-<use Bilder/Photo_of_a_kitten.jpg>
-Package pdftex.def Info: Bilder/Photo_of_a_kitten.jpg  used on input line 49.
-(pdftex.def)             Requested size: 334.60422pt x 250.92413pt.
-) (./Messablauf.tex
-
-LaTeX Warning: Reference `' on page 15 undefined on input line 3.
-
+[14]) (./EigenFunkVar.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 7.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 18.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -1548,9 +1539,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [15]
+Overfull \hbox (5.56075pt too wide) in paragraph at lines 32--33
+[]\T1/cmr/m/n/12 Die Licht-box kann zu-sam-men-ge-fal-tet wer-den, was einen pl
+atz-spa-ren-den Trans-
+ []
+
+<Bilder/Itteration5.png, id=376, 4935.43875pt x 3011.25pt>
+File: Bilder/Itteration5.png Graphic file (type png)
+<use Bilder/Itteration5.png>
+Package pdftex.def Info: Bilder/Itteration5.png  used on input line 49.
+(pdftex.def)             Requested size: 334.60422pt x 204.14659pt.
+) (./Messablauf.tex
+
+LaTeX Warning: Reference `' on page 16 undefined on input line 3.
+
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 16.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[16]
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 18.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1561,14 +1579,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.16 \item D
-            ie Tape-Halter aus den zweifach gesch√ºtzten Beuteln entnehmen. <./
-Bilder/Photo_of_a_kitten.jpg>]) (./Bildverarbeitung.tex
-<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=380, 778.91pt x 1191.45125pt>
+l.18 \item M
+            it dem K√§ltespray die Tapes runterk√ºhlen. <./Bilder/Itteration5.p
+ng>]) (./Bildverarbeitung.tex
+<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=394, 778.91pt x 1191.45125pt>
 File: Bilder/Screenshotfrom2024-04-0112-59-42.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0112-59-42.png>
 Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0112-59-42.png  used on i
@@ -1587,7 +1605,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[17]
+[18]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 12.
@@ -1601,13 +1619,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.12 \newpage
               <./Bilder/Screenshotfrom2024-04-0112-59-42.png>]) (./DB.tex
-<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=405, 2595.6975pt x 1476.51625p
+<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=418, 2595.6975pt x 1476.51625p
 t>
 File: Bilder/Screenshotfrom2024-04-0115-26-08.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0115-26-08.png>
@@ -1627,13 +1645,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.30 
       <./Bilder/Screenshotfrom2024-04-0115-26-08.png>]
-<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=416, 1270.7475pt x 1731.46875p
+<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=429, 1270.7475pt x 1731.46875p
 t>
 File: Bilder/Screenshotfrom2024-04-1418-05-35.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-1418-05-35.png>
@@ -1642,7 +1660,7 @@ nput line 46.
 (pdftex.def)             Requested size: 334.60422pt x 455.90442pt.
 
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 70.
+LaTeX Warning: Reference `' on page 21 undefined on input line 70.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
@@ -1656,7 +1674,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[20]
+[21]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 83.
@@ -1670,25 +1688,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.83 
       <./Bilder/Screenshotfrom2024-04-1418-05-35.png>]) (./WiedUmwelt.tex
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 5.
+LaTeX Warning: Reference `' on page 23 undefined on input line 5.
 
 ) (./Ishikawa.tex
 
-LaTeX Warning: Reference `img:Varianz' on page 22 undefined on input line 1.
+LaTeX Warning: Reference `img:Varianz' on page 23 undefined on input line 1.
 
-<Bilder/Varianz.png, id=440, 5637.06pt x 3758.04pt>
+<Bilder/Varianz.png, id=454, 5637.06pt x 3758.04pt>
 File: Bilder/Varianz.png Graphic file (type png)
 <use Bilder/Varianz.png>
 Package pdftex.def Info: Bilder/Varianz.png  used on input line 5.
 (pdftex.def)             Requested size: 334.60422pt x 223.06427pt.
-<Bilder/tc-16-43-2022-f08-thumb.png, id=443, 321.2pt x 770.88pt>
+<Bilder/tc-16-43-2022-f08-thumb.png, id=457, 321.2pt x 770.88pt>
 File: Bilder/tc-16-43-2022-f08-thumb.png Graphic file (type png)
 <use Bilder/tc-16-43-2022-f08-thumb.png>
 Package pdftex.def Info: Bilder/tc-16-43-2022-f08-thumb.png  used on input line
@@ -1711,7 +1729,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[22]
+[23]
 Overfull \vbox (866.64568pt too high) has occurred while \output is active []
 
 File: Bilder/OST_Logo.png Graphic file (type png)
@@ -1727,7 +1745,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1738,14 +1756,14 @@ l.19
                                                   \__shipout_drop_firstpage_...
 l.19 
       <./Bilder/Varianz.png> <./Bilder/tc-16-43-2022-f08-thumb.png>]
-<Bilder/IshikawaDavos.jpg, id=462, 3001.2125pt x 2143.00626pt>
+<Bilder/IshikawaDavos.jpg, id=475, 3001.2125pt x 2143.00626pt>
 File: Bilder/IshikawaDavos.jpg Graphic file (type jpg)
 <use Bilder/IshikawaDavos.jpg>
 Package pdftex.def Info: Bilder/IshikawaDavos.jpg  used on input line 28.
 (pdftex.def)             Requested size: 334.60422pt x 238.90327pt.
 
 
-LaTeX Warning: Reference `' on page 24 undefined on input line 40.
+LaTeX Warning: Reference `' on page 25 undefined on input line 40.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
@@ -1759,7 +1777,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1774,7 +1792,7 @@ de kˆn-nen im Ishikawa-
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 166.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 172.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1785,8 +1803,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[25] (./ErgebVers.tex
-<Bilder/ZeitAbha.png, id=474, 471.4413pt x 586.8324pt>
+[26] (./ErgebVers.tex
+<Bilder/ZeitAbha.png, id=487, 471.4413pt x 586.8324pt>
 File: Bilder/ZeitAbha.png Graphic file (type png)
 <use Bilder/ZeitAbha.png>
 Package pdftex.def Info: Bilder/ZeitAbha.png  used on input line 11.
@@ -1804,24 +1822,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.16 \newpage
               <./Bilder/ZeitAbha.png>]
-<Bilder/KalterSchnee.png, id=484, 308.352pt x 115.632pt>
+<Bilder/KalterSchnee.png, id=498, 308.352pt x 115.632pt>
 File: Bilder/KalterSchnee.png Graphic file (type png)
 <use Bilder/KalterSchnee.png>
 Package pdftex.def Info: Bilder/KalterSchnee.png  used on input line 23.
 (pdftex.def)             Requested size: 334.60422pt x 125.47882pt.
-<Bilder/IMG_20240411_124421.jpg, id=485, 4015.0pt x 3011.25pt>
+<Bilder/IMG_20240411_124421.jpg, id=499, 4015.0pt x 3011.25pt>
 File: Bilder/IMG_20240411_124421.jpg Graphic file (type jpg)
 <use Bilder/IMG_20240411_124421.jpg>
 Package pdftex.def Info: Bilder/IMG_20240411_124421.jpg  used on input line 32.
 
 (pdftex.def)             Requested size: 334.60422pt x 250.92157pt.
-<Bilder/UnterschiedlicheLWC.png, id=486, 597.432pt x 586.8324pt>
+<Bilder/UnterschiedlicheLWC.png, id=500, 597.432pt x 586.8324pt>
 File: Bilder/UnterschiedlicheLWC.png Graphic file (type png)
 <use Bilder/UnterschiedlicheLWC.png>
 Package pdftex.def Info: Bilder/UnterschiedlicheLWC.png  used on input line 39.
@@ -1840,7 +1858,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1864,18 +1882,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[28pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.46 \newpage
               <./Bilder/UnterschiedlicheLWC.png>]
-<Bilder/aufbauTitlis.jpeg, id=503, 2055.68pt x 1541.76pt>
+<Bilder/aufbauTitlis.jpeg, id=516, 2055.68pt x 1541.76pt>
 File: Bilder/aufbauTitlis.jpeg Graphic file (type jpg)
 <use Bilder/aufbauTitlis.jpeg>
 Package pdftex.def Info: Bilder/aufbauTitlis.jpeg  used on input line 53.
 (pdftex.def)             Requested size: 334.60422pt x 250.94472pt.
-<Bilder/12Platten.png, id=506, 4170.58125pt x 2890.8pt>
+<Bilder/12Platten.png, id=519, 4170.58125pt x 2890.8pt>
 File: Bilder/12Platten.png Graphic file (type png)
 <use Bilder/12Platten.png>
 Package pdftex.def Info: Bilder/12Platten.png  used on input line 61.
@@ -1893,7 +1911,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1912,13 +1930,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[30pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.66 \newpage
               <./Bilder/12Platten.png>]
-<Bilder/2PlattenSelberSchnee.png, id=520, 4170.58125pt x 2890.8pt>
+<Bilder/2PlattenSelberSchnee.png, id=533, 4170.58125pt x 2890.8pt>
 File: Bilder/2PlattenSelberSchnee.png Graphic file (type png)
 <use Bilder/2PlattenSelberSchnee.png>
 Package pdftex.def Info: Bilder/2PlattenSelberSchnee.png  used on input line 72
@@ -1927,7 +1945,7 @@ Package pdftex.def Info: Bilder/2PlattenSelberSchnee.png  used on input line 72
 ) (./VerbessFunktMuss.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 175.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 181.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1938,22 +1956,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.175 \newpage
+l.181 \newpage
                <./Bilder/2PlattenSelberSchnee.png>] (./VollAutDurch.tex
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 1.
+LaTeX Warning: Reference `' on page 33 undefined on input line 1.
 
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 1.
+LaTeX Warning: Reference `' on page 33 undefined on input line 1.
 
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 16.
+LaTeX Warning: Reference `' on page 33 undefined on input line 16.
 
-<Bilder/KonzeptAut.jpeg, id=526, 301.3659pt x 314.3745pt>
+<Bilder/KonzeptAut.jpeg, id=539, 301.3659pt x 314.3745pt>
 File: Bilder/KonzeptAut.jpeg Graphic file (type jpg)
 <use Bilder/KonzeptAut.jpeg>
 Package pdftex.def Info: Bilder/KonzeptAut.jpeg  used on input line 25.
@@ -1961,7 +1979,7 @@ Package pdftex.def Info: Bilder/KonzeptAut.jpeg  used on input line 25.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 179.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 185.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1972,10 +1990,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[32]
+[33]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 179.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 185.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1986,16 +2004,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[33pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.179 \newpage
+l.185 \newpage
                <./Bilder/KonzeptAut.jpeg>] (./PersErf.tex) (./Fazit.tex)
 (./Ausblick.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 191.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 197.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2006,10 +2024,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[34] (./Danksagung.tex)
+[35] (./Danksagung.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 195.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 201.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2020,10 +2038,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[35] (./Unterschrift.tex)
+[36] (./Unterschrift.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 204.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 210.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2034,7 +2052,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[36] (./Literaturverzeichniss.tex
+[37] (./Literaturverzeichniss.tex
 Overfull \hbox (3.78397pt too wide) in paragraph at lines 1--4
 \OML/cmm/m/it/12 em[]erman[]istral[]\OT1/cmr/m/n/12 01\OML/cmm/m/it/12 :Q\OT1/c
 mr/m/n/12 4[]\OML/cmm/m/it/12 :gguf$ \T1/cmr/m/n/12 fur sti-lis-ti-sche, ga-ra-
@@ -2047,7 +2065,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (18.27968pt too wide) in paragraph at lines 206--206
+Overfull \hbox (18.27968pt too wide) in paragraph at lines 212--212
 []\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / de . wikip
 edia . org / wiki / Lamb -[] Welle$[] \T1/cmr/m/n/12 (be-sucht am 05.06.2024). 
 
@@ -2065,26 +2083,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[37]
-Overfull \hbox (21.37596pt too wide) in paragraph at lines 206--206
+[38]
+Overfull \hbox (21.37596pt too wide) in paragraph at lines 212--212
 []\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . popu
 larmechanics . com / adventure / outdoors / a26016338 /
  []
 
 
-Overfull \hbox (7.373pt too wide) in paragraph at lines 206--206
+Overfull \hbox (7.373pt too wide) in paragraph at lines 212--212
 \T1/cmtt/m/n/12 fromopenview = true & pq -[] origsite = gscholar & sourcetype =
  Dissertations %
  []
 
 
-Overfull \hbox (0.69951pt too wide) in paragraph at lines 206--206
+Overfull \hbox (0.69951pt too wide) in paragraph at lines 212--212
 \T1/cmtt/m/n/12 20 & parentSessionId = IvIK4xLnFrxKhXxv6CazyhndGZWGa0i7vbpgpqZE
 3MI %
  []
 
 
-Overfull \hbox (17.77968pt too wide) in paragraph at lines 206--206
+Overfull \hbox (17.77968pt too wide) in paragraph at lines 212--212
 []\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / elibrary .
  ru / item . asp ? id = 25161535$[] \T1/cmr/m/n/12 (be-sucht am 11.04.2024). 
  []
@@ -2101,7 +2119,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[38]
+[39]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 47.
@@ -2115,10 +2133,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[39]
+[40]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 208.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 214.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2129,47 +2147,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[40] (./BA-Kuhn-LWC-2024.lof)
+[41] (./BA-Kuhn-LWC-2024.lof)
 \tf@lof=\write6
 \openout6 = `BA-Kuhn-LWC-2024.lof'.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 213.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[41] (./Userstoryvoll.tex)
-<Bilder/lebenslauf-2.pdf, id=723, 614.295pt x 794.97pt>
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 227.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 227.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=726, page=1, 614.295pt x 794.97pt>
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 227
-.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 227
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 227.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 219.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2181,22 +2165,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [42]
+<Bilder/lebenslauf-2.pdf, id=737, 614.295pt x 794.97pt>
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 233.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 233.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Bilder/lebenslauf-2.pdf, id=740, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 227
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 233
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf, page 1>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 233
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 233.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[43]
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf, page 1>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 233
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 227
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 233
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 227
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 233
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [43 <./Bilder/lebenslauf-2.pdf>] (./Code.tex
+ [44 <./Bilder/lebenslauf-2.pdf>] (./Code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -2246,7 +2264,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[44]) (./ViewsDB.sql
+[45]) (./ViewsDB.sql
 Overfull \hbox (205.3001pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2274,7 +2292,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[45]) (./IsertSomeData.sql
+[46]) (./IsertSomeData.sql
 Overfull \hbox (136.01634pt too wide) in paragraph at lines 4--5
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2322,7 +2340,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[46]
+[47]
 Overfull \hbox (240.38603pt too wide) in paragraph at lines 32--34
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2394,7 +2412,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[47]
+[48]
 Overfull \hbox (511.99004pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2416,7 +2434,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[48]
+[49]
 Overfull \hbox (172.48503pt too wide) in paragraph at lines 118--119
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2483,7 +2501,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[49]
+[50]
 Overfull \hbox (50.26323pt too wide) in paragraph at lines 165--167
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2516,7 +2534,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[50]
+[51]
 Overfull \hbox (43.47313pt too wide) in paragraph at lines 209--210
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2563,7 +2581,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[51]) (./splitUpImage.py
+[52]) (./splitUpImage.py
 Overfull \hbox (9.52263pt too wide) in paragraph at lines 13--15
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2595,7 +2613,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[52]
+[53]
 Overfull \hbox (369.39793pt too wide) in paragraph at lines 65--66
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][] 
@@ -2613,7 +2631,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[53]
+[54]
 Overfull \hbox (9.52263pt too wide) in paragraph at lines 90--91
 [][][][][][][][][][][][][][][] 
  []
@@ -2621,7 +2639,7 @@ Overfull \hbox (9.52263pt too wide) in paragraph at lines 90--91
 ))
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 233.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 239.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2632,7 +2650,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[54] (./BA-Kuhn-LWC-2024.aux)
+[55] (./BA-Kuhn-LWC-2024.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2640,16 +2658,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
-(rerunfilecheck)             Checksum: AEDA750584B6340D072C5B890D7B5748;5464.
+(rerunfilecheck)             Checksum: 1357735EB090F728680982FD98D249FE;5885.
 Package logreq Info: Writing requests to 'BA-Kuhn-LWC-2024.run.xml'.
 \openout1 = `BA-Kuhn-LWC-2024.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28626 strings out of 478287
- 535138 string characters out of 5849289
+ 28635 strings out of 478287
+ 535202 string characters out of 5849289
  1287777 words of memory out of 5000000
- 45629 multiletter control sequences out of 15000+600000
+ 45633 multiletter control sequences out of 15000+600000
  483629 words of font info for 57 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  70i,17n,77p,2415b,3037s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2668,10 +2686,10 @@ frm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 tt1200.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (58 pages, 87081663 bytes).
+Output written on BA-Kuhn-LWC-2024.pdf (59 pages, 95797176 bytes).
 PDF statistics:
- 1479 PDF objects out of 1728 (max. 8388607)
- 1320 compressed objects within 14 object streams
- 672 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1494 PDF objects out of 1728 (max. 8388607)
+ 1333 compressed objects within 14 object streams
+ 674 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
