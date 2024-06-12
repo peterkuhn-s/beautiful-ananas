@@ -19,6 +19,20 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{ilmsens-short-range-radar}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+      \verb{url}
+      \verb https://www.ilmsens.com/short-range-radar/
+      \endverb
+    \endentry
     \entry{slf}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -75,34 +89,6 @@
       \verb https://above.nasa.gov/files/snowex_2020/Webb_Day2_Poster_885.pdf
       \endverb
     \endentry
-    \entry{ilmsens-short-range-radar}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ilmsens.com/short-range-radar/
-      \endverb
-      \verb{url}
-      \verb https://www.ilmsens.com/short-range-radar/
-      \endverb
-    \endentry
-    \entry{lamb}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{5}
-      \field{urlmonth}{6}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Lamb-Welle
-      \endverb
-      \verb{url}
-      \verb https://de.wikipedia.org/wiki/Lamb-Welle
-      \endverb
-    \endentry
     \entry{jstage-snow-density}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -145,20 +131,6 @@
       \verb https://www.mt.com/shop/us/en/product/30474902/density-meter-excellence-d6
       \endverb
     \endentry
-    \entry{kennedylabs-download}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
-      \endverb
-      \verb{url}
-      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
-      \endverb
-    \endentry
     \entry{joule-thomson-wiki}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -185,6 +157,34 @@
       \endverb
       \verb{url}
       \verb https://www.mouser.ch/new/sensirion/sensirion-sht4xa-sensors/
+      \endverb
+    \endentry
+    \entry{lamb}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Lamb-Welle
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Lamb-Welle
+      \endverb
+    \endentry
+    \entry{kennedylabs-download}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
+      \endverb
+      \verb{url}
+      \verb https://www.kennedylabs.tech/download/KLG-GOPO-8
       \endverb
     \endentry
     \entry{snowathome}{online}{}
@@ -364,7 +364,7 @@
       \field{pages}{103469}
       \range{pages}{1}
       \verb{doi}
-      \verb \url{10.1016/j.coldregions.2021.103469}
+      \verb 10.1016/j.coldregions.2021.103469
       \endverb
     \endentry
     \entry{Adachi.2020}{article}{}
@@ -405,7 +405,7 @@
       \field{volume}{8}
       \field{year}{2020}
       \verb{doi}
-      \verb \url{10.3389/feart.2020.00179}
+      \verb 10.3389/feart.2020.00179
       \endverb
     \endentry
     \entry{AlamShibly.2017}{article}{}
@@ -454,7 +454,7 @@
       \field{pages}{1290}
       \range{pages}{1}
       \verb{doi}
-      \verb \url{10.1016/j.bpj.2017.03.001}
+      \verb 10.1016/j.bpj.2017.03.001
       \endverb
     \endentry
     \entry{Altman.2015}{article}{}
@@ -487,7 +487,7 @@
       \field{pages}{899\bibrangedash 900}
       \range{pages}{2}
       \verb{doi}
-      \verb \url{doi.org/10.1038/nmeth.3587}
+      \verb doi.org/10.1038/nmeth.3587
       \endverb
     \endentry
     \entry{Bonnell.2021}{article}{}
@@ -541,7 +541,7 @@
       \field{pages}{4223}
       \range{pages}{1}
       \verb{doi}
-      \verb \url{10.3390/rs13214223}
+      \verb 10.3390/rs13214223
       \endverb
     \endentry
     \entry{Donahue.2022}{article}{}
@@ -574,13 +574,13 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Cryosphere}
       \field{number}{1}
-      \field{title}{Mapping liquid water content in snow at the millimeter scale: an intercomparison of mixed-phase optical property models using hyperspectral imaging and in situ measurements}
+      \field{title}{Mapping liquid water content in snow at the millimeter scale: an intercomparison of mixed-phase optical property models using hyperspectral imwaging and in situ measurements}
       \field{volume}{16}
       \field{year}{2022}
       \field{pages}{43\bibrangedash 59}
       \range{pages}{17}
       \verb{doi}
-      \verb \url{10.5194/tc-16-43-2022}
+      \verb 10.5194/tc-16-43-2022
       \endverb
     \endentry
     \entry{Fasani.2023}{article}{}
@@ -619,8 +619,22 @@
       \field{pages}{103959}
       \range{pages}{1}
       \verb{doi}
-      \verb \url{10.1016/j.coldregions.2023.103959}
+      \verb 10.1016/j.coldregions.2023.103959
       \endverb
+    \endentry
+    \entry{Wetterdienst.6222017}{misc}{}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{gletscher{\_}eis{\_}schnee.png (PNG-Grafik, 542 $\times$ 261 Pixel)}
+      \field{year}{6-22-2017}
+      \verb{urlraw}
+      \verb https://www.wetterdienst.de/maps/topics/gletscher_eis_schnee.png
+      \endverb
+      \verb{url}
+      \verb https://www.wetterdienst.de/maps/topics/gletscher_eis_schnee.png
+      \endverb
+      \warn{\item misc entry 'Wetterdienst.6222017' (Literaturverzeichniss.bib): Invalid format '6-11-2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Hao.2021}{article}{}
       \name{author}{4}{}{%
@@ -664,7 +678,7 @@
       \field{pages}{834\bibrangedash 846}
       \range{pages}{13}
       \verb{doi}
-      \verb \url{10.2166/nh.2021.133}
+      \verb 10.2166/nh.2021.133
       \endverb
     \endentry
     \entry{Kinar.2007}{article}{}
@@ -699,7 +713,7 @@
       \field{pages}{2623\bibrangedash 2640}
       \range{pages}{18}
       \verb{doi}
-      \verb \url{10.1002/hyp.6793}
+      \verb 10.1002/hyp.6793
       \endverb
     \endentry
     \entry{Koch.2014}{article}{}
@@ -750,7 +764,7 @@
       \field{pages}{20975\bibrangedash 20999}
       \range{pages}{25}
       \verb{doi}
-      \verb \url{10.3390/s141120975}
+      \verb 10.3390/s141120975
       \endverb
     \endentry
     \entry{Koch.2019}{article}{}
@@ -821,8 +835,22 @@
       \field{pages}{4465\bibrangedash 4487}
       \range{pages}{23}
       \verb{doi}
-      \verb \url{10.1029/2018WR024431}
+      \verb 10.1029/2018WR024431
       \endverb
+    \endentry
+    \entry{WSLSLF.2024}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lawinenereignisse werden von uns detailliert in einer Datenbank erfasst. Winterberichte und Unfallanalysen haben eine langjährige Tradition am SLF.}
+      \field{title}{Langjährige Statistiken}
+      \verb{urlraw}
+      \verb https://www.slf.ch/de/lawinen/unfaelle-und-lawinen/langjaehrige-statistiken/
+      \endverb
+      \verb{url}
+      \verb https://www.slf.ch/de/lawinen/unfaelle-und-lawinen/langjaehrige-statistiken/
+      \endverb
+      \warn{\item misc entry 'WSLSLF.2024' (Literaturverzeichniss.bib): Invalid format '6-11-2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Lombardo.2023}{article}{}
       \name{author}{6}{}{%
@@ -874,7 +902,7 @@
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
       \verb{doi}
-      \verb \url{10.1017/aog.2023.65}
+      \verb 10.1017/aog.2023.65
       \endverb
     \endentry
     \entry{Mavrovic.2020}{article}{}
@@ -923,8 +951,39 @@
       \field{pages}{102958}
       \range{pages}{1}
       \verb{doi}
-      \verb \url{10.1016/j.coldregions.2019.102958}
+      \verb 10.1016/j.coldregions.2019.102958
       \endverb
+    \endentry
+    \entry{Mitterer.202}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b45016fa4f8eacb8e86aa820c9fc1f5f}{%
+           family={Mitterer},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \strng{fullhash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \strng{bibnamehash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \strng{authorbibnamehash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \strng{authornamehash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \strng{authorfullhash}{b45016fa4f8eacb8e86aa820c9fc1f5f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DAV Panorama}
+      \field{number}{2}
+      \field{title}{Nass- und Gleitschneelawinen: Manche Lawinen mögen's warm}
+      \field{pages}{56\bibrangedash 59}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.alpenverein.de/files/Panorama-2016-2-Nass-und-Gleitschneelawinen_30770.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.alpenverein.de/files/Panorama-2016-2-Nass-und-Gleitschneelawinen_30770.pdf
+      \endverb
+      \warn{\item article entry 'Mitterer.202' (Literaturverzeichniss.bib): Invalid format '11-06-2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Nowogrodzki.2018}{article}{}
       \name{author}{1}{}{%
@@ -952,7 +1011,7 @@
       \field{pages}{24\bibrangedash 26}
       \range{pages}{3}
       \verb{doi}
-      \verb \url{10.1038/d41586-018-07182-7}
+      \verb 10.1038/d41586-018-07182-7
       \endverb
     \endentry
     \entry{PerezDiaz.2017}{article}{}
@@ -1000,7 +1059,7 @@
       \field{volume}{17}
       \field{year}{2017}
       \verb{doi}
-      \verb \url{10.3390/s17030647}
+      \verb 10.3390/s17030647
       \endverb
     \endentry
     \entry{Reichardt.2022}{article}{}
@@ -1048,7 +1107,7 @@
       \field{pages}{163\bibrangedash 180}
       \range{pages}{18}
       \verb{doi}
-      \verb \url{https://doi.org/10.1175/JTECH-D-21-0077.1}
+      \verb https://doi.org/10.1175/JTECH-D-21-0077.1
       \endverb
     \endentry
     \entry{miro}{online}{}
@@ -1080,6 +1139,227 @@
       \endverb
       \verb{url}
       \verb https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/148042/
+      \endverb
+    \endentry
+    \entry{WSLSLFMetha.2024}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Schneemetamorphose beschreibt die Veränderung von Neuschnee über kurze Zeiträume hinweg, welche mit Computertomographie sichtbar gemacht werden kann. Diese Veränderungen, die durch die Nähe der Schneetemperatur zum Schmelzpunkt und dem damit verbundenen hohen Dampfdruck verursacht werden, beeinflussen die physikalischen und mechanischen Eigenschaften des Schnees erheblich. Das Verständnis dieser Prozesse ist essentiell für wissenschaftliche Untersuchungen zur Schneedeckenentwicklung, Lawinenbildung und Klimamodellierung.}
+      \field{title}{Schneemetamorphose}
+      \verb{urlraw}
+      \verb https://www.slf.ch/de/schnee/material-schnee/schneemetamorphose/
+      \endverb
+      \verb{url}
+      \verb https://www.slf.ch/de/schnee/material-schnee/schneemetamorphose/
+      \endverb
+      \warn{\item misc entry 'WSLSLFMetha.2024' (Literaturverzeichniss.bib): Invalid format '6.11.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Scholz.2020}{book}{}
+      \name{author}{2}{}{%
+        {{hash=742446b6d4c6311d4215c0d6c25448b1}{%
+           family={Scholz},
+           familyi={S\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=132461faa9d70ceb3c73b8622a749a87}{%
+           family={Kahlert},
+           familyi={K\bibinitperiod},
+           given={Heike},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \strng{fullhash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \strng{bibnamehash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \strng{authorbibnamehash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \strng{authornamehash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \strng{authorfullhash}{24cb164ef1ac33fd7225d939f09e8ce3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-3-662-61106-7}
+      \field{title}{Chemische Gleichgewichte in der Analytischen Chemie}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1007/978-3-662-61107-4
+      \endverb
+      \verb{file}
+      \verb Chemische Gleichgewichte in der Analytischen Chemie:Attachments/Chemische Gleichgewichte in der Analytischen Chemie.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Tsang.2022}{article}{}
+      \name{author}{28}{}{%
+        {{hash=57b453b902e12ba831419d07086ccde7}{%
+           family={Tsang},
+           familyi={T\bibinitperiod},
+           given={Leung},
+           giveni={L\bibinitperiod}}}%
+        {{hash=564261cdd6f1cf97660ab44e1f9faa41}{%
+           family={Durand},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0357bacd047459f3769e841a15de7a35}{%
+           family={Derksen},
+           familyi={D\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c92b14b35269d2bab10163204500f88b}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Ana\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=99fcf2b6186a0627f182ad0b28d364c7}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Do-Hyuk},
+           giveni={D\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=d65e07406399e90845eb2e25ec9dcab3}{%
+           family={Lievens},
+           familyi={L\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=57f96838abfcb379a78f52dd3b38ff36}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Hans-Peter},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=aa7fb3e9e7b5eb447fdcd439cfb18408}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jiyue},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ecab47ba87d40d652e0b2713263efc7}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=805127c87118fad9e9e6ddb59c1eaf05}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f2dda2f5eb93a83c09f10651bf8824b3}{%
+           family={Lemmetyinen},
+           familyi={L\bibinitperiod},
+           given={Juha},
+           giveni={J\bibinitperiod}}}%
+        {{hash=99bcfc7d25ab2b39e951c7525c32c239}{%
+           family={Sandells},
+           familyi={S\bibinitperiod},
+           given={Melody},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4d970cbb9063b97bad55fdc0ab097726}{%
+           family={Rutter},
+           familyi={R\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=adc22bccf6b0fe1fd919f4239e9c8b3d}{%
+           family={Siqueira},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=473a96835200d0abdd47a531d2c9d7ce}{%
+           family={Nolin},
+           familyi={N\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4219af13dd2d009ae041c8d65010bdf0}{%
+           family={Osmanoglu},
+           familyi={O\bibinitperiod},
+           given={Batu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6fdbc0f5972b14efe820277ee93aea48}{%
+           family={Vuyovich},
+           familyi={V\bibinitperiod},
+           given={Carrie},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1dd42a60b41717315d92ef59ac3fe6f5}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d0661cbd44951b4bf6dffb3553b77bd7}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Drew},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1118707e9928342b433194613e5e4444}{%
+           family={Merkouriadi},
+           familyi={M\bibinitperiod},
+           given={Ioanna},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4c225cbc717cfc4c4b22ff90f356a25f}{%
+           family={Brucker},
+           familyi={B\bibinitperiod},
+           given={Ludovic},
+           giveni={L\bibinitperiod}}}%
+        {{hash=42f15be1e6065447f9a0c07a1cbe09f5}{%
+           family={Navari},
+           familyi={N\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f32bdc97ebb4eec2cbe779379891fea3}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b5118255fe22c03d61bf47b11ec0cc7}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=24d2fc65cf325b0b3c304ae7a4751382}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Rhae\bibnamedelima Sung},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2015b1367051879a133d4a569487b1af}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Tien-Hao},
+           giveni={T\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=1ad3864ebc3383dcaa0aea8256c1050d}{%
+           family={Borah},
+           familyi={B\bibinitperiod},
+           given={Firoz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6cb562d2e8be2f6b4db51f51d51a6464}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xiaolan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{748d5ed93c050d61a908e5713f2a1452}
+      \strng{fullhash}{fc0327bb18fe0531f4d609cce41b37cd}
+      \strng{bibnamehash}{748d5ed93c050d61a908e5713f2a1452}
+      \strng{authorbibnamehash}{748d5ed93c050d61a908e5713f2a1452}
+      \strng{authornamehash}{748d5ed93c050d61a908e5713f2a1452}
+      \strng{authorfullhash}{fc0327bb18fe0531f4d609cce41b37cd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Cryosphere}
+      \field{number}{9}
+      \field{title}{Global monitoring of snow water equivalent using high-frequency radar remote sensing}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{3531\bibrangedash 3573}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.5194/tc-16-3531-2022
+      \endverb
+      \verb{file}
+      \verb Review article Global monitoring of snow water equivalen:Attachments/Review article Global monitoring of snow water equivalen.pdf:application/pdf
       \endverb
     \endentry
     \entry{Yamaguchi.2023}{article}{}
@@ -1117,7 +1397,7 @@
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
       \verb{doi}
-      \verb \url{10.1017/aog.2023.77}
+      \verb 10.1017/aog.2023.77
       \endverb
     \endentry
   \enddatalist
