@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,11 +37,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -140,10 +135,6 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>pluralothers</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -281,11 +272,6 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -386,11 +372,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -505,7 +491,6 @@
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -614,7 +599,6 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -729,7 +713,6 @@
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -1060,7 +1043,7 @@
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global" visibility="sort">
+  <bcf:sortingnamekeytemplate name="global">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -2361,85 +2344,86 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Literaturverzeichniss.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">WSLSLFMetha.2024</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Wetterdienst.6222017</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">WSLSLF.2024</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Mitterer.202</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Koch.2019</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Koch.2014</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Bonnell.2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">ilmsens-short-range-radar</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Tsang.2022</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">slf</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">fork</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">a2photonicsensors</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">nasa-snowex-2020</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Mavrovic.2020</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">PerezDiaz.2017</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Kinar.2007</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Abdelaal.2022</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Hao.2021</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">jstage-snow-density</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">nasa-snow-density</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">mt-density-meter</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Fasani.2023</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">AlamShibly.2017</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">miro</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">joule-thomson-wiki</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">sensirion-sht4xa-sensors</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Adachi.2020</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Nowogrodzki.2018</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Yamaguchi.2023</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Reichardt.2022</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Lombardo.2023</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">lamb</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">kennedylabs-download</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">AlamShibly.2017</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">miro</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">joule-thomson-wiki</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">sensirion-sht4xa-sensors</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Altman.2015</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Scholz.2020</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Abdelaal.2022</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Adachi.2020</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">AlamShibly.2017</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Bonnell.2021</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Donahue.2022</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Fasani.2023</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Kinar.2007</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Koch.2019</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Koch.2014</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Lombardo.2023</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">Mavrovic.2020</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">Nowogrodzki.2018</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Hao.2021</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">PerezDiaz.2017</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">Yamaguchi.2023</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">snowathome</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">instructables</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">joule-thomson-wiki</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">miro</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">popmech</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">nasa-snowex-2020</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">nasa-snow-density</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">ubc-met-concepts</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">jstage-snow-density</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">sciencelearn-snow-density</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">proquest-snow-density</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">mt-density-meter</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">elibrary</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">micro-dehumidifier</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">kennedylabs-download</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">a2photonicsensors</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">ilmsens-short-range-radar</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">sensirion-sht4xa-sensors</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">ilmsens-impedance-spectroscopy</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">slf</bcf:citekey>
+    <bcf:citekey order="1">WSLSLFMetha.2024</bcf:citekey>
+    <bcf:citekey order="2">Wetterdienst.6222017</bcf:citekey>
+    <bcf:citekey order="3">WSLSLF.2024</bcf:citekey>
+    <bcf:citekey order="4">Mitterer.202</bcf:citekey>
+    <bcf:citekey order="5">Koch.2019</bcf:citekey>
+    <bcf:citekey order="6">Koch.2014</bcf:citekey>
+    <bcf:citekey order="7">Bonnell.2021</bcf:citekey>
+    <bcf:citekey order="8">ilmsens-short-range-radar</bcf:citekey>
+    <bcf:citekey order="9">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="10">Tsang.2022</bcf:citekey>
+    <bcf:citekey order="11">slf</bcf:citekey>
+    <bcf:citekey order="12">fork</bcf:citekey>
+    <bcf:citekey order="13">a2photonicsensors</bcf:citekey>
+    <bcf:citekey order="14">nasa-snowex-2020</bcf:citekey>
+    <bcf:citekey order="15">Mavrovic.2020</bcf:citekey>
+    <bcf:citekey order="16">PerezDiaz.2017</bcf:citekey>
+    <bcf:citekey order="17">Kinar.2007</bcf:citekey>
+    <bcf:citekey order="18">Abdelaal.2022</bcf:citekey>
+    <bcf:citekey order="19">Hao.2021</bcf:citekey>
+    <bcf:citekey order="20">jstage-snow-density</bcf:citekey>
+    <bcf:citekey order="21">nasa-snow-density</bcf:citekey>
+    <bcf:citekey order="22">mt-density-meter</bcf:citekey>
+    <bcf:citekey order="23">Fasani.2023</bcf:citekey>
+    <bcf:citekey order="24">AlamShibly.2017</bcf:citekey>
+    <bcf:citekey order="25">miro</bcf:citekey>
+    <bcf:citekey order="26">joule-thomson-wiki</bcf:citekey>
+    <bcf:citekey order="27">sensirion-sht4xa-sensors</bcf:citekey>
+    <bcf:citekey order="28">Adachi.2020</bcf:citekey>
+    <bcf:citekey order="29">Nowogrodzki.2018</bcf:citekey>
+    <bcf:citekey order="30">Yamaguchi.2023</bcf:citekey>
+    <bcf:citekey order="31">Reichardt.2022</bcf:citekey>
+    <bcf:citekey order="32">Lombardo.2023</bcf:citekey>
+    <bcf:citekey order="33">lamb</bcf:citekey>
+    <bcf:citekey order="34">kennedylabs-download</bcf:citekey>
+    <bcf:citekey order="35">AlamShibly.2017</bcf:citekey>
+    <bcf:citekey order="36">miro</bcf:citekey>
+    <bcf:citekey order="37">joule-thomson-wiki</bcf:citekey>
+    <bcf:citekey order="38">sensirion-sht4xa-sensors</bcf:citekey>
+    <bcf:citekey order="39">Altman.2015</bcf:citekey>
+    <bcf:citekey order="40">Scholz.2020</bcf:citekey>
+    <bcf:citekey order="41">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="42">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="43">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="44">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="47">WSLSLFMetha.2024</bcf:citekey>
+    <bcf:citekey order="48">Wetterdienst.6222017</bcf:citekey>
+    <bcf:citekey order="49">WSLSLF.2024</bcf:citekey>
+    <bcf:citekey order="50">Mitterer.202</bcf:citekey>
+    <bcf:citekey order="51">Koch.2019</bcf:citekey>
+    <bcf:citekey order="52">Koch.2014</bcf:citekey>
+    <bcf:citekey order="53">Bonnell.2021</bcf:citekey>
+    <bcf:citekey order="54">ilmsens-short-range-radar</bcf:citekey>
+    <bcf:citekey order="55">Donahue.2022</bcf:citekey>
+    <bcf:citekey order="56">Tsang.2022</bcf:citekey>
+    <bcf:citekey order="57">slf</bcf:citekey>
+    <bcf:citekey order="58">fork</bcf:citekey>
+    <bcf:citekey order="59">a2photonicsensors</bcf:citekey>
+    <bcf:citekey order="60">nasa-snowex-2020</bcf:citekey>
+    <bcf:citekey order="61">Mavrovic.2020</bcf:citekey>
+    <bcf:citekey order="62">PerezDiaz.2017</bcf:citekey>
+    <bcf:citekey order="63">Kinar.2007</bcf:citekey>
+    <bcf:citekey order="64">Abdelaal.2022</bcf:citekey>
+    <bcf:citekey order="65">Hao.2021</bcf:citekey>
+    <bcf:citekey order="66">jstage-snow-density</bcf:citekey>
+    <bcf:citekey order="67">nasa-snow-density</bcf:citekey>
+    <bcf:citekey order="68">mt-density-meter</bcf:citekey>
+    <bcf:citekey order="69">Fasani.2023</bcf:citekey>
+    <bcf:citekey order="70">AlamShibly.2017</bcf:citekey>
+    <bcf:citekey order="71">miro</bcf:citekey>
+    <bcf:citekey order="72">joule-thomson-wiki</bcf:citekey>
+    <bcf:citekey order="73">sensirion-sht4xa-sensors</bcf:citekey>
+    <bcf:citekey order="74">Adachi.2020</bcf:citekey>
+    <bcf:citekey order="75">Nowogrodzki.2018</bcf:citekey>
+    <bcf:citekey order="76">Yamaguchi.2023</bcf:citekey>
+    <bcf:citekey order="77">Reichardt.2022</bcf:citekey>
+    <bcf:citekey order="78">Lombardo.2023</bcf:citekey>
+    <bcf:citekey order="79">lamb</bcf:citekey>
+    <bcf:citekey order="80">kennedylabs-download</bcf:citekey>
+    <bcf:citekey order="81">Altman.2015</bcf:citekey>
+    <bcf:citekey order="82">Scholz.2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

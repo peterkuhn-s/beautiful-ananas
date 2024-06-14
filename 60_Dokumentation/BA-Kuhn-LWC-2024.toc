@@ -1,33 +1,34 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Aufgabenstellung und Planung der Arbeit}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Methamorphose von Schnee}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Lawinen in der Schweiz}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Entstehung der Gleitschneelawine}{3}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Physikalische Prinzipien und kommerzielle Produkte zur Messung des LWC}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Physikalische Prinzipien zur Messung des LWC}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Kommerzielle Produkte}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}User Story}{7}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Vorstudie}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Vibration}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Elektrischer Wiederstand}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Diffusion von Flüssigkeit}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Laser Refraktion und Reflexion}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Water Indikator Tape}{15}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Widerstand gegen Umwelteinflüsse}{17}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Reflexion zur Vorstudie}{17}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Auswahl des physikalischen Prinzips}{18}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Funktionsmusterentwicklung und Tests}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Agiles Hardware Development}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Messablauf}{19}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Eigenschaften der Varianten}{20}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Funktionsweise der Bildverarbeitung}{22}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Extrahieren von Informationen aus Bilddaten}{24}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Ergebnisse der Versuche}{28}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Mögliche Gründe der hohen Varianz}{33}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Verbesserungsmöglichkeiten des Funktionsmusters}{37}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Vollautomatische Durchführung der Messung}{38}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Fazit}{40}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Persönliche Erfahrung}{40}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fazit}{40}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Ausblick}{40}{section.6}%
+\contentsline {subsection}{\numberline {1.1}Aufgabenstellung für die Arbeit}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Methamorphose von Schnee}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Lawinen in der Schweiz}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Entstehung der Gleitschneelawine}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Physikalische Prinzipien und kommerzielle Produkte zur Messung des LWC}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Physikalische Prinzipien zur Messung des LWC}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Kommerzielle Produkte}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}User Storys}{8}{section.4}%
+\contentsline {section}{\numberline {5}Vorstudie}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Phasenübergang ausgelöst durch Vibration}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Elektrischer Wiederstand}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diffusion von Flüssigkeit}{13}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Refraktion und Reflexion eines Lasers}{13}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Water Indikator Tape}{16}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Reflexion zur Vorstudie}{18}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Auswahl des physikalischen Prinzips}{19}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Funktionsmusterentwicklung, Tests und Weiterentwicklung}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Agiles Hardware Development}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Messablauf}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Eigenschaften der Funktionsmuster}{21}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Funktionsweise der Bildverarbeitung}{23}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Extrahieren von Informationen aus Bilddaten}{25}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Ergebnisse der Versuche}{29}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Mögliche Gründe der hohen Varianz der zweiten Iteration}{34}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Verbesserungsmöglichkeiten des Funktionsmusters}{38}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Vollautomatische Durchführung und Weiterentwicklung der Messung}{39}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Fazit}{41}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Persönliche Erfahrung}{41}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Fazit}{41}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Zusammenfassung}{42}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Ausblick}{43}{section.8}%
