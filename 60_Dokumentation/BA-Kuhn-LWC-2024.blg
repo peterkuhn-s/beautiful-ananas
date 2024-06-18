@@ -1,21 +1,15 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.blg'
-[71] biber-darwin:340> INFO - === Tue Jun 11, 2024, 13:09:09
-[101] Biber.pm:419> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
-[188] Biber.pm:979> INFO - Found 45 citekeys in bib section 0
-[201] Biber.pm:4419> INFO - Processing section 0
-[214] Biber.pm:4610> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
-[217] bibtex.pm:1713> INFO - LaTeX decoding ...
-[255] bibtex.pm:1519> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
-[537] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[537] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[537] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[537] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[583] bbl.pm:660> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
-[608] bbl.pm:763> INFO - Output to BA-Kuhn-LWC-2024.bbl
-[608] Biber.pm:131> WARN - misc entry 'WSLSLFMetha.2024' (Literaturverzeichniss.bib): Invalid format '6.11.2024' of date field 'urldate' - ignoring
-[608] Biber.pm:131> WARN - legacy year field '6-22-2017' in entry 'Wetterdienst.6222017' is not an integer - this will probably not sort properly.
-[608] Biber.pm:131> WARN - misc entry 'Wetterdienst.6222017' (Literaturverzeichniss.bib): Invalid format '6-11-2024' of date field 'urldate' - ignoring
-[608] Biber.pm:131> WARN - misc entry 'WSLSLF.2024' (Literaturverzeichniss.bib): Invalid format '6-11-2024' of date field 'urldate' - ignoring
-[608] Biber.pm:131> WARN - article entry 'Mitterer.202' (Literaturverzeichniss.bib): Invalid format '11-06-2024' of date field 'urldate' - ignoring
-[608] Biber.pm:133> INFO - WARNINGS: 5
+[1] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'BA-Kuhn-LWC-2024.blg'
+[113] biber:340> INFO - === Tue Jun 18, 2024, 14:25:35
+[129] Biber.pm:418> INFO - Reading 'BA-Kuhn-LWC-2024.bcf'
+[205] Biber.pm:972> INFO - Found 36 citekeys in bib section 0
+[220] Biber.pm:4383> INFO - Processing section 0
+[231] Biber.pm:4574> INFO - Looking for bibtex file 'Literaturverzeichniss.bib' for section 0
+[236] bibtex.pm:1713> INFO - LaTeX decoding ...
+[288] bibtex.pm:1518> INFO - Found BibTeX data source 'Literaturverzeichniss.bib'
+[692] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[692] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[692] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[692] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[727] bbl.pm:654> INFO - Writing 'BA-Kuhn-LWC-2024.bbl' with encoding 'UTF-8'
+[755] bbl.pm:757> INFO - Output to BA-Kuhn-LWC-2024.bbl

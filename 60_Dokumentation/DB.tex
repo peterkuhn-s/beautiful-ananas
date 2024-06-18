@@ -23,10 +23,10 @@ Es gibt vier Benutzer, die mit der Datenbank interagieren. In der Abbildung \ref
 \end{figure}
 
 \begin{enumerate}
-\item Die Kamera, die die Bilder der Taps macht und auswertet, muss die Auswertungen in die Datenbank schreiben.
+\item Die Kamera, die die Bilder der Tapes macht und auswertet, muss die Auswertungen in die Datenbank schreiben.
   \item Der Feldforscher gibt zusätzliche Informationen über den Versuch an, die er ebenfalls in die Datenbank schreiben muss.
     
-    \item Der Analyst wird die Daten abfragen und hoffentlich Informationen daraus gewinnen.
+    \item Der Analyst wird die Daten abfragen und Informationen daraus gewinnen.
     
     \item Der Datenbankadministrator wird im Normalbetrieb nicht benötigt, sollte jedoch berücksichtigt werden.
 \end{enumerate}
@@ -37,7 +37,7 @@ Die Anforderungen an die Datenbank und ihre Benutzer werden entsprechend den Anf
 
 \textbf{Konzeptueller DB Entwurf}
 
-Mit der Unified Modeling Language (UML) wird in  \ref{fig:uml-db-entwurf} die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
+Mit der Unified Modeling Language (UML) wird in Abbildung \ref{fig:uml-db-entwurf} die Struktur der Datenbank dargestellt. Diese Darstellung ist noch lösungsunabhängig.
 
 \begin{figure}
     \centering
@@ -56,15 +56,17 @@ Um die Datenbank zu implementieren, wurde PostgreSQL gewählt. Es ist ein Free- 
 Der folgende SQL-Code initialisiert die Datenbank: \ref{code:DBIni}
 
 \textbf{Views für den Analysten}
-Das Endziel besteht darin, eine Mashine Learning Regression aus Messungen und Taps zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
+
+Das Endziel besteht darin, eine Mashine Learning Regression aus Messungen und Tapes zu erstellen, um den 'LWC Denoth' zu bestimmen. Für diese Aufgabe sind höchstwahrscheinlich nur bestimmte Angaben aus der Datenbank erforderlich.
 
 Hier werden zwei Views erstellt: Der erste ist ein minimalistischer Ansatz, mit dem direkt weitergearbeitet werden kann. Der zweite View dient dazu, genauer zu verstehen, was in dem ersten View dargestellt ist.
 
-Da die Ansichten \ref{code:ViewDB} für den Read Only Analysten bestimmt sind, muss keine aktualisierbarer View erstellt werden.
+Da die Ansichten \ref{code:ViewDB} für den Read Only Analysten bestimmt sind, muss keine aktualisierbare View erstellt werden.
 
 
 
 \textbf{Physischer Entwurf}
+
 Für die Beispieldaten wurden Daten aus der Vorstudie \ref{sec:5559} für eine Messung verwendet.
 
 Die Datenbank wird anfangs viele NULL-Werte enthalten, da beispielsweise die Wetterdaten nicht von einer API gefüllt werden.
@@ -77,7 +79,7 @@ Falls die Datenbank von einem Laptop auf einen Server ausgelagert wird, werden d
 
 Für die Interaktion mit der Datenbank werden verschiedene Python-Skripte verwendet, die je nach Benutzer unterschiedliche Aufgaben erfüllen.
 
-Das folgende Python-Skript ist dazu da, Bilder von Taps zu analysieren und die daraus gewonnenen Daten in die Datenbank einzufügen. \ref{code:RaspKam}
+Das folgende Python-Skript \ref{code:RaspKam} ist dazu da, Bilder von Tapes zu analysieren und die daraus gewonnenen Daten in die Datenbank einzufügen.
 
 Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zeit ruft das Skript (siehe  \ref{code:FeldUser}) auch noch die Bildanalyse auf.
 
@@ -86,7 +88,7 @@ Das nächste Python-Skript wird interaktiv vom Versuchsleiter verwendet. Zur Zei
 
 Die Python-Programme sollten weiterentwickelt werden, um sämtliche verfügbaren Daten in der Datenbank zu nutzen und um die Funktionalität zu verbessern.
 
-Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklung besteht darin, das Verhalten des Taps zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
+Aktuell läuft die Datenbank mit dem Benutzer Postgres auf einem Laptop. Eine Auslagerung auf einen Server ist derzeit keine Priorität, da dies mit Sicherheitsrisiken verbunden ist. Das Hauptziel dieser Produktentwicklung besteht darin, das Verhalten des Tapes zu verstehen. Sobald dieses Ziel erreicht ist, können weitere Schritte zur Optimierung und Sicherung der Datenbankinfrastruktur unternommen werden.
 
 Sobald die Feldversuche durchgeführt worden sind, wird die Datenbank an die tatsächliche Nutzung angepasst.
 

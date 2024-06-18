@@ -1,630 +1,621 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  17 JUN 2024 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  18 JUN 2024 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **BA-Kuhn-LWC-2024.tex
 (./BA-Kuhn-LWC-2024.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count196
-\U@D=\dimen141
-\l@unhyphenated=\language89
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language87
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count197
+\bbl@dirlevel=\count194
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2024/01/19 v2.14 German support for babel (post-1996 orthogra
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
 phy)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2024/01/19 v2.14 German support for babel (post-1996 orthogr
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 122.
 )))
-(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.t
-ex
-Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 11.
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count198
-\Gm@cntv=\count199
-\c@Gm@tempcnt=\count266
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks20
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks19
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count198
+\Hy@pagecounter=\count199
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count267
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
-)
-\@linkdim=\dimen152
-\Hy@linkcounter=\count269
-\Hy@pagecounter=\count270
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count271
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count266
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count272
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count267
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen153
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen151
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count273
-\Field@Width=\dimen154
-\Fld@charsize=\dimen155
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Fld@menulength=\count268
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count269
+\c@Item=\count270
+\c@Hfootnote=\count271
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count277
-\c@bookmark@seq@number=\count278
+\Fld@listcount=\count272
+\c@bookmark@seq@number=\count273
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+86.
 )
-\Hy@SectionHShift=\skip50
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
+\Hy@SectionHShift=\skip49
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen156
-\WF@size=\dimen157
-\c@WF@wrappedlines=\count279
-\WF@box=\box51
-\WF@everypar=\toks21
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen154
+\WF@size=\dimen155
+\c@WF@wrappedlines=\count274
+\WF@box=\box50
+\WF@everypar=\toks20
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
-\XKV@depth=\count280
+\XKV@depth=\count275
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
-Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box52
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box51
 )
-\tc@llx=\dimen158
-\tc@lly=\dimen159
-\tc@urx=\dimen160
-\tc@ury=\dimen161
+\tc@llx=\dimen156
+\tc@lly=\dimen157
+\tc@urx=\dimen158
+\tc@ury=\dimen159
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen162
-\adjbox@Height=\dimen163
-\adjbox@Depth=\dimen164
-\adjbox@Totalheight=\dimen165
-\adjbox@pwidth=\dimen166
-\adjbox@pheight=\dimen167
-\adjbox@pdepth=\dimen168
-\adjbox@ptotalheight=\dimen169
+\adjbox@Width=\dimen160
+\adjbox@Height=\dimen161
+\adjbox@Depth=\dimen162
+\adjbox@Totalheight=\dimen163
+\adjbox@pwidth=\dimen164
+\adjbox@pheight=\dimen165
+\adjbox@pdepth=\dimen166
+\adjbox@ptotalheight=\dimen167
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count281
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count276
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box53
-\sift@deathcycles=\count282
-\@vwid@loff=\dimen170
-\@vwid@roff=\dimen171
+\@vwid@box=\box52
+\sift@deathcycles=\count277
+\@vwid@loff=\dimen168
+\@vwid@roff=\dimen169
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count283
-\calc@Bcount=\count284
-\calc@Adimen=\dimen172
-\calc@Bdimen=\dimen173
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count278
+\calc@Bcount=\count279
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count285
-\calc@Cskip=\skip62
+\calc@Ccount=\count280
+\calc@Cskip=\skip61
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen174
-\ESO@tempdimb=\dimen175
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen172
+\ESO@tempdimb=\dimen173
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ))
-\AM@pagewidth=\dimen176
-\AM@pageheight=\dimen177
-\AM@fboxrule=\dimen178
+\AM@pagewidth=\dimen174
+\AM@pageheight=\dimen175
+\AM@fboxrule=\dimen176
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count286
-\AM@pagebox=\box54
-\AM@global@opts=\toks24
-\AM@pagecnt=\count287
-\AM@toc@title=\toks25
-\AM@lof@heading=\toks26
-\c@AM@survey=\count288
-\AM@templatesizebox=\box55
+\pdfpages@includegraphics@status=\count281
+\AM@pagebox=\box53
+\AM@global@opts=\toks23
+\AM@pagecnt=\count282
+\AM@toc@title=\toks24
+\c@AM@survey=\count283
+\AM@templatesizebox=\box54
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip63
-\LTright=\skip64
-\LTpre=\skip65
-\LTpost=\skip66
-\LTchunksize=\count289
-\LTcapwidth=\dimen179
-\LT@head=\box56
-\LT@firsthead=\box57
-\LT@foot=\box58
-\LT@lastfoot=\box59
-\LT@gbox=\box60
-\LT@cols=\count290
-\LT@rows=\count291
-\c@LT@tables=\count292
-\c@LT@chunks=\count293
-\LT@p@ftn=\toks27
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count284
+\LTcapwidth=\dimen177
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count285
+\LT@rows=\count286
+\c@LT@tables=\count287
+\c@LT@chunks=\count288
+\LT@p@ftn=\toks25
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count294
-\float@exts=\toks28
-\float@box=\box61
-\@float@everytoks=\toks29
-\@floatcapt=\box62
+\c@float@type=\count289
+\float@exts=\toks26
+\float@box=\box60
+\@float@everytoks=\toks27
+\@floatcapt=\box61
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count295
-\lst@gtempboxa=\box63
-\lst@token=\toks30
-\lst@length=\count296
-\lst@currlwidth=\dimen180
-\lst@column=\count297
-\lst@pos=\count298
-\lst@lostspace=\dimen181
-\lst@width=\dimen182
-\lst@newlines=\count299
-\lst@lineno=\count300
-\lst@maxwidth=\dimen183
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count290
+\lst@gtempboxa=\box62
+\lst@token=\toks28
+\lst@length=\count291
+\lst@currlwidth=\dimen178
+\lst@column=\count292
+\lst@pos=\count293
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count294
+\lst@lineno=\count295
+\lst@maxwidth=\dimen181
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
+\lst@framebox=\box63
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count301
-\lst@skipnumbers=\count302
-\lst@framebox=\box64
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/02/21 1.10 listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2024/02/21 1.10 (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count298
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count303
+\lrq@indent=\count299
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count304
-\c@listtotal=\count305
-\c@listcount=\count306
-\c@liststart=\count307
-\c@liststop=\count308
-\c@citecount=\count309
-\c@citetotal=\count310
-\c@multicitecount=\count311
-\c@multicitetotal=\count312
-\c@instcount=\count313
-\c@maxnames=\count314
-\c@minnames=\count315
-\c@maxitems=\count316
-\c@minitems=\count317
-\c@citecounter=\count318
-\c@maxcitecounter=\count319
-\c@savedcitecounter=\count320
-\c@uniquelist=\count321
-\c@uniquename=\count322
-\c@refsection=\count323
-\c@refsegment=\count324
-\c@maxextratitle=\count325
-\c@maxextratitleyear=\count326
-\c@maxextraname=\count327
-\c@maxextradate=\count328
-\c@maxextraalpha=\count329
-\c@abbrvpenalty=\count330
-\c@highnamepenalty=\count331
-\c@lownamepenalty=\count332
-\c@maxparens=\count333
-\c@parenlevel=\count334
-\blx@tempcnta=\count335
-\blx@tempcntb=\count336
-\blx@tempcntc=\count337
-\c@blx@maxsection=\count338
-\blx@maxsegment@0=\count339
-\blx@notetype=\count340
-\blx@parenlevel@text=\count341
-\blx@parenlevel@foot=\count342
-\blx@sectionciteorder@0=\count343
-\blx@sectionciteorderinternal@0=\count344
-\blx@entrysetcounter=\count345
-\blx@biblioinstance=\count346
-\labelnumberwidth=\skip67
-\labelalphawidth=\skip68
-\biblabelsep=\skip69
-\bibitemsep=\skip70
-\bibnamesep=\skip71
-\bibinitsep=\skip72
-\bibparsep=\skip73
-\bibhang=\skip74
+\c@tabx@nest=\count300
+\c@listtotal=\count301
+\c@listcount=\count302
+\c@liststart=\count303
+\c@liststop=\count304
+\c@citecount=\count305
+\c@citetotal=\count306
+\c@multicitecount=\count307
+\c@multicitetotal=\count308
+\c@instcount=\count309
+\c@maxnames=\count310
+\c@minnames=\count311
+\c@maxitems=\count312
+\c@minitems=\count313
+\c@citecounter=\count314
+\c@maxcitecounter=\count315
+\c@savedcitecounter=\count316
+\c@uniquelist=\count317
+\c@uniquename=\count318
+\c@refsection=\count319
+\c@refsegment=\count320
+\c@maxextratitle=\count321
+\c@maxextratitleyear=\count322
+\c@maxextraname=\count323
+\c@maxextradate=\count324
+\c@maxextraalpha=\count325
+\c@abbrvpenalty=\count326
+\c@highnamepenalty=\count327
+\c@lownamepenalty=\count328
+\c@maxparens=\count329
+\c@parenlevel=\count330
+\blx@tempcnta=\count331
+\blx@tempcntb=\count332
+\blx@tempcntc=\count333
+\c@blx@maxsection=\count334
+\c@blx@maxsegment@0=\count335
+\blx@notetype=\count336
+\blx@parenlevel@text=\count337
+\blx@parenlevel@foot=\count338
+\c@blx@sectionciteorder@0=\count339
+\blx@entrysetcounter=\count340
+\blx@biblioinstance=\count341
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language90
-\c@mincomprange=\count347
-\c@maxcomprange=\count348
-\c@mincompwidth=\count349
+\blx@langwohyphens=\language88
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count350
-\c@savedafterword=\count351
-\c@annotator=\count352
-\c@savedannotator=\count353
-\c@author=\count354
-\c@savedauthor=\count355
-\c@bookauthor=\count356
-\c@savedbookauthor=\count357
-\c@commentator=\count358
-\c@savedcommentator=\count359
-\c@editor=\count360
-\c@savededitor=\count361
-\c@editora=\count362
-\c@savededitora=\count363
-\c@editorb=\count364
-\c@savededitorb=\count365
-\c@editorc=\count366
-\c@savededitorc=\count367
-\c@foreword=\count368
-\c@savedforeword=\count369
-\c@holder=\count370
-\c@savedholder=\count371
-\c@introduction=\count372
-\c@savedintroduction=\count373
-\c@namea=\count374
-\c@savednamea=\count375
-\c@nameb=\count376
-\c@savednameb=\count377
-\c@namec=\count378
-\c@savednamec=\count379
-\c@translator=\count380
-\c@savedtranslator=\count381
-\c@shortauthor=\count382
-\c@savedshortauthor=\count383
-\c@shorteditor=\count384
-\c@savedshorteditor=\count385
-\c@labelname=\count386
-\c@savedlabelname=\count387
-\c@institution=\count388
-\c@savedinstitution=\count389
-\c@lista=\count390
-\c@savedlista=\count391
-\c@listb=\count392
-\c@savedlistb=\count393
-\c@listc=\count394
-\c@savedlistc=\count395
-\c@listd=\count396
-\c@savedlistd=\count397
-\c@liste=\count398
-\c@savedliste=\count399
-\c@listf=\count400
-\c@savedlistf=\count401
-\c@location=\count402
-\c@savedlocation=\count403
-\c@organization=\count404
-\c@savedorganization=\count405
-\c@origlocation=\count406
-\c@savedoriglocation=\count407
-\c@origpublisher=\count408
-\c@savedorigpublisher=\count409
-\c@publisher=\count410
-\c@savedpublisher=\count411
-\c@language=\count412
-\c@savedlanguage=\count413
-\c@origlanguage=\count414
-\c@savedoriglanguage=\count415
-\c@pageref=\count416
-\c@savedpageref=\count417
-\shorthandwidth=\skip75
-\shortjournalwidth=\skip76
-\shortserieswidth=\skip77
-\shorttitlewidth=\skip78
-\shortauthorwidth=\skip79
-\shorteditorwidth=\skip80
-\locallabelnumberwidth=\skip81
-\locallabelalphawidth=\skip82
-\localshorthandwidth=\skip83
-\localshortjournalwidth=\skip84
-\localshortserieswidth=\skip85
-\localshorttitlewidth=\skip86
-\localshortauthorwidth=\skip87
-\localshorteditorwidth=\skip88
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@origlanguage=\count409
+\c@savedoriglanguage=\count410
+\c@pageref=\count411
+\c@savedpageref=\count412
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count418
-\c@textcitetotal=\count419
-\c@textcitemaxnames=\count420
-\c@biburlbigbreakpenalty=\count421
-\c@biburlbreakpenalty=\count422
-\c@biburlnumpenalty=\count423
-\c@biburlucpenalty=\count424
-\c@biburllcpenalty=\count425
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count413
+\c@textcitetotal=\count414
+\c@textcitemaxnames=\count415
+\c@biburlbigbreakpenalty=\count416
+\c@biburlbreakpenalty=\count417
+\c@biburlnumpenalty=\count418
+\c@biburlucpenalty=\count419
+\c@biburllcpenalty=\count420
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count426
+\c@smartand=\count421
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count427
-\c@bbx:relatedtotal=\count428
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count422
+\c@bbx:relatedtotal=\count423
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -640,70 +631,71 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count429
-\l__pdf_internal_box=\box65
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count424
+\l__pdf_internal_box=\box64
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             2022-01-21 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-02-18 L3 Experimental document command parser
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/acronym/acronym.sty
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/bigfoot/suffix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count430
-\xs_countb=\count431
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count425
+\decimalpart=\count426
 )
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-\AC@clearlist=\toks31
+\AC@clearlist=\toks29
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count432
-\mult@box=\box66
-\multicol@leftmargin=\dimen184
-\c@unbalance=\count433
-\c@collectmore=\count434
-\doublecol@number=\count435
-\multicoltolerance=\count436
-\multicolpretolerance=\count437
-\full@width=\dimen185
-\page@free=\dimen186
-\premulticols=\dimen187
-\postmulticols=\dimen188
-\multicolsep=\skip89
-\multicolbaselineskip=\skip90
-\partial@page=\box67
-\last@line=\box68
-\mc@boxedresult=\box69
-\maxbalancingoverflow=\dimen189
-\mult@rightbox=\box70
-\mult@grightbox=\box71
-\mult@firstbox=\box72
-\mult@gfirstbox=\box73
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count427
+\mult@box=\box65
+\multicol@leftmargin=\dimen182
+\c@unbalance=\count428
+\c@collectmore=\count429
+\doublecol@number=\count430
+\multicoltolerance=\count431
+\multicolpretolerance=\count432
+\full@width=\dimen183
+\page@free=\dimen184
+\premulticols=\dimen185
+\postmulticols=\dimen186
+\multicolsep=\skip88
+\multicolbaselineskip=\skip89
+\partial@page=\box66
+\last@line=\box67
+\maxbalancingoverflow=\dimen187
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@firstbox=\box70
+\mult@gfirstbox=\box71
+\@tempa=\box72
+\@tempa=\box73
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
@@ -738,167 +730,159 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box105
 \@tempa=\box106
 \@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\c@minrows=\count438
-\c@columnbadness=\count439
-\c@finalcolumnbadness=\count440
-\last@try=\dimen190
-\multicolovershoot=\dimen191
-\multicolundershoot=\dimen192
-\mult@nat@firstbox=\box110
-\colbreak@box=\box111
-\mc@col@check@num=\count441
+\c@minrows=\count433
+\c@columnbadness=\count434
+\c@finalcolumnbadness=\count435
+\last@try=\dimen188
+\multicolovershoot=\dimen189
+\multicolundershoot=\dimen190
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count436
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count442
-\l__siunitx_number_exponent_fixed_int=\count443
-\l__siunitx_number_min_decimal_int=\count444
-\l__siunitx_number_min_integer_int=\count445
-\l__siunitx_number_round_precision_int=\count446
-\l__siunitx_number_lower_threshold_int=\count447
-\l__siunitx_number_upper_threshold_int=\count448
-\l__siunitx_number_group_first_int=\count449
-\l__siunitx_number_group_size_int=\count450
-\l__siunitx_number_group_minimum_int=\count451
-\l__siunitx_angle_tmp_dim=\dimen193
-\l__siunitx_angle_marker_box=\box112
-\l__siunitx_angle_unit_box=\box113
-\l__siunitx_compound_count_int=\count452
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen191
+\l__siunitx_angle_marker_box=\box110
+\l__siunitx_angle_unit_box=\box111
+\l__siunitx_compound_count_int=\count437
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
  (CN)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+\l__siunitx_number_exponent_fixed_int=\count438
+\l__siunitx_number_min_decimal_int=\count439
+\l__siunitx_number_min_integer_int=\count440
+\l__siunitx_number_round_precision_int=\count441
+\l__siunitx_number_group_minimum_int=\count442
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks32
-\ex@=\dimen194
+\@emptytoks=\toks30
+\ex@=\dimen192
 ))
-\l__siunitx_table_tmp_box=\box114
-\l__siunitx_table_tmp_dim=\dimen195
-\l__siunitx_table_column_width_dim=\dimen196
-\l__siunitx_table_integer_box=\box115
-\l__siunitx_table_decimal_box=\box116
-\l__siunitx_table_uncert_box=\box117
-\l__siunitx_table_before_box=\box118
-\l__siunitx_table_after_box=\box119
-\l__siunitx_table_before_dim=\dimen197
-\l__siunitx_table_carry_dim=\dimen198
-\l__siunitx_unit_tmp_int=\count453
-\l__siunitx_unit_position_int=\count454
-\l__siunitx_unit_total_int=\count455
+\l__siunitx_table_tmp_box=\box112
+\l__siunitx_table_tmp_dim=\dimen193
+\l__siunitx_table_column_width_dim=\dimen194
+\l__siunitx_table_integer_box=\box113
+\l__siunitx_table_decimal_box=\box114
+\l__siunitx_table_before_box=\box115
+\l__siunitx_table_after_box=\box116
+\l__siunitx_table_before_dim=\dimen195
+\l__siunitx_table_carry_dim=\dimen196
+\l__siunitx_unit_tmp_int=\count443
+\l__siunitx_unit_position_int=\count444
+\l__siunitx_unit_total_int=\count445
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen199
-\ar@mcellbox=\box120
-\extrarowheight=\dimen256
-\NC@list=\toks33
-\extratabsurround=\skip91
-\backup@length=\skip92
-\ar@cellbox=\box121
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box117
+\extrarowheight=\dimen198
+\NC@list=\toks31
+\extratabsurround=\skip90
+\backup@length=\skip91
+\ar@cellbox=\box118
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/datetime/datetime.sty
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count456
+\fc@digit@counter=\count446
 ))
-\c@padzeroesN=\count457
-\fc@tmpcatcode=\count458
+\c@padzeroesN=\count447
+\fc@tmpcatcode=\count448
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
 File: fc-ngerman.def 2012/06/18
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fc-german.def
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-german.def
 File: fc-german.def 2018/06/17
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fc-germanb.def
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-germanb.def
 File: fc-germanb.def 2013/08/17
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
 File: fc-ngermanb.def 2013/08/17
 ))
-\@DT@modctr=\count459
-\@ordinalctr=\count460
-\@orgargctr=\count461
-\@strctr=\count462
-\@tmpstrctr=\count463
-\@DT@loopN=\count464
-\@DT@X=\count465
+\@DT@modctr=\count449
+\@ordinalctr=\count450
+\@orgargctr=\count451
+\@strctr=\count452
+\@tmpstrctr=\count453
+\@DT@loopN=\count454
+\@DT@X=\count455
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count466
-\@month=\count467
-\@year=\count468
-\c@HOUR=\count469
-\c@HOURXII=\count470
-\c@MINUTE=\count471
-\c@TOHOUR=\count472
-\c@TOMINUTE=\count473
-\c@SECOND=\count474
-\currenthour=\count475
-\currentminute=\count476
-\currentsecond=\count477
+\@day=\count456
+\@month=\count457
+\@year=\count458
+\c@HOUR=\count459
+\c@HOURXII=\count460
+\c@MINUTE=\count461
+\c@TOHOUR=\count462
+\c@TOMINUTE=\count463
+\c@SECOND=\count464
+\currenthour=\count465
+\currentminute=\count466
+\currentsecond=\count467
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count478
-\dayofyear=\count479
-\dayofweek=\count480
+\@dtctr=\count468
+\dayofyear=\count469
+\dayofweek=\count470
 LaTeX Info: Redefining \today on input line 736.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/datetime/dt-ngerman.def
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-ngerman.def
 File: dt-ngerman.def 2013/09/10
 LaTeX Info: Redefining \datengerman on input line 86.
 )
-\dt@a=\toks34
-\dt@b=\toks35
+\dt@a=\toks32
+\dt@b=\toks33
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count481
-\@quotereset=\count482
-(./BA-Kuhn-LWC-2024.aux
-
-LaTeX Warning: Label `fig:AutMess' multiply defined.
-
-)
+\@quotelevel=\count471
+\@quotereset=\count472
+(./BA-Kuhn-LWC-2024.aux)
 \openout1 = `BA-Kuhn-LWC-2024.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -934,23 +918,23 @@ LaTeX Font Info:    ... okay on input line 67.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count483
-\scratchdimen=\dimen257
-\scratchbox=\box122
-\nofMPsegments=\count484
-\nofMParguments=\count485
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count486
-\MPscratchDim=\dimen258
-\MPnumerator=\count487
-\makeMPintoPDFobject=\count488
-\everyMPtoPDFconversion=\toks37
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count473
+\scratchdimen=\dimen199
+\scratchbox=\box119
+\nofMPsegments=\count474
+\nofMParguments=\count475
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count476
+\MPscratchDim=\dimen256
+\MPnumerator=\count477
+\makeMPintoPDFobject=\count478
+\everyMPtoPDFconversion=\toks35
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -960,46 +944,57 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 68.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count479
+)
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./BA-Kuhn-LWC-2024.out) (./BA-Kuhn-LWC-2024.out)
 \@outlinefile=\write4
 \openout4 = `BA-Kuhn-LWC-2024.out'.
 
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
-y
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-\c@lstlisting=\count489
+)
+\c@lstlisting=\count480
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1009,78 +1004,51 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BA-Kuhn-LWC-2024.bbl' found.
 
-(./BA-Kuhn-LWC-2024.bbl
+(./BA-Kuhn-LWC-2024.bbl)
+Package biblatex Info: Reference section=0 on input line 68.
+Package biblatex Info: Reference segment=0 on input line 68.
 
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Wetterdienst.6222017':
-(biblatex)                - misc entry 'Wetterdienst.6222017' (Literaturverzeic
-hniss.bib): Invalid format '6-11-2024' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'WSLSLF.2024':
-(biblatex)                - misc entry 'WSLSLF.2024' (Literaturverzeichniss.bib
-): Invalid format '6-11-2024' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Mitterer.202':
-(biblatex)                - article entry 'Mitterer.202' (Literaturverzeichniss
-.bib): Invalid format '11-06-2024' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'WSLSLFMetha.2024':
-(biblatex)                - misc entry 'WSLSLFMetha.2024' (Literaturverzeichnis
-s.bib): Invalid format '6.11.2024' of date field 'urldate' - ignoring.
-
-)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-d
-ictionary-german.trsl
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 67.
-<TitelseiteBetter.pdf, id=140, 597.5067pt x 845.04588pt>
+or `german'. on input line 68.
+<TitelseiteBetter.pdf, id=136, 597.5067pt x 845.04588pt>
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf>
-Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 75.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf>
-Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf  used on input line 75.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
-<TitelseiteBetter.pdf, id=143, page=1, 597.5067pt x 845.04588pt>
+<TitelseiteBetter.pdf, id=139, page=1, 597.5067pt x 845.04588pt>
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
-Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 75.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
-Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 75.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
-Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 75.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
-Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 75.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
 File: TitelseiteBetter.pdf Graphic file (type pdf)
 <use TitelseiteBetter.pdf, page 1>
-Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 74.
+Package pdftex.def Info: TitelseiteBetter.pdf , page1 used on input line 75.
 (pdftex.def)             Requested size: 597.53258pt x 845.0825pt.
  [1
 
-
- <./TitelseiteBetter.pdf>] (./abstract.tex) [2{/usr/local/texlive/2024/texmf-va
-r/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}] (./AbkurzText.tex
+ <./TitelseiteBetter.pdf>] (./abstract.tex) [2{/var/lib/texmf/fonts/map/pdftex/
+updmap/pdftex.map}] (./AbkurzText.tex
 
 LaTeX Warning: Hyper reference `acro:API' on page 3 undefined on input line 4.
 
@@ -1266,15 +1234,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+ [4])
 \tf@toc=\write5
 \openout5 = `BA-Kuhn-LWC-2024.toc'.
 
- [4] [5] (./Einleitung.tex)
-<Bilder/OST_Logo.png, id=246, 1144.275pt x 391.4625pt>
+ [5] (./Einleitung.tex)
+<Bilder/OST_Logo.png, id=241, 1144.275pt x 391.4625pt>
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 96.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 97.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1284,17 +1252,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 \newpage
-              [1 <./Bilder/OST_Logo.png>] (./Aufg.tex)
+l.97 \newpage
+              [1 <./Bilder/Ost_Logo.png>] (./Aufg.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 101.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1305,14 +1272,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \newpage
+l.102 \newpage
                [2] (./Metha.tex
-<Bilder/gletscher_eis_schnee.png, id=260, 544.0325pt x 261.97874pt>
+<Bilder/gletscher_eis_schnee.png, id=255, 544.0325pt x 261.97874pt>
 File: Bilder/gletscher_eis_schnee.png Graphic file (type png)
 <use Bilder/gletscher_eis_schnee.png>
 Package pdftex.def Info: Bilder/gletscher_eis_schnee.png  used on input line 12
@@ -1321,7 +1287,7 @@ Package pdftex.def Info: Bilder/gletscher_eis_schnee.png  used on input line 12
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 108.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 109.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1331,24 +1297,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \newpage
-               [3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
+l.109 \newpage
+               [3pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.108 \newpage
+l.109 \newpage
                <./Bilder/gletscher_eis_schnee.png>] (./Lawinen.tex)
-(./EntstehungGleitlawine.tex)
+(./EntstehungGleitlawine.tex
+Overfull \hbox (1.58388pt too wide) in paragraph at lines 9--10
+[]\T1/cmr/m/n/12 Schmelzender Schnee, haupt-säch-lich ge-schmol-zen durch Son-n
+en-strah-lung und
+ []
+
+)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 117.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 118.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1358,18 +1328,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 \newpage
-               [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/c
-m-super-ts1.enc}] (./LWC.tex) (./PhysPriz.tex
+l.118 \newpage
+               [4] (./LWC.tex) (./PhysPriz.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 35.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 23.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1379,17 +1347,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \item D
-            ichte \cite{nasa-snow-density} [5]
+l.23 \item A
+            bsorption normaler Schall \cite{Kinar.2007} [5]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 89.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 67.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1400,10 +1367,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[6]) (./KommPro.tex
+[6]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 4.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 105.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1414,10 +1381,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[7]) (./UserStory.tex
+[7]) (./KommPro.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 18.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 5.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1428,10 +1395,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[8])
+[8]) (./UserStory.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 137.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 14.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1442,8 +1409,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[9] (./Vorstudie.tex) (./Vibration.tex
-<Bilder/Unbenann2t.PNG, id=361, 1044.90375pt x 953.06062pt>
+[9])
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 138.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[10] (./Vorstudie.tex) (./Vibration.tex
+<Bilder/Unbenann2t.PNG, id=360, 1044.90375pt x 953.06062pt>
 File: Bilder/Unbenann2t.PNG Graphic file (type png)
 <use Bilder/Unbenann2t.PNG>
 Package pdftex.def Info: Bilder/Unbenann2t.PNG  used on input line 11.
@@ -1461,10 +1442,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[10])
+[11])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 145.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 146.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1475,16 +1456,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.145 \newpage
+l.146 \newpage
                <./Bilder/Unbenann2t.PNG>] (./Voltcraft.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 150.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 151.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1495,8 +1475,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[12] (./Diffusion.tex
-<Bilder/freistellen.jpeg, id=387, 494.0859pt x 284.9847pt>
+[13] (./Diffusion.tex
+<Bilder/freistellen.jpeg, id=386, 494.0859pt x 284.9847pt>
 File: Bilder/freistellen.jpeg Graphic file (type jpg)
 <use Bilder/freistellen.jpeg>
 Package pdftex.def Info: Bilder/freistellen.jpeg  used on input line 9.
@@ -1504,7 +1484,7 @@ Package pdftex.def Info: Bilder/freistellen.jpeg  used on input line 9.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 154.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 155.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1515,21 +1495,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.154 \newpage
+l.155 \newpage
                <./Bilder/freistellen.jpeg>] (./LaserRef.tex
-<Bilder/Reflaktion.jpeg, id=395, 434.5836pt x 277.5168pt>
+<Bilder/Reflaktion.jpeg, id=394, 434.5836pt x 277.5168pt>
 File: Bilder/Reflaktion.jpeg Graphic file (type jpg)
 <use Bilder/Reflaktion.jpeg>
-Package pdftex.def Info: Bilder/Reflaktion.jpeg  used on input line 13.
+Package pdftex.def Info: Bilder/Reflaktion.jpeg  used on input line 12.
 (pdftex.def)             Requested size: 334.60422pt x 213.68011pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 26.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 25.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1540,29 +1519,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.26 
+l.25 
       <./Bilder/Reflaktion.jpeg>]
-<Bilder/signal-2024-03-10-112013_006.jpeg, id=405, 2055.68pt x 1541.76pt>
+<Bilder/signal-2024-03-10-112013_006.jpeg, id=402, 2055.68pt x 1541.76pt>
 File: Bilder/signal-2024-03-10-112013_006.jpeg Graphic file (type jpg)
 <use Bilder/signal-2024-03-10-112013_006.jpeg>
 Package pdftex.def Info: Bilder/signal-2024-03-10-112013_006.jpeg  used on inpu
-t line 34.
+t line 33.
 (pdftex.def)             Requested size: 334.60422pt x 250.94472pt.
-<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=406, 2132.96875pt x 1509.64pt>
+<Bilder/Screenshotfrom2024-04-0413-27-28.png, id=403, 2132.96875pt x 1509.64pt>
 
 File: Bilder/Screenshotfrom2024-04-0413-27-28.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0413-27-28.png>
 Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0413-27-28.png  used on i
-nput line 47.
+nput line 46.
 (pdftex.def)             Requested size: 334.60422pt x 236.80208pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 51.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 50.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1573,16 +1551,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.51 
+l.50 
       <./Bilder/signal-2024-03-10-112013_006.jpeg>]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 80.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 72.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1593,23 +1570,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[16
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.80 U
-      m bessere Reflexionsergebnisse zu bekommen, keinen ObjekttrÃ¤ger nutze...
- <./Bilder/Screenshotfrom2024-04-0413-27-28.png>]) (./5559Tape.tex
-<Bilder/IMG_6683.JPG, id=422, 2878.755pt x 1948.27875pt>
+l.72 
+      <./Bilder/Screenshotfrom2024-04-0413-27-28.png>]) (./5559Tape.tex
+<Bilder/IMG_6683.JPG, id=419, 2878.755pt x 1948.27875pt>
 File: Bilder/IMG_6683.JPG Graphic file (type jpg)
 <use Bilder/IMG_6683.JPG>
 Package pdftex.def Info: Bilder/IMG_6683.JPG  used on input line 13.
 (pdftex.def)             Requested size: 334.60422pt x 226.44048pt.
-)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 163.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 16.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1620,10 +1594,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[17] (./WiedUmwelt.tex)
+[18])
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 166.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 164.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1634,16 +1608,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 \newpage
-               <./Bilder/IMG_6683.JPG>]
+l.164 \newpage
+               <./Bilder/IMG_6683.JPG>] (./WiedUmwelt.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 166.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 167.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1654,10 +1627,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[19] (./RefVor.tex) (./AuswahlVor.tex)
+[20] (./RefVor.tex) (./AuswahlVor.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 173.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 174.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1668,10 +1641,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[20] (./FunkMuster.tex) (./AgilHardDev.tex)
+[21] (./FunkMuster.tex) (./AgilHardDev.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 180.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 181.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1682,10 +1655,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[21] (./Messablauf.tex
+[22] (./Messablauf.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 24.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 22.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1696,10 +1669,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[22]) (./EigenFunkVar.tex
+[23]) (./EigenFunkVar.tex
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 27.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 18.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1710,13 +1683,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[23]
+[24]
 Overfull \hbox (5.56075pt too wide) in paragraph at lines 32--33
 []\T1/cmr/m/n/12 Die Licht-box kann zu-sam-men-ge-fal-tet wer-den, was einen pl
 atz-spa-ren-den Trans-
  []
 
-<Bilder/Itteration5.png, id=485, 4935.43875pt x 3011.25pt>
+<Bilder/Itteration5.png, id=483, 4935.43875pt x 3011.25pt>
 File: Bilder/Itteration5.png Graphic file (type png)
 <use Bilder/Itteration5.png>
 Package pdftex.def Info: Bilder/Itteration5.png  used on input line 49.
@@ -1724,7 +1697,7 @@ Package pdftex.def Info: Bilder/Itteration5.png  used on input line 49.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 189.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 190.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1735,8 +1708,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[24] (./Bildverarbeitung.tex
-<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=492, 778.91pt x 1191.45125pt>
+[25] (./Bildverarbeitung.tex
+<Bilder/Screenshotfrom2024-04-0112-59-42.png, id=490, 778.91pt x 1191.45125pt>
 File: Bilder/Screenshotfrom2024-04-0112-59-42.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0112-59-42.png>
 Package pdftex.def Info: Bilder/Screenshotfrom2024-04-0112-59-42.png  used on i
@@ -1758,9 +1731,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[25
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.18 \newpage
@@ -1778,14 +1750,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[26
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
-s been already used, duplicate ignored
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.18 \newpage
               <./Bilder/Screenshotfrom2024-04-0112-59-42.png>]) (./DB.tex
-<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=507, 2595.6975pt x 1476.51625p
+<Bilder/Screenshotfrom2024-04-0115-26-08.png, id=505, 2595.6975pt x 1476.51625p
 t>
 File: Bilder/Screenshotfrom2024-04-0115-26-08.png Graphic file (type png)
 <use Bilder/Screenshotfrom2024-04-0115-26-08.png>
@@ -1794,35 +1765,7 @@ nput line 20.
 (pdftex.def)             Requested size: 376.42575pt x 214.12317pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 29.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.29     \item D
-                er Analyst wird die Daten abfragen und hoffentlich Informati...
- <./Bilder/Screenshotfrom2024-04-0115-26-08.png>]
-<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=518, 1270.7475pt x 1731.46875p
-t>
-File: Bilder/Screenshotfrom2024-04-1418-05-35.png Graphic file (type png)
-<use Bilder/Screenshotfrom2024-04-1418-05-35.png>
-Package pdftex.def Info: Bilder/Screenshotfrom2024-04-1418-05-35.png  used on i
-nput line 44.
-(pdftex.def)             Requested size: 334.60422pt x 455.90442pt.
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 81.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 40.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1834,9 +1777,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [28]
+<Bilder/Screenshotfrom2024-04-1418-05-35.png, id=519, 1270.7475pt x 1731.46875p
+t>
+File: Bilder/Screenshotfrom2024-04-1418-05-35.png Graphic file (type png)
+<use Bilder/Screenshotfrom2024-04-1418-05-35.png>
+Package pdftex.def Info: Bilder/Screenshotfrom2024-04-1418-05-35.png  used on i
+nput line 44.
+(pdftex.def)             Requested size: 334.60422pt x 455.90442pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 81.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1847,16 +1797,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
-as been already used, duplicate ignored
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.81 
-      <./Bilder/Screenshotfrom2024-04-1418-05-35.png>])
+l.68 \textbf{Physischer Entwurf}
+                                 <./Bilder/Screenshotfrom2024-04-0115-26-08.png
+>]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 198.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1867,8 +1817,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[30] (./ErgebVers.tex
-<Bilder/ZeitAbha.png, id=549, 471.4413pt x 586.8324pt>
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.68 \textbf{Physischer Entwurf}
+                                 <./Bilder/Screenshotfrom2024-04-1418-05-35.png
+>])
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 199.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[31] (./ErgebVers.tex
+<Bilder/ZeitAbha.png, id=547, 471.4413pt x 586.8324pt>
 File: Bilder/ZeitAbha.png Graphic file (type png)
 <use Bilder/ZeitAbha.png>
 Package pdftex.def Info: Bilder/ZeitAbha.png  used on input line 11.
@@ -1886,33 +1856,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[31
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
-as been already used, duplicate ignored
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.16 \newpage
               <./Bilder/ZeitAbha.png>]
-<Bilder/KalterSchnee.png, id=559, 308.352pt x 115.632pt>
+<Bilder/KalterSchnee.png, id=558, 308.352pt x 115.632pt>
 File: Bilder/KalterSchnee.png Graphic file (type png)
 <use Bilder/KalterSchnee.png>
-Package pdftex.def Info: Bilder/KalterSchnee.png  used on input line 23.
+Package pdftex.def Info: Bilder/KalterSchnee.png  used on input line 24.
 (pdftex.def)             Requested size: 334.60422pt x 125.47882pt.
-<Bilder/IMG_20240411_124421.jpg, id=560, 4015.0pt x 3011.25pt>
+<Bilder/IMG_20240411_124421.jpg, id=559, 4015.0pt x 3011.25pt>
 File: Bilder/IMG_20240411_124421.jpg Graphic file (type jpg)
 <use Bilder/IMG_20240411_124421.jpg>
-Package pdftex.def Info: Bilder/IMG_20240411_124421.jpg  used on input line 32.
+Package pdftex.def Info: Bilder/IMG_20240411_124421.jpg  used on input line 33.
 
 (pdftex.def)             Requested size: 334.60422pt x 250.92157pt.
-<Bilder/UnterschiedlicheLWC.png, id=561, 597.432pt x 586.8324pt>
+<Bilder/UnterschiedlicheLWC.png, id=560, 597.432pt x 586.8324pt>
 File: Bilder/UnterschiedlicheLWC.png Graphic file (type png)
 <use Bilder/UnterschiedlicheLWC.png>
-Package pdftex.def Info: Bilder/UnterschiedlicheLWC.png  used on input line 39.
+Package pdftex.def Info: Bilder/UnterschiedlicheLWC.png  used on input line 40.
 
 (pdftex.def)             Requested size: 334.60422pt x 328.67763pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 43.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 44.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1923,22 +1892,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[32
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
-as been already used, duplicate ignored
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.43 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
-as been already used, duplicate ignored
+l.44 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.43 
+l.44 
       <./Bilder/KalterSchnee.png> <./Bilder/IMG_20240411_124421.jpg>]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 46.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 47.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1949,26 +1916,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
-as been already used, duplicate ignored
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.46 \newpage
+l.47 \newpage
               <./Bilder/UnterschiedlicheLWC.png>]
-<Bilder/aufbauTitlis.jpeg, id=578, 2055.68pt x 1541.76pt>
+<Bilder/aufbauTitlis.jpeg, id=576, 2055.68pt x 1541.76pt>
 File: Bilder/aufbauTitlis.jpeg Graphic file (type jpg)
 <use Bilder/aufbauTitlis.jpeg>
-Package pdftex.def Info: Bilder/aufbauTitlis.jpeg  used on input line 53.
+Package pdftex.def Info: Bilder/aufbauTitlis.jpeg  used on input line 54.
 (pdftex.def)             Requested size: 334.60422pt x 250.94472pt.
-<Bilder/12Platten.png, id=581, 4170.58125pt x 2890.8pt>
+<Bilder/12Platten.png, id=579, 4170.58125pt x 2890.8pt>
 File: Bilder/12Platten.png Graphic file (type png)
 <use Bilder/12Platten.png>
-Package pdftex.def Info: Bilder/12Platten.png  used on input line 62.
+Package pdftex.def Info: Bilder/12Platten.png  used on input line 64.
 (pdftex.def)             Requested size: 334.60422pt x 231.88626pt.
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 66.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1979,16 +1945,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[34
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
-as been already used, duplicate ignored
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.66 
+l.68 
       <./Bilder/aufbauTitlis.jpeg>]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 67.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 69.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -1999,23 +1964,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
-as been already used, duplicate ignored
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.67 \newpage
+l.69 \newpage
               <./Bilder/12Platten.png>]
-<Bilder/2PlattenSelberSchnee.png, id=595, 4170.58125pt x 2890.8pt>
+<Bilder/2PlattenSelberSchnee.png, id=593, 4170.58125pt x 2890.8pt>
 File: Bilder/2PlattenSelberSchnee.png Graphic file (type png)
 <use Bilder/2PlattenSelberSchnee.png>
-Package pdftex.def Info: Bilder/2PlattenSelberSchnee.png  used on input line 73
+Package pdftex.def Info: Bilder/2PlattenSelberSchnee.png  used on input line 75
 .
 (pdftex.def)             Requested size: 334.60422pt x 231.88626pt.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 201.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 202.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2026,22 +1990,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
-as been already used, duplicate ignored
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.201 \newpage
+l.202 \newpage
                <./Bilder/2PlattenSelberSchnee.png>] (./Ishikawa.tex
-
-LaTeX Warning: Reference `img:Varianz' on page 37 undefined on input line 1.
-
-<Bilder/Varianz.png, id=602, 5637.06pt x 3758.04pt>
+<Bilder/Varianz.png, id=601, 5637.06pt x 3758.04pt>
 File: Bilder/Varianz.png Graphic file (type png)
 <use Bilder/Varianz.png>
 Package pdftex.def Info: Bilder/Varianz.png  used on input line 5.
 (pdftex.def)             Requested size: 334.60422pt x 223.06427pt.
-<Bilder/tc-16-43-2022-f08-thumb.png, id=605, 321.2pt x 770.88pt>
+<Bilder/tc-16-43-2022-f08-thumb.png, id=604, 321.2pt x 770.88pt>
 File: Bilder/tc-16-43-2022-f08-thumb.png Graphic file (type png)
 <use Bilder/tc-16-43-2022-f08-thumb.png>
 Package pdftex.def Info: Bilder/tc-16-43-2022-f08-thumb.png  used on input line
@@ -2052,6 +2012,7 @@ File: Bilder/OST_Logo.png Graphic file (type png)
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 19.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
 (fancyhdr)                \setlength{\headheight}{53.01393pt}.
@@ -2059,9 +2020,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
-as been already used, duplicate ignored
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.19 
@@ -2079,40 +2039,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[38
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
-as been already used, duplicate ignored
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.29 \item D
-            ie Beleuchtung war nicht homogen. Deswegen werden LEDs mit Diffu...
- <./Bilder/tc-16-43-2022-f08-thumb.png>]
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 40.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[39]
-Overfull \hbox (10.73882pt too wide) in paragraph at lines 42--43
+l.29 
+      <./Bilder/tc-16-43-2022-f08-thumb.png>]
+Overfull \hbox (10.73882pt too wide) in paragraph at lines 43--44
 []\T1/cmr/m/n/12 Weitere mög-li-che Grün-de und die Struk-tu-rie-rung der Grün-
 de kön-nen im Ishikawa-
  []
 
-
-LaTeX Warning: Reference `fig:ishVier' on page 40 undefined on input line 44.
-
-) (./VerbessFunktMuss.tex)
+)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 209.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 210.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2123,25 +2064,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[40] (./VollAutDurch.tex
+[40]
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 210.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
-LaTeX Warning: Reference `' on page 41 undefined on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[41] (./VollAutDurch.tex
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 22.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
-Overfull \hbox (0.54349pt too wide) in paragraph at lines 14--15
-\T1/cmr/m/n/12 wird. Hier be-steht die Schwie-rig-keit, an ge-nü-gend 'un-ge-te
-s-te-ten' gu-ten Schnee
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-<Bilder/KonzeptAut.jpeg, id=635, 301.3659pt x 314.3745pt>
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[42]
+<Bilder/KonzeptAut.jpeg, id=639, 301.3659pt x 314.3745pt>
 File: Bilder/KonzeptAut.jpeg Graphic file (type jpg)
 <use Bilder/KonzeptAut.jpeg>
-Package pdftex.def Info: Bilder/KonzeptAut.jpeg  used on input line 23.
+Package pdftex.def Info: Bilder/KonzeptAut.jpeg  used on input line 30.
 (pdftex.def)             Requested size: 334.60422pt x 349.07014pt.
 )
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 213.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 214.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2152,31 +2112,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[41]
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 213.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[42
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
-as been already used, duplicate ignored
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \newpage
-               <./Bilder/KonzeptAut.jpeg>] (./PersErf.tex) (./Fazit.tex)
-(./Zusam.tex
+l.214 \newpage
+               <./Bilder/KonzeptAut.jpeg>] (./PersErf.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 221.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2187,10 +2131,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[43]) (./Ausblick.tex
+[44] (./Fazit.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 225.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2201,7 +2145,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[44])
+[45] (./Zusam.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 228.
@@ -2215,10 +2159,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[45] (./Danksagung.tex)
+[46] (./Ausblick.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 232.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 231.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2229,10 +2173,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[46] (./Unterschrift.tex)
+[47] (./Danksagung.tex)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 241.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 235.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2243,83 +2187,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[47] (./Literaturverzeichniss.tex)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-9.
+[48] (./Unterschrift.tex)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 244.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[49] (./Literaturverzeichniss.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (18.27968pt too wide) in paragraph at lines 243--243
-[]\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / de . wikip
-edia . org / wiki / Lamb -[] Welle$[] \T1/cmr/m/n/12 (be-sucht am 05.06.2024). 
-
+Overfull \hbox (1.79109pt too wide) in paragraph at lines 3--3
+[]\T1/cmr/m/it/12 gletscher_eis_schnee.png (PNG-Grafik, 542 $\OMS/cmsy/m/n/12 ^
+^B$ \T1/cmr/m/it/12 261 Pi-xel)\T1/cmr/m/n/12 . 2017. \T1/cmr/m/sc/12 url\T1/cm
+r/m/n/12 : []$\T1/cmtt/m/n/12 https :
  []
 
 
-Overfull \hbox (21.37596pt too wide) in paragraph at lines 243--243
-[]\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . popu
-larmechanics . com / adventure / outdoors / a26016338 /
- []
-
-
-Overfull \hbox (7.373pt too wide) in paragraph at lines 243--243
-\T1/cmtt/m/n/12 fromopenview = true & pq -[] origsite = gscholar & sourcetype =
- Dissertations %
- []
-
-
-Overfull \hbox (0.69951pt too wide) in paragraph at lines 243--243
-\T1/cmtt/m/n/12 20 & parentSessionId = IvIK4xLnFrxKhXxv6CazyhndGZWGa0i7vbpgpqZE
-3MI %
- []
-
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 49.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[48]
-Overfull \hbox (17.77968pt too wide) in paragraph at lines 243--243
-[]\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / elibrary .
- ru / item . asp ? id = 25161535$[] \T1/cmr/m/n/12 (be-sucht am 11.04.2024). 
- []
-
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 49.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[49]
-Overfull \hbox (2.14969pt too wide) in paragraph at lines 243--243
+Overfull \hbox (2.14969pt too wide) in paragraph at lines 3--3
 []\T1/cmr/m/it/12 Langjährige Sta-tis-ti-ken\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 ur
 l\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . slf . ch / de / lawinen 
 / unfaelle -[]
  []
 
 
-Overfull \hbox (15.5465pt too wide) in paragraph at lines 243--243
-\T1/cmtt/m/n/12 alpenverein . de / files / Panorama -[] 2016 -[] 2 -[] Nass -[]
- und -[] Gleitschneelawinen _
+Overfull \hbox (2.86867pt too wide) in paragraph at lines 3--3
+[]\T1/cmr/m/n/12 C. Mit-te-rer. ``Nass- und Gleit-schnee-la-wi-nen: Man-che La-
+wi-nen mö-gen's warm''.
  []
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 49.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2332,7 +2242,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [50]
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 245.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 2.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2343,66 +2253,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[51] (./BA-Kuhn-LWC-2024.lof)
+[51]
+Overfull \hbox (18.27968pt too wide) in paragraph at lines 3--3
+[]\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / de . wikip
+edia . org / wiki / Lamb -[] Welle$[] \T1/cmr/m/n/12 (be-sucht am 05.06.2024). 
+
+ []
+
+)
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 248.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[52] (./BA-Kuhn-LWC-2024.lof
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 17.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[53])
 \tf@lof=\write6
 \openout6 = `BA-Kuhn-LWC-2024.lof'.
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 251.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[52]
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 251.
-(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 53.01393pt, for example:
-(fancyhdr)                \setlength{\headheight}{53.01393pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
-
-[53]
-<Bilder/IshikawaDavos.jpg, id=825, 3001.2125pt x 2143.00626pt>
-File: Bilder/IshikawaDavos.jpg Graphic file (type jpg)
-<use Bilder/IshikawaDavos.jpg>
-Package pdftex.def Info: Bilder/IshikawaDavos.jpg  used on input line 265.
-(pdftex.def)             Requested size: 376.42575pt x 268.75801pt.
-<Bilder/lebenslauf-2.pdf, id=826, 614.295pt x 794.97pt>
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 271.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 271.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Bilder/lebenslauf-2.pdf, id=829, page=1, 614.295pt x 794.97pt>
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 271
-.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 271
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Bilder/OST_Logo.png Graphic file (type png)
-<use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 271.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 254.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2414,26 +2306,63 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
 [54]
+<Bilder/IshikawaDavos.jpg, id=800, 3001.2125pt x 2143.00626pt>
+File: Bilder/IshikawaDavos.jpg Graphic file (type jpg)
+<use Bilder/IshikawaDavos.jpg>
+Package pdftex.def Info: Bilder/IshikawaDavos.jpg  used on input line 268.
+(pdftex.def)             Requested size: 376.42575pt x 268.75801pt.
+<Bilder/lebenslauf-2.pdf, id=801, 614.295pt x 794.97pt>
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 274.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf  used on input line 274.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Bilder/lebenslauf-2.pdf, id=804, page=1, 614.295pt x 794.97pt>
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 271
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 274
 .
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
 <use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 271
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 274
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
-<use Bilder/lebenslauf-2.pdf, page 1>
-Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 271
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [55
+File: Bilder/OST_Logo.png Graphic file (type png)
+<use Bilder/OST_Logo.png>
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 274.
+(pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
- <./Bilder/lebenslauf-2.pdf>] (./Code.tex
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 53.01393pt, for example:
+(fancyhdr)                \setlength{\headheight}{53.01393pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
+
+[55]
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf, page 1>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 274
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf, page 1>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 274
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Bilder/lebenslauf-2.pdf Graphic file (type pdf)
+<use Bilder/lebenslauf-2.pdf, page 1>
+Package pdftex.def Info: Bilder/lebenslauf-2.pdf , page1 used on input line 274
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [56 <./Bilder/lebenslauf-2.pdf>] (./Code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
@@ -2463,9 +2392,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[56
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
-as been already used, duplicate ignored
+[57pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.21 CREATE 
@@ -2489,7 +2417,7 @@ s-ser wä-re $\OML/cmm/m/it/12 SELECTgen[]andom[]uid\OT1/cmr/m/n/12 ();$
 (./DBInizialise.sql
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 42.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 41.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2500,7 +2428,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[57]) (./ViewsDB.sql
+[58]) (./ViewsDB.sql
 Overfull \hbox (205.3001pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2521,8 +2449,8 @@ Overfull \hbox (136.01634pt too wide) in paragraph at lines 4--5
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (./imageToCircle3.py
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
@@ -2540,7 +2468,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[58]
+[59]
 Overfull \hbox (77.42363pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2592,7 +2520,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[59]
+[60]
 Overfull \hbox (471.24944pt too wide) in paragraph at lines 51--53
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2644,7 +2572,7 @@ Overfull \hbox (511.99004pt too wide) in paragraph at lines 83--84
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 93.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 92.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2654,7 +2582,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[60]
+[61]
 Overfull \hbox (16.31273pt too wide) in paragraph at lines 97--99
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2696,7 +2624,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[61]
+[62]
 Overfull \hbox (23.10283pt too wide) in paragraph at lines 140--141
 [][][][][][][][][][][][][][][][][][][] 
  []
@@ -2739,7 +2667,7 @@ Overfull \hbox (281.12663pt too wide) in paragraph at lines 170--171
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 179.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 178.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2749,7 +2677,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[62]
+[63]
 Overfull \hbox (158.90483pt too wide) in paragraph at lines 198--200
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2771,7 +2699,7 @@ Overfull \hbox (158.90483pt too wide) in paragraph at lines 213--215
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 222.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 221.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2781,7 +2709,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[63]
+[64]
 Overfull \hbox (97.79393pt too wide) in paragraph at lines 222--223
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2820,7 +2748,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[64]
+[65]
 Overfull \hbox (9.52263pt too wide) in paragraph at lines 13--15
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2842,7 +2770,7 @@ Overfull \hbox (240.38603pt too wide) in paragraph at lines 32--34
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 55.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 54.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2852,7 +2780,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[65]
+[66]
 Overfull \hbox (369.39793pt too wide) in paragraph at lines 65--66
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][] 
@@ -2865,7 +2793,7 @@ Overfull \hbox (9.52263pt too wide) in paragraph at lines 90--91
 
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 98.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 97.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2875,10 +2803,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[66]))
+[67]))
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 277.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 280.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
 
 
@@ -2889,52 +2817,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-41.01393pt}.
 
-[67] (./BA-Kuhn-LWC-2024.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-
+[68] (./BA-Kuhn-LWC-2024.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `BA-Kuhn-LWC-2024.out' has not changed.
-(rerunfilecheck)             Checksum: 12A142059A688A5FABC2357EDBDCEDE3;7045.
+(rerunfilecheck)             Checksum: D5329532D8D210574F2A234F2468B9CB;6743.
 Package logreq Info: Writing requests to 'BA-Kuhn-LWC-2024.run.xml'.
 \openout1 = `BA-Kuhn-LWC-2024.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29202 strings out of 474116
- 554723 string characters out of 5743682
- 1996187 words of memory out of 5000000
- 50367 multiletter control sequences out of 15000+600000
- 572439 words of font info for 65 fonts, out of 8000000 for 9000
+ 28688 strings out of 478287
+ 535324 string characters out of 5849289
+ 1287846 words of memory out of 5000000
+ 45660 multiletter control sequences out of 15000+600000
+ 483629 words of font info for 57 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 75i,17n,81p,2415b,3187s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (72 pages, 93845114 bytes).
+ 70i,17n,77p,2416b,3037s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfit1000.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sftt1200.pfb>
+Output written on BA-Kuhn-LWC-2024.pdf (73 pages, 93792873 bytes).
 PDF statistics:
- 1594 PDF objects out of 1728 (max. 8388607)
- 1418 compressed objects within 15 object streams
- 704 named destinations out of 1000 (max. 500000)
- 428 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1568 PDF objects out of 1728 (max. 8388607)
+ 1392 compressed objects within 14 object streams
+ 696 named destinations out of 1000 (max. 500000)
+ 420 words of extra memory for PDF output out of 10000 (max. 10000000)
 

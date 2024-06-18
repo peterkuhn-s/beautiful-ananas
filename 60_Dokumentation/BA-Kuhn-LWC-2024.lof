@@ -1,23 +1,23 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Darstellung der Schneemetamorphose, Bild aus \blx@tocontentsinit {0}\cite {Wetterdienst.6222017}}}{3}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Morphologischer Kasten für VibraNode}}{11}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Aufbau einer Messung wo der Schnee durch eine Eis Röhre gekühlt wird}}{13}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Hypothese wie das flüssige Wasser die optischen Eigenschaften der Eiskristalle beeinflusst}}{14}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{15}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{16}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Messung des Kontaktwinkels. Links ist ein Tropfen zu sehen, der mehrere Minuten auf dem Tape verweilt. Rechts ist ein neuer Wassertropfen, daneben noch der gefittete Kreis.}}{18}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Fünfte Iteration, mit Sicht von unten in die Lichtbox}}{25}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Bildverarbeitung Konzept}}{26}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Benutzer der Datenbank}}{27}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{29}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{31}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{32}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{32}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}), 3. Mit flüssigem Wasser übergossener Schnee.}}{33}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{34}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{35}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messen auf den Schnee zu erkennen.}}{36}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces 10 Messungen von vergleichbarem, unverändertem Schnee}}{37}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Schnee der schmiltz, gemessen mit IR-EM Wellen von Herrn Donahue in \blx@tocontentsinit {0}\cite {Donahue.2022}}}{38}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Ablauf einer automatischen Messung}}{42}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{56}{figure.22}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Morphologischer Kasten für VibraNode}}{12}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Aufbau einer Messung wobei der Schnee durch eine Eis Röhre gekühlt wird}}{14}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Hypothese wie das flüssige Wasser die optischen Eigenschaften der Eiskristalle beeinflusst}}{15}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Versuchsaufbau der Laser Reflexion und Refraktion}}{16}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Messgrössen für die Reflexion und Refraktion, Veränderung über Zeit}}{17}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Messung des Kontaktwinkels. Links ist ein Tropfen zu sehen, der mehrere Minuten auf dem Tape verweilt. Rechts ist ein neuer Wassertropfen, daneben noch der gefittete Kreis.}}{19}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Fünfte Iteration, mit Sicht von unten in die Lichtbox}}{26}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Bildverarbeitung Konzept}}{27}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Benutzer der Datenbank}}{29}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces UML-Diagramm des konzeptuellen DB-Entwurfs}}{30}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Drei Tapes gemessen bei nassem Schnee, da es geregnet hat: 1. 5 Sekunden Anpresszeit, 2. 30 Sekunden Anpresszeit, 3. 120 Sekunden Anpresszeit}}{32}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Wärmebildaufnahme der gekühlten Schneestelle, welche zur Simulation eines niedrigen LWC verwendet wurde.}}{33}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Messstandort in Davos, unter dem Regenschirm ist das Tape gelagert, um es vor direkter Sonneneinstrahlung und Wasser Tropfen zu schützen.}}{33}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Tapes aus dem ersten Feldversuch: 1. Unveränderter Schnee, 2. Gekühlter Schnee (siehe Abb. \ref {fig:KaltSchnee}), 3. Mit flüssigem Wasser übergossener Schnee.}}{34}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Messaufbau von drei Tapes auf unverändertem Schnee}}{35}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Messung von sechs Tapes mit zwölf Stahlplatten und einem Gesamtgewicht von 514 g auf unverändertem Schnee, um die Varianz der Messergebnisse zu bestimmen.}}{36}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Messung von sechs Tapes auf dem selben unverändertem Schnee, um die Einflüsse des Messvorgangs auf den Schnee zu erkennen.}}{37}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces 10 Messungen von vergleichbarem, unverändertem Schnee}}{38}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Schnee der schmilzt, gemessen mit IR-EM Wellen von Herrn Donahue in \blx@tocontentsinit {0}\cite {Donahue.2022}}}{39}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Ablauf einer automatischen Messung}}{43}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Ishikawa Fehler Analyse für die Messung des Funktionsmusters 2}}{57}{figure.22}%

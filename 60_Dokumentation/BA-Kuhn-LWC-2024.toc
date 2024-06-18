@@ -7,29 +7,28 @@
 \contentsline {subsection}{\numberline {2.3}Entstehung der Gleitschneelawine}{4}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Physikalische Prinzipien und kommerzielle Produkte zur Messung des LWC}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Physikalische Prinzipien zur Messung des LWC}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Kommerzielle Produkte}{8}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Konzeptionelle Planung und Nutzeranforderungen}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}User Stories}{8}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Vorstudie}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Mechanische Anregung durch Vibration}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Elektrischer Widerstand}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Diffusion von Flüssigkeit}{13}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Refraktion und Reflexion eines Lasers}{14}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Water Indicator Tape}{17}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Reflexion zur Vorstudie}{20}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Auswahl des physikalischen Prinzips}{20}{subsection.5.7}%
-\contentsline {section}{\numberline {6}Funktionsmusterentwicklung, Tests und Weiterentwicklung}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Agiles Hardware Development}{21}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Messablauf}{22}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Eigenschaften der Funktionsmuster}{23}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Funktionsweise der Bildverarbeitung}{25}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Extrahieren von Informationen aus Bilddaten}{27}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Ergebnisse der Versuche}{31}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Mögliche Gründe der hohen Varianz der zweiten Iteration}{37}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Verbesserungsmöglichkeiten des Funktionsmusters}{40}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}Vollautomatische Durchführung und Weiterentwicklung der Messung}{41}{subsection.6.9}%
-\contentsline {section}{\numberline {7}Fazit}{43}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Persönliche Erfahrung}{43}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Fazit}{43}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Zusammenfassung}{44}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Ausblick}{45}{section.8}%
+\contentsline {subsection}{\numberline {3.2}Kommerzielle Produkte}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Konzeptionelle Planung und Nutzeranforderungen}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}User Stories}{9}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Vorstudie}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Mechanische Anregung durch Vibration}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Elektrischer Widerstand}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diffusion von Flüssigkeit}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Refraktion und Reflexion eines Lasers}{15}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Water Indicator Tape}{18}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Reflexion zur Vorstudie}{21}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Auswahl des physikalischen Prinzips}{21}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Funktionsmusterentwicklung, Tests und Weiterentwicklung}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Agiles Hardware Development}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Messablauf}{23}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Eigenschaften der Funktionsmuster}{24}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Funktionsweise der Bildverarbeitung}{26}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Extrahieren von Informationen aus Bilddaten}{28}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Ergebnisse der Versuche}{32}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Mögliche Gründe der hohen Varianz der zweiten Iteration}{38}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Weiterentwicklung der Messung und vollautomatische Durchführung}{42}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Fazit}{44}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Persönliche Erfahrung}{44}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Fazit}{45}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Zusammenfassung}{46}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Ausblick}{47}{section.8}%

@@ -31,11 +31,12 @@
 \usepackage{longtable}%for table that spread over multiple pages
 \usepackage{float}%fix figure position
 \usepackage{listings}%code import
-\usepackage[style=numeric, backend=biber]{biblatex}%literaturverzeichniss
+\usepackage[style=numeric, backend=biber, sorting=none]{biblatex}%literaturverzeichniss
 \usepackage{acronym}%abkurzungen
 \usepackage{multicol}%mehrene spalte
 \usepackage{siunitx} % For SI units
 \usepackage{float} % image placement
+\setlength{\parskip}{1em} % or any other length you prefer
 
 \addbibresource{Literaturverzeichniss.bib}%"?
 %\usepackage{lastpage}
@@ -204,10 +205,10 @@
 %\subsection{Vergleich der Ergebnisse mit Denothmeter}
 %\input{VergleichDeno.tex}
 
-\subsection{Verbesserungsmöglichkeiten des Funktionsmusters}
-\input{VerbessFunktMuss.tex}
+%\subsection{Verbesserungsmöglichkeiten des Funktionsmusters}
+%\input{VerbessFunktMuss.tex}
 \newpage
-\subsection{Vollautomatische Durchführung und Weiterentwicklung der Messung}
+\subsection{Weiterentwicklung der Messung und vollautomatische Durchführung}
 \input{VollAutDurch.tex}
 
 \newpage
@@ -217,9 +218,11 @@
 \subsection{Persönliche Erfahrung}
 \input{PersErf.tex}
 
+\newpage
 \subsection{Fazit}
 \input{Fazit.tex}
 
+\newpage
 \subsection{Zusammenfassung}
 \input{Zusam.tex}
 
