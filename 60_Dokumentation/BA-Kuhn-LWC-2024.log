@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  17 JUN 2024 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  17 JUN 2024 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,19 +2012,12 @@ File: Bilder/2PlattenSelberSchnee.png Graphic file (type png)
 Package pdftex.def Info: Bilder/2PlattenSelberSchnee.png  used on input line 73
 .
 (pdftex.def)             Requested size: 334.60422pt x 231.88626pt.
-) (./Ishikawa.tex
-
-LaTeX Warning: Reference `img:Varianz' on page 36 undefined on input line 1.
-
-<Bilder/Varianz.png, id=596, 5637.06pt x 3758.04pt>
-File: Bilder/Varianz.png Graphic file (type png)
-<use Bilder/Varianz.png>
-Package pdftex.def Info: Bilder/Varianz.png  used on input line 5.
-(pdftex.def)             Requested size: 334.60422pt x 223.06427pt.
+)
 File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
-Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 9.
+Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 201.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -2038,8 +2031,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.9 
-     <./Bilder/2PlattenSelberSchnee.png>]
+l.201 \newpage
+               <./Bilder/2PlattenSelberSchnee.png>] (./Ishikawa.tex
+
+LaTeX Warning: Reference `img:Varianz' on page 37 undefined on input line 1.
+
+<Bilder/Varianz.png, id=602, 5637.06pt x 3758.04pt>
+File: Bilder/Varianz.png Graphic file (type png)
+<use Bilder/Varianz.png>
+Package pdftex.def Info: Bilder/Varianz.png  used on input line 5.
+(pdftex.def)             Requested size: 334.60422pt x 223.06427pt.
 <Bilder/tc-16-43-2022-f08-thumb.png, id=605, 321.2pt x 770.88pt>
 File: Bilder/tc-16-43-2022-f08-thumb.png Graphic file (type png)
 <use Bilder/tc-16-43-2022-f08-thumb.png>
@@ -2050,7 +2051,6 @@ File: Bilder/OST_Logo.png Graphic file (type png)
 <use Bilder/OST_Logo.png>
 Package pdftex.def Info: Bilder/OST_Logo.png  used on input line 19.
 (pdftex.def)             Requested size: 142.26378pt x 48.6639pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 53.01393pt, for example:
@@ -2910,7 +2910,7 @@ Package logreq Info: Writing requests to 'BA-Kuhn-LWC-2024.run.xml'.
 Here is how much of TeX's memory you used:
  29202 strings out of 474116
  554723 string characters out of 5743682
- 1995187 words of memory out of 5000000
+ 1996187 words of memory out of 5000000
  50367 multiletter control sequences out of 15000+600000
  572439 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2931,7 +2931,7 @@ e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 24/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2024/t
 exmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on BA-Kuhn-LWC-2024.pdf (72 pages, 93845092 bytes).
+Output written on BA-Kuhn-LWC-2024.pdf (72 pages, 93845114 bytes).
 PDF statistics:
  1594 PDF objects out of 1728 (max. 8388607)
  1418 compressed objects within 15 object streams

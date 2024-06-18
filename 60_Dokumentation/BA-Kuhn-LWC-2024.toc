@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {6.4}Funktionsweise der Bildverarbeitung}{25}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Extrahieren von Informationen aus Bilddaten}{27}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}Ergebnisse der Versuche}{31}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Mögliche Gründe der hohen Varianz der zweiten Iteration}{36}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.7}Mögliche Gründe der hohen Varianz der zweiten Iteration}{37}{subsection.6.7}%
 \contentsline {subsection}{\numberline {6.8}Verbesserungsmöglichkeiten des Funktionsmusters}{40}{subsection.6.8}%
 \contentsline {subsection}{\numberline {6.9}Vollautomatische Durchführung und Weiterentwicklung der Messung}{41}{subsection.6.9}%
 \contentsline {section}{\numberline {7}Fazit}{43}{section.7}%
